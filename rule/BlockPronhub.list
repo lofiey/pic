@@ -10,3 +10,4 @@ DOMAIN-SUFFIX, pubads.g.doubleclick.net, REJECT
 DOMAIN-SUFFIX, rpc-php.trafficfactory.biz, REJECT
 DOMAIN-SUFFIX, tanx.com, REJECT
 DOMAIN-SUFFIX, audid-api.taobao.com, REJECT
+DOMAIN-SUFFIX, guide-acs.m.taobao.com:443, REJECT
