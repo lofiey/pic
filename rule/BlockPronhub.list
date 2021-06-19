@@ -4,3 +4,8 @@ DOMAIN-SUFFIX, trafficjunky.net, REJECT
 DOMAIN-SUFFIX, adtng.com, REJECT
 DOMAIN-SUFFIX, etahub.com, REJECT
 DOMAIN-SUFFIX, 2020mustang.com, REJECT
+DOMAIN-SUFFIX, ssp-events.chartboost.com, REJECT
+DOMAIN-SUFFIX, live.chartboost.com, REJECT
+DOMAIN-SUFFIX, pubads.g.doubleclick.net, REJECT
+DOMAIN-SUFFIX, rpc-php.trafficfactory.biz, REJECT
+DOMAIN-SUFFIX, tanx.com, REJECT
