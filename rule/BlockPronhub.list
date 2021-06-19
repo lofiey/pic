@@ -1,4 +1,5 @@
 # Block pornhub
-host, trafficjunky.com, REJECT
-host, trafficjunky.net, REJECT
-host, adtng.com, REJECT
+DOMAIN-SUFFIX, trafficjunky.com, REJECT
+DOMAIN-SUFFIX, trafficjunky.net, REJECT
+DOMAIN-SUFFIX, adtng.com, REJECT
+ 
