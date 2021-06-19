@@ -1,6 +1,6 @@
 # PROXY live
-DOMAIN-SUFFIX,, liadm.com, PROXY
-DOMAIN-SUFFIX,, microsoftonline.com, PROXY
-DOMAIN-SUFFIX,, allinfa.com, PROXY
-DOMAIN-SUFFIX,, www.xvideos.net, PROXY
-DOMAIN-SUFFIX,, vscdns.com, PROXY
+DOMAIN-SUFFIX, liadm.com, PROXY
+DOMAIN-SUFFIX, microsoftonline.com, PROXY
+DOMAIN-SUFFIX, allinfa.com, PROXY
+DOMAIN-SUFFIX, www.xvideos.net, PROXY
+DOMAIN-SUFFIX, vscdns.com, PROXY
