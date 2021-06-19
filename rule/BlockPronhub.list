@@ -2,4 +2,5 @@
 DOMAIN-SUFFIX, trafficjunky.com, REJECT
 DOMAIN-SUFFIX, trafficjunky.net, REJECT
 DOMAIN-SUFFIX, adtng.com, REJECT
- 
+DOMAIN-SUFFIX, etahub.com, REJECT
+DOMAIN-SUFFIX, 2020mustang.com, REJECT
