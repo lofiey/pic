@@ -1,5 +1,4 @@
 # Block pornhub
-hostname = *.trafficjunky.com,*.trafficjunky.net,*.adtng.com
 DOMAIN,trafficjunky.com,REJECT
 DOMAIN,trafficjunky.net,REJECT
 DOMAIN,adtng.com,REJECT
