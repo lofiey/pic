@@ -12,3 +12,4 @@ IP6-CIDR, fe80::/10, DIRECT
 DOMAIN-SUFFIX, icloud-content.com, DIRECT
 DOMAIN-SUFFIX, gateway.icloud.com, DIRECT
 DOMAIN-SUFFIX, radiojar.com, DIRECT
+DOMAIN-SUFFIX, mail.tutanota.com, DIRECT
