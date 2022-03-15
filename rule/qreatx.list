@@ -1,24 +1,24 @@
-host-suffix, icloud-content.com, reject
-host-suffix, xvideos-cdn.com, proxy
-host-suffix, 7mmtv.tv, proxy
-host-suffix, ypncdn.com, proxy
-host-suffix, youporn.com, proxy
-host-suffix, assets.jable.tv, proxy
-host-suffix, www.xvideos.com, proxy
-host-suffix, gstatic.com, proxy
-host-suffix, media.tenor.com, proxy
-host-suffix, trk.bonsa.net, proxy
-host-suffix, bonsa.net, proxy
-host-suffix, truthsocial.com, proxy
-host-suffix, assets-cdn.jable.tv, proxy
-host-suffix, jable.tv, proxy
+
+host-suffix, xvideos-cdn.com
+host-suffix, 7mmtv.tv
+host-suffix, ypncdn.com
+host-suffix, youporn.com
+host-suffix, assets.jable.tv
+host-suffix, www.xvideos.com
+host-suffix, gstatic.com
+host-suffix, media.tenor.com
+host-suffix, trk.bonsa.net
+host-suffix, bonsa.net
+host-suffix, truthsocial.com
+host-suffix, assets-cdn.jable.tv
+host-suffix, jable.tv
 
 # other diy
-host-suffix, briefcake.com, proxy
-host-suffix, mtalk.google.com, proxy
-host-suffix, zh.m.wiktionary.org, proxy
-host-suffix, www.namesilo.com, proxy
-host-suffix, allinfa.com, proxy
-host-suffix, www.youlucky.com, proxy
-host-suffix, anchor.fm, proxy
-host-suffix, play.googleapis.com, proxy
+host-suffix, briefcake.com
+host-suffix, mtalk.google.com
+host-suffix, zh.m.wiktionary.org
+host-suffix, www.namesilo.com
+host-suffix, allinfa.com
+host-suffix, www.youlucky.com
+host-suffix, anchor.fm
+host-suffix, play.googleapis.com
