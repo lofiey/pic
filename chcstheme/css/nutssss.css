@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: linear-gradient(to left, rgba(255, 0, 149, 0.2), rgba(0, 247, 255, 0.2)), url(https://cdn.jsdelivr.net/gh/lofiey/pic@0.1.0/chcstheme/img/dl.jpg);
+    background-image: linear-gradient(to left, rgba(255, 0, 149, 0.2), rgba(0, 247, 255, 0.2)), url(https://cdn.jsdelivr.net/gh/lofiey/pic@0.1.0/chcstheme/img/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
