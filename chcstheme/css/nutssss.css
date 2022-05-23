@@ -39,7 +39,7 @@ body {
 .headPhoto {
     width: 8rem;
     height: 8rem;
-    background: url(https://cdn.jsdelivr.net/gh/lofiey/pic@0.1.0/chcstheme/img/xx.jpg) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lofiey/pic@0.1.5/chcstheme/img/xx.jpg) no-repeat;
     background-size: cover;
     border-radius: 50%;
     position: relative;
