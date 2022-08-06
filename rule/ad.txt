@@ -1,6 +1,9 @@
 # lofiey.lee.dni.affairsoffice
 /REGEX/p6-ad-sign.byteimg.com
 /REGEX/p9-ad-sign.byteimg.com
+/REGEX/p9-sign.douyinpic.com
+/REGEX/p3-sign.douyinpic.com
+/REGEX/p6-sign.douyinpic.com
 127.0.0.1 dig.zjurl.cn
 127.0.0.1 mon11-misc-lf.amemv.com
 127.0.0.1 tt.x.bsgslb.cn
