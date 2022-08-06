@@ -1,0 +1,27 @@
+# lofiey.lee.dni.affairsoffice
+127.0.0.1 dig.zjurl.cn
+127.0.0.1 mon11-misc-lf.amemv.com
+127.0.0.1 tt.x.bsgslb.cn
+127.0.0.1 ecom3-normal-lf.ecombdapi.com
+127.0.0.1 ma5-normal-lf.zijieapi.com
+127.0.0.1 saveu5-normal-lf.zijieapi.com
+127.0.0.1 ads-api.twitter.com
+||p9-ad-sign.byteimg.com^
+||p6-ad-sign.byteimg.com^
+||p3-ad-sign.byteimg.com^
+127.0.0.1 seeds-open.xycdn.com
+127.0.0.1 ttxyajs.data.kuiniuca.com
+||p5-ad-sign.byteimg.com^
+||p4-ad-sign.byteimg.com^
+||p1-ad-sign.byteimg.com^
+||p8-ad-sign.byteimg.com^
+||p7-ad-sign.byteimg.com^
+||p2-ad-sign.byteimg.com^
+127.0.0.1 activity-ag.awemeughun.com
+127.0.0.1 api100-normal-quic-lf.amemv.com
+127.0.0.1 saveu5-normal-lf.zijieapi.com
+127.0.0.1 frontier-aweme-lf-ipainner.amemv.com
+127.0.0.1 mon11-misc-lf.amemv.com
+127.0.0.1 lf6-orange.byteorge.com
+127.0.0.1 lf9-orange.byteorge.com
+127.0.0.1 lf3-orange.byteorge.com
