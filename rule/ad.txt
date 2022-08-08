@@ -30,7 +30,7 @@
 ||p7-ad-sign.byteimg.com^
 ||p2-ad-sign.byteimg.com^
 127.0.0.1 activity-ag.awemeughun.com
-127.0.0.1 api100-normal-quic-lf.amemv.com
+||api100-normal-quic-lf.amemv.com^
 127.0.0.1 saveu5-normal-lf.zijieapi.com
 127.0.0.1 frontier-aweme-lf-ipainner.amemv.com
 127.0.0.1 mon11-misc-lf.amemv.com
