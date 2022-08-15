@@ -6,12 +6,6 @@
 ||tt.x.bsgslb.cn^
 ||free-lbv*.idouyinvod.com^
 ||free-lbv26.idouyinvod.com^
-||sf3-sign.douyinstatic.com^
-||sf6-sign.douyinstatic.com^
-||p9-sign.douyinpic.com^
-||p3-sign.douyinpic.com^
-||p6-sign.douyinpic.com^
-||p26-sign.douyinpic.com^
 ||p*-sign.douyinpic.com^
 127.0.0.1 dig.zjurl.cn
 127.0.0.1 mon11-misc-lf.amemv.com
