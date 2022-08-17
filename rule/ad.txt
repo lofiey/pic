@@ -1,14 +1,8 @@
-||p26-sign.douyinpic.com^
-||mon11-misc-hl.amemv.com^
+
 ||bytescm.com^
 ||bytegecko.com^
-||free-lbv6.idouyinvod.com^
 ||tt.x.bsgslb.cn^
-||free-lbv*.idouyinvod.com^
-||free-lbv26.idouyinvod.com^
-||p*-sign.douyinpic.com^
 127.0.0.1 dig.zjurl.cn
-127.0.0.1 mon11-misc-lf.amemv.com
 127.0.0.1 tt.x.bsgslb.cn
 127.0.0.1 ecom3-normal-lf.ecombdapi.com
 127.0.0.1 ma5-normal-lf.zijieapi.com
@@ -21,7 +15,6 @@
 ||api100-normal-quic-lf.amemv.com^
 127.0.0.1 saveu5-normal-lf.zijieapi.com
 127.0.0.1 frontier-aweme-lf-ipainner.amemv.com
-127.0.0.1 mon11-misc-lf.amemv.com
 127.0.0.1 lf6-orange.byteorge.com
 127.0.0.1 lf9-orange.byteorge.com
 127.0.0.1 lf3-orange.byteorge.com
