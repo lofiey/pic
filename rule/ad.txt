@@ -1,6 +1,8 @@
 ||byteimg.com/p9-ad-sign
 112.50.107.114:80^$network
 10.31.157.172:80^$network
+10.31.157.172:80^$network
+183.213.24.6:80^$network
 ||byteimg.com/p6-ad-sign
 ||bytescm.com^
 ||bytegecko.com^
