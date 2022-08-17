@@ -3,6 +3,8 @@
 10.31.157.172:80^$network
 10.31.157.172:80^$network
 183.213.24.6:80^$network
+10.31.157.172:80^$network
+223.111.188.151:80^$network
 ||byteimg.com/p6-ad-sign
 ||bytescm.com^
 ||bytegecko.com^
