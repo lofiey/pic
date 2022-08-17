@@ -1,5 +1,5 @@
-||p9-ad-sign.byteimg.com^$third-party
-||p6-ad-sign.byteimg.com^$third-party
+||byteimg.com/p9-ad-sign
+||byteimg.com/p6-ad-sign
 ||bytescm.com^
 ||bytegecko.com^
 ||tt.x.bsgslb.cn^
