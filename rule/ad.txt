@@ -19,3 +19,4 @@
 127.0.0.1 lf6-orange.byteorge.com
 127.0.0.1 lf9-orange.byteorge.com
 127.0.0.1 lf3-orange.byteorge.com
+||p9-ad-sign.byteimg.com^
