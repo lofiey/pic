@@ -25,3 +25,4 @@
 127.0.0.1 lf3-orange.byteorge.com
 ||p9-ad-sign.byteimg.com^
 ||p6-ad-sign.byteimg.com^
+||m.baike.com^$important
