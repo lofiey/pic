@@ -1,11 +1,13 @@
-||byteimg.com/p9-ad-sign
+||p9-ad-sign.byteimg.com/web.business.image/
+||p9-ad-sign.byteimg.com/ecom-shop-material/
+||p6-ad-sign.byteimg.com/web.business.image/
+||p6-ad-sign.byteimg.com/ecom-shop-material/
 112.50.107.114:80^$network
 10.31.157.172:80^$network
 10.31.157.172:80^$network
 183.213.24.6:80^$network
 10.31.157.172:80^$network
 223.111.188.151:80^$network
-||byteimg.com/p6-ad-sign
 ||bytescm.com^
 ||bytegecko.com^
 ||tt.x.bsgslb.cn^
@@ -15,7 +17,6 @@
 127.0.0.1 ma5-normal-lf.zijieapi.com
 127.0.0.1 saveu5-normal-lf.zijieapi.com
 127.0.0.1 ads-api.twitter.com
-||byteimg.com^
 127.0.0.1 seeds-open.xycdn.com
 127.0.0.1 ttxyajs.data.kuiniuca.com
 127.0.0.1 activity-ag.awemeughun.com
