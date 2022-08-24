@@ -2,6 +2,7 @@
 ||conf-darwin.xycdn.com^$important
 ||ap-jpn-00001.s3.dualstack.ap-northeast-1.amazonaws.com^$important
 ||p26-sign.douyinpic.com^$important
+||p3-sign.douyinpic.com^$important
 ||p9-sign.douyinpic.com^$important
 ||p6-sign.douyinpic.com^$important
 ||batch-rgeo.is.autonavi.com^$important
