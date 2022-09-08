@@ -1,3 +1,9 @@
+# Block iOS Update
+||mesu.apple.com^$important
+||gdmf.apple.com^$important
+||updates-http.cdn-apple.com^$important
+||xp.apple.com^$important
+||app.adjust.com^$important
 ||litedetail-host.cn-wulanchabu.dualstack.log.aliyuncs.com^$important
 ||litetaobao-app.cn-wulanchabu.dualstack.log.aliyuncs.com^$important
 ||p9-ad-sign.byteimg.com/web.business.image/
