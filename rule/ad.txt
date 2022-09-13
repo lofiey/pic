@@ -9,6 +9,7 @@
 ||litetaobao-app.cn-wulanchabu.dualstack.log.aliyuncs.com^$important
 ||p9-ad-sign.byteimg.com/web.business.image/
 ||conf-darwin.xycdn.com^$important
+||p96-sign.douyinpic.com^$important
 ||ap-jpn-00001.s3.dualstack.ap-northeast-1.amazonaws.com^$important
 ||p26-sign.douyinpic.com^$important
 ||p3-sign.douyinpic.com^$important
