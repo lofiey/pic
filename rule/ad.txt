@@ -78,12 +78,9 @@
 ||vcs.snssdk.com^$important
 ||global.stun.twilio.com^$important
 ||btorrent.xyz^$important
-||douyinstatic.com^$important
-||zijieapi.com^$important
 ||ecombdapi.com^$important
 ||bytednsdoc.com^$important
 ||api.anjuke.com^$important
-||v*-cold*.douyinvod.com^$important
 ||s*.pstatp.com^$important
 ||app.adjust.net.in^$important
 ||athena-api.oceanengine.com^$important
