@@ -74,12 +74,9 @@
 ||aid.m.taobao.com^$important
 ||compliance.m.taobao.com^$important
 ||api*-normal-dsa.amemv.com^$important
-||v*-cold.douyinvod.com^$important
 ||vcs.snssdk.com^$important
 ||global.stun.twilio.com^$important
 ||btorrent.xyz^$important
-||ecombdapi.com^$important
-||bytednsdoc.com^$important
 ||api.anjuke.com^$important
 ||s*.pstatp.com^$important
 ||app.adjust.net.in^$important
