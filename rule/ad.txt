@@ -31,15 +31,6 @@
 ||bytescm.com^
 ||bytegecko.com^
 ||tt.x.bsgslb.cn^
-127.0.0.1 dig.zjurl.cn
-127.0.0.1 tt.x.bsgslb.cn
-127.0.0.1 ads-api.twitter.com
-127.0.0.1 seeds-open.xycdn.com
-127.0.0.1 ttxyajs.data.kuiniuca.com
-127.0.0.1 activity-ag.awemeughun.com
-127.0.0.1 saveu*-normal-lf.zijieapi.com
-127.0.0.1 frontier-aweme-lf-ipainner.amemv.com
-127.0.0.1 lf*-orange.byteorge.com
 ||p*-ad-sign.byteimg.com^
 ||m.baike.com^$important
 ||msgacs.m.taobao.com^$important
@@ -79,4 +70,21 @@
 ||dinamicx.alibabausercontent.com^$important
 ||kuiniuca.com^$important
 ||pv.sohu.com^$important
+||acs.m.taobao.com^$important
+||aid.m.taobao.com^$important
+||compliance.m.taobao.com^$important
+||api*-normal-dsa.amemv.com^$important
+||v*-cold.douyinvod.com^$important
+||vcs.snssdk.com^$important
+||global.stun.twilio.com^$important
+||btorrent.xyz^$important
+||douyinstatic.com^$important
+||zijieapi.com^$important
+||ecombdapi.com^$important
+||bytednsdoc.com^$important
+||api.anjuke.com^$important
+||v*-cold*.douyinvod.com^$important
+||s*.pstatp.com^$important
+||app.adjust.net.in^$important
+||athena-api.oceanengine.com^$important
 
