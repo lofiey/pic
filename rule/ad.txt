@@ -76,4 +76,7 @@
 ||hudong.alicdn.com^$important
 ||gw.alipayobjects.com^$important
 ||mini-app-packages-cdn.taobao.com^$important
+||dinamicx.alibabausercontent.com^$important
+||kuiniuca.com^$important
+||pv.sohu.com^$important
 
