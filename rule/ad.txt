@@ -76,7 +76,6 @@
 ||api*-normal-dsa.amemv.com^$important
 ||vcs.snssdk.com^$important
 ||global.stun.twilio.com^$important
-||btorrent.xyz^$important
 ||api.anjuke.com^$important
 ||s*.pstatp.com^$important
 ||app.adjust.net.in^$important
