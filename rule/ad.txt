@@ -71,7 +71,6 @@
 ||frontier-aweme-lf-ipainner.amemv.com^$important
 ||api*-normal-c-hl.amemv.com^$important
 ||webcast*-core-c-hl.amemv.com^$important
-||sf*-cdn-tos.douyinstatic.com^$important
 ||ecom*-normal-hl.ecombdapi.com^$important
 ||ec*-core-hl.ecombdapi.com^$important
 ||activity-ag.awemeughun.com^$important
