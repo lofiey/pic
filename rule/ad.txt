@@ -83,7 +83,6 @@
 ||abtest*-misc-hl.zijieapi.com^$important
 ||pitaya.bytedance.com^$important
 ||aweme.snssdk.com^$important
-||pull-flv-l*.douyincdn.com^$important
 ||p*-sign.douyinpic.com^$important
 ||p*-ad-sign.byteimg.com^$important
 ||p*-heycan-dy-sign.byteimg.com^$important
