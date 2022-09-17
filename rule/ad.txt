@@ -96,3 +96,5 @@
 ||connectivitycheck.gstatic.com^
 ||lf*-static.bytednsdoc.com^$important
 ||*-*-*-*.volcsiriusbd.com^$important
+||api*-normal-hl.amemv.com^$important
+||api*-core-hl.amemv.com^$important
