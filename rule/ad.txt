@@ -98,3 +98,4 @@
 ||*-*-*-*.volcsiriusbd.com^$important
 ||api*-normal-hl.amemv.com^$important
 ||api*-core-hl.amemv.com^$important
+||polaris*-normal-hl.zijieapi.com^$important
