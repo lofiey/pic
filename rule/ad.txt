@@ -93,3 +93,6 @@
 ||webcast*-core-c-lf.amemv.com^$important
 ||log*-misc-lf.amemv.com^$important
 ||saveu*-normal-lf.zijieapi.com^$important
+||connectivitycheck.gstatic.com^
+||lf*-static.bytednsdoc.com^$important
+||*-*-*-*.volcsiriusbd.com^$important
