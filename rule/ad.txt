@@ -10,7 +10,6 @@
 ||p*-sign.douyinpic.com^$important
 ||batch-rgeo.is.autonavi.com^$important
 ||ssdkauth.hpplay.cn^$important
-||lf*-webcastcdn-tos.douyinstatic.com^$important
 ||ec*-core-lf.ecombdapi.com^$important
 112.50.107.114:80^$network
 10.31.157.172:80^$network
@@ -32,12 +31,8 @@
 ||httpdns.alicdn.com^$important
 ||httpdns.twitter.com^$important
 ||open.kuaishouzt.com^$important
-||ulogs.umeng.com^$important
-||ulogs.umengcloud.com^$important
-||mum.alibabachengdun.com^$important
-||apoll.m.taobao.com^$important
-||acs-mum.alibabachengdun.com^$important
-||litetaobao-app.\(null\)^$important
+||ulogs.umeng.com^
+||ulogs.umengcloud.com^
 ||open.kwaizt.com^$important
 ||secure.globalsign.com^$important
 ||m-cloud.zhihu.com^$important
@@ -92,10 +87,6 @@
 ||abtest*-misc-lf.zijieapi.com^$important
 ||webcast*-core-c-lf.amemv.com^$important
 ||log*-misc-lf.amemv.com^$important
-||saveu*-normal-lf.zijieapi.com^$important
 ||connectivitycheck.gstatic.com^
-||lf*-static.bytednsdoc.com^$important
-||*-*-*-*.volcsiriusbd.com^$important
 ||api*-normal-hl.amemv.com^$important
 ||api*-core-hl.amemv.com^$important
-||polaris*-normal-hl.zijieapi.com^$important
