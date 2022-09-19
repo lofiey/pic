@@ -18,6 +18,7 @@
 0.0.0.0 abs.twimg.com
 0.0.0.0 httpdns.kwd.inkuai.com
 0.0.0.0 httpdns.c.cdnhwc2.com
+0.0.0.0 vdn.vzuu.com
 ||utoken.umeng.com^$important
 ||httpdns.alicdn.com^$important
 ||httpdns.twitter.com^$important
