@@ -69,11 +69,11 @@
 ||activity-ag.awemeughun.com^$important
 ||app.adjust.world^$important
 ||growth.ecombdapi.com^$important
-||v*-aweme-play-xigua.ixigua.com^$important
-||pitaya.bytedance.com^$important
-||p*-sign.douyinpic.com^$important
-||p*-ad-sign.byteimg.com^$important
-||p*-heycan-dy-sign.byteimg.com^$important
+0.0.0.0 v*-aweme-play-xigua.ixigua.com
+0.0.0.0 pitaya.bytedance.com
+0.0.0.0 p*-sign.douyinpic.com
+0.0.0.0 p*-ad-sign.byteimg.com
+0.0.0.0 p*-heycan-dy-sign.byteimg.com
 ||webcast*-normal-c-lf.amemv.com^$important
 ||p*-webcast.douyinpic.com^$important
 ||ecom*-normal-lf.ecombdapi.com^$important
