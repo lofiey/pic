@@ -47,13 +47,13 @@
 ||appcloud2.zhihu.com^$important
 ||appcloud.zhihu.com^$important
 ||h-adashx.ut.taobao.com^$important
-||kuiniuca.com^$important
+0.0.0.0 kuiniuca.com
 ||pv.sohu.com^$important
 ||api*-normal-dsa.amemv.com^$important
 ||vcs.snssdk.com^$important
-||global.stun.twilio.com^$important
+0.0.0.0 global.stun.twilio.com
 ||api.anjuke.com^$important
-||s*.pstatp.com^$important
+0.0.0.0 s*.pstatp.com
 ||app.adjust.net.in^$important
 ||athena-api.oceanengine.com^$important
 ||im-x.jd.com^$important
@@ -74,9 +74,17 @@
 0.0.0.0 p*-sign.douyinpic.com
 0.0.0.0 p*-ad-sign.byteimg.com
 0.0.0.0 p*-heycan-dy-sign.byteimg.com
-||webcast*-normal-c-lf.amemv.com^$important
-||p*-webcast.douyinpic.com^$important
+0.0.0.0 webcast*-normal-c-lf.amemv.com
+0.0.0.0 p*-webcast.douyinpic.com
 ||ecom*-normal-lf.ecombdapi.com^$important
-||webcast*-core-c-lf.amemv.com^$important
-||connectivitycheck.gstatic.com^
-
+0.0.0.0 webcast*-core-c-lf.amemv.com
+0.0.0.0 connectivitycheck.gstatic.com
+0.0.0.0 v*-hon.douyinvod.com
+0.0.0.0 aweme.snssdk.com
+0.0.0.0 v*-*-ntcm.douyinvod.com
+0.0.0.0 v*-cold.douyinvod.com
+0.0.0.0 v*-coldx.douyinvod.com
+0.0.0.0 v*-cold*.douyinvod.com
+0.0.0.0 v*-016.douyinvod.com
+0.0.0.0 v*-017.douyinvod.com
+0.0.0.0 v*-018.douyinvod.com
