@@ -19,25 +19,25 @@
 0.0.0.0 httpdns.kwd.inkuai.com
 0.0.0.0 httpdns.c.cdnhwc2.com
 0.0.0.0 vdn.vzuu.com
-||utoken.umeng.com^$important
-||httpdns.alicdn.com^$important
-||httpdns.twitter.com^$important
-||open.kuaishouzt.com^$important
-||ulogs.umeng.com^
-||ulogs.umengcloud.com^
-||open.kwaizt.com^$important
-||secure.globalsign.com^$important
-||m-cloud.zhihu.com^$important
-||m-cloud1.zhihu.com^$important
-||pubgw.api.ddxq.mobi^$important
-||img2.360buyimg.com^$important
-||zhihu-web-analytics.zhihu.com^$important
-||unpkg.zhimg.com^$important
-||pkg1.zhimg.com^$important
-||pkg.zhimg.com^$important
-||api.weibo.com^$important
-||appcloud2.zhihu.com^$important
-||appcloud.zhihu.com^$important
+0.0.0.0 utoken.umeng.com
+0.0.0.0 httpdns.alicdn.com
+0.0.0.0 httpdns.twitter.com
+0.0.0.0 open.kuaishouzt.com
+0.0.0.0 ulogs.umeng.com
+0.0.0.0 ulogs.umengcloud.com
+0.0.0.0 open.kwaizt.com
+0.0.0.0 secure.globalsign.com
+0.0.0.0 m-cloud.zhihu.com
+0.0.0.0 m-cloud1.zhihu.com
+0.0.0.0 pubgw.api.ddxq.mobi
+0.0.0.0 img2.360buyimg.com
+0.0.0.0 zhihu-web-analytics.zhihu.com
+0.0.0.0 unpkg.zhimg.com
+0.0.0.0 pkg1.zhimg.com
+0.0.0.0 pkg.zhimg.com
+0.0.0.0 api.weibo.com
+0.0.0.0 appcloud2.zhihu.com
+0.0.0.0 appcloud.zhihu.com
 0.0.0.0 h-adashx.ut.taobao.com
 0.0.0.0 kuiniuca.com
 0.0.0.0 pv.sohu.com
@@ -76,6 +76,10 @@
 0.0.0.0 v*-cold.douyinvod.com
 0.0.0.0 v*-coldx.douyinvod.com
 0.0.0.0 v*-cold*.douyinvod.com
+0.0.0.0 v*-0*.douyinvod.com
+0.0.0.0 v*-015.douyinvod.com
 0.0.0.0 v*-016.douyinvod.com
 0.0.0.0 v*-017.douyinvod.com
 0.0.0.0 v*-018.douyinvod.com
+0.0.0.0 v*-019.douyinvod.com
+0.0.0.0 v*-026.douyinvod.com
