@@ -12,6 +12,7 @@
 0.0.0.0 p*-sign.douyinpic.com
 0.0.0.0 ssdkauth.hpplay.cn
 0.0.0.0 ec*-core-lf.ecombdapi.com
+0.0.0.0 *.data.kuiniuca.com
 0.0.0.0 bytescm.com
 0.0.0.0 bytegecko.com
 0.0.0.0 tt.x.bsgslb.cn
