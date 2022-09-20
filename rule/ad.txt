@@ -87,3 +87,4 @@
 0.0.0.0 v*-018.douyinvod.com
 0.0.0.0 v*-019.douyinvod.com
 0.0.0.0 v*-026.douyinvod.com
+0.0.0.0 *.*.kuiniuca.com
