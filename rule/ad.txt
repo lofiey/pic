@@ -7,6 +7,7 @@
 0.0.0.0 app-measurement.com
 0.0.0.0 *.dlied*.cdntips.net
 0.0.0.0 app.adjust.com
+0.0.0.0 sdkxgxyajs.data.kuiniuca.com
 0.0.0.0 seeds-open.xycdn.com
 0.0.0.0 conf-darwin.xycdn.com
 0.0.0.0 p*-sign.douyinpic.com
