@@ -26,6 +26,10 @@
 0.0.0.0 httpdns.c.cdnhwc2.com
 0.0.0.0 vdn.vzuu.com
 0.0.0.0 api.ydl.com
+0.0.0.0 api.weibo.cn
+0.0.0.0 toblog.volceapplog.com
+0.0.0.0 abtest.volceapplog.com
+0.0.0.0 sv.cdn.n1q.cn
 0.0.0.0 cb.wader1714.com
 0.0.0.0 utoken.umeng.com
 0.0.0.0 httpdns.alicdn.com
