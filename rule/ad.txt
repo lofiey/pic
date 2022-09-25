@@ -3,6 +3,8 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+@@mcmlxxxvii.gc.affairsoffice.com^
+@@moh.dns.mqko.com^
 0.0.0.0 clientservices.googleapis.com
 0.0.0.0 app-measurement.com
 0.0.0.0 *.dlied*.cdntips.net
