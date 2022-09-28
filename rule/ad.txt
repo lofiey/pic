@@ -5,6 +5,12 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 sp*.baidu.com
+0.0.0.0 s.360.cn
+0.0.0.0 collect-v*.51.la
+0.0.0.0 zz.bdstatic.com
+0.0.0.0 ae.bdstatic.com
+0.0.0.0 dd-static.jd.com
 0.0.0.0 clientservices.googleapis.com
 0.0.0.0 app-measurement.com
 0.0.0.0 *.dlied*.cdntips.net
