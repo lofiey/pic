@@ -24,6 +24,10 @@
 0.0.0.0 *.data.kuiniuca.com
 0.0.0.0 ipolyfill-polyfill.byte-gslb.com
 0.0.0.0 lf*-analytics.bytescm.com
+0.0.0.0 lf*-unity.bytetos.com
+0.0.0.0 lf*-analytics.bytescm.com
+0.0.0.0 s*.pstatp.com
+0.0.0.0 p*-sign.douyinpic.com
 0.0.0.0 webcast*-core-c-hl.amemv.com
 0.0.0.0 api*-normal-hl.amemv.com
 0.0.0.0 polaris*-normal-hl.zijieapi.com
