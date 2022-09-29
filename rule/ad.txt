@@ -5,6 +5,12 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 api*-normal-dsa-hl.amemv.com
+0.0.0.0 ecom*-normal-hl.ecombdapi.com
+0.0.0.0 ecom*-normal-hl.ecombdapi.com
+0.0.0.0 api*-core-hl.amemv.com
+0.0.0.0 saveu*-normal-hl.zijieapi.com
+0.0.0.0 vcs.zijieapi.com
 0.0.0.0 ecom*-normal-hl.ecombdapi.com
 0.0.0.0 webcast*-core-c-hl.amemv.com
 0.0.0.0 ec*-core-hl.ecombdapi.com
