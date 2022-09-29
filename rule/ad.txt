@@ -5,31 +5,6 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
-0.0.0.0 lf3-unity.bytetos.com
-0.0.0.0 lf3-analytics.bytescm.com
-0.0.0.0 v6-cold2.douyinvod.com
-0.0.0.0 v26-hon.douyinvod.com
-0.0.0.0 v3-cold4.douyinvod.com
-0.0.0.0 v6-cold.douyinvod.com
-0.0.0.0 v5-g-ntcm.douyinvod.com
-0.0.0.0 v3-cold1.douyinvod.com
-0.0.0.0 v99-coldx.douyinvod.com
-0.0.0.0 v3-cold2.douyinvod.com
-0.0.0.0 v9-cold.douyinvod.com
-0.0.0.0 lf3-static.bytednsdoc.com
-0.0.0.0 dispatcher.is.autonavi.com
-0.0.0.0 v6-cold1.douyinvod.com
-0.0.0.0 api5-normal-dsa-hl.amemv.com
-0.0.0.0 s3.pstatp.com
-||webcast5-normal-c-hl.amemv.com
-0.0.0.0 api3-core-c-hl.amemv.com
-0.0.0.0 api26-core-hl.amemv.com
-0.0.0.0 api5-core-c-hl.amemv.com
-0.0.0.0 api26-normal-hl.amemv.com
-0.0.0.0 webcast5-core-c-hl.amemv.com
-0.0.0.0 ecom5-normal-hl.ecombdapi.com
-0.0.0.0 ecom3-normal-hl.ecombdapi.com
-0.0.0.0 api5-normal-c-hl.amemv.com
 127.0.0.1 p*-liveact.byteimg.com
 127.0.0.1 p*-webcast.douyinpic.com
 127.0.0.1 lf-webcast-gr-sourcecdn.bytegecko.com
