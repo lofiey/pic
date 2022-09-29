@@ -6,6 +6,8 @@
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
 0.0.0.0 sp*.baidu.com
+0.0.0.0 p*-ad-sign.byteimg.com
+0.0.0.0 uz*.v.bsgslb.com
 0.0.0.0 s.360.cn
 0.0.0.0 collect-v*.51.la
 0.0.0.0 zz.bdstatic.com
