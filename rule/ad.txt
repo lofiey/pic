@@ -113,10 +113,4 @@
 0.0.0.0 v*-coldx.douyinvod.com
 0.0.0.0 v*-cold*.douyinvod.com
 0.0.0.0 v*-0*.douyinvod.com
-0.0.0.0 v*-015.douyinvod.com
-0.0.0.0 v*-016.douyinvod.com
-0.0.0.0 v*-017.douyinvod.com
-0.0.0.0 v*-018.douyinvod.com
-0.0.0.0 v*-019.douyinvod.com
-0.0.0.0 v*-026.douyinvod.com
 0.0.0.0 *.*.kuiniuca.com
