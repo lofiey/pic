@@ -5,6 +5,9 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 webcast*-normal-c-hl.amemv.com
+0.0.0.0 api*-normal-dsa-hl.amemv.com
+0.0.0.0 v*-cold.douyinvod.com
 0.0.0.0 p*-liveact.byteimg.com
 0.0.0.0 v*-cold.douyinvod.com
 0.0.0.0 v*-coldc.douyinvod.com
