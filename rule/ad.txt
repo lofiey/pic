@@ -5,15 +5,9 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
-0.0.0.0 sp*.baidu.com
-0.0.0.0 p*-ad-sign.byteimg.com
-0.0.0.0 uz*.v.bsgslb.com
-0.0.0.0 s.360.cn
-0.0.0.0 lf*-mg-developer.dailygn.com
-0.0.0.0 collect-v*.51.la
-0.0.0.0 zz.bdstatic.com
-0.0.0.0 ae.bdstatic.com
-0.0.0.0 dd-static.jd.com
+0.0.0.0 p*-liveact.byteimg.com
+0.0.0.0 v*-cold.douyinvod.com
+0.0.0.0 v*-coldc.douyinvod.com
 0.0.0.0 clientservices.googleapis.com
 0.0.0.0 app-measurement.com
 0.0.0.0 *.dlied*.cdntips.net
@@ -25,17 +19,6 @@
 0.0.0.0 ssdkauth.hpplay.cn
 0.0.0.0 ec*-core-lf.ecombdapi.com
 0.0.0.0 *.data.kuiniuca.com
-0.0.0.0 ipolyfill-polyfill.byte-gslb.com
-0.0.0.0 lf*-analytics.bytescm.com
-0.0.0.0 lf*-unity.bytetos.com
-0.0.0.0 lf*-analytics.bytescm.com
-0.0.0.0 s*.pstatp.com
-0.0.0.0 p*-sign.douyinpic.com
-0.0.0.0 webcast*-core-c-hl.amemv.com
-0.0.0.0 api*-normal-hl.amemv.com
-0.0.0.0 polaris*-normal-hl.zijieapi.com
-0.0.0.0 lf*-unity.bytetos.com
-0.0.0.0 v*-cold.douyinvod.com
 0.0.0.0 bytescm.com
 0.0.0.0 bytegecko.com
 0.0.0.0 tt.x.bsgslb.cn
