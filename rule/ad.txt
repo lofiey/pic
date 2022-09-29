@@ -9,6 +9,7 @@
 0.0.0.0 p*-ad-sign.byteimg.com
 0.0.0.0 uz*.v.bsgslb.com
 0.0.0.0 s.360.cn
+0.0.0.0 lf*-mg-developer.dailygn.com
 0.0.0.0 collect-v*.51.la
 0.0.0.0 zz.bdstatic.com
 0.0.0.0 ae.bdstatic.com
