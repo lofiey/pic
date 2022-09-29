@@ -5,6 +5,8 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 p6-ad-sign.byteimg.com
+0.0.0.0 p9-ad-sign.byteimg.com
 0.0.0.0 lf*-analytics.bytescm.com
 0.0.0.0 lf*-unity.bytetos.com
 0.0.0.0 ipolyfill-polyfill.byte-gslb.com
@@ -38,6 +40,11 @@
 0.0.0.0 seeds-open.xycdn.com
 0.0.0.0 conf-darwin.xycdn.com
 0.0.0.0 p*-sign.douyinpic.com
+0.0.0.0 p6-sign.douyinpic.com
+0.0.0.0 p29-sign.douyinpic.com
+0.0.0.0 p26-sign.douyinpic.com
+0.0.0.0 p9-sign.douyinpic.com
+0.0.0.0 p3-sign.douyinpic.com
 0.0.0.0 ssdkauth.hpplay.cn
 0.0.0.0 ec*-core-lf.ecombdapi.com
 0.0.0.0 *.data.kuiniuca.com
