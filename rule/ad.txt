@@ -5,6 +5,9 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+127.0.0.1 p*-liveact.byteimg.com
+127.0.0.1 p*-webcast.douyinpic.com
+127.0.0.1 lf-webcast-gr-sourcecdn.bytegecko.com
 0.0.0.0 api*-normal-dsa-hl.amemv.com
 0.0.0.0 ecom*-normal-hl.ecombdapi.com
 0.0.0.0 ecom*-normal-hl.ecombdapi.com
