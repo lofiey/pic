@@ -37,12 +37,7 @@
 0.0.0.0 v99-coldx.douyinvod.com.cdn.chinamobile.com
 0.0.0.0 v99-coldx.douyinvod.com.c.cdn.chinamobile.com
 0.0.0.0 ixigua.c.cdn.chinamobile.com
-0.0.0.0 p26-sign.douyinpic.com
-0.0.0.0 p96-sign.douyinpic.com
 0.0.0.0 growth.ecombdapi.com
-0.0.0.0 p3-sign.douyinpic.com
-0.0.0.0 p6-sign.douyinpic.com
-0.0.0.0 p9-sign.douyinpic.com
 0.0.0.0 p9-ad-sign.byteimg.com
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p6-ad-sign.byteimg.com
@@ -55,6 +50,7 @@
 0.0.0.0 sdkxgxyajs.data.kuiniuca.com
 0.0.0.0 seeds-open.xycdn.com
 0.0.0.0 conf-darwin.xycdn.com
+0.0.0.0 p96-sign.douyinpic.com
 0.0.0.0 p6-sign.douyinpic.com
 0.0.0.0 p29-sign.douyinpic.com
 0.0.0.0 p26-sign.douyinpic.com
