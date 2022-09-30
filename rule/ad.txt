@@ -38,8 +38,10 @@
 0.0.0.0 v99-coldx.douyinvod.com.c.cdn.chinamobile.com
 0.0.0.0 ixigua.c.cdn.chinamobile.com
 0.0.0.0 growth.ecombdapi.com
-0.0.0.0 p9-ad-sign.byteimg.com
-0.0.0.0 p6-ad-sign.byteimg.com
+0.0.0.0 p96-ad-sign.byteimg.com
+0.0.0.0 p29-ad-sign.byteimg.com
+0.0.0.0 p26-ad-sign.byteimg.com
+0.0.0.0 p3-ad-sign.byteimg.com
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p9-ad-sign.byteimg.com
 0.0.0.0 vcs.zijieapi.com
@@ -57,7 +59,6 @@
 0.0.0.0 p9-sign.douyinpic.com
 0.0.0.0 p3-sign.douyinpic.com
 0.0.0.0 ssdkauth.hpplay.cn
-0.0.0.0 ec*-core-lf.ecombdapi.com
 0.0.0.0 *.data.kuiniuca.com
 0.0.0.0 bytescm.com
 0.0.0.0 bytegecko.com
