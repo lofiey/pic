@@ -6,7 +6,15 @@
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
 0.0.0.0 v9-cold1.douyinvod.com.bsgslb.com
+0.0.0.0 zttvc9.v.bsgslb.com
+0.0.0.0 zttvc8.v.bsgslb.com
+0.0.0.0 zttvc7.v.bsgslb.com
+0.0.0.0 zttvc6.v.bsgslb.com
+0.0.0.0 zttvc5.v.bsgslb.com
+0.0.0.0 zttvc4.v.bsgslb.com
 0.0.0.0 zttvc2.v.bsgslb.com
+0.0.0.0 zttvc1.v.bsgslb.com
+0.0.0.0 zttvc.v.bsgslb.com
 0.0.0.0 v6-cold.douyinvod.com.download.ks-cdn.com
 0.0.0.0 k2-dy-cold-ml.gslb.ksyuncdn.com
 0.0.0.0 v3-cold.douyinvod.com.w.cdngslb.com
