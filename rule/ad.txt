@@ -64,7 +64,7 @@
 127.0.0.1 webcast*-normal-c-hl.amemv.com
 0.0.0.0 api*-normal-dsa-hl.amemv.com
 127.0.0.1 v*-cold.douyinvod.com
-0.0.0.0 p*-liveact.byteimg.com
+0.0.0.0 s3.pstatp.com.xi.zwtianshangm.com
 0.0.0.0 v*-cold.douyinvod.com
 0.0.0.0 v*-coldc.douyinvod.com
 0.0.0.0 clientservices.googleapis.com
