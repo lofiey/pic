@@ -5,6 +5,8 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 v5-colde.douyinvod.com.yangyi19.com
+0.0.0.0 dy-vod-colde.bytegslb.com
 0.0.0.0 v3-cold2.douyinvod.com.w.kunluncan.com
 0.0.0.0 k2-dy-cold1-ml.gslb.ksyuncdn.com
 0.0.0.0 v6-cold1.douyinvod.com.download.ks-cdn.com
@@ -43,38 +45,14 @@
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p9-ad-sign.byteimg.com
-0.0.0.0 lf*-analytics.bytescm.com
-0.0.0.0 lf*-unity.bytetos.com
-0.0.0.0 ipolyfill-polyfill.byte-gslb.com
-0.0.0.0 lf*-cdn-tos.bytescm.com
-127.0.0.1 p*-liveact.byteimg.com
-127.0.0.1 p*-webcast.douyinpic.com
-127.0.0.1 lf-webcast-gr-sourcecdn.bytegecko.com
-0.0.0.0 api*-normal-dsa-hl.amemv.com
-0.0.0.0 ecom*-normal-hl.ecombdapi.com
-0.0.0.0 ecom*-normal-hl.ecombdapi.com
-0.0.0.0 api*-core-hl.amemv.com
-0.0.0.0 saveu*-normal-hl.zijieapi.com
 0.0.0.0 vcs.zijieapi.com
-0.0.0.0 ecom*-normal-hl.ecombdapi.com
-0.0.0.0 webcast*-core-c-hl.amemv.com
-0.0.0.0 ec*-core-hl.ecombdapi.com
-0.0.0.0 v*-j-tzcm.douyinvod.com
-127.0.0.1 v*-cold*.douyinvod.com
-127.0.0.1 webcast*-normal-c-hl.amemv.com
-0.0.0.0 api*-normal-dsa-hl.amemv.com
-127.0.0.1 v*-cold.douyinvod.com
 0.0.0.0 s3.pstatp.com.xi.zwtianshangm.com
-0.0.0.0 v*-cold.douyinvod.com
-0.0.0.0 v*-coldc.douyinvod.com
 0.0.0.0 clientservices.googleapis.com
 0.0.0.0 app-measurement.com
-0.0.0.0 *.dlied*.cdntips.net
 0.0.0.0 app.adjust.com
 0.0.0.0 sdkxgxyajs.data.kuiniuca.com
 0.0.0.0 seeds-open.xycdn.com
 0.0.0.0 conf-darwin.xycdn.com
-0.0.0.0 p*-sign.douyinpic.com
 0.0.0.0 p6-sign.douyinpic.com
 0.0.0.0 p29-sign.douyinpic.com
 0.0.0.0 p26-sign.douyinpic.com
@@ -86,7 +64,6 @@
 0.0.0.0 bytescm.com
 0.0.0.0 bytegecko.com
 0.0.0.0 tt.x.bsgslb.cn
-0.0.0.0 p*-ad-sign.byteimg.com
 0.0.0.0 m.baike.com
 0.0.0.0 probe.twitter.com
 0.0.0.0 pbs.twimg.com
@@ -123,10 +100,8 @@
 0.0.0.0 h-adashx.ut.taobao.com
 0.0.0.0 kuiniuca.com
 0.0.0.0 pv.sohu.com
-0.0.0.0 api*-normal-dsa.amemv.com
 0.0.0.0 vcs.snssdk.com
 0.0.0.0 global.stun.twilio.com
-0.0.0.0 s*.pstatp.com
 0.0.0.0 app.adjust.net.in
 0.0.0.0 athena-api.oceanengine.com
 0.0.0.0 im-x.jd.com
@@ -144,33 +119,12 @@
 ||lf1-cdn-tos.bytescm.com^$important
 ||c17a669e.asertdnsresearch.com^$important
 ||dw.jetmobo.com^$important
-0.0.0.0 api*-normal-dsa-hl.amemv.com
-0.0.0.0 api*-core-c-hl.amemv.com
-0.0.0.0 webcast*-normal-c-hl.amemv.com
-0.0.0.0 imapi*-normal-hl.zijieapi.com
-0.0.0.0 frontier-aweme-lf-ipainner.amemv.com
-0.0.0.0 api*-normal-c-hl.amemv.com
-0.0.0.0 webcast*-core-c-hl.amemv.com
-0.0.0.0 ecom*-normal-hl.ecombdapi.com
-0.0.0.0 ec*-core-h*.ecombdapi.com
 0.0.0.0 activity-ag.awemeughun.com
 0.0.0.0 app.adjust.world
 0.0.0.0 growth.ecombdapi.com
 0.0.0.0 v*-aweme-play-xigua.ixigua.com
 0.0.0.0 pitaya.bytedance.com
-0.0.0.0 p*-sign.douyinpic.com
-0.0.0.0 p*-ad-sign.byteimg.com
-0.0.0.0 p*-heycan-dy-sign.byteimg.com
-0.0.0.0 webcast*-normal-c-lf.amemv.com
-0.0.0.0 p*-webcast.douyinpic.com
-0.0.0.0 ecom*-normal-lf.ecombdapi.com
-0.0.0.0 webcast*-core-c-lf.amemv.com
 0.0.0.0 connectivitycheck.gstatic.com
 0.0.0.0 v*-hon.douyinvod.com
 0.0.0.0 aweme.snssdk.com
-0.0.0.0 v*-*-ntcm.douyinvod.com
-0.0.0.0 v*-cold.douyinvod.com
-0.0.0.0 v*-coldx.douyinvod.com
-0.0.0.0 v*-cold*.douyinvod.com
-0.0.0.0 v*-0*.douyinvod.com
 0.0.0.0 *.*.kuiniuca.com
