@@ -122,6 +122,20 @@
 0.0.0.0 app.adjust.net.in
 0.0.0.0 athena-api.oceanengine.com
 0.0.0.0 im-x.jd.com
+||whoami.akamai.net^$important
+||lf3-static.bytednsdoc.com.w.alikunlun.com^$important
+||lf3-static.bytednsdoc.com^$important
+||d2-toutiao-ipv6-ml.gslb.ksyuncdn.com^$important
+||i.snssdk.com^$important
+||lf6-cdn-tos.bytegoofy.com^$important
+||lf1-webcastcdn-tos.douyinstatic.com.wsglb0.com^$important
+||v9-ipv6.douyinvod.com^$important
+||dig.bdurl.net^$important
+||lf3-unity.bytetos.com^$important
+||lf3-analytics.bytescm.com^$important
+||lf1-cdn-tos.bytescm.com^$important
+||c17a669e.asertdnsresearch.com^$important
+||dw.jetmobo.com^$important
 0.0.0.0 api*-normal-dsa-hl.amemv.com
 0.0.0.0 api*-core-c-hl.amemv.com
 0.0.0.0 webcast*-normal-c-hl.amemv.com
