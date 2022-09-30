@@ -5,6 +5,18 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 v27-cold.douyinvod.com.vod.galileo.jcloud-cdn.com
+0.0.0.0 tt-vod-cold-sched.jcloudimg.com
+0.0.0.0 v11-cold1.sched.v4legocold1-dk.tdnsvod1.cn.cvod.pfcmn.yrzhcloud.cn
+0.0.0.0 v11-cold1.sched.v4legocold1-dk.tdnsvod1.cn
+0.0.0.0 v11-cold1.douyinvod.com.cdn.dnsv1.com
+0.0.0.0 v3-cold3.douyinvod.com.w.kunluncan.com.n.num1dns.com
+0.0.0.0 v3-cold1.douyinvod.com.w.kunluncan.com
+0.0.0.0 v3-cold3.douyinvod.com.w.kunluncan.com
+0.0.0.0 v99-coldx.douyinvod.com.bytedns1.com
+0.0.0.0 v99-coldx.douyinvod.com.cdn.chinamobile.com
+0.0.0.0 v99-coldx.douyinvod.com.c.cdn.chinamobile.com
+0.0.0.0 ixigua.c.cdn.chinamobile.com
 0.0.0.0 p26-sign.douyinpic.com
 0.0.0.0 p96-sign.douyinpic.com
 0.0.0.0 growth.ecombdapi.com
