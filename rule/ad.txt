@@ -5,6 +5,14 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 k2-dy-cold2-ml.gslb.ksyuncdn.com
+0.0.0.0 v11-cold.douyinvod.com.cdn.dnsv1.com
+0.0.0.0 v6-cold2.douyinvod.com.download.ks-cdn.com
+0.0.0.0 dy-vod-coldb.bytegslb.com
+0.0.0.0 hcdnv.zjtd02.gslb.c.cdnhwc2.com
+0.0.0.0 v11-cold.sched.v4legocold-dk.tdnsvod1.cn
+0.0.0.0 v5-coldb.douyinvod.com.yangyi19.com
+0.0.0.0 v26-hon.douyinvod.com.51296c5e.c.cdnhwc1.com
 0.0.0.0 v27-cold.douyinvod.com.vod.galileo.jcloud-cdn.com
 0.0.0.0 tt-vod-cold-sched.jcloudimg.com
 0.0.0.0 v11-cold1.sched.v4legocold1-dk.tdnsvod1.cn.cvod.pfcmn.yrzhcloud.cn
