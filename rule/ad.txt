@@ -5,6 +5,8 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 v1-cold1.douyinvod.com.wsdvs.com
+0.0.0.0 v1-cold1.douyinvod.com.wsdvs.com.chnc.cloudcsp.com
 0.0.0.0 v5-colde.douyinvod.com.yangyi19.com
 0.0.0.0 dy-vod-colde.bytegslb.com
 0.0.0.0 v3-cold2.douyinvod.com.w.kunluncan.com
