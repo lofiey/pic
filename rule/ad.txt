@@ -5,6 +5,14 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 p26-sign.douyinpic.com
+0.0.0.0 p96-sign.douyinpic.com
+0.0.0.0 growth.ecombdapi.com
+0.0.0.0 p3-sign.douyinpic.com
+0.0.0.0 p6-sign.douyinpic.com
+0.0.0.0 p9-sign.douyinpic.com
+0.0.0.0 p9-ad-sign.byteimg.com
+0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p9-ad-sign.byteimg.com
 0.0.0.0 lf*-analytics.bytescm.com
