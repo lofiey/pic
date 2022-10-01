@@ -5,6 +5,10 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 msite.baidu.com
+0.0.0.0 collect-v6.51.la
+0.0.0.0 ae.bdstatic.com
+0.0.0.0 sp0.baidu.com
 0.0.0.0 v5-colda.douyinvod.com.yangyi19.com
 0.0.0.0 dy-vod-colda.bytegslb.com
 0.0.0.0 v9-cold1.douyinvod.com.bsgslb.com
