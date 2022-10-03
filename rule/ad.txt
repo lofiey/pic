@@ -155,7 +155,6 @@
 0.0.0.0 app.adjust.net.in
 0.0.0.0 athena-api.oceanengine.com
 0.0.0.0 im-x.jd.com
-||whoami.akamai.net^$important
 ||lf3-static.bytednsdoc.com.w.alikunlun.com^$important
 ||lf3-static.bytednsdoc.com^$important
 ||d2-toutiao-ipv6-ml.gslb.ksyuncdn.com^$important
