@@ -24,14 +24,6 @@
 0.0.0.0 ec3-core-hl.ecombdapi.com
 0.0.0.0 ec2-core-hl.ecombdapi.com
 0.0.0.0 ec1-core-hl.ecombdapi.com
-0.0.0.0 lf-webcast-gr-sourcecdn.bytegecko.com.bytedns1.com
-0.0.0.0 p9-webcast.douyinpic.com.bsgslb.com
-0.0.0.0 lf-tt-gr-sourcecdn.bytegecko.com.w.kunluncan.com
-0.0.0.0 uz91.v.bsgslb.com
-0.0.0.0 webcast5-normal-c-hl.amemv.com.c.dsa.cdnbuild.net
-0.0.0.0 l7-online-self-max-v6.s.dsa.cdnbuild.net
-0.0.0.0 webcast5-core-c-hl.amemv.com.c.dsa.cdnbuild.net
-0.0.0.0 l7-online-self-max-v6.s.dsa.cdnbuild.net
 0.0.0.0 dy-vod-cold.bytegslb.com
 0.0.0.0 v5-cold.douyinvod.com.zjgslb.com
 0.0.0.0 tt-vod-cold1-sched.jcloudimg.com
