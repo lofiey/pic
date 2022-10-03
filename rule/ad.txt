@@ -5,6 +5,20 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 ecom4-normal-hl.ecombdapi.com
+0.0.0.0 ecom2-normal-hl.ecombdapi.com
+0.0.0.0 ecom9-normal-hl.ecombdapi.com
+0.0.0.0 ecom6-normal-hl.ecombdapi.com
+0.0.0.0 ecom1-normal-hl.ecombdapi.com
+0.0.0.0 ecom5-normal-hl.ecombdapi.com
+0.0.0.0 ecom3-normal-hl.ecombdapi.com
+0.0.0.0 ec5-core-hl.ecombdapi.com
+0.0.0.0 ec6-core-hl.ecombdapi.com
+0.0.0.0 ec9-core-hl.ecombdapi.com
+0.0.0.0 ec4-core-hl.ecombdapi.com
+0.0.0.0 ec3-core-hl.ecombdapi.com
+0.0.0.0 ec2-core-hl.ecombdapi.com
+0.0.0.0 ec1-core-hl.ecombdapi.com
 0.0.0.0 lf-webcast-gr-sourcecdn.bytegecko.com.bytedns1.com
 0.0.0.0 p9-webcast.douyinpic.com.bsgslb.com
 0.0.0.0 lf-tt-gr-sourcecdn.bytegecko.com.w.kunluncan.com
