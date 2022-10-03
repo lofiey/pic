@@ -6,7 +6,7 @@
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
 0.0.0.0 *.tt.x.bsgslb.cn
-0.0.0.0 api.amemv.com
+0.0.0.0 search100-search-quic-lf.amemv.com
 0.0.0.0 ec3-core-lf.ecombdapi.com
 0.0.0.0 ec5-core-lf.ecombdapi.com
 0.0.0.0 ec9-core-lf.ecombdapi.com
