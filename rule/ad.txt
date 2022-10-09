@@ -5,6 +5,8 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 zz.bdstatic.com
+0.0.0.0 cpro.baidustatic.com
 127.0.0.1 best.sched.skalego-dk.tdnsstic1.cn.cjt.scz.easticloud.com
 127.0.0.1 best.sched.skalego-dk.tdnsstic1.cn
 127.0.0.1 *.cdn.sohucs.com.w.cdngslb.com
