@@ -1,0 +1,192 @@
+# Block iOS Update
+||mesu.apple.com^$important
+||gdmf.apple.com^$important
+||updates-http.cdn-apple.com^$important
+||xp.apple.com^$important
+@@mcmlxxxvii.gc.affairsoffice.com^
+@@moh.dns.mqko.com^
+127.0.0.1 best.sched.skalego-dk.tdnsstic1.cn.cjt.scz.easticloud.com
+127.0.0.1 best.sched.skalego-dk.tdnsstic1.cn
+127.0.0.1 *.cdn.sohucs.com.w.cdngslb.com
+0.0.0.0 eclick.baidu.com
+0.0.0.0 sofire.baidu.com
+0.0.0.0 adv-sv-show.focus.cn
+0.0.0.0 sdk.51.la
+0.0.0.0 *.cdn.sohucs.com
+0.0.0.0 em.baidu.com
+0.0.0.0 batch-rgeo.is.autonavi.com.gds.alibabadns.com
+0.0.0.0 v1-cold.douyinvod.com.wsdvs.com
+0.0.0.0 v1-cold.douyinvod.com.wsdvs.com.cd23f.com
+0.0.0.0 *.tt.x.bsgslb.cn
+0.0.0.0 v83-016.douyinvod.com
+0.0.0.0 v83-017.douyinvod.com
+0.0.0.0 search100-search-quic-lf.amemv.com
+0.0.0.0 ec3-core-lf.ecombdapi.com
+0.0.0.0 ec5-core-lf.ecombdapi.com
+0.0.0.0 ec9-core-lf.ecombdapi.com
+0.0.0.0 ec6-core-lf.ecombdapi.com
+0.0.0.0 cdnauth1.hpplay.cn
+0.0.0.0 ecom4-normal-hl.ecombdapi.com
+0.0.0.0 ecom2-normal-hl.ecombdapi.com
+0.0.0.0 ecom9-normal-hl.ecombdapi.com
+0.0.0.0 ecom6-normal-hl.ecombdapi.com
+0.0.0.0 ecom1-normal-hl.ecombdapi.com
+0.0.0.0 ecom5-normal-hl.ecombdapi.com
+0.0.0.0 ecom3-normal-hl.ecombdapi.com
+0.0.0.0 ec5-core-hl.ecombdapi.com
+0.0.0.0 ec6-core-hl.ecombdapi.com
+0.0.0.0 ec9-core-hl.ecombdapi.com
+0.0.0.0 ec4-core-hl.ecombdapi.com
+0.0.0.0 ec3-core-hl.ecombdapi.com
+0.0.0.0 ec2-core-hl.ecombdapi.com
+0.0.0.0 ec1-core-hl.ecombdapi.com
+0.0.0.0 dy-vod-cold.bytegslb.com
+0.0.0.0 v5-cold.douyinvod.com.zjgslb.com
+0.0.0.0 tt-vod-cold1-sched.jcloudimg.com
+0.0.0.0 cold1.douyinvod.com.vod.galileo.jcloud-cdn.com
+0.0.0.0 msite.baidu.com
+0.0.0.0 collect-v6.51.la
+0.0.0.0 ae.bdstatic.com
+0.0.0.0 sp0.baidu.com
+0.0.0.0 v5-colda.douyinvod.com.yangyi19.com
+0.0.0.0 dy-vod-colda.bytegslb.com
+0.0.0.0 v9-cold1.douyinvod.com.bsgslb.com
+0.0.0.0 zttvc9.v.bsgslb.com
+0.0.0.0 zttvc8.v.bsgslb.com
+0.0.0.0 zttvc7.v.bsgslb.com
+0.0.0.0 zttvc6.v.bsgslb.com
+0.0.0.0 zttvc5.v.bsgslb.com
+0.0.0.0 zttvc4.v.bsgslb.com
+0.0.0.0 zttvc2.v.bsgslb.com
+0.0.0.0 zttvc1.v.bsgslb.com
+0.0.0.0 zttvc.v.bsgslb.com
+0.0.0.0 v6-cold.douyinvod.com.download.ks-cdn.com
+0.0.0.0 k2-dy-cold-ml.gslb.ksyuncdn.com
+0.0.0.0 v3-cold.douyinvod.com.w.cdngslb.com
+0.0.0.0 v3-cold.douyinvod.com.w.cdngslb.com.t.tushuokeji.net
+0.0.0.0 v3-cold4.douyinvod.com.w.kunluncan.com
+0.0.0.0 v5-coldy.douyinvod.com.zjgslb.com
+0.0.0.0 dy-vod-coldy.bytegslb.com
+0.0.0.0 v9-cold2.douyinvod.com.bsgslb.com
+0.0.0.0 zttvc3.v.bsgslb.com
+0.0.0.0 v1-cold1.douyinvod.com.wsdvs.com
+0.0.0.0 v1-cold1.douyinvod.com.wsdvs.com.chnc.cloudcsp.com
+0.0.0.0 v5-colde.douyinvod.com.yangyi19.com
+0.0.0.0 dy-vod-colde.bytegslb.com
+0.0.0.0 v3-cold2.douyinvod.com.w.kunluncan.com
+0.0.0.0 k2-dy-cold1-ml.gslb.ksyuncdn.com
+0.0.0.0 v6-cold1.douyinvod.com.download.ks-cdn.com
+0.0.0.0 v5-coldc.douyinvod.com.zjgslb.com
+0.0.0.0 dy-vod-coldc.bytegslb.com
+0.0.0.0 hcdnv.zjtd04.v6.c.cdnhwc1.com
+0.0.0.0 v3-cold2.douyinvod.com.w.kunluncan.com.n.num1dns.com
+0.0.0.0 v26-cold.douyinvod.com.c.cdnhwc1.com
+0.0.0.0 k2-dy-cold2-ml.gslb.ksyuncdn.com
+0.0.0.0 v11-cold.douyinvod.com.cdn.dnsv1.com
+0.0.0.0 v6-cold2.douyinvod.com.download.ks-cdn.com
+0.0.0.0 dy-vod-coldb.bytegslb.com
+0.0.0.0 hcdnv.zjtd02.gslb.c.cdnhwc2.com
+0.0.0.0 v11-cold.sched.v4legocold-dk.tdnsvod1.cn
+0.0.0.0 v5-coldb.douyinvod.com.yangyi19.com
+0.0.0.0 v26-hon.douyinvod.com.51296c5e.c.cdnhwc1.com
+0.0.0.0 v27-cold.douyinvod.com.vod.galileo.jcloud-cdn.com
+0.0.0.0 tt-vod-cold-sched.jcloudimg.com
+0.0.0.0 v11-cold1.sched.v4legocold1-dk.tdnsvod1.cn.cvod.pfcmn.yrzhcloud.cn
+0.0.0.0 v11-cold1.sched.v4legocold1-dk.tdnsvod1.cn
+0.0.0.0 v11-cold1.douyinvod.com.cdn.dnsv1.com
+0.0.0.0 v3-cold3.douyinvod.com.w.kunluncan.com.n.num1dns.com
+0.0.0.0 v3-cold1.douyinvod.com.w.kunluncan.com
+0.0.0.0 v3-cold3.douyinvod.com.w.kunluncan.com
+0.0.0.0 v99-coldx.douyinvod.com.bytedns1.com
+0.0.0.0 v99-coldx.douyinvod.com.cdn.chinamobile.com
+0.0.0.0 v99-coldx.douyinvod.com.c.cdn.chinamobile.com
+0.0.0.0 ixigua.c.cdn.chinamobile.com
+0.0.0.0 growth.ecombdapi.com
+0.0.0.0 p96-ad-sign.byteimg.com
+0.0.0.0 p29-ad-sign.byteimg.com
+0.0.0.0 p26-ad-sign.byteimg.com
+0.0.0.0 p3-ad-sign.byteimg.com
+0.0.0.0 p6-ad-sign.byteimg.com
+0.0.0.0 p9-ad-sign.byteimg.com
+0.0.0.0 vcs.zijieapi.com
+0.0.0.0 s3.pstatp.com.xi.zwtianshangm.com
+0.0.0.0 clientservices.googleapis.com
+0.0.0.0 app-measurement.com
+0.0.0.0 app.adjust.com
+0.0.0.0 sdkxgxyajs.data.kuiniuca.com
+0.0.0.0 seeds-open.xycdn.com
+0.0.0.0 conf-darwin.xycdn.com
+0.0.0.0 p96-sign.douyinpic.com
+0.0.0.0 p6-sign.douyinpic.com
+0.0.0.0 p29-sign.douyinpic.com
+0.0.0.0 p26-sign.douyinpic.com
+0.0.0.0 p9-sign.douyinpic.com
+0.0.0.0 p3-sign.douyinpic.com
+0.0.0.0 ssdkauth.hpplay.cn
+0.0.0.0 *.data.kuiniuca.com
+0.0.0.0 bytescm.com
+0.0.0.0 bytegecko.com
+0.0.0.0 tt.x.bsgslb.cn
+0.0.0.0 m.baike.com
+0.0.0.0 probe.twitter.com
+0.0.0.0 pbs.twimg.com
+0.0.0.0 abs.twimg.com
+0.0.0.0 httpdns.kwd.inkuai.com
+0.0.0.0 httpdns.c.cdnhwc2.com
+0.0.0.0 vdn.vzuu.com
+0.0.0.0 api.ydl.com
+0.0.0.0 api.weibo.cn
+0.0.0.0 toblog.volceapplog.com
+0.0.0.0 abtest.volceapplog.com
+0.0.0.0 sv.cdn.n1q.cn
+0.0.0.0 cb.wader1714.com
+0.0.0.0 utoken.umeng.com
+0.0.0.0 httpdns.alicdn.com
+0.0.0.0 httpdns.twitter.com
+0.0.0.0 open.kuaishouzt.com
+0.0.0.0 ulogs.umeng.com
+0.0.0.0 ulogs.umengcloud.com
+0.0.0.0 open.kwaizt.com
+0.0.0.0 secure.globalsign.com
+0.0.0.0 crash*.zhihu.com
+0.0.0.0 m-cloud.zhihu.com
+0.0.0.0 m-cloud1.zhihu.com
+0.0.0.0 pubgw.api.ddxq.mobi
+0.0.0.0 img2.360buyimg.com
+0.0.0.0 zhihu-web-analytics.zhihu.com
+0.0.0.0 unpkg.zhimg.com
+0.0.0.0 pkg1.zhimg.com
+0.0.0.0 pkg.zhimg.com
+0.0.0.0 api.weibo.com
+0.0.0.0 appcloud2.zhihu.com
+0.0.0.0 appcloud.zhihu.com
+0.0.0.0 h-adashx.ut.taobao.com
+0.0.0.0 kuiniuca.com
+0.0.0.0 pv.sohu.com
+0.0.0.0 vcs.snssdk.com
+0.0.0.0 global.stun.twilio.com
+0.0.0.0 app.adjust.net.in
+0.0.0.0 athena-api.oceanengine.com
+0.0.0.0 im-x.jd.com
+||lf3-static.bytednsdoc.com.w.alikunlun.com^$important
+||lf3-static.bytednsdoc.com^$important
+||d2-toutiao-ipv6-ml.gslb.ksyuncdn.com^$important
+||i.snssdk.com^$important
+||lf6-cdn-tos.bytegoofy.com^$important
+||lf1-webcastcdn-tos.douyinstatic.com.wsglb0.com^$important
+||v9-ipv6.douyinvod.com^$important
+||dig.bdurl.net^$important
+||lf3-unity.bytetos.com^$important
+||lf3-analytics.bytescm.com^$important
+||lf1-cdn-tos.bytescm.com^$important
+||c17a669e.asertdnsresearch.com^$important
+||dw.jetmobo.com^$important
+0.0.0.0 activity-ag.awemeughun.com
+0.0.0.0 app.adjust.world
+0.0.0.0 growth.ecombdapi.com
+0.0.0.0 v*-aweme-play-xigua.ixigua.com
+0.0.0.0 pitaya.bytedance.com
+0.0.0.0 connectivitycheck.gstatic.com
+0.0.0.0 v*-hon.douyinvod.com
+0.0.0.0 aweme.snssdk.com
+0.0.0.0 *.*.kuiniuca.com
