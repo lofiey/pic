@@ -3,7 +3,7 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
-0.0.0.0 *.v.smtcdns.com
+0.0.0.0 apd-*.v.smtcdns.com
 0.0.0.0 tuijian.sogou.com
 0.0.0.0 zz.bdstatic.com
 0.0.0.0 cpro.baidustatic.com
