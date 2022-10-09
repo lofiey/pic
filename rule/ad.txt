@@ -5,6 +5,12 @@
 ||xp.apple.com^$important
 @@mcmlxxxvii.gc.affairsoffice.com^
 @@moh.dns.mqko.com^
+0.0.0.0 eclick.baidu.com
+0.0.0.0 sofire.baidu.com
+0.0.0.0 adv-sv-show.focus.cn
+0.0.0.0 sdk.51.la
+0.0.0.0 *.cdn.sohucs.com
+0.0.0.0 em.baidu.com
 0.0.0.0 batch-rgeo.is.autonavi.com.gds.alibabadns.com
 0.0.0.0 v1-cold.douyinvod.com.wsdvs.com
 0.0.0.0 v1-cold.douyinvod.com.wsdvs.com.cd23f.com
