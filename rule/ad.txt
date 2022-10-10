@@ -3,6 +3,7 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 fpb.sohu.com.cname209.yjs-cdn.com
 0.0.0.0 opencdnbd.jomodns.com
 0.0.0.0 render-server.cdn.bcebos.com.a.bdydns.com
 0.0.0.0 opencdnsslv6.jomodns.com
