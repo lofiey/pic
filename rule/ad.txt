@@ -7,9 +7,8 @@
 0.0.0.0 render-server.cdn.bcebos.com.a.bdydns.com
 0.0.0.0 opencdnsslv6.jomodns.com
 0.0.0.0 lupic.cdn.bcebos.com.a.bdydns.com
-0.0.0.0 qpb*.sohu.com
-0.0.0.0 fpb.sohu.com
-0.0.0.0 fpb*.sohu.com
+0.0.0.0 qpb*.sohu.com.cname209.yjs-cdn.com
+0.0.0.0 fpb*.sohu.com.cname209.yjs-cdn.com
 0.0.0.0 *.cdn.bcebos.com
 0.0.0.0 cdn.wwads.cn
 0.0.0.0 s2.loli.net
