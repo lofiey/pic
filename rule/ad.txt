@@ -3,6 +3,7 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 *.cdn.bcebos.com
 0.0.0.0 cdn.wwads.cn
 0.0.0.0 s2.loli.net
 0.0.0.0 ad.holmesmind.com
