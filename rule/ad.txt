@@ -9,6 +9,8 @@
 0.0.0.0 cpro.baidustatic.com
 127.0.0.1 best.sched.skalego-dk.tdnsstic1.cn.cjt.scz.easticloud.com
 127.0.0.1 best.sched.skalego-dk.tdnsstic1.cn
+0.0.0.0 i.gridsumdissector.com
+0.0.0.0 *.cdn.sohucs.com.w.cdngslb.com
 127.0.0.1 *.cdn.sohucs.com.w.cdngslb.com
 0.0.0.0 eclick.baidu.com
 0.0.0.0 sofire.baidu.com
