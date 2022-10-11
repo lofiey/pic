@@ -4,7 +4,6 @@
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 0.0.0.0 vdn3.vzuu.com
-0.0.0.0 vdn6.vzuu.com
 0.0.0.0 qpb.sohu.com.cname209.yjs-cdn.com
 0.0.0.0 *.itc.cn.w.cdngslb.com
 0.0.0.0 *.cdn.sohucs.com.w.cdngslb.com
