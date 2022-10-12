@@ -3,6 +3,7 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 *.itc.cn.w.cdngslb.com
 0.0.0.0 i1.hdslb.com
 0.0.0.0 s1.hdslb.com
 0.0.0.0 aaid.uyunad.com
