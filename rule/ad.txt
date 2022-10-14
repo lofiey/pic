@@ -3,6 +3,8 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 saveu5-normal-hl.zijieapi.com.c.dsa.cdnbuild.net
+0.0.0.0 l7-online-self-max-v6.s.dsa.cdnbuild.net
 0.0.0.0 e4094fc1d98c915a.ksyunad.com
 0.0.0.0 0yqwj67l.sched.dma-dk.tdnsdl1.cn
 0.0.0.0 0yqwj67l.sched.dma-dk.tdnsdl1.cn.cdl.cdn.hzyscdn.cn
