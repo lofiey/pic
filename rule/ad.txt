@@ -11,6 +11,14 @@
 127.0.0.1 bsync3-normal-lf.zijieapi.com
 127.0.0.1 v3-aweme-play-xigua.ixigua.com
 127.0.0.1 api5-normal-dsa.amemv.com
+127.0.0.1 ecom5-normal-lf.ecombdapi.com
+127.0.0.1 api26-normal-lf.amemv.com
+127.0.0.1 ecom3-normal-lf.ecombdapi.com
+127.0.0.1 saveu5-normal-lf.zijieapi.com
+127.0.0.1 api5-normal-c-lf.amemv.com
+127.0.0.1 api3-core-c-lf.amemv.com
+127.0.0.1 api3-normal-c-lf.amemv.com
+127.0.0.1 api5-core-c-lf.amemv.com
 0.0.0.0 bytedance-oss-beijing-wj-tos-cold-video.oss-enet.aliyuncs.com
 0.0.0.0 bytedance-oss-beijing-wj-tos-cold-video.line-isp-province.oss-enet.aliyuncs.com.gds.alibabadns.com
 0.0.0.0 p3-e-sign.douyinpic.com.w.kunluncan.com
