@@ -3,6 +3,11 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+127.0.0.1 api5-normal-dsa-hl.amemv.com
+127.0.0.1 api5-core-c-hl.amemv.com
+127.0.0.1 api3-core-c-hl.amemv.com
+127.0.0.1 api26-core-hl.amemv.com
+127.0.0.1 api3-normal-c-hl.amemv.com
 0.0.0.0 bytedance-oss-beijing-wj-tos-cold-video.oss-enet.aliyuncs.com
 0.0.0.0 bytedance-oss-beijing-wj-tos-cold-video.line-isp-province.oss-enet.aliyuncs.com.gds.alibabadns.com
 0.0.0.0 p3-e-sign.douyinpic.com.w.kunluncan.com
