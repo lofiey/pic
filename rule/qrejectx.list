@@ -15,6 +15,13 @@ host-suffix, api.poll.video.qq.com, reject
 host-suffix, static-res.qq.com, reject
 host-suffix, stat.tpns.tencent.com, reject
 host, h.trace.qq.com, reject
+
+host-suffix, v5-re-un80.douyinvod.com, reject
+host-suffix, p3-sign.douyinpic.com, reject
+host-suffix, p96-sign.douyinpic.com, reject
+host-suffix, p6-sign.douyinpic.com, reject
+host-suffix, p9-sign.douyinpic.com, reject
+host-suffix, p26-sign.douyinpic.com, reject
 host-suffix, p9-ad-sign.byteimg.com, reject
 host-suffix, p6-ad-sign.byteimg.com, reject
 # > 爱奇艺
