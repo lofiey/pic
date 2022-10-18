@@ -3,6 +3,7 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+127.0.0.1 v3-x.douyinvod.com.w.cdngslb.com
 127.0.0.1 v5-re-un80.douyinvod.com
 127.0.0.1 api5-normal-dsa-hl.amemv.com
 127.0.0.1 bsync3-normal-lf.zijieapi.com
