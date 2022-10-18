@@ -3,6 +3,8 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+127.0.0.1 ptlogin.qidian.com
+127.0.0.1 vb.yuewen.com
 127.0.0.1 v6-aweme-play-xigua.ixigua.com
 127.0.0.1 api-hl.amemv.com
 127.0.0.1 v3-x.douyinvod.com.w.cdngslb.com
