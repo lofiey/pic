@@ -11,6 +11,7 @@
 ||newplayable.mintegral.com^$important
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
+0.0.0.0 zx-dy-ahxccm01.xc.bjcjywkj.com
 0.0.0.0 v5-i-ntcm.douyinvod.com.yangyi19.com
 0.0.0.0 ttxyajs.data.kuiniuca.com
 0.0.0.0 *.data.kuiniuca.com
