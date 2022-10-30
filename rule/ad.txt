@@ -11,6 +11,7 @@
 ||newplayable.mintegral.com^$important
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
+0.0.0.0 data.kuiniuca.com
 0.0.0.0 tt.x.bsgslb.cn
 0.0.0.0 rm.api.weibo.com
 127.0.0.1 ptlogin.qidian.com
