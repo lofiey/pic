@@ -247,3 +247,24 @@
 0.0.0.0 v*-hon.douyinvod.com
 0.0.0.0 aweme.snssdk.com
 0.0.0.0 *.*.kuiniuca.com
+||images.sohu.com/bill/
+||cpro.baidustatic.com^
+||adv-sv-show.focus.cn^
+||sohu.com/adgtr/
+||qpb0.sohu.com^
+||d3.sina.com.cn^$object,script
+||sinaimg.cn/unipro/
+||sina.com.cn/litong/
+||g.163.com/*&affiliate=
+||nex.163.com/q?
+||img3.126.net^
+||api.live.bilibili.com/*/Banner
+||wwads.cn^$third-party
+||googlesyndication.com/pagead/
+/assets/sidebar/*$domain=v2ex.com
+/common/cf/*$image,object,domain=~bingfeng.tw|~dahuaiji.com
+||cnzz.com^$third-party
+||d1.sina.com.cn^$object,script
+||d2.sina.com.cn^$object,script
+||dup.baidustatic.com^
+||yt-adp.ws.126.net^
