@@ -268,3 +268,11 @@
 ||d2.sina.com.cn^$object,script
 ||dup.baidustatic.com^
 ||yt-adp.ws.126.net^
+||atm.youku.com^
+||miaozhen.com^$third-party
+||cibntv.net/youku/*.mp4?$media,redirect=noopmp4-1s,domain=v.youku.com,important
+||miaozhen.com^$third-party
+||atm.youku.com^
+||xtgreat.com^$third-party
+||miaozhen.com^$third-party
+||admaster.com.cn^$third-party
