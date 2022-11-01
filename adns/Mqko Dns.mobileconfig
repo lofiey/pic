@@ -14,7 +14,7 @@
 					<string>45.78.16.246</string>
 				</array>
 				<key>ServerURL</key>
-				<string> https://doq.dns.mqko.com/dns-query</string>
+				<string>https://doq.dns.mqko.com/dns-query</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use Adguard Default Encrypted DNS over HTTPS</string>
