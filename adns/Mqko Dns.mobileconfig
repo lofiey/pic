@@ -11,11 +11,10 @@
 				<string>HTTPS</string>
 				<key>ServerAddresses</key>
 				<array>
-					<string>94.140.14.49</string>
-					<string>94.140.14.59</string>
+					<string>45.78.16.246</string>
 				</array>
 				<key>ServerURL</key>
-				<string>https://9cbd8969.d.adguard-dns.com/dns-query</string>
+				<string> https://doq.dns.mqko.com/dns-query</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use Adguard Default Encrypted DNS over HTTPS</string>
