@@ -40,10 +40,7 @@
 0.0.0.0 v.smtcdns.com
 0.0.0.0 ocsp.dcocsp.cn.w.kunlunar.com
 0.0.0.0 *.itc.cn.w.cdngslb.com
-0.0.0.0 i1.hdslb.com
-0.0.0.0 s1.hdslb.com
 0.0.0.0 aaid.uyunad.com
-0.0.0.0 i2.hdslb.com
 0.0.0.0 qpb.sohu.com.cname209.yjs-cdn.com
 0.0.0.0 *.itc.cn.w.cdngslb.com
 0.0.0.0 *.cdn.sohucs.com.w.cdngslb.com
