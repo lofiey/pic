@@ -13,8 +13,6 @@
 ||live.chartboost.com^$important
 0.0.0.0 zx-dy-ahxccm01.xc.bjcjywkj.com
 0.0.0.0 v5-i-ntcm.douyinvod.com.yangyi19.com
-0.0.0.0 ttxyajs.data.kuiniuca.com
-0.0.0.0 *.data.kuiniuca.com
 0.0.0.0 data.kuiniuca.com
 0.0.0.0 tt.x.bsgslb.cn
 0.0.0.0 rm.api.weibo.com
@@ -169,9 +167,6 @@
 0.0.0.0 s3.pstatp.com.xi.zwtianshangm.com
 0.0.0.0 clientservices.googleapis.com
 0.0.0.0 app.adjust.com
-0.0.0.0 sdkxgxyajs.data.kuiniuca.com
-0.0.0.0 seeds-open.xycdn.com
-0.0.0.0 conf-darwin.xycdn.com
 0.0.0.0 p96-sign.douyinpic.com
 0.0.0.0 p6-sign.douyinpic.com
 0.0.0.0 p29-sign.douyinpic.com
@@ -179,7 +174,6 @@
 0.0.0.0 p9-sign.douyinpic.com
 0.0.0.0 p3-sign.douyinpic.com
 0.0.0.0 ssdkauth.hpplay.cn
-0.0.0.0 *.data.kuiniuca.com
 0.0.0.0 bytescm.com
 0.0.0.0 bytegecko.com
 0.0.0.0 tt.x.bsgslb.cn
@@ -217,7 +211,6 @@
 0.0.0.0 appcloud2.zhihu.com
 0.0.0.0 appcloud.zhihu.com
 0.0.0.0 h-adashx.ut.taobao.com
-0.0.0.0 kuiniuca.com
 0.0.0.0 pv.sohu.com
 0.0.0.0 vcs.snssdk.com
 0.0.0.0 global.stun.twilio.com
@@ -243,7 +236,6 @@
 0.0.0.0 connectivitycheck.gstatic.com
 0.0.0.0 v*-hon.douyinvod.com
 0.0.0.0 aweme.snssdk.com
-0.0.0.0 *.*.kuiniuca.com
 ||images.sohu.com/bill/
 ||cpro.baidustatic.com^
 ||adv-sv-show.focus.cn^
