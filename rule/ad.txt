@@ -12,7 +12,6 @@
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
 0.0.0.0 api5-normal-dsa-hl.amemv.com.c.dsa.cdnbuild.net
-0.0.0.0 l7-online-self-max-v6.s.dsa.cdnbuild.net
 0.0.0.0 ttxyajs.data.kuiniuca.com
 0.0.0.0 zx-dy-ahxccm01.xc.bjcjywkj.com
 0.0.0.0 v5-i-ntcm.douyinvod.com.yangyi19.com
