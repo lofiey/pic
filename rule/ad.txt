@@ -50,9 +50,7 @@
 0.0.0.0 *.itc.cn.w.cdngslb.com
 0.0.0.0 *.cdn.sohucs.com.w.cdngslb.com
 0.0.0.0 fpb.sohu.com.cname209.yjs-cdn.com
-0.0.0.0 opencdnbd.jomodns.com
 0.0.0.0 render-server.cdn.bcebos.com.a.bdydns.com
-0.0.0.0 opencdnsslv6.jomodns.com
 0.0.0.0 lupic.cdn.bcebos.com.a.bdydns.com
 0.0.0.0 qpb0.sohu.com.cname209.yjs-cdn.com
 0.0.0.0 fpb0.sohu.com.cname209.yjs-cdn.com
