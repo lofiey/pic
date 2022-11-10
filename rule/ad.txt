@@ -11,6 +11,7 @@
 ||newplayable.mintegral.com^$important
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
+0.0.0.0 datax.e.shifen.com
 0.0.0.0 ads-shopping.shouqianba.com
 0.0.0.0 ad.ofweek.com
 0.0.0.0 api5-normal-dsa-hl.amemv.com.c.dsa.cdnbuild.net
