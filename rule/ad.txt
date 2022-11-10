@@ -11,6 +11,8 @@
 ||newplayable.mintegral.com^$important
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
+0.0.0.0 apigateway-v6.iqiyi.com
+0.0.0.0 nielsen.iqiyi.com
 0.0.0.0 datax.e.shifen.com
 0.0.0.0 ads-shopping.shouqianba.com
 0.0.0.0 ad.ofweek.com
