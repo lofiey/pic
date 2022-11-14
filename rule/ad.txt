@@ -11,6 +11,8 @@
 ||newplayable.mintegral.com^$important
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
+0.0.0.0 gslb-gf-online.zhihu.com
+0.0.0.0 gslb-pek01.zhihu.com
 0.0.0.0 open.taou.com
 0.0.0.0 mqtt-internal-public.zhihu.com.dsa.dnsv1.com
 0.0.0.0 517ap08y.sched.d0-dk.tdnsdp1.cn
