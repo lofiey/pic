@@ -11,6 +11,15 @@
 ||newplayable.mintegral.com^$important
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
+0.0.0.0 open.taou.com
+0.0.0.0 mqtt-internal-public.zhihu.com.dsa.dnsv1.com
+0.0.0.0 517ap08y.sched.d0-dk.tdnsdp1.cn
+0.0.0.0 517ap08y.sched.d0-dk.tdnsdp1.cn.cjt.cdn.uyun-cdn.com
+0.0.0.0 h5.vedamobi.com^$important
+0.0.0.0 fms.ipinyou.com^$important
+0.0.0.0 statuse.digitalcertvalidation.com^$important
+0.0.0.0 picx.zhimg.com^$important
+0.0.0.0 picd.zhimg.com^$important
 0.0.0.0 qc.bsccdn.net
 0.0.0.0 apigateway-v6.iqiyi.com
 0.0.0.0 nielsen.iqiyi.com
