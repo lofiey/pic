@@ -11,6 +11,7 @@
 ||newplayable.mintegral.com^$important
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
+0.0.0.0 picx1.zhimg.com
 0.0.0.0 local.sched.v1lego-dk.tdnsvod1.cn
 0.0.0.0 local.sched.v1lego-dk.tdnsvod1.cn.cvod.fs.fclouddns.ne
 0.0.0.0 volcsiriusbd.com
