@@ -246,7 +246,6 @@
 0.0.0.0 im-x.jd.com
 0.0.0.0 lf3-static.bytednsdoc.com.w.alikunlun.com
 0.0.0.0 lf3-static.bytednsdoc.com
-0.0.0.0 i.snssdk.com
 0.0.0.0 lf6-cdn-tos.bytegoofy.com
 0.0.0.0 v9-ipv6.douyinvod.com
 0.0.0.0 dig.bdurl.net
