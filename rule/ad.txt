@@ -337,7 +337,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 ||bdstatic.com/tb/img/firework_
 ||bdstatic.com/tb/static-common/js/pic_share/logger.js
 ||bdstatic.com/tb/static-pb/img/voice_ad.gif
-! iTieba & Homepage
 jump.bdimg.com,tieba.baidu.com###adide_platform
 jump.bdimg.com,tieba.baidu.com###media_item
 jump.bdimg.com,tieba.baidu.com###spage_game_tab_wrapper
@@ -347,7 +346,6 @@ jump.bdimg.com,tieba.baidu.com##.ihome_aside_section[j-mygift]
 jump.bdimg.com,tieba.baidu.com##.ihome_game_group
 jump.bdimg.com,tieba.baidu.com##.member_rank
 jump.bdimg.com,tieba.baidu.com##.userinfo_scores
-! Top Right
 jump.bdimg.com,tieba.baidu.com##.fMember_cnt
 jump.bdimg.com,tieba.baidu.com##.split
 jump.bdimg.com,tieba.baidu.com##.u_app
@@ -363,7 +361,6 @@ jump.bdimg.com,tieba.baidu.com##.u_menu_tbmall
 jump.bdimg.com,tieba.baidu.com##.u_mytbmall
 jump.bdimg.com,tieba.baidu.com##.u_xiu8
 jump.bdimg.com,tieba.baidu.com##.u_wallet
-! Top
 jump.bdimg.com,tieba.baidu.com###local_board
 jump.bdimg.com,tieba.baidu.com###j_navtab_wanle
 jump.bdimg.com,tieba.baidu.com###j_navtab_game
@@ -374,7 +371,6 @@ jump.bdimg.com,tieba.baidu.com##.star_nav_ico_activity
 jump.bdimg.com,tieba.baidu.com##.star_nav_ico_deal
 jump.bdimg.com,tieba.baidu.com##.star_nav_ico_group
 jump.bdimg.com,tieba.baidu.com##.star_nav_ico_tuan
-! Sides
 jump.bdimg.com,tieba.baidu.com###aside_ad
 jump.bdimg.com,tieba.baidu.com###aside_ad_wrapper
 jump.bdimg.com,tieba.baidu.com###novel-ranking
@@ -392,7 +388,6 @@ jump.bdimg.com,tieba.baidu.com##.tbui_fbar_bazhu
 jump.bdimg.com,tieba.baidu.com##.tbui_fbar_props
 jump.bdimg.com,tieba.baidu.com##.tieba_notice
 jump.bdimg.com,tieba.baidu.com##.user_score
-! Central
 jump.bdimg.com,tieba.baidu.com###top_activity
 jump.bdimg.com,tieba.baidu.com##.achievement_medal_wrapper
 jump.bdimg.com,tieba.baidu.com##.card_userinfo_honor
@@ -442,39 +437,22 @@ m.iqiyi.com##+js(set, Object.prototype.adPlayerId, '')
 ||iqiyi.com/videos/other/202$xmlhttprequest
 ||71edge.com/videos/other/202$xmlhttprequest
 ||iqiyipic.com/image/20*_100000$image
-apisgame.iqiyi.com
-static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
 ||ssports.iqiyi.com/app/$media,object-subrequest
-show.ssports.com
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
 qq.com#@#+js(nowebrtc)
 qq.com##+js(json-prune,adList.item)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 !qq.com##+js(aopr, Beacon.prototype.fail)
-@@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
-cm.l.qq.com
 ||l.qq.com/lview?
 ||l.qq.com/livemsg?
 ||mark.l.qq.com/fcgi-bin/get_video_mark_all?
 ||gtimg.com/qqlive/
 ||qzonestyle.gtimg.cn/qzone/biz/ac/comm/$script
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
-!||ssp.qq.com/static/web/websites/pcnewsplugin/sspad_$script
-new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 ||news.ssp.qq.com/app
-miaozhen.com
-reachmax.cn
-scorecardresearch.com
-tencentmind.com
-xtgreat.com
-@@||g.w.bilicdn1.com/$script,domain=bilibili.com
-bilibili.com##.ad-report, .ad-floor
-bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||hdslb.com/bfs/sycp/creative_img/$image
-cm.bilibili.com
-web-player-tracker.biliapi.net
 ||m.reachmax.cn^$important
 ||imp.ad.xelements.cn^$important
 ||alicoccdncmnet-hd2.inter.71edge.com^$important
