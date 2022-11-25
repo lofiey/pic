@@ -11,6 +11,8 @@
 ||newplayable.mintegral.com^$important
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
+0.0.0.0 sjb5-act-lf.byteactivity.com.c.dsa.cdnbuild.net
+0.0.0.0 l7-online-self-max.s.dsa.cdnbuild.net
 0.0.0.0 3c1w7cb7.sched.vip-dk.tdnsvod1.cn
 0.0.0.0 api.zhihu.com
 0.0.0.0 pica.zhimg.com
