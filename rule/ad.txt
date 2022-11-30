@@ -210,7 +210,6 @@
 0.0.0.0 httpdns.c.cdnhwc2.com
 0.0.0.0 vdn.vzuu.com
 0.0.0.0 api.ydl.com
-0.0.0.0 api.weibo.cn
 0.0.0.0 toblog.volceapplog.com
 0.0.0.0 abtest.volceapplog.com
 0.0.0.0 sv.cdn.n1q.cn
@@ -232,7 +231,6 @@
 0.0.0.0 unpkg.zhimg.com
 0.0.0.0 pkg1.zhimg.com
 0.0.0.0 pkg.zhimg.com
-0.0.0.0 api.weibo.com
 0.0.0.0 appcloud2.zhihu.com
 0.0.0.0 appcloud.zhihu.com
 0.0.0.0 h-adashx.ut.taobao.com
