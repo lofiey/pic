@@ -44,7 +44,6 @@
 0.0.0.0 v5-i-ntcm.douyinvod.com.yangyi19.com
 0.0.0.0 data.kuiniuca.com
 0.0.0.0 tt.x.bsgslb.cn
-0.0.0.0 rm.api.weibo.com
 127.0.0.1 ptlogin.qidian.com
 127.0.0.1 vb.yuewen.com
 127.0.0.1 v6-aweme-play-xigua.ixigua.com
