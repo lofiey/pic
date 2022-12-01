@@ -14,7 +14,6 @@
 0.0.0.0 sjb5-act-lf.byteactivity.com.c.dsa.cdnbuild.net
 0.0.0.0 3c1w7cb7.sched.vip-dk.tdnsvod1.cn
 0.0.0.0 api.zhihu.com
-0.0.0.0 app-measurement.com
 0.0.0.0 pica.zhimg.com
 0.0.0.0 ymjs.adutp.com
 0.0.0.0 picx1.zhimg.com
