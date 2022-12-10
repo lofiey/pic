@@ -270,8 +270,6 @@
 ||d3.sina.com.cn^$object,script
 ||sinaimg.cn/unipro/
 ||sina.com.cn/litong/
-||g.163.com/*&affiliate=
-||nex.163.com/q?
 ||api.live.bilibili.com/*/Banner
 ||wwads.cn^$third-party
 ||googlesyndication.com/pagead/
