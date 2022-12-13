@@ -280,7 +280,6 @@
 ||d1.sina.com.cn^$object,script
 ||d2.sina.com.cn^$object,script
 ||dup.baidustatic.com^
-||yt-adp.ws.126.net^
 ||atm.youku.com^
 ||miaozhen.com^$third-party
 ||cibntv.net/youku/*.mp4?$media,redirect=noopmp4-1s,domain=v.youku.com,important
@@ -448,8 +447,6 @@ qq.com##+js(json-prune,adList.item)
 ||l.qq.com/livemsg?
 ||mark.l.qq.com/fcgi-bin/get_video_mark_all?
 ||gtimg.com/qqlive/
-||qzonestyle.gtimg.cn/qzone/biz/ac/comm/$script
-|https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
 ||news.ssp.qq.com/app
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||hdslb.com/bfs/sycp/creative_img/$image
