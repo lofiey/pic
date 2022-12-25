@@ -12,6 +12,8 @@
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
 ||example.com^
+0.0.0.0 *.awemeughun.com
+0.0.0.0 *.m.ctrmi.cn
 0.0.0.0 ourdvsss.com
 0.0.0.0 volcsiriusbd.com
 0.0.0.0 byteactivity.com
