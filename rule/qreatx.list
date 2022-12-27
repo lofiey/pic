@@ -17,6 +17,12 @@ host-suffix, t66y.com
 host-suffix, ltn.com.tw
 host-suffix, goo.gl
 host-suffix, doppiocdn.com
+host-suffix, cdn.plyr.io, proxy
+host-suffix, njav.tv, proxy
+host-suffix, static.javcdn.info, proxy
+host-suffix, enrichyummy.com, proxy
+host-suffix, javplayer.me, proxy
+host-suffix, thedayweplay.lol, proxy
 host-suffix, stripst.com
 host-suffix, sc-apps.com
 host-suffix, stripchat.com
