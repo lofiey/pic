@@ -12,6 +12,9 @@
 ||ssp-events.chartboost.com^$important
 ||live.chartboost.com^$important
 ||example.com^
+0.0.0.0 apm.zhihu.com
+0.0.0.0 duga.zhihu.com
+0.0.0.0 datahub.zhihu.com
 0.0.0.0 opencdnzhihustatic.jomodns.com
 0.0.0.0 shark-tracer.netease.com
 0.0.0.0 *.awemeughun.com
