@@ -7,6 +7,10 @@ HOST,appcloud2.in.zhihu.com,REJECT
 HOST,mqtt.zhihu.com,reject
 HOST,sugar.zhihu.com,reject
 USER-AGENT,AVOS*,REJECT
+host-suffix, zhihu-web-analytics.zhihu.com, reject
+host-suffix, open.kuaishouzt.com, reject
+host-suffix, httpdns.kwd.inkuai.com, reject
+host-suffix, ulogs.umeng.com, reject
 # > 腾讯视频
 host-suffix, tetrack.qq.com, reject
 host-suffix, tpns.tencent.com, reject
