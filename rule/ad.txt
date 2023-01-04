@@ -13,6 +13,7 @@
 ||live.chartboost.com^$important
 ||example.com^
 ! Block splash
+||app-measurement.com^
 ||test.com^
 ||api.zhihu.com/commercial_api/launch_v2^
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
