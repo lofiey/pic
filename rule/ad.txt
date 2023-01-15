@@ -48,7 +48,6 @@
 0.0.0.0 duga.zhihu.com
 0.0.0.0 datahub.zhihu.com
 0.0.0.0 opencdnzhihustatic.jomodns.com
-0.0.0.0 shark-tracer.netease.com
 0.0.0.0 *.awemeughun.com
 0.0.0.0 *.m.ctrmi.cn
 0.0.0.0 ourdvsss.com
@@ -248,9 +247,6 @@
 0.0.0.0 bytegecko.com
 0.0.0.0 tt.x.bsgslb.cn
 0.0.0.0 m.baike.com
-0.0.0.0 probe.twitter.com
-0.0.0.0 pbs.twimg.com
-0.0.0.0 abs.twimg.com
 0.0.0.0 httpdns.kwd.inkuai.com
 0.0.0.0 httpdns.c.cdnhwc2.com
 0.0.0.0 vdn.vzuu.com
