@@ -2,15 +2,9 @@ host-suffix, appcloud2.in.zhihu.com,REJECT
 host-suffix, mqtt.zhihu.com,reject
 host-suffix, sugar.zhihu.com,reject
 host-suffix, zhihu-web-analytics.zhihu.com, reject
-host-suffix, open.kuaishouzt.com, reject
 host-suffix, httpdns.kwd.inkuai.com, reject
 host-suffix, ulogs.umeng.com, reject
 # > 腾讯视频
-host-suffix, tetrack.qq.com, reject
-host-suffix, tpns.tencent.com, reject
-host-suffix, api.poll.video.qq.com, reject
-host-suffix, static-res.qq.com, reject
-host-suffix, stat.tpns.tencent.com, reject
 host-suffix, v5-re-un80.douyinvod.com, reject
 host-suffix, p3-sign.douyinpic.com, reject
 host-suffix, p96-sign.douyinpic.com, reject
@@ -22,9 +16,6 @@ host-suffix, p6-ad-sign.byteimg.com, reject
 # > 爱奇艺
 host-suffix, cr-status.iqiyi.com, reject
 host-suffix, cupid.iqiyi.com, reject
-host-suffix, f74f7f7765f8a2f6.ngaa.net.cn, reject
-host-suffix, ef-dongfeng.tanx.com, reject
 host-suffix, iqiyim.adtrack.enlightent.cn, reject
-host-suffix, dig.bdurl.net, reject
 host-suffix, ads3-normal-lq.zijieapi.com, reject
 host-suffix, ads5-normal-lq.zijieapi.com, reject
