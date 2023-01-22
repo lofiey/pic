@@ -42,7 +42,6 @@
 0.0.0.0 vdn6.vzuu.com
 0.0.0.0 vdn6-1.vzuu.com
 0.0.0.0 unicom.zhimg.com
-0.0.0.0 e589fa51.zhihu.com.dsa.dnsv1.com
 0.0.0.0 j1hqc7ee.sched.d0-dk.tdnsdp1.cn
 0.0.0.0 apm.zhihu.com
 0.0.0.0 duga.zhihu.com
