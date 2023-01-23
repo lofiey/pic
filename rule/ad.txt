@@ -3,14 +3,6 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
-||cdn.chinaliftoff-creatives.io^$important
-||impression-east.chinaliftoff.io^$important
-||adexp.chinaliftoff.io^$important
-||click.chinaliftoff.io^$important
-||assets.mintegral.com^$important
-||newplayable.mintegral.com^$important
-||ssp-events.chartboost.com^$important
-||live.chartboost.com^$important
 ||example.com^
 ! Block splash
 ||app-measurement.com^
