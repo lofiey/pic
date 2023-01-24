@@ -28,7 +28,6 @@
 ! Block vip prompt in self-page
 ||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
 ! Unblock search url 
-@@||www.zhihu.com/api/v4/search_v3*
 0.0.0.0 vdn5-1.vzuu.com
 0.0.0.0 vdn5.vzuu.com
 0.0.0.0 vdn6.vzuu.com
@@ -38,7 +37,6 @@
 0.0.0.0 apm.zhihu.com
 0.0.0.0 duga.zhihu.com
 0.0.0.0 datahub.zhihu.com
-0.0.0.0 opencdnzhihustatic.jomodns.com
 0.0.0.0 *.awemeughun.com
 0.0.0.0 *.m.ctrmi.cn
 0.0.0.0 ourdvsss.com
@@ -60,22 +58,13 @@
 0.0.0.0 gslb-pek01.zhihu.com
 0.0.0.0 open.taou.com
 0.0.0.0 mqtt-internal-public.zhihu.com.dsa.dnsv1.com
-0.0.0.0 517ap08y.sched.d0-dk.tdnsdp1.cn
-0.0.0.0 517ap08y.sched.d0-dk.tdnsdp1.cn.cjt.cdn.uyun-cdn.com
-0.0.0.0 h5.vedamobi.com
-0.0.0.0 fms.ipinyou.com
-0.0.0.0 statuse.digitalcertvalidation.com
 0.0.0.0 picx.zhimg.com
 0.0.0.0 picd.zhimg.com
-0.0.0.0 qc.bsccdn.net
 0.0.0.0 apigateway-v6.iqiyi.com
-0.0.0.0 nielsen.iqiyi.com
-0.0.0.0 datax.e.shifen.com
 0.0.0.0 ads-shopping.shouqianba.com
 0.0.0.0 ad.ofweek.com
 0.0.0.0 api5-normal-dsa-hl.amemv.com.c.dsa.cdnbuild.net
 0.0.0.0 ttxyajs.data.kuiniuca.com
-0.0.0.0 zx-dy-ahxccm01.xc.bjcjywkj.com
 0.0.0.0 v5-i-ntcm.douyinvod.com.yangyi19.com
 0.0.0.0 data.kuiniuca.com
 0.0.0.0 tt.x.bsgslb.cn
@@ -107,7 +96,6 @@
 0.0.0.0 cpro.baidustatic.com
 127.0.0.1 best.sched.skalego-dk.tdnsstic1.cn.cjt.scz.easticloud.com
 127.0.0.1 best.sched.skalego-dk.tdnsstic1.cn
-0.0.0.0 i.gridsumdissector.com
 0.0.0.0 *.cdn.sohucs.com.w.cdngslb.com
 127.0.0.1 *.cdn.sohucs.com.w.cdngslb.com
 0.0.0.0 eclick.baidu.com
@@ -197,8 +185,6 @@
 0.0.0.0 v3-cold1.douyinvod.com.w.kunluncan.com
 0.0.0.0 v3-cold3.douyinvod.com.w.kunluncan.com
 0.0.0.0 v99-coldx.douyinvod.com.bytedns1.com
-0.0.0.0 v99-coldx.douyinvod.com.cdn.chinamobile.com
-0.0.0.0 v99-coldx.douyinvod.com.c.cdn.chinamobile.com
 0.0.0.0 growth.ecombdapi.com
 0.0.0.0 p96-ad-sign.byteimg.com
 0.0.0.0 p29-ad-sign.byteimg.com
@@ -240,7 +226,6 @@
 0.0.0.0 pv.sohu.com
 0.0.0.0 vcs.snssdk.com
 0.0.0.0 app.adjust.net.in
-0.0.0.0 athena-api.oceanengine.com
 0.0.0.0 im-x.jd.com
 0.0.0.0 lf3-static.bytednsdoc.com.w.alikunlun.com
 0.0.0.0 lf3-static.bytednsdoc.com
