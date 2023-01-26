@@ -5,6 +5,13 @@
 ||xp.apple.com^$important
 0.0.0.0 example.com
 ! Block splash
+0.0.0.0 rtbasia.datahubtrack.com
+0.0.0.0 ocsp.sca1b.amazontrust.com
+0.0.0.0 pig.pupuapi.com
+0.0.0.0 apps.mzstatic.com
+0.0.0.0 sf3-be-pack.pglstatp-toutiao.com
+0.0.0.0 p6-addone.byteimg.com
+0.0.0.0 lf3-short.bytegoofy.com
 0.0.0.0 lf3-short.ibytedapm.com.w.kunluncan.com
 0.0.0.0 lf3-short.ibytedapm.com.queniusy.com
 0.0.0.0 p6-webcast.douyinpic.com.download.ks-cdn.com
