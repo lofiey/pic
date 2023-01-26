@@ -5,7 +5,10 @@
 ||xp.apple.com^$important
 ||example.com^
 ! Block splash
-||app-measurement.com^
+0.0.0.0 app-measurement.com
+0.0.0.0 *.volcsiriusbd.com
+0.0.0.0 vc-brain.ndcpp.com
+0.0.0.0 i.gridsumdissector.com
 0.0.0.0 v11-x.douyinvod.com.cdn.dnsv1.com
 0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn
 0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn.cvod.jmcity.toufu321.com
@@ -15,7 +18,7 @@
 0.0.0.0 dy-vod-h.bytegslb.com
 0.0.0.0 v5-f-tzcm.douyinvod.com.yangyi19.com
 0.0.0.0 v5-j-ntcm.douyinvod.com.yangyi19.com
-||test.com^
+0.0.0.0 test.com
 ||api.zhihu.com/commercial_api/launch_v2^
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
 ! Block xj8 request
