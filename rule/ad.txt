@@ -3,8 +3,12 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
-||example.com^
+0.0.0.0 example.com
 ! Block splash
+0.0.0.0 p6-webcast.douyinpic.com.download.ks-cdn.com
+0.0.0.0 p2-v6-ml.gslb.ksyuncdn.com
+0.0.0.0 p3-webcast.douyinpic.com.w.alikunlun.com
+0.0.0.0 p3-webcast.douyinpic.com.queniuuf.com
 0.0.0.0 app-measurement.com
 0.0.0.0 *.volcsiriusbd.com
 0.0.0.0 vc-brain.ndcpp.com
