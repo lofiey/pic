@@ -5,6 +5,11 @@
 ||xp.apple.com^$important
 0.0.0.0 example.com
 ! Block splash
+0.0.0.0 api5-normal-dsa.amemv.com
+0.0.0.0 s3.pstatp.com
+0.0.0.0 athena-api.oceanengine.com
+0.0.0.0 mon.zijieapi.com
+0.0.0.0 v5-coldg.douyinvod.com
 0.0.0.0 rtbasia.datahubtrack.com
 0.0.0.0 ocsp.sca1b.amazontrust.com
 0.0.0.0 pig.pupuapi.com
