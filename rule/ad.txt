@@ -6,6 +6,10 @@
 ||example.com^
 ! Block splash
 ||app-measurement.com^
+0.0.0.0 v11-x.douyinvod.com.cdn.dnsv1.com
+0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn
+0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn.cvod.jmcity.toufu321.com
+0.0.0.0 adim.pinduoduo.com
 0.0.0.0 p9-starfe-sign.xingtu.cn.bsgslb.com
 0.0.0.0 uz91.v.bsgslb.com
 0.0.0.0 dy-vod-h.bytegslb.com
