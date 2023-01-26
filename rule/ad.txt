@@ -6,6 +6,8 @@
 ||example.com^
 ! Block splash
 ||app-measurement.com^
+0.0.0.0 p9-starfe-sign.xingtu.cn.bsgslb.com
+0.0.0.0 uz91.v.bsgslb.com
 0.0.0.0 dy-vod-h.bytegslb.com
 0.0.0.0 v5-f-tzcm.douyinvod.com.yangyi19.com
 0.0.0.0 v5-j-ntcm.douyinvod.com.yangyi19.com
