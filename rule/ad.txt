@@ -11,6 +11,7 @@
 0.0.0.0 p3-webcast.douyinpic.com.queniuuf.com
 0.0.0.0 app-measurement.com
 0.0.0.0 *.volcsiriusbd.com
+0.0.0.0 volcsiriusbd.com
 0.0.0.0 vc-brain.ndcpp.com
 0.0.0.0 i.gridsumdissector.com
 0.0.0.0 v11-x.douyinvod.com.cdn.dnsv1.com
