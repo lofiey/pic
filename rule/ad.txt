@@ -11,9 +11,7 @@
 0.0.0.0 mon.zijieapi.com
 0.0.0.0 v5-coldg.douyinvod.com
 0.0.0.0 rtbasia.datahubtrack.com
-0.0.0.0 ocsp.sca1b.amazontrust.com
 0.0.0.0 pig.pupuapi.com
-0.0.0.0 apps.mzstatic.com
 0.0.0.0 sf3-be-pack.pglstatp-toutiao.com
 0.0.0.0 p6-addone.byteimg.com
 0.0.0.0 lf3-short.bytegoofy.com
