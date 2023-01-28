@@ -5,6 +5,7 @@
 ||xp.apple.com^$important
 0.0.0.0 example.com
 ! Block splash
+0.0.0.0 ecombdapi.com
 0.0.0.0 b.hon.cc.cdnhwc8.com
 0.0.0.0 sf6-cdn-tos.douyinstatic.com
 0.0.0.0 is.snssdk.com
