@@ -4,7 +4,6 @@
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 ! Block splash
-0.0.0.0 v26.douyinvod.com
 0.0.0.0 v6-x.douyinvod.com
 0.0.0.0 seeds-open.xycdn.com
 0.0.0.0 v99-coldx.douyinvod.com
@@ -20,8 +19,6 @@
 0.0.0.0 v3-cha.douyinvod.com.w.alikunlun.com
 0.0.0.0 v3-cha.douyinvod.com.queniusy.com
 0.0.0.0 ecombdapi.com
-0.0.0.0 b.hon.cc.cdnhwc8.com
-0.0.0.0 sf6-cdn-tos.douyinstatic.com
 0.0.0.0 is.snssdk.com
 0.0.0.0 v3-dy.ixigua.com
 0.0.0.0 v3-cold-src.douyinvod.com
