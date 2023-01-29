@@ -27,7 +27,6 @@
 0.0.0.0 p2-v6-ml.gslb.ksyuncdn.com
 0.0.0.0 p3-webcast.douyinpic.com.w.alikunlun.com
 0.0.0.0 p3-webcast.douyinpic.com.queniuuf.com
-0.0.0.0 app-measurement.com
 0.0.0.0 *.volcsiriusbd.com
 0.0.0.0 volcsiriusbd.com
 0.0.0.0 vc-brain.ndcpp.com
@@ -41,7 +40,6 @@
 0.0.0.0 dy-vod-h.bytegslb.com
 0.0.0.0 v5-f-tzcm.douyinvod.com.yangyi19.com
 0.0.0.0 v5-j-ntcm.douyinvod.com.yangyi19.com
-0.0.0.0 test.com
 ||api.zhihu.com/commercial_api/launch_v2^
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
 ! Block xj8 request
