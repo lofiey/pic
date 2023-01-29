@@ -4,6 +4,10 @@
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 ! Block splash
+0.0.0.0 v6-cha.douyinvod.com.download.ks-cdn.com
+0.0.0.0 k2-dy-ipv6-ml.gslb.ksyuncdn.com
+0.0.0.0 v9-cha.douyinvod.com.bsgslb.com
+0.0.0.0 zttvi.v.bsgslb.com
 0.0.0.0 v5-h-ntcm.douyinvod.com.yangyi19.com
 0.0.0.0 dy-vod-ntcm.cdnnew.cdnczydwl.com
 0.0.0.0 v3-cha.douyinvod.com.w.alikunlun.com
