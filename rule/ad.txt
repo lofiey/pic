@@ -10,9 +10,6 @@
 0.0.0.0 v6-cold1.douyinvod.com
 0.0.0.0 v6-cold1.douyinvod.com
 0.0.0.0 k2-dy-ipv6-ml.gslb.ksyuncdn.com
-0.0.0.0 v9-cha.douyinvod.com.bsgslb.com
-0.0.0.0 v3-cha.douyinvod.com.w.alikunlun.com
-0.0.0.0 v3-cha.douyinvod.com.queniusy.com
 0.0.0.0 ecombdapi.com
 0.0.0.0 is.snssdk.com
 0.0.0.0 v3-dy.ixigua.com
@@ -22,13 +19,7 @@
 0.0.0.0 athena-api.oceanengine.com
 0.0.0.0 mon.zijieapi.com
 0.0.0.0 v5-coldg.douyinvod.com
-0.0.0.0 rtbasia.datahubtrack.com
-0.0.0.0 pig.pupuapi.com
 0.0.0.0 sf3-be-pack.pglstatp-toutiao.com
-0.0.0.0 p6-addone.byteimg.com
-0.0.0.0 lf3-short.bytegoofy.com
-0.0.0.0 lf3-short.ibytedapm.com.w.kunluncan.com
-0.0.0.0 lf3-short.ibytedapm.com.queniusy.com
 0.0.0.0 p6-webcast.douyinpic.com.download.ks-cdn.com
 0.0.0.0 p2-v6-ml.gslb.ksyuncdn.com
 0.0.0.0 p3-webcast.douyinpic.com.w.alikunlun.com
@@ -40,10 +31,6 @@
 0.0.0.0 v11-x.douyinvod.com.cdn.dnsv1.com
 0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn
 0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn.cvod.jmcity.toufu321.com
-0.0.0.0 adim.pinduoduo.com
-0.0.0.0 p9-starfe-sign.xingtu.cn.bsgslb.com
-0.0.0.0 uz91.v.bsgslb.com
-0.0.0.0 dy-vod-h.bytegslb.com
 0.0.0.0 v5-f-tzcm.douyinvod.com.yangyi19.com
 0.0.0.0 v5-j-ntcm.douyinvod.com.yangyi19.com
 ||api.zhihu.com/commercial_api/launch_v2^
