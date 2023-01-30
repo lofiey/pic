@@ -9,7 +9,6 @@
 0.0.0.0 v11-x.douyinvod.com
 0.0.0.0 v6-cold1.douyinvod.com
 0.0.0.0 v6-cold1.douyinvod.com
-0.0.0.0 k2-dy-ipv6-ml.gslb.ksyuncdn.com
 0.0.0.0 ecombdapi.com
 0.0.0.0 is.snssdk.com
 0.0.0.0 v3-dy.ixigua.com
@@ -20,10 +19,6 @@
 0.0.0.0 mon.zijieapi.com
 0.0.0.0 v5-coldg.douyinvod.com
 0.0.0.0 sf3-be-pack.pglstatp-toutiao.com
-0.0.0.0 p6-webcast.douyinpic.com.download.ks-cdn.com
-0.0.0.0 p2-v6-ml.gslb.ksyuncdn.com
-0.0.0.0 p3-webcast.douyinpic.com.w.alikunlun.com
-0.0.0.0 p3-webcast.douyinpic.com.queniuuf.com
 0.0.0.0 *.volcsiriusbd.com
 0.0.0.0 volcsiriusbd.com
 0.0.0.0 vc-brain.ndcpp.com
