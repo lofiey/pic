@@ -20,3 +20,4 @@ host-suffix, cupid.iqiyi.com, reject
 host-suffix, iqiyim.adtrack.enlightent.cn, reject
 host-suffix, ads3-normal-lq.zijieapi.com, reject
 host-suffix, ads5-normal-lq.zijieapi.com, reject
+host-suffix, app.adjust.com, reject
