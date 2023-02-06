@@ -1,5 +1,6 @@
 # Block iOS Update
 ||mesu.apple.com^$important
+||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 ! Block splash
