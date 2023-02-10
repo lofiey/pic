@@ -29,24 +29,6 @@
 0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn.cvod.jmcity.toufu321.com
 0.0.0.0 v5-f-tzcm.douyinvod.com.yangyi19.com
 0.0.0.0 v5-j-ntcm.douyinvod.com.yangyi19.com
-||api.zhihu.com/commercial_api/launch_v2^
-||api.zhihu.com/commercial_api/real_time_launch_v2^
-! Block xj8 request
-|api.zhihu.com/ad-style-service/request
-|api.zhihu.com/fringe/ad
-! Block ads below the answer
-||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
-! Block ads in comment
-||api.zhihu.com/answers/*/comments/featured-comment-ad
-! Block ads in timeline
-||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
-! Block ads in recommand
-||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
-! Block ads in answers
-||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
-! Block vip prompt in self-page
-||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
-! Unblock search url 
 0.0.0.0 vdn5-1.vzuu.com
 0.0.0.0 vdn5.vzuu.com
 0.0.0.0 vdn6.vzuu.com
