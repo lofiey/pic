@@ -4,6 +4,7 @@
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 ! Block splash
+0.0.0.0 conf-darwin.xycdn.com
 0.0.0.0 api.fast.com
 0.0.0.0 free-lbv6.idouyinvod.com
 0.0.0.0 v6-x.douyinvod.com
