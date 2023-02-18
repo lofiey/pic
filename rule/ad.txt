@@ -4,6 +4,7 @@
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 ! Block splash
+0.0.0.0 lf-cdn-tos.bytescm.com
 0.0.0.0 p26-item.ecombdimg.com
 0.0.0.0 conf-darwin.xycdn.com
 0.0.0.0 api.fast.com
