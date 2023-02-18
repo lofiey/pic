@@ -4,6 +4,9 @@
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 ! Block splash
+0.0.0.0 seeds-open.xycdn.com
+0.0.0.0 v6-cha.douyinvod.com
+0.0.0.0 v9-cha.douyinvod.com
 0.0.0.0 lf-cdn-tos.bytescm.com
 0.0.0.0 p26-item.ecombdimg.com
 0.0.0.0 conf-darwin.xycdn.com
