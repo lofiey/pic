@@ -3,7 +3,6 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
-! Block splash
 0.0.0.0 seeds-open.xycdn.com
 0.0.0.0 v6-cha.douyinvod.com
 0.0.0.0 v9-cha.douyinvod.com
@@ -18,7 +17,6 @@
 0.0.0.0 v6-cold1.douyinvod.com
 0.0.0.0 v6-cold1.douyinvod.com
 0.0.0.0 ecombdapi.com
-0.0.0.0 is.snssdk.com
 0.0.0.0 v3-dy.ixigua.com
 0.0.0.0 v3-cold-src.douyinvod.com
 0.0.0.0 api5-normal-dsa.amemv.com
@@ -250,4 +248,3 @@
 0.0.0.0 pitaya.bytedance.com
 0.0.0.0 connectivitycheck.gstatic.com
 0.0.0.0 v*-hon.douyinvod.com
-0.0.0.0 aweme.snssdk.com
