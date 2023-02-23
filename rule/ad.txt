@@ -59,7 +59,6 @@
 0.0.0.0 local.sched.v1lego-dk.tdnsvod1.cn.cvod.fs.fclouddns.ne
 0.0.0.0 volcsiriusbd.com
 0.0.0.0 qc.bsccdn.net
-0.0.0.0 gslb-gf-online.zhihu.com
 0.0.0.0 gslb-pek01.zhihu.com
 0.0.0.0 open.taou.com
 0.0.0.0 mqtt-internal-public.zhihu.com.dsa.dnsv1.com
