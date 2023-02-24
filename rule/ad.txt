@@ -3,6 +3,12 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 wxsnsdythumb.wxs.qq.com
+0.0.0.0 wxa.wxs.qq.com
+0.0.0.0 finderdsp.video.qq.com
+0.0.0.0 finderd1p.video.qq.com
+0.0.0.0 finderqv.video.qq.com
+0.0.0.0 finderv1.video.qq.com
 0.0.0.0 seeds-open.xycdn.com
 0.0.0.0 v6-cha.douyinvod.com
 0.0.0.0 v9-cha.douyinvod.com
