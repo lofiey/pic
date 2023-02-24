@@ -3,6 +3,8 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 lf-webcast-gr-sourcecdn.bytegecko.com
+0.0.0.0 pull-lls-l11.douyincdn.com
 0.0.0.0 p26-webcast.douyinpic.com
 0.0.0.0 p9-webcast.douyinpic.com
 0.0.0.0 p6-webcast.douyinpic.com
