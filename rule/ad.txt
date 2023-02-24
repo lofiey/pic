@@ -3,6 +3,7 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 p3-webcast.douyinpic.com
 0.0.0.0 wxsnsdythumb.wxs.qq.com
 0.0.0.0 wxa.wxs.qq.com
 0.0.0.0 finderad.video.qq.com
