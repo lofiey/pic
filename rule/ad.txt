@@ -5,6 +5,7 @@
 ||xp.apple.com^$important
 0.0.0.0 wxsnsdythumb.wxs.qq.com
 0.0.0.0 wxa.wxs.qq.com
+0.0.0.0 finderad.video.qq.com
 0.0.0.0 finderdsp.video.qq.com
 0.0.0.0 finderd1p.video.qq.com
 0.0.0.0 finderqv.video.qq.com
