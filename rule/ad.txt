@@ -3,6 +3,9 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 p26-webcast.douyinpic.com
+0.0.0.0 p9-webcast.douyinpic.com
+0.0.0.0 p6-webcast.douyinpic.com
 0.0.0.0 p3-webcast.douyinpic.com
 0.0.0.0 wxsnsdythumb.wxs.qq.com
 0.0.0.0 wxa.wxs.qq.com
