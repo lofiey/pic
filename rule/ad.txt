@@ -256,7 +256,6 @@ show.ssports.com
 0.0.0.0 pkg.zhimg.com
 0.0.0.0 appcloud2.zhihu.com
 0.0.0.0 appcloud.zhihu.com
-0.0.0.0 h-adashx.ut.taobao.com
 0.0.0.0 pv.sohu.com
 0.0.0.0 vcs.snssdk.com
 0.0.0.0 app.adjust.net.in
