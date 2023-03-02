@@ -1,9 +1,10 @@
 # Block iOS Update
-0.0.0.0 bytegecko.com
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 bytegecko.com
+0.0.0.0 v5-abtest-hot1.douyinvod.com
 iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"]
 iqiyi.com##div[data-adzone],#block-V
 iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
