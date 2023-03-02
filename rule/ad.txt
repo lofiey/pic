@@ -1,4 +1,5 @@
 # Block iOS Update
+0.0.0.0 bytegecko.com
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
