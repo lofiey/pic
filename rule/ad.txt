@@ -12,7 +12,6 @@
 0.0.0.0 p9-webcast.douyinpic.com
 0.0.0.0 p6-webcast.douyinpic.com
 0.0.0.0 p3-webcast.douyinpic.com
-0.0.0.0 seeds-open.xycdn.com
 0.0.0.0 v6-cha.douyinvod.com
 0.0.0.0 v9-cha.douyinvod.com
 0.0.0.0 lf-cdn-tos.bytescm.com
