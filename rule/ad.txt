@@ -3,11 +3,11 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 v5-e-nccm02.douyinvod.com
 0.0.0.0 bytegecko.com
 0.0.0.0 v5-abtest-hot1.douyinvod.com
 0.0.0.0 sdkxgxyajs.data.kuiniuca.com
 0.0.0.0 lf-webcast-gr-sourcecdn.bytegecko.com
-0.0.0.0 pull-lls-l11.douyincdn.com
 0.0.0.0 p26-webcast.douyinpic.com
 0.0.0.0 p9-webcast.douyinpic.com
 0.0.0.0 p6-webcast.douyinpic.com
@@ -17,10 +17,9 @@
 0.0.0.0 lf-cdn-tos.bytescm.com
 0.0.0.0 p26-item.ecombdimg.com
 0.0.0.0 conf-darwin.xycdn.com
-0.0.0.0 v6-x.douyinvod.com
+0.0.0.0 tosv.byted.org
 0.0.0.0 v99-coldx.douyinvod.com
 0.0.0.0 v11-x.douyinvod.com
-0.0.0.0 v6-cold1.douyinvod.com
 0.0.0.0 v6-cold1.douyinvod.com
 0.0.0.0 ecombdapi.com
 0.0.0.0 v3-dy.ixigua.com
@@ -33,8 +32,8 @@
 0.0.0.0 sf3-be-pack.pglstatp-toutiao.com
 0.0.0.0 *.volcsiriusbd.com
 0.0.0.0 volcsiriusbd.com
-0.0.0.0 vc-brain.ndcpp.com
-0.0.0.0 i.gridsumdissector.com
+0.0.0.0 tnc11-bjlgy.zijieapi.com
+0.0.0.0 webcast5-core-c-lf.amemv.com
 0.0.0.0 v11-x.douyinvod.com.cdn.dnsv1.com
 0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn
 0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn.cvod.jmcity.toufu321.com
@@ -213,7 +212,6 @@
 0.0.0.0 bytescm.com
 0.0.0.0 bytegecko.com
 0.0.0.0 tt.x.bsgslb.cn
-0.0.0.0 m.baike.com
 0.0.0.0 vdn.vzuu.com
 0.0.0.0 utoken.umeng.com
 0.0.0.0 httpdns.alicdn.com
@@ -249,5 +247,4 @@
 0.0.0.0 growth.ecombdapi.com
 0.0.0.0 v*-aweme-play-xigua.ixigua.com
 0.0.0.0 pitaya.bytedance.com
-0.0.0.0 connectivitycheck.gstatic.com
 0.0.0.0 v*-hon.douyinvod.com
