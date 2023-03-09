@@ -3,6 +3,7 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 p3-sign.bdxiguaimg.com
 0.0.0.0 v5-e-nccm02.douyinvod.com
 0.0.0.0 bytegecko.com
 0.0.0.0 v5-abtest-hot1.douyinvod.com
