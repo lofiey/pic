@@ -3,6 +3,9 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+127.0.0.1 p3-aio.ecombdimg.com
+127.0.0.1 v26-cold.douyinvod.com
+127.0.0.1 v5-abtest-hot1.douyinvod.com
 127.0.0.1 vc-brain.ndcpp.com
 127.0.0.1 v5-h-tzcm.douyinvod.com
 127.0.0.1 v3-cha.douyinvod.com
