@@ -1,4 +1,5 @@
 host-suffix, megaphone.fm, proxy
+host-suffix, cloudfront.net
 host-suffix, spotify.com, proxy
 host-suffix, virmach.com, proxy
 host-suffix, wise.com, proxy
