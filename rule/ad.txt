@@ -13,6 +13,7 @@
 0.0.0.0 p3-sign.bdxiguaimg.com
 0.0.0.0 v5-e-nccm02.douyinvod.com
 0.0.0.0 bytegecko.com
+0.0.0.0 volcsirius.com
 0.0.0.0 v5-abtest-hot1.douyinvod.com
 0.0.0.0 sdkxgxyajs.data.kuiniuca.com
 0.0.0.0 lf-webcast-gr-sourcecdn.bytegecko.com
