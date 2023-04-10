@@ -3,6 +3,20 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+127.0.0.1 volcsirius.com
+127.0.0.1 p95-sign.douyinpic.com
+127.0.0.1 lf6-open-ma-pkg-sign.bytemastatic.com
+127.0.0.1 lf26-open-ma-pkg-sign.bytemastatic.com
+127.0.0.1 lf3-open-ma-pkg-sign.bytemastatic.com
+127.0.0.1 lf9-open-ma-pkg-sign.bytemastatic.com
+127.0.0.1 v95-sh-cold.douyinvod.com
+127.0.0.1 qc.bsccdn.net
+127.0.0.1 p6-webcast-sign.douyinpic.com
+127.0.0.1 v5-coldf.douyinvod.com
+127.0.0.1 v95-hn-cold.douyinvod.com
+127.0.0.1 v95-p-cold.douyinvod.com
+127.0.0.1 v95-zj-cold.douyinvod.com
+127.0.0.1 v95-hb-cold.douyinvod.com
 127.0.0.1 p3-aio.ecombdimg.com
 127.0.0.1 v26-cold.douyinvod.com
 127.0.0.1 v5-abtest-hot1.douyinvod.com
