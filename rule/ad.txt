@@ -2,7 +2,6 @@
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
-||xp.apple.com^$important
 127.0.0.1 volcsirius.com
 127.0.0.1 p95-sign.douyinpic.com
 127.0.0.1 lf6-open-ma-pkg-sign.bytemastatic.com
