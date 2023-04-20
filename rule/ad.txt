@@ -4,6 +4,31 @@
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 0.0.0.0 l7-online-self-max.s.dsa.cdnbuild.net
+0.0.0.0 v9-cold2.douyinvod.com
+0.0.0.0 v9-cold1.douyinvod.com
+0.0.0.0 v9-cold2.douyinvod.com
+0.0.0.0 v99-coldx.douyinvod.com
+0.0.0.0 v5-colde.douyinvod.com
+0.0.0.0 p95-sign.douyinpic.com
+0.0.0.0 v5-colda.douyinvod.com
+0.0.0.0 v5-coldy.douyinvod.com
+0.0.0.0 v11-cold.douyinvod.com
+0.0.0.0 v5-coldh.douyinvod.com
+0.0.0.0 v83-017.douyinvod.com
+0.0.0.0 v95-hn-cold.douyinvod.com
+0.0.0.0 volcsirius.com
+0.0.0.0 v95-p-cold.douyinvod.com
+0.0.0.0 v95-p-cold.douyinvod.com
+0.0.0.0 v95-sh-cold.douyinvod.com
+0.0.0.0 v27-cold.douyinvod.com
+0.0.0.0 p5-sign.douyinpic.com
+0.0.0.0 v5-coldg.douyinvod.com
+0.0.0.0 v26-cold.douyinvod.com
+0.0.0.0 v5-coldg.douyinvod.com
+0.0.0.0 v26-cold.douyinvod.com
+0.0.0.0 v1-cold.douyinvod.com
+0.0.0.0 v95-zj-cold.douyinvod.com
+0.0.0.0 v6-cold1.douyinvod.com
 127.0.0.1 volcsirius.com
 127.0.0.1 p95-sign.douyinpic.com
 127.0.0.1 lf6-open-ma-pkg-sign.bytemastatic.com
