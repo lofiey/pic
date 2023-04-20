@@ -1,27 +1,4 @@
-host-suffix, v9-cold2.douyinvod.com, reject
-host-suffix, v9-cold1.douyinvod.com, reject
-host-suffix, v9-cold2.douyinvod.com, reject
-host-suffix, v99-coldx.douyinvod.com, reject
-host-suffix, v5-colde.douyinvod.com, reject
-host-suffix, p95-sign.douyinpic.com, reject
-host-suffix, v5-colda.douyinvod.com, reject
-host-suffix, v5-coldy.douyinvod.com, reject
-host-suffix, v11-cold.douyinvod.com, reject
-host-suffix, v5-coldh.douyinvod.com, reject
-host-suffix, v83-017.douyinvod.com, reject
-host-suffix, v95-hn-cold.douyinvod.com, reject
-host-suffix, volcsirius.com, reject
-host-suffix, v95-p-cold.douyinvod.com, reject
-host-suffix, v95-p-cold.douyinvod.com, reject
-host-suffix, v95-sh-cold.douyinvod.com, reject
-host-suffix, v27-cold.douyinvod.com, reject
-host-suffix, p5-sign.douyinpic.com, reject
-host-suffix, v5-coldg.douyinvod.com, reject
-host-suffix, v26-cold.douyinvod.com, reject
-host-suffix, v5-coldg.douyinvod.com, reject
-host-suffix, v26-cold.douyinvod.com, reject
-host-suffix, v1-cold.douyinvod.com, reject
-host-suffix, v95-zj-cold.douyinvod.com, reject
+
 host-suffix, appcloud2.in.zhihu.com,REJECT
 host-suffix, mqtt.zhihu.com,reject
 host-suffix, sugar.zhihu.com,reject
