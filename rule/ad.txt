@@ -4,7 +4,6 @@
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 127.0.0.1 *.qc.bsccdn.net
-127.0.0.1 api-play.amemv.com.bytedns1.com
 0.0.0.0 *.qc.bsccdn.net
 127.0.0.1 ecombdimg.com
 127.0.0.1 zttvi.v.bsgslb.cn
