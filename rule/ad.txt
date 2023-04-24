@@ -12,7 +12,6 @@
 127.0.0.1 qc.bsccdn.net
 127.0.0.1 *.tt.x.bsgslb.cn
 127.0.0.1 *.volcsirius.com
-127.0.0.1 api-play.amemv.com.230b2a2545cfa773.w.cdngslb.com
 0.0.0.0 *.volcsirius.com
 0.0.0.0 v9-cold2.douyinvod.com
 0.0.0.0 v9-cold1.douyinvod.com
