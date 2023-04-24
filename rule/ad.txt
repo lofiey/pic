@@ -7,6 +7,10 @@
 127.0.0.1 ecombdimg.com
 127.0.0.1 zttvi.v.bsgslb.cn
 127.0.0.1 tt.x.bsgslb.cn
+127.0.0.1 volcsirius.com
+127.0.0.1 pdqc.v.trpcdn.net
+127.0.0.1 qc.bsccdn.net
+127.0.0.1 *.tt.x.bsgslb.cn
 0.0.0.0 v9-cold2.douyinvod.com
 0.0.0.0 v9-cold1.douyinvod.com
 0.0.0.0 v9-cold2.douyinvod.com
