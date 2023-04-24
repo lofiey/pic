@@ -3,6 +3,8 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+127.0.0.1 *.qc.bsccdn.net
+0.0.0.0 *.qc.bsccdn.net
 127.0.0.1 l7-online-self-max.s.dsa.cdnbuild.net
 127.0.0.1 ecombdimg.com
 127.0.0.1 zttvi.v.bsgslb.cn
