@@ -3,7 +3,7 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
-0.0.0.0 l7-online-self-max.s.dsa.cdnbuild.net
+127.0.0.1 l7-online-self-max.s.dsa.cdnbuild.net
 0.0.0.0 v9-cold2.douyinvod.com
 0.0.0.0 v9-cold1.douyinvod.com
 0.0.0.0 v9-cold2.douyinvod.com
