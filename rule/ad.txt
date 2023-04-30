@@ -3,6 +3,7 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+||volcsirius.com^
 127.0.0.1 zttvc.v.bsgslb.com
 127.0.0.1 *.qc.bsccdn.net
 0.0.0.0 *.qc.bsccdn.net
