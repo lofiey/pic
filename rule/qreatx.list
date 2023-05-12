@@ -1,70 +1,98 @@
 host-suffix, megaphone.fm, proxy
+host-suffix,amazonaws.com, proxy
+host-suffix,aws.amazon.com, proxy
+host-suffix,awsstatic.com, proxy
+host-suffix, 91ai.net, proxy
+host-suffix,fast.com, proxy
+host-suffix,netflix.com, proxy
+host-suffix,netflix.net, proxy
+host-suffix,nflxext.com, proxy
+host-suffix,nflximg.com, proxy
+host-suffix,nflximg.net, proxy
+host-suffix,nflxso.net, proxy
+host-suffix,nflxvideo.net, proxy
+host-suffix,nflxvideo.net, proxy
+host-suffix,nflxvideo.com, proxy
+host-suffix,netflixdnstest0.com, proxy
+host-suffix,netflixdnstest1.com, proxy
+host-suffix,netflixdnstest2.com, proxy
+host-suffix,netflixdnstest3.com, proxy
+host-suffix,netflixdnstest4.com, proxy
+host-suffix,netflixdnstest5.com, proxy
+host-suffix,netflixdnstest6.com, proxy
+host-suffix,netflixdnstest7.com, proxy
+host-suffix,netflixdnstest8.com, proxy
+host-suffix,netflixdnstest9.com, proxy
+host-suffix,netvigator.com, proxy
+host-suffix,1e100.net, proxy
+host-suffix,imsbiz.com, proxy
+host-suffix,spcsdns.net, proxy
 host-suffix, cloudfront.net, proxy
 host-suffix, spotify.com, proxy
 host-suffix, virmach.com, proxy
 host-suffix, wise.com, proxy
 host-suffix, app-measurement.com, proxy
-host-suffix, superchat.live
-host-suffix, adguard-dns.io
-host-suffix, wenxuecity.com
-host-suffix, secretchina.com
-host-suffix, zhengjian.org
-host-suffix, aboluowang.com
-host-suffix, dongtaiwang.com
-host-suffix, gongyiluntan.org
-host-suffix, ttsp.tv
-host-suffix, chinadigitaltimes.net
-host-suffix, ntdtv.com
-host-suffix, ilifepost.com
-host-suffix, chinapress.com.my
-host-suffix, hostloc.com
-host-suffix, m3u.if101.tv
-host-suffix, t66y.com
-host-suffix, ltn.com.tw
-host-suffix, goo.gl
-host-suffix, doppiocdn.com
+host-suffix, superchat.live, proxy
+host-suffix, adguard-dns.io, proxy
+host-suffix, wenxuecity.com, proxy
+host-suffix, secretchina.com, proxy
+host-suffix, zhengjian.org, proxy
+host-suffix, aboluowang.com, proxy
+host-suffix, dongtaiwang.com, proxy
+host-suffix, gongyiluntan.org, proxy
+host-suffix, ttsp.tv, proxy
+host-suffix, chinadigitaltimes.net, proxy
+host-suffix, ntdtv.com, proxy
+host-suffix, ilifepost.com, proxy
+host-suffix, chinapress.com.my, proxy
+host-suffix, hostloc.com, proxy
+host-suffix, m3u.if101.tv, proxy
+host-suffix, t66y.com, proxy
+host-suffix, ltn.com.tw, proxy
+host-suffix, goo.gl, proxy
+host-suffix, doppiocdn.com, proxy
 host-suffix, cdn.plyr.io, proxy
 host-suffix, njav.tv, proxy
 host-suffix, static.javcdn.info, proxy
 host-suffix, enrichyummy.com, proxy
 host-suffix, javplayer.me, proxy
 host-suffix, thedayweplay.lol, proxy
-host-suffix, stripst.com
-host-suffix, sc-apps.com
-host-suffix, stripchat.com
-host-suffix, streema.com
-host-suffix, jsdelivr.net
-host-suffix, cloudflare.com
-host-suffix, cdn.ghewig.com
-host-suffix, sb-cd.com
-host-suffix, deliver.ptgncdn.com
-host-suffix, spankbang.com
-host-suffix, radiojar.com
-host-suffix, rfa.org
-host-suffix, akamaihd.net
-host-suffix, dw.com
-host-suffix, epochtimes.com
-host-suffix, rfi.fr
-host-suffix, xvideos-cdn.com
-host-suffix, 7mmtv.tv
-host-suffix, ypncdn.com
-host-suffix, youporn.com
-host-suffix, assets.jable.tv
-host-suffix, xvideos.com
-host-suffix, gstatic.com
-host-suffix, media.tenor.com
-host-suffix, trk.bonsa.net
-host-suffix, bonsa.net
-host-suffix, truthsocial.com
-host-suffix, assets-cdn.jable.tv
-host-suffix, jable.tv
-host-suffix, v2fly.org
+host-suffix, stripst.com, proxy
+host-suffix, sc-apps.com, proxy
+host-suffix, stripchat.com, proxy
+host-suffix, streema.com, proxy
+host-suffix, jsdelivr.net, proxy
+host-suffix, cloudflare.com, proxy
+host-suffix, cdn.ghewig.com, proxy
+host-suffix, sb-cd.com, proxy
+host-suffix, deliver.ptgncdn.com, proxy
+host-suffix, spankbang.com, proxy
+host-suffix, radiojar.com, proxy
+host-suffix, rfa.org, proxy
+host-suffix, akamaihd.net, proxy
+host-suffix, dw.com, proxy
+host-suffix, epochtimes.com, proxy
+host-suffix, rfi.fr, proxy
+host-suffix, xvideos-cdn.com, proxy
+host-suffix, 7mmtv.tv, proxy
+host-suffix, ypncdn.com, proxy
+host-suffix, youporn.com, proxy
+host-suffix, assets.jable.tv, proxy
+host-suffix, xvideos.com, proxy
+host-suffix, gstatic.com, proxy
+host-suffix, media.tenor.com, proxy
+host-suffix, trk.bonsa.net, proxy
+host-suffix, bonsa.net, proxy
+host-suffix, truthsocial.com, proxy
+host-suffix, assets-cdn.jable.tv, proxy
+host-suffix, jable.tv, proxy
+host-suffix, v2fly.org, proxy
 # other diy
-host-suffix, briefcake.com
-host-suffix, mtalk.google.com
-host-suffix, zh.m.wiktionary.org
-host-suffix, namesilo.com
-host-suffix, allinfa.com
-host-suffix, youlucky.com
-host-suffix, anchor.fm
-host-suffix, play.googleapis.com
+host-suffix, briefcake.com, proxy
+host-suffix, mtalk.google.com, proxy
+host-suffix, zh.m.wiktionary.org, proxy
+host-suffix, namesilo.com, proxy
+host-suffix, allinfa.com, proxy
+host-suffix, youlucky.com, proxy
+host-suffix, anchor.fm, proxy
+host-suffix, play.googleapis.com, proxy
