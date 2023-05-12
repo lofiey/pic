@@ -1,3 +1,33 @@
+ip-cidr, 8.41.4.0/24, direct
+ip-cidr, 23.23.189.144/28, direct
+ip-cidr, 23.246.0.0/18, direct
+ip-cidr, 34.195.253.0/25, direct
+ip-cidr, 34.210.42.111/32, direct
+ip-cidr, 37.77.184.0/21, direct
+ip-cidr, 38.72.126.0/24, direct
+ip-cidr, 45.57.0.0/17, direct
+ip-cidr, 52.24.178.0/24, direct
+ip-cidr, 52.35.140.0/24, direct
+ip-cidr, 52.89.124.203/32, direct
+ip-cidr, 54.148.37.5/32, direct
+ip-cidr, 54.204.25.0/28, direct
+ip-cidr, 54.213.167.0/24, direct
+ip-cidr, 64.120.128.0/17, direct
+ip-cidr, 66.197.128.0/17, direct
+ip-cidr, 69.53.224.0/19, direct
+ip-cidr, 103.87.204.0/22, direct
+ip-cidr, 108.175.32.0/20, direct
+ip-cidr, 185.2.220.0/22, direct
+ip-cidr, 185.9.188.0/22, direct
+ip-cidr, 192.173.64.0/18, direct
+ip-cidr, 198.38.96.0/19, direct
+ip-cidr, 198.45.48.0/20, direct
+ip-cidr, 203.75.84.0/24, direct
+ip-cidr, 203.198.13.0/24, direct
+ip-cidr, 203.198.80.0/24, direct
+ip-cidr, 207.45.72.0/22, direct
+ip-cidr, 208.75.76.0/22, direct
+ip-cidr, 210.0.153.0/24, direct
 ip-cidr,3.0.5.32/29, direct
 ip-cidr,3.0.5.224/27, direct
 ip-cidr,3.6.70.76/30, direct
