@@ -3,30 +3,6 @@ host-suffix,amazonaws.com, proxy
 host-suffix,aws.amazon.com, proxy
 host-suffix,awsstatic.com, proxy
 host-suffix, 91ai.net, proxy
-host-suffix,fast.com, proxy
-host-suffix,netflix.com, proxy
-host-suffix,netflix.net, proxy
-host-suffix,nflxext.com, proxy
-host-suffix,nflximg.com, proxy
-host-suffix,nflximg.net, proxy
-host-suffix,nflxso.net, proxy
-host-suffix,nflxvideo.net, proxy
-host-suffix,nflxvideo.net, proxy
-host-suffix,nflxvideo.com, proxy
-host-suffix,netflixdnstest0.com, proxy
-host-suffix,netflixdnstest1.com, proxy
-host-suffix,netflixdnstest2.com, proxy
-host-suffix,netflixdnstest3.com, proxy
-host-suffix,netflixdnstest4.com, proxy
-host-suffix,netflixdnstest5.com, proxy
-host-suffix,netflixdnstest6.com, proxy
-host-suffix,netflixdnstest7.com, proxy
-host-suffix,netflixdnstest8.com, proxy
-host-suffix,netflixdnstest9.com, proxy
-host-suffix,netvigator.com, proxy
-host-suffix,1e100.net, proxy
-host-suffix,imsbiz.com, proxy
-host-suffix,spcsdns.net, proxy
 host-suffix, cloudfront.net, proxy
 host-suffix, spotify.com, proxy
 host-suffix, virmach.com, proxy
