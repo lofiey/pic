@@ -3,19 +3,21 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+||ecombdapi.com^
+||bytegecko.com^
 ||volcsirius.com^
+||bytetos.com^
+||bytescm.com^
+||volcsiriusbd.com^
+||ecombdimg.com^
 127.0.0.1 zttvc.v.bsgslb.com
 127.0.0.1 *.qc.bsccdn.net
 0.0.0.0 *.qc.bsccdn.net
-127.0.0.1 ecombdimg.com
 127.0.0.1 zttvi.v.bsgslb.cn
 127.0.0.1 tt.x.bsgslb.cn
-127.0.0.1 volcsirius.com
 127.0.0.1 pdqc.v.trpcdn.net
 127.0.0.1 qc.bsccdn.net
 127.0.0.1 *.tt.x.bsgslb.cn
-127.0.0.1 *.volcsirius.com
-0.0.0.0 *.volcsirius.com
 0.0.0.0 v9-cold2.douyinvod.com
 0.0.0.0 v9-cold1.douyinvod.com
 0.0.0.0 v9-cold2.douyinvod.com
@@ -27,7 +29,6 @@
 0.0.0.0 v11-cold.douyinvod.com
 0.0.0.0 v5-coldh.douyinvod.com
 0.0.0.0 v95-hn-cold.douyinvod.com
-0.0.0.0 volcsirius.com
 0.0.0.0 v95-p-cold.douyinvod.com
 0.0.0.0 v95-p-cold.douyinvod.com
 0.0.0.0 v95-sh-cold.douyinvod.com
@@ -40,7 +41,6 @@
 0.0.0.0 v1-cold.douyinvod.com
 0.0.0.0 v95-zj-cold.douyinvod.com
 0.0.0.0 v6-cold1.douyinvod.com
-127.0.0.1 volcsirius.com
 127.0.0.1 p95-sign.douyinpic.com
 127.0.0.1 v95-sh-cold.douyinvod.com
 127.0.0.1 qc.bsccdn.net
@@ -56,9 +56,6 @@
 127.0.0.1 v3-cha.douyinvod.com
 0.0.0.0 v26-cold.douyinvod.com
 0.0.0.0 p3-sign.bdxiguaimg.com
-0.0.0.0 v5-e-nccm02.douyinvod.com
-0.0.0.0 bytegecko.com
-0.0.0.0 volcsirius.com
 0.0.0.0 v5-abtest-hot1.douyinvod.com
 0.0.0.0 sdkxgxyajs.data.kuiniuca.com
 0.0.0.0 p26-item.ecombdimg.com
@@ -67,7 +64,6 @@
 0.0.0.0 v99-coldx.douyinvod.com
 0.0.0.0 v11-x.douyinvod.com
 0.0.0.0 v6-cold1.douyinvod.com
-0.0.0.0 ecombdapi.com
 0.0.0.0 v3-dy.ixigua.com
 0.0.0.0 v3-cold-src.douyinvod.com
 0.0.0.0 s3.pstatp.com
@@ -84,11 +80,9 @@
 0.0.0.0 apm.zhihu.com
 0.0.0.0 duga.zhihu.com
 0.0.0.0 datahub.zhihu.com
-0.0.0.0 bytetos.com
 0.0.0.0 pica.zhimg.com
 0.0.0.0 ymjs.adutp.com
 0.0.0.0 picx1.zhimg.com
-0.0.0.0 volcsiriusbd.com
 0.0.0.0 qc.bsccdn.net
 0.0.0.0 gslb-pek01.zhihu.com
 0.0.0.0 open.taou.com
@@ -140,7 +134,6 @@
 0.0.0.0 v3-cold1.douyinvod.com.w.kunluncan.com
 0.0.0.0 v3-cold3.douyinvod.com.w.kunluncan.com
 0.0.0.0 v99-coldx.douyinvod.com.bytedns1.com
-0.0.0.0 growth.ecombdapi.com
 0.0.0.0 p96-ad-sign.byteimg.com
 0.0.0.0 p29-ad-sign.byteimg.com
 0.0.0.0 p26-ad-sign.byteimg.com
@@ -154,8 +147,6 @@
 0.0.0.0 p26-sign.douyinpic.com
 0.0.0.0 p9-sign.douyinpic.com
 0.0.0.0 p3-sign.douyinpic.com
-0.0.0.0 bytescm.com
-0.0.0.0 bytegecko.com
 0.0.0.0 tt.x.bsgslb.cn
 0.0.0.0 vdn.vzuu.com
 0.0.0.0 utoken.umeng.com
