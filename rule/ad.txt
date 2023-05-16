@@ -10,6 +10,8 @@
 ||bytescm.com^
 ||volcsiriusbd.com^
 ||ecombdimg.com^
+127.0.0.1 v5-coldl.douyinvod.com.volcgslb.com
+127.0.0.1 v5-coldk.douyinvod.com.volcgslb.com
 127.0.0.1 zttvc.v.bsgslb.com
 127.0.0.1 *.qc.bsccdn.net
 0.0.0.0 *.qc.bsccdn.net
