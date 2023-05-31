@@ -10,6 +10,7 @@
 ||bytescm.com^
 ||volcsiriusbd.com^
 ||ecombdimg.com^
+127.0.0.1 v5-coldu.douyinvod.com
 127.0.0.1 api-play-hl.amemv.com.c.dsa.cdnbuild.net
 127.0.0.1 dig.bdurl.net
 127.0.0.1 api-play-hl.amemv.com.bytedns1.com
