@@ -10,6 +10,19 @@
 ||bytescm.com^
 ||volcsiriusbd.com^
 ||ecombdimg.com^
+127.0.0.1 api-play-hl.amemv.com.c.dsa.cdnbuild.net
+127.0.0.1 dig.bdurl.net
+127.0.0.1 api-play-hl.amemv.com.bytedns1.com
+||qc.bsccdn.net^
+0.0.0.0 w.cdngslb.com^
+0.0.0.0 api-hl.amemv.com.w.kunluncan.com
+0.0.0.0 api-hl.amemv.com.queniuum.com
+0.0.0.0 v5-coldp.douyinvod.com
+0.0.0.0 v5-coldi.douyinvod.com
+0.0.0.0 api-play.amemv.com.c.dsa.cdnbuild.net
+0.0.0.0 v11-coldf.douyinvod.com
+0.0.0.0 byteeffecttos.com
+0.0.0.0 v5-coldj.douyinvod.com
 127.0.0.1 v5-coldl.douyinvod.com.volcgslb.com
 127.0.0.1 v5-coldk.douyinvod.com.volcgslb.com
 127.0.0.1 zttvc.v.bsgslb.com
