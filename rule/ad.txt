@@ -3,6 +3,8 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 api.amemv.com.xi.zwtianshangm.com
+0.0.0.0 api.amemv.com.queniukw.com
 0.0.0.0 v5-coldn.douyinvod.com
 0.0.0.0 api-play.amemv.com.c.dsa.cdnbuild.net
 0.0.0.0 api-play.amemv.com.230b2a2545cfa773.w.cdngslb.com
