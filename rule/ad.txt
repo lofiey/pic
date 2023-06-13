@@ -3,6 +3,8 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 v5-coldq.douyinvod.com
+0.0.0.0 v9-cold.douyinvod.com
 0.0.0.0 is.snssdk.com.xi.zwtianshangm.com
 0.0.0.0 is.snssdk.com.queniukw.com
 0.0.0.0 api.amemv.com.xi.zwtianshangm.com
