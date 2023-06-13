@@ -10,12 +10,12 @@
 ||bytescm.com^
 ||volcsiriusbd.com^
 ||ecombdimg.com^
-127.0.0.1 v5-coldu.douyinvod.com
-127.0.0.1 api-play-hl.amemv.com.c.dsa.cdnbuild.net
-127.0.0.1 dig.bdurl.net
-127.0.0.1 api-play-hl.amemv.com.bytedns1.com
-||qc.bsccdn.net^
-0.0.0.0 w.cdngslb.com^
+0.0.0.0 v5-coldu.douyinvod.com
+0.0.0.0 api-play-hl.amemv.com.c.dsa.cdnbuild.net
+0.0.0.0 dig.bdurl.net
+0.0.0.0 api-play-hl.amemv.com.bytedns1.com
+0.0.0.0 qc.bsccdn.net
+0.0.0.0 w.cdngslb.com
 0.0.0.0 api-hl.amemv.com.w.kunluncan.com
 0.0.0.0 api-hl.amemv.com.queniuum.com
 0.0.0.0 v5-coldp.douyinvod.com
@@ -24,16 +24,8 @@
 0.0.0.0 v11-coldf.douyinvod.com
 0.0.0.0 byteeffecttos.com
 0.0.0.0 v5-coldj.douyinvod.com
-127.0.0.1 v5-coldl.douyinvod.com.volcgslb.com
-127.0.0.1 v5-coldk.douyinvod.com.volcgslb.com
-127.0.0.1 zttvc.v.bsgslb.com
-127.0.0.1 *.qc.bsccdn.net
-0.0.0.0 *.qc.bsccdn.net
-127.0.0.1 zttvi.v.bsgslb.cn
-127.0.0.1 tt.x.bsgslb.cn
-127.0.0.1 pdqc.v.trpcdn.net
-127.0.0.1 qc.bsccdn.net
-127.0.0.1 *.tt.x.bsgslb.cn
+0.0.0.0 v5-coldl.douyinvod.com.volcgslb.com
+0.0.0.0 v5-coldk.douyinvod.com.volcgslb.com
 0.0.0.0 v9-cold2.douyinvod.com
 0.0.0.0 v9-cold1.douyinvod.com
 0.0.0.0 v9-cold2.douyinvod.com
@@ -57,19 +49,18 @@
 0.0.0.0 v1-cold.douyinvod.com
 0.0.0.0 v95-zj-cold.douyinvod.com
 0.0.0.0 v6-cold1.douyinvod.com
-127.0.0.1 p95-sign.douyinpic.com
-127.0.0.1 v95-sh-cold.douyinvod.com
-127.0.0.1 qc.bsccdn.net
-127.0.0.1 v5-coldf.douyinvod.com
-127.0.0.1 v95-hn-cold.douyinvod.com
-127.0.0.1 v95-p-cold.douyinvod.com
-127.0.0.1 v95-zj-cold.douyinvod.com
-127.0.0.1 v95-hb-cold.douyinvod.com
-127.0.0.1 v26-cold.douyinvod.com
-127.0.0.1 v5-abtest-hot1.douyinvod.com
-127.0.0.1 vc-brain.ndcpp.com
-127.0.0.1 v5-h-tzcm.douyinvod.com
-127.0.0.1 v3-cha.douyinvod.com
+0.0.0.0 p95-sign.douyinpic.com
+0.0.0.0 v95-sh-cold.douyinvod.com
+0.0.0.0 v5-coldf.douyinvod.com
+0.0.0.0 v95-hn-cold.douyinvod.com
+0.0.0.0 v95-p-cold.douyinvod.com
+0.0.0.0 v95-zj-cold.douyinvod.com
+0.0.0.0 v95-hb-cold.douyinvod.com
+0.0.0.0 v26-cold.douyinvod.com
+0.0.0.0 v5-abtest-hot1.douyinvod.com
+0.0.0.0 vc-brain.ndcpp.com
+0.0.0.0 v5-h-tzcm.douyinvod.com
+0.0.0.0 v3-cha.douyinvod.com
 0.0.0.0 v26-cold.douyinvod.com
 0.0.0.0 p3-sign.bdxiguaimg.com
 0.0.0.0 v5-abtest-hot1.douyinvod.com
