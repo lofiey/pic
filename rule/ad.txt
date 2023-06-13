@@ -10,6 +10,7 @@
 ||bytescm.com^
 ||volcsiriusbd.com^
 ||ecombdimg.com^
+0.0.0.0 api-play.amemv.com.230b2a2545cfa773.w.cdngslb.com
 0.0.0.0 v5-coldu.douyinvod.com
 0.0.0.0 api-play-hl.amemv.com.c.dsa.cdnbuild.net
 0.0.0.0 dig.bdurl.net
