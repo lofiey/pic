@@ -11,9 +11,7 @@
 0.0.0.0 api.amemv.com.queniukw.com
 0.0.0.0 v5-coldn.douyinvod.com
 0.0.0.0 v5-coldu.douyinvod.com
-0.0.0.0 api-play-hl.amemv.com.c.dsa.cdnbuild.net
 0.0.0.0 dig.bdurl.net
-0.0.0.0 api-play-hl.amemv.com.bytedns1.com
 0.0.0.0 qc.bsccdn.net
 0.0.0.0 w.cdngslb.com
 0.0.0.0 api-hl.amemv.com.w.kunluncan.com
