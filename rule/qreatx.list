@@ -1,7 +1,12 @@
 host-suffix, megaphone.fm, proxy
-host-suffix,amazonaws.com, proxy
-host-suffix,aws.amazon.com, proxy
-host-suffix,awsstatic.com, proxy
+host-suffix, github.com, proxy
+host-suffix, github.io, proxy
+host-suffix, githubapp.com, proxy
+host-suffix, githubassets.com, proxy
+host-suffix, githubusercontent.com, proxy
+host-suffix, amazonaws.com, proxy
+host-suffix, aws.amazon.com, proxy
+host-suffix, awsstatic.com, proxy
 host-suffix, 91ai.net, proxy
 host-suffix, cloudfront.net, proxy
 host-suffix, spotify.com, proxy
@@ -23,6 +28,10 @@ host-suffix, ilifepost.com, proxy
 host-suffix, chinapress.com.my, proxy
 host-suffix, hostloc.com, proxy
 host-suffix, m3u.if101.tv, proxy
+host-suffix, v2board.com, proxy
+host-suffix, dafahao.com, proxy
+host-suffix, radio.soundofhope.org, proxy
+host-suffix, tktube.com, proxy
 host-suffix, t66y.com, proxy
 host-suffix, ltn.com.tw, proxy
 host-suffix, goo.gl, proxy
