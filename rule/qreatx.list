@@ -1,4 +1,19 @@
 host-suffix, megaphone.fm, proxy
+HOST,api-glb-sea.smoot.apple.com,AppleProxy
+HOST,books.itunes.apple.com,AppleProxy
+HOST,cvws.icloud-content.com,AppleProxy
+HOST,developer.apple.com,AppleProxy
+HOST,hls.itunes.apple.com,AppleProxy
+HOST,itunes.apple.com,AppleProxy
+HOST,lookup-api.apple.com,AppleProxy
+HOST,sandbox.itunes.apple.com,AppleProxy
+HOST,testflight.apple.com,AppleProxy
+HOST-SUFFIX,apple-dns.net,AppleProxy
+HOST-SUFFIX,apps.apple.com,AppleProxy
+HOST-SUFFIX,appsto.re,AppleProxy
+HOST-SUFFIX,blobstore.apple.com,AppleProxy
+HOST-SUFFIX,digicert.com,AppleProxy
+USER-AGENT,com.apple.trustd*,AppleProxy
 host-suffix, github.com, proxy
 host-suffix, github.io, proxy
 host-suffix, githubapp.com, proxy
