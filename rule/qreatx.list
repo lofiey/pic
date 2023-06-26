@@ -1,4 +1,7 @@
 host-suffix, megaphone.fm, proxy
+HOST,beta.apple.com,TestFlight
+HOST,testflight.apple.com,TestFlight
+HOST-KEYWORD,testflight,TestFlight
 HOST,api-glb-sea.smoot.apple.com,AppleProxy
 HOST,books.itunes.apple.com,AppleProxy
 HOST,cvws.icloud-content.com,AppleProxy
