@@ -86,6 +86,7 @@ host-suffix, assets-cdn.jable.tv, proxy
 host-suffix, jable.tv, proxy
 host-suffix, v2fly.org, proxy
 # other diy
+IP-CIDR 8.8.8.8/16
 host-suffix, briefcake.com, proxy
 host-suffix, mtalk.google.com, proxy
 host-suffix, zh.m.wiktionary.org, proxy
