@@ -86,6 +86,11 @@ host-suffix, assets-cdn.jable.tv, proxy
 host-suffix, jable.tv, proxy
 host-suffix, v2fly.org, proxy
 # other diy
+host-suffix, xmcdn.com, proxy
+host-suffix, akacast.akamaistream.net, proxy
+host-suffix, cdn1.akamai-content-delivery.com, proxy
+host-suffix, cdn.plyr.io, proxy
+host-suffix, cdn.barscreative1.com, proxy
 host-suffix, briefcake.com, proxy
 host-suffix, mtalk.google.com, proxy
 host-suffix, zh.m.wiktionary.org, proxy
