@@ -3,6 +3,12 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 douyinliving.com
+0.0.0.0 ecombdimg.com.w.kunluncan.com
+0.0.0.0 ecombdimg.com.queniusy.com
+0.0.0.0 volcsirius.com
+0.0.0.0 ads-api.tiktok.com
+0.0.0.0 business-api.tiktok.com
 0.0.0.0 v5-coldm.douyinvod.com
 0.0.0.0 v5-coldq.douyinvod.com
 0.0.0.0 v9-cold.douyinvod.com
