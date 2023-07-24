@@ -6,6 +6,8 @@ host-suffix, zhihu-web-analytics.zhihu.com, reject
 host-suffix, httpdns.kwd.inkuai.com, reject
 host-suffix, ulogs.umeng.com, reject
 host-suffix, volcsiriusbd.com, reject
+host-suffix, ads-api.tiktok.com, reject
+host-suffix, business-api.tiktok.com, reject
 # > 腾讯视频
 host-suffix, v5-re-un80.douyinvod.com, reject
 host-suffix, p3-sign.douyinpic.com, reject
