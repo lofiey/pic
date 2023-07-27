@@ -17,9 +17,6 @@
 0.0.0.0 stun.voipstunt.com
 0.0.0.0 stun.voiparound.com
 0.0.0.0 stun.schlund.de
-0.0.0.0 clientservices.googleapis.com
-0.0.0.0 clients4.google.com
-0.0.0.0 optimizationguide-pa.googleapis.com
 0.0.0.0 api.fast.com
 0.0.0.0 douyinliving.com
 0.0.0.0 ecombdimg.com.w.kunluncan.com
