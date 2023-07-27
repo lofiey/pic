@@ -3,6 +3,13 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 ios.prod.ftl.netflix.com
+0.0.0.0 ios.ngp.prod.cloud.netflix.com
+0.0.0.0 ios.prod.cloud.netflix.com
+0.0.0.0 clientservices.googleapis.com
+0.0.0.0 clients4.google.com
+0.0.0.0 optimizationguide-pa.googleapis.com
+0.0.0.0 api.fast.com
 0.0.0.0 douyinliving.com
 0.0.0.0 ecombdimg.com.w.kunluncan.com
 0.0.0.0 ecombdimg.com.queniusy.com
