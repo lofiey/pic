@@ -3,6 +3,15 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 stun.ekiga.net
+0.0.0.0 stun.voipbuster.com
+0.0.0.0 stun.stunprotocol.org
+0.0.0.0 stun.voxgratia.org
+0.0.0.0 stun.rixtelecom.se
+0.0.0.0 stun.ideasip.com
+0.0.0.0 stun.voipstunt.com
+0.0.0.0 stun.voiparound.com
+0.0.0.0 stun.schlund.de
 0.0.0.0 ios.prod.ftl.netflix.com
 0.0.0.0 ios.ngp.prod.cloud.netflix.com
 0.0.0.0 ios.prod.cloud.netflix.com
