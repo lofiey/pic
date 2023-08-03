@@ -99,6 +99,7 @@ host-suffix, youlucky.com, proxy
 host-suffix, anchor.fm, proxy
 host-suffix, play.googleapis.com, proxy
 DOMAIN-SUFFIX, v2ex.com
+DOMAIN-SUFFIX, downloaddispatch.itunes.apple.com
 DOMAIN-SUFFIX, wikipedia.org
 DOMAIN-SUFFIX, wikimedia.org
 DOMAIN-SUFFIX, pornhub.com
