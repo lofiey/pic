@@ -1,20 +1,21 @@
 host-suffix, megaphone.fm, proxy
-HOST,beta.apple.com,TestFlight
-HOST,testflight.apple.com,TestFlight
-HOST,api-glb-sea.smoot.apple.com,AppleProxy
-HOST,books.itunes.apple.com,AppleProxy
-HOST,cvws.icloud-content.com,AppleProxy
-HOST,developer.apple.com,AppleProxy
-HOST,hls.itunes.apple.com,AppleProxy
-HOST,itunes.apple.com,AppleProxy
-HOST,lookup-api.apple.com,AppleProxy
-HOST,sandbox.itunes.apple.com,AppleProxy
-HOST,testflight.apple.com,AppleProxy
-HOST-SUFFIX,apple-dns.net,AppleProxy
-HOST-SUFFIX,apps.apple.com,AppleProxy
-HOST-SUFFIX,appsto.re,AppleProxy
-HOST-SUFFIX,blobstore.apple.com,AppleProxy
-HOST-SUFFIX,digicert.com,AppleProxy
+DOMAIN-SUFFIX, beta.apple.com,TestFlight
+DOMAIN-SUFFIX, testflight.apple.com,TestFlight
+DOMAIN-SUFFIX, api-glb-sea.smoot.apple.com,AppleProxy
+DOMAIN-SUFFIX ,books.itunes.apple.com,AppleProxy
+DOMAIN-SUFFIX, cvws.icloud-content.com,AppleProxy
+DOMAIN-SUFFIX, developer.apple.com,AppleProxy
+DOMAIN-SUFFIX, hls.itunes.apple.com,AppleProxy
+DOMAIN-SUFFIX, itunes.apple.com,AppleProxy
+DOMAIN-SUFFIX, apps.mzstatic.com
+DOMAIN-SUFFIX, lookup-api.apple.com,AppleProxy
+DOMAIN-SUFFIX, sandbox.itunes.apple.com,AppleProxy
+DOMAIN-SUFFIX, testflight.apple.com,AppleProxy
+HOST-SUFFIX, apple-dns.net,AppleProxy
+HOST-SUFFIX, apps.apple.com,AppleProxy
+HOST-SUFFIX, appsto.re,AppleProxy
+HOST-SUFFIX, blobstore.apple.com,AppleProxy
+HOST-SUFFIX, digicert.com,AppleProxy
 host-suffix, github.com, proxy
 host-suffix, github.io, proxy
 host-suffix, githubapp.com, proxy
