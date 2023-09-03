@@ -3,24 +3,24 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
-||dns.jd.com^
-||dns.weibo.cn^
-||dns.weixin.qq.com^
-||dns.weixin.qq.com.cn^
-||httpdns-api.aliyuncs.com^
-||httpdns-sc.aliyuncs.com^
-||httpdns.alicdn.com^
-||httpdns.baidu.com^
-||httpdns.baidubce.com^
-||httpdns.bilivideo.com^
-||httpdns.c.cdnhwc2.com^
-||httpdns.music.163.com^
-||httpdns.n.netease.com^
-||httpdns.push.oppomobile.com^
-||httpdns.volcengineapi.com^
-||httpsdns.baidu.com^
-||lofter.httpdns.c.163.com^
-||music.httpdns.c.163.com^
+0.0.0.0 dns.jd.com^
+0.0.0.0 dns.weibo.cn^
+0.0.0.0 dns.weixin.qq.com^
+0.0.0.0 dns.weixin.qq.com.cn^
+0.0.0.0 httpdns-api.aliyuncs.com^
+0.0.0.0 httpdns-sc.aliyuncs.com^
+0.0.0.0 httpdns.alicdn.com^
+0.0.0.0 httpdns.baidu.com^
+0.0.0.0 httpdns.baidubce.com^
+0.0.0.0 httpdns.bilivideo.com^
+0.0.0.0 httpdns.c.cdnhwc2.com^
+0.0.0.0 httpdns.music.163.com^
+0.0.0.0 httpdns.n.netease.com^
+0.0.0.0 httpdns.push.oppomobile.com^
+0.0.0.0 httpdns.volcengineapi.com^
+0.0.0.0 httpsdns.baidu.com^
+0.0.0.0 lofter.httpdns.c.163.com^
+0.0.0.0 music.httpdns.c.163.com^
 0.0.0.0 app-measurement.com
 0.0.0.0 stun.l.google.com
 0.0.0.0 stun4.l.google.com
