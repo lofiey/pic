@@ -1,6 +1,4 @@
 # Block iOS Update
-||mesu.apple.com^$important
-||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 0.0.0.0 app-measurement.com
@@ -18,7 +16,6 @@
 0.0.0.0 stun.voipstunt.com
 0.0.0.0 stun.voiparound.com
 0.0.0.0 stun.schlund.de
-0.0.0.0 api.fast.com
 0.0.0.0 douyinliving.com
 0.0.0.0 ecombdimg.com.w.kunluncan.com
 0.0.0.0 ecombdimg.com.queniusy.com
