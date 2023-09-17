@@ -1,15 +1,4 @@
 host-suffix, megaphone.fm, proxy
-DOMAIN-SUFFIX, beta.apple.com,TestFlight
-DOMAIN-SUFFIX, testflight.apple.com,TestFlight
-DOMAIN-SUFFIX, api-glb-sea.smoot.apple.com,AppleProxy
-DOMAIN-SUFFIX ,books.itunes.apple.com,AppleProxy
-DOMAIN-SUFFIX, cvws.icloud-content.com,AppleProxy
-DOMAIN-SUFFIX, developer.apple.com,AppleProxy
-DOMAIN-SUFFIX, hls.itunes.apple.com,AppleProxy
-DOMAIN-SUFFIX, itunes.apple.com,AppleProxy
-DOMAIN-SUFFIX, apps.mzstatic.com
-DOMAIN-SUFFIX, lookup-api.apple.com,AppleProxy
-DOMAIN-SUFFIX, sandbox.itunes.apple.com,AppleProxy
 DOMAIN-SUFFIX, testflight.apple.com,AppleProxy
 HOST-SUFFIX, apple-dns.net,AppleProxy
 HOST-SUFFIX, apps.apple.com,AppleProxy
