@@ -1,6 +1,7 @@
 # Block iOS Update
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 us-east-1.ads.digital.disneyadvertising.com
 0.0.0.0 app-measurement.com
 0.0.0.0 stun.l.google.com
 0.0.0.0 stun4.l.google.com
