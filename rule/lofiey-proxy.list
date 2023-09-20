@@ -1,4 +1,4 @@
-host-suffix, megaphone.fm, proxy
+DOMAIN-SUFFIX, megaphone.fm, proxy
 DOMAIN-SUFFIX, testflight.apple.com,AppleProxy
 HOST-SUFFIX, apple-dns.net,AppleProxy
 HOST-SUFFIX, apps.apple.com,AppleProxy
@@ -132,3 +132,4 @@ DOMAIN-SUFFIX, amazonaws.com
 DOMAIN-SUFFIX, nexon.com
 DOMAIN-SUFFIX, disney.my.sentry.io
 DOMAIN-SUFFIX, disney.connections.edge.bamgrid.com
+DOMAIN-SUFFIX, ggpht.com
