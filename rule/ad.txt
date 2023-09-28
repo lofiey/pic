@@ -1,6 +1,10 @@
 # Block iOS Update
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 pi.ispot.tv
+0.0.0.0 p.tvpixel.com
+0.0.0.0 p.placed.com
+beacons.digital.disneyadvertising.com
 0.0.0.0 digital.disneyadvertising.com
 0.0.0.0 app-measurement.com
 0.0.0.0 stun.l.google.com
