@@ -202,3 +202,7 @@
 0.0.0.0 v9-ipv6.douyinvod.com
 0.0.0.0 app.adjust.world
 0.0.0.0 v*-aweme-play-xigua.ixigua.com
+||adobe.com^
+||atlassian.com^
+||wework.com^
+||vmware.com^
