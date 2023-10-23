@@ -3,6 +3,7 @@
 ||xp.apple.com^$important
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
+||cisco.com^$important
 0.0.0.0 *.cws.conviva.com:443
 0.0.0.0 pi.ispot.tv
 0.0.0.0 p.tvpixel.com
