@@ -3,8 +3,10 @@
 ||xp.apple.com^$important
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
-||cisco.com^$important
-0.0.0.0 *.cws.conviva.com:443
+0.0.0.0 p11-sign.douyinpic.com
+0.0.0.0 p5-a-sign.douyinpic.com
+0.0.0.0 media1.giphy.com
+0.0.0.0 *.cws.conviva.com
 0.0.0.0 pi.ispot.tv
 0.0.0.0 p.tvpixel.com
 0.0.0.0 p.placed.com
@@ -206,3 +208,4 @@
 ||atlassian.com^
 ||wework.com^
 ||vmware.com^
+||cisco.com^$important
