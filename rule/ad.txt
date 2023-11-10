@@ -3,6 +3,8 @@
 ||xp.apple.com^$important
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
+0.0.0.0 asiad.byteactivity.com
+0.0.0.0 asiad.byteactivity12.com
 0.0.0.0 p11-sign.douyinpic.com
 0.0.0.0 p5-a-sign.douyinpic.com
 0.0.0.0 media1.giphy.com
