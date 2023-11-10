@@ -27,3 +27,4 @@ host-suffix, app.adjust.com, reject
 # > other
 host-suffix, v26-cold.douyinvod.com, reject
 host-suffix, v99-coldx.douyinvod.com, reject
+host-suffix, p3-ad-sign.byteimg.com, reject
