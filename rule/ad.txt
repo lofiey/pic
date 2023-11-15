@@ -7,11 +7,6 @@
 0.0.0.0 asiad.byteactivity12.com
 0.0.0.0 p11-sign.douyinpic.com
 0.0.0.0 p5-a-sign.douyinpic.com
-0.0.0.0 media1.giphy.com
-0.0.0.0 *.cws.conviva.com
-0.0.0.0 pi.ispot.tv
-0.0.0.0 p.tvpixel.com
-0.0.0.0 p.placed.com
 0.0.0.0 beacons.digital.disneyadvertising.com
 0.0.0.0 digital.disneyadvertising.com
 0.0.0.0 app-measurement.com
