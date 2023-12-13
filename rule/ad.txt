@@ -4,6 +4,7 @@
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
 0.0.0.0 baichuan-sdk.taobao.com
+0.0.0.0 baichuan-sdk.alicdn.com
 0.0.0.0 adashxgc.ut.taobao.com
 0.0.0.0 adashbc.ut.taobao.com
 0.0.0.0 asiad.byteactivity.com
