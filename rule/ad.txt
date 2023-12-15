@@ -7,10 +7,10 @@
 0.0.0.0 baichuan-sdk.alicdn.com
 0.0.0.0 adashxgc.ut.taobao.com
 0.0.0.0 adashbc.ut.taobao.com
-||litix.io
+0.0.0.0 litix.io
 ||xcafe.com^$important
 ||christies.com^$important
-||h264.io^$important
+0.0.0.0 h264.io
 0.0.0.0 asiad.byteactivity.com
 0.0.0.0 asiad.byteactivity12.com
 0.0.0.0 p11-sign.douyinpic.com
