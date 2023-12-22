@@ -196,3 +196,4 @@
 0.0.0.0 wework.com
 0.0.0.0 vmware.com
 0.0.0.0 cisco.com
+||dnsscan.shadowserver.org^$important
