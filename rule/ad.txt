@@ -3,6 +3,7 @@
 ||xp.apple.com^$important
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
+0.0.0.0 us-west-2.amazonaws.com
 0.0.0.0 baichuan-sdk.taobao.com
 0.0.0.0 baichuan-sdk.alicdn.com
 0.0.0.0 adashxgc.ut.taobao.com
