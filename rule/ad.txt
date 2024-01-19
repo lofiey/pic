@@ -195,3 +195,8 @@
 0.0.0.0 vmware.com
 0.0.0.0 cisco.com
 ||dnsscan.shadowserver.org^$important
+0.0.0.0 cisco.com
+0.0.0.0 dnslab.cn
+0.0.0.0 echodns.onlin
+0.0.0.0 test.com
+0.0.0.0 example.com
