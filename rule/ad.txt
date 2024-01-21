@@ -199,3 +199,7 @@
 0.0.0.0 echodns.onlin
 0.0.0.0 test.com
 0.0.0.0 example.com
+0.0.0.0 us-west-2.amazonaws.com
+0.0.0.0 elb.us-west-2.amazonaws.com
+0.0.0.0 *.us-west-2.amazonaws.com
+0.0.0.0 *.elb.us-west-2.amazonaws.com
