@@ -256,3 +256,4 @@
 ||gvt1.com$dnstype=AAAA
 ||ytimg.com$dnstype=AAAA
 ||ggpht.com$dnstype=AAAA
+||gvt1.com$dnstype=AAAA
