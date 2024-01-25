@@ -196,7 +196,7 @@
 0.0.0.0 echodns.onlin
 0.0.0.0 test.com
 0.0.0.0 example.com
-0.0.0.0 us-west.amazonaws.com
+0.0.0.0 us-west-*.amazonaws.com
 0.0.0.0 us-west-1.amazonaws.com
 0.0.0.0 us-west-2.amazonaws.com
 0.0.0.0 us-west-3.amazonaws.com
@@ -226,6 +226,8 @@
 0.0.0.0 *.us-west-7.amazonaws.com 
 0.0.0.0 *.us-west-8.amazonaws.com
 0.0.0.0 *.us-west-9.amazonaws.com
+0.0.0.0 *.elb.*.amazonaws.com
+0.0.0.0 *.elb.us-west-*.amazonaws.com
 0.0.0.0 *.elb.us-west-2.amazonaws.com
 0.0.0.0 *.elb.us-west.amazonaws.com
 0.0.0.0 *.elb.us-west-1.amazonaws.com
@@ -237,7 +239,8 @@
 0.0.0.0 *.elb.us-west-7.amazonaws.com 
 0.0.0.0 *.elb.us-west-8.amazonaws.com
 0.0.0.0 *.elb.us-west-9.amazonaws.com
-0.0.0.0 us-west.internal.dradis.netflix.com
+0.0.0.0 *.internal.dradis.netflix.com
+0.0.0.0 us-west-*.internal.dradis.netflix.com
 0.0.0.0 us-west-1.internal.dradis.netflix.com 
 0.0.0.0 us-west-2.internal.dradis.netflix.com
 0.0.0.0 us-west-3.internal.dradis.netflix.com
@@ -247,6 +250,17 @@
 0.0.0.0 us-west-7.internal.dradis.netflix.com
 0.0.0.0 us-west-8.internal.dradis.netflix.com
 0.0.0.0 us-west-9.internal.dradis.netflix.com
+0.0.0.0 us-west-*.elb.amazonaws.com
+0.0.0.0 *.elb.amazonaws.com
+0.0.0.0 us-west-2.elb.amazonaws.com
+0.0.0.0 us-west-3.elb.amazonaws.com
+0.0.0.0 us-west-4.elb.amazonaws.com
+0.0.0.0 us-west-5.elb.amazonaws.com
+0.0.0.0 us-west-6.elb.amazonaws.com
+0.0.0.0 us-west-7.elb.amazonaws.com
+0.0.0.0 us-west-8.elb.amazonaws.com
+0.0.0.0 us-west-9.elb.amazonaws.com
+0.0.0.0 *.internal.dradis.netflix.com
 0.0.0.0 gvt1-cn.com
 ||google.com$dnstype=AAAA
 ||gstatic.com$dnstype=AAAA
