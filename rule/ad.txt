@@ -247,3 +247,12 @@
 0.0.0.0 us-west-7.internal.dradis.netflix.com
 0.0.0.0 us-west-8.internal.dradis.netflix.com
 0.0.0.0 us-west-9.internal.dradis.netflix.com
+0.0.0.0 gvt1-cn.com
+||google.com$dnstype=AAAA
+||gstatic.com$dnstype=AAAA
+||youtube.com$dnstype=AAAA
+||googleapis.com$dnstype=AAAA
+||googlevideo.com$dnstype=AAAA
+||gvt1.com$dnstype=AAAA
+||ytimg.com$dnstype=AAAA
+||ggpht.com$dnstype=AAAA
