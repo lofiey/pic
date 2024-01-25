@@ -257,3 +257,5 @@
 ||ytimg.com$dnstype=AAAA
 ||ggpht.com$dnstype=AAAA
 ||gvt1.com$dnstype=AAAA
+||googleusercontent.com$dnstype=AAAA
+||pki.goog$dnstype=AAAA
