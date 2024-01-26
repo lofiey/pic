@@ -263,14 +263,14 @@
 0.0.0.0 *.internal.dradis.netflix.com
 0.0.0.0 ichnaea-web.dradis.netflix.com
 0.0.0.0 gvt1-cn.com
-||google.com$dnstype=AAAA
-||gstatic.com$dnstype=AAAA
-||youtube.com$dnstype=AAAA
-||googleapis.com$dnstype=AAAA
-||googlevideo.com$dnstype=AAAA
-||gvt1.com$dnstype=AAAA
-||ytimg.com$dnstype=AAAA
-||ggpht.com$dnstype=AAAA
-||gvt1.com$dnstype=AAAA
-||googleusercontent.com$dnstype=AAAA
-||pki.goog$dnstype=AAAA
+||google.com$dnstype=A
+||gstatic.com$dnstype=A
+||youtube.com$dnstype=A
+||googleapis.com$dnstype=A
+||googlevideo.com$dnstype=A
+||gvt1.com$dnstype=A
+||ytimg.com$dnstype=A
+||ggpht.com$dnstype=A
+||gvt1.com$dnstype=A
+||googleusercontent.com$dnstype=A
+||pki.goog$dnstype=A
