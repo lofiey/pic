@@ -262,15 +262,4 @@
 0.0.0.0 us-west-9.elb.amazonaws.com
 0.0.0.0 *.internal.dradis.netflix.com
 0.0.0.0 ichnaea-web.dradis.netflix.com
-0.0.0.0 gvt1-cn.com
-||google.com$dnstype=A
-||gstatic.com$dnstype=A
-||youtube.com$dnstype=A
-||googleapis.com$dnstype=A
-||googlevideo.com$dnstype=A
-||gvt1.com$dnstype=A
-||ytimg.com$dnstype=A
-||ggpht.com$dnstype=A
-||gvt1.com$dnstype=A
-||googleusercontent.com$dnstype=A
-||pki.goog$dnstype=A
+
