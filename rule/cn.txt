@@ -1,0 +1,98 @@
+https://mozilla.cloudflare-dns.com/dns-query
+https://dns64.dns.google/dns-query
+[/aliyun.com/] https://58276.alidns.com/dns-query
+[/aliyuncs.com/] https://58276.alidns.com/dns-query
+[/alibabadns.com/] https://58276.alidns.com/dns-query
+[/alicdn.com/] https://58276.alidns.com/dns-query
+[/taobao.com/] https://58276.alidns.com/dns-query
+[/alipay.com/] https://58276.alidns.com/dns-query
+[/qq.com/] https://58276.alidns.com/dns-query
+[/qlogo.cn/] https://58276.alidns.com/dns-query
+[/qpic.cn/] https://58276.alidns.com/dns-query
+[/qcloud.com/] https://58276.alidns.com/dns-query
+[/douyinvod.com/] https://58276.alidns.com/dns-query
+[/amemv.com/] https://58276.alidns.com/dns-query
+[/bsccdn.net/] https://58276.alidns.com/dns-query
+[/douyinstatic.com/] https://58276.alidns.com/dns-query
+[/bytedance.com/] https://58276.alidns.com/dns-query
+[/idouyinvod.com/] https://58276.alidns.com/dns-query
+[/volcfcdndvs.com/] https://58276.alidns.com/dns-query
+[/tencent-cloud.net/] https://58276.alidns.com/dns-query
+[/tencent-cloud.com/] https://58276.alidns.com/dns-query
+[/tdnsv6.com/] https://58276.alidns.com/dns-query
+[/uyun-cdn.com/] https://58276.alidns.com/dns-query
+[/tdnsstic1.cn/] https://58276.alidns.com/dns-query
+[/myqcloud.com/] https://58276.alidns.com/dns-query
+[/dcloudlive.com/] https://58276.alidns.com/dns-query
+[/cdnhwc1.com/] https://58276.alidns.com/dns-query
+[/cdnhwc2.com/] https://58276.alidns.com/dns-query
+[/cdnhwc3.com/] https://58276.alidns.com/dns-query
+[/cdnhwc4.com/] https://58276.alidns.com/dns-query
+[/cdnhwc5.com/] https://58276.alidns.com/dns-query
+[/cdnhwc6.com/] https://58276.alidns.com/dns-query
+[/cdnhwc7.com/] https://58276.alidns.com/dns-query
+[/cdnhwc3.com/] https://58276.alidns.com/dns-query
+[/cdnhwc9.com/] https://58276.alidns.com/dns-query
+[/cdnhwc.com/] https://58276.alidns.com/dns-query
+[/chinamobile.com/] https://58276.alidns.com/dns-query
+[/zjgslb.com/] https://58276.alidns.com/dns-query
+[/bytegslb.com/] https://58276.alidns.com/dns-query
+[/volcgslb.mom/] https://58276.alidns.com/dns-query
+[/queniuuf.com/] https://58276.alidns.com/dns-query
+[/cdngslb.com/] https://58276.alidns.com/dns-query
+[/alibabachengdun.com/] https://58276.alidns.com/dns-query
+[/kunlunhuf.com/] https://58276.alidns.com/dns-query
+[/alipaydns.com/] https://58276.alidns.com/dns-query
+[/tbcache.com/] https://58276.alidns.com/dns-query
+[/aliapp.org/] https://58276.alidns.com/dns-query
+[/uc.cn/] https://58276.alidns.com/dns-query
+[/effirst.com/] https://58276.alidns.com/dns-query
+[/alipayobjects.com/] https://58276.alidns.com/dns-query
+[/kunlunaq.com/] https://58276.alidns.com/dns-query
+[/cdn20.com/] https://58276.alidns.com/dns-query
+[/xmcdn.com/] https://58276.alidns.com/dns-query
+[/cdnhwcxcy07.com/] https://58276.alidns.com/dns-query
+[/ximalaya.com/] https://58276.alidns.com/dns-query
+[/sinaedge.com/] https://58276.alidns.com/dns-query
+[/sinaimg.cn/] https://58276.alidns.com/dns-query
+[/edgesuite.net/] https://58276.alidns.com/dns-query
+[/weibo.com/] https://58276.alidns.com/dns-query
+[/weibo.cn/] https://58276.alidns.com/dns-query
+[/weibocdn.com/] https://58276.alidns.com/dns-query
+[/alikunlun.net/] https://58276.alidns.com/dns-query
+[/dnsv1.com.cn/] https://58276.alidns.com/dns-query
+[/dnsv1.com/] https://58276.alidns.com/dns-query
+[/tdnsstic1.cn/] https://58276.alidns.com/dns-query
+[/bokan.com.cn/] https://58276.alidns.com/dns-query
+[/alibabacorp.com/] https://58276.alidns.com/dns-query
+[/pinduoduo.com/] https://58276.alidns.com/dns-query
+[/pddpic.com/] https://58276.alidns.com/dns-query
+[/bdydns.com/] https://58276.alidns.com/dns-query
+[/cloudcsp.com/] https://58276.alidns.com/dns-query
+[/jomodns.com/] https://58276.alidns.com/dns-query
+[/bsgslb.cn/] https://58276.alidns.com/dns-query
+[/gccdn.net/] https://58276.alidns.com/dns-query
+[/ltao.com/] https://58276.alidns.com/dns-query
+[/tianqicloud.com/] https://58276.alidns.com/dns-query
+[/dingtalk.com/] https://58276.alidns.com/dns-query
+[/alikunlun.com/] https://58276.alidns.com/dns-query
+[/cdngslb.com/] https://58276.alidns.com/dns-query
+[/aliimg.com/] https://58276.alidns.com/dns-query
+[/12306.cn/] https://58276.alidns.com/dns-query
+[/133.cn/] https://58276.alidns.com/dns-query
+[/lxdns.com/] https://58276.alidns.com/dns-query
+[/cmpassport.com/] https://58276.alidns.com/dns-query
+[/rsscc.com/] https://58276.alidns.com/dns-query
+[/huoli.com/] https://58276.alidns.com/dns-query
+[/wswebcdn.com/] https://58276.alidns.com/dns-query
+[/internet-census.org/] https://58276.alidns.com/dns-query
+[/youku.com/]https://58276.alidns.com/dns-query
+[/ykimg/]https://58276.alidns.com/dns-query
+[/cibntv.net/]https://58276.alidns.com/dns-query
+[/tdnsdp1.cn/]https://58276.alidns.com/dns-query
+[/ettdnsv.com/]https://58276.alidns.com/dns-query
+[/cdn-go.cn/]https://58276.alidns.com/dns-query
+[/dnsv1.com.cn/]https://58276.alidns.com/dns-query
+[/tdnsstic1.cn/]https://58276.alidns.com/dns-query
+[/iqiyi.com/]https://58276.alidns.com/dns-query
+[/qy.net/]https://58276.alidns.com/dns-query
