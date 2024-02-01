@@ -196,6 +196,8 @@
 0.0.0.0 echodns.onlin
 0.0.0.0 test.com
 0.0.0.0 example.com
+0.0.0.0 *ad.youku.com
+0.0.0.0 zz.bdstatic.com
 0.0.0.0 us-west-*.amazonaws.com
 0.0.0.0 us-west-1.amazonaws.com
 0.0.0.0 us-west-2.amazonaws.com
@@ -262,4 +264,3 @@
 0.0.0.0 us-west-9.elb.amazonaws.com
 0.0.0.0 *.internal.dradis.netflix.com
 0.0.0.0 ichnaea-web.dradis.netflix.com
-
