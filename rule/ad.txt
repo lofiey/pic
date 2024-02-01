@@ -11,7 +11,6 @@
 0.0.0.0 p5-a-sign.douyinpic.com
 0.0.0.0 beacons.digital.disneyadvertising.com
 0.0.0.0 digital.disneyadvertising.com
-0.0.0.0 app-measurement.com
 0.0.0.0 douyinliving.com
 0.0.0.0 ecombdimg.com.w.kunluncan.com
 0.0.0.0 ecombdimg.com.queniusy.com
@@ -262,4 +261,3 @@
 0.0.0.0 us-west-7.elb.amazonaws.com
 0.0.0.0 us-west-8.elb.amazonaws.com
 0.0.0.0 us-west-9.elb.amazonaws.com
-0.0.0.0 *.internal.dradis.netflix.com
