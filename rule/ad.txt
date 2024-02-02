@@ -72,7 +72,6 @@
 0.0.0.0 v5-h-tzcm.douyinvod.com
 0.0.0.0 v3-cha.douyinvod.com
 0.0.0.0 v26-cold.douyinvod.com
-0.0.0.0 p3-sign.bdxiguaimg.com
 0.0.0.0 v5-abtest-hot1.douyinvod.com
 0.0.0.0 sdkxgxyajs.data.kuiniuca.com
 0.0.0.0 p26-item.ecombdimg.com
