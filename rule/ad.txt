@@ -261,3 +261,4 @@
 0.0.0.0 us-west-7.elb.amazonaws.com
 0.0.0.0 us-west-8.elb.amazonaws.com
 0.0.0.0 us-west-9.elb.amazonaws.com
+0.0.0.0 gvt1-cn.com
