@@ -162,7 +162,6 @@
 0.0.0.0 p29-sign.douyinpic.com
 0.0.0.0 p26-sign.douyinpic.com
 0.0.0.0 p9-sign.douyinpic.com
-0.0.0.0 p3-sign.douyinpic.com
 0.0.0.0 tt.x.bsgslb.cn
 0.0.0.0 vdn.vzuu.com
 0.0.0.0 utoken.umeng.com
