@@ -68,8 +68,6 @@ https://dns64.dns.google/dns-query
 [/pinduoduo.com/] https://58276.alidns.com/dns-query
 [/pddpic.com/] https://58276.alidns.com/dns-query
 [/bdydns.com/] https://58276.alidns.com/dns-query
-[/cloudcsp.com/] https://58276.alidns.com/dns-query
-[/jomodns.com/] https://58276.alidns.com/dns-query
 [/bsgslb.cn/] https://58276.alidns.com/dns-query
 [/gccdn.net/] https://58276.alidns.com/dns-query
 [/ltao.com/] https://58276.alidns.com/dns-query
@@ -95,4 +93,67 @@ https://dns64.dns.google/dns-query
 [/dnsv1.com.cn/]https://58276.alidns.com/dns-query
 [/tdnsstic1.cn/]https://58276.alidns.com/dns-query
 [/iqiyi.com/]https://58276.alidns.com/dns-query
+[/sina.com.cn/]https://58276.alidns.com/dns-query
+[/sinajs.cn/]https://58276.alidns.com/dns-query
+[/163.com/]https://58276.alidns.com/dns-query
+[/126.net/]https://58276.alidns.com/dns-query
+[/188.com/]https://58276.alidns.com/dns-query
+[/yeah.net/]https://58276.alidns.com/dns-query
+[/netease.com/]https://58276.alidns.com/dns-query
+[/127.net/]https://58276.alidns.com/dns-query
+[/gtimg.com/]https://58276.alidns.com/dns-query
+[/gtimg.cn/]https://58276.alidns.com/dns-query
+[/sohu.com/]https://58276.alidns.com/dns-query
+[/tom.com/]https://58276.alidns.com/dns-query
+[/xs8.cn/]https://58276.alidns.com/dns-query
+[/qidian.com/]https://58276.alidns.com/dns-query
+[/yuewen.com/]https://58276.alidns.com/dns-query
+[/hongxiu.com/]https://58276.alidns.com/dns-query
+[/qcloudcjgj.com/]https://58276.alidns.com/dns-query
+[/readnovel.com/]https://58276.alidns.com/dns-query
+[/cdngslb.com/]https://58276.alidns.com/dns-query
+[/xxsy.net/]https://58276.alidns.com/dns-query
+[/tdnsstic1.cn/]https://58276.alidns.com/dns-query
+[/boc.cn/]https://58276.alidns.com/dns-query
+[/icbc.com.cn/]https://58276.alidns.com/dns-query
+[/abchina.com/]https://58276.alidns.com/dns-query
+[/ccb.com/]https://58276.alidns.com/dns-query
+[/psbc.com/]https://58276.alidns.com/dns-query
+[/cmbchina.com/]https://58276.alidns.com/dns-query
+[/ccb.com/]https://58276.alidns.com/dns-query
+[/10086.cn/]https://58276.alidns.com/dns-query
+[/10010.com/]https://58276.alidns.com/dns-query
+[/189.cn/]https://58276.alidns.com/dns-query
+[/ifeng.com/]https://58276.alidns.com/dns-query
+[/feng.com/]https://58276.alidns.com/dns-query
+[/58.com/]https://58276.alidns.com/dns-query
+[/51.com/]https://58276.alidns.com/dns-query
+[/wscdns.com/]https://58276.alidns.com/dns-query
+[/cctvpic.com/]https://58276.alidns.com/dns-query
+[/lxdns.com/]https://58276.alidns.com/dns-query
+[/news.cn/]https://58276.alidns.com/dns-query
+[/volcgslb.com/]https://58276.alidns.com/dns-query
+[/volcgtm.com/]https://58276.alidns.com/dns-query
+[/qh-cdn.com/]https://58276.alidns.com/dns-query
+[/360qhcdn.com/]https://58276.alidns.com/dns-query
+[/bsclink.cn/]https://58276.alidns.com/dns-query
+[/alipayobjects.com/]https://58276.alidns.com/dns-query
+[/tbcache.com/]https://58276.alidns.com/dns-query
+[/qss-lb.com/]https://58276.alidns.com/dns-query
+[/1688.com/]https://58276.alidns.com/dns-query
+[/ctrip.com/]https://58276.alidns.com/dns-query
+[/ifengimg.com/]https://58276.alidns.com/dns-query
+[/tdnsstic1.cn/]https://58276.alidns.com/dns-query
+[/cdngslb.com/]https://58276.alidns.com/dns-query
+[/bilibili.com/]https://58276.alidns.com/dns-query
+[/bilicdn1.com/]https://58276.alidns.com/dns-query
+[/hupu.com/]https://58276.alidns.com/dns-query
+[/tencentclb.com/]https://58276.alidns.com/dns-query
+[/tlivesource.com/]https://58276.alidns.com/dns-query
+[/ovscdns.com/]https://58276.alidns.com/dns-query
+[/tencent-cloud.net/]https://58276.alidns.com/dns-query
+[/zongheng.com/]https://58276.alidns.com/dns-query
+[/aliyunddos1023.com/]https://58276.alidns.com/dns-query
+[/bdydns.com/]https://58276.alidns.com/dns-query
 [/qy.net/]https://58276.alidns.com/dns-query
+[/jomodns.com/]https://58276.alidns.com/dns-query
