@@ -7,6 +7,7 @@ HOST-SUFFIX, blobstore.apple.com,AppleProxy
 HOST-SUFFIX, digicert.com,AppleProxy
 host-suffix, github.com, proxy
 host-suffix, github.io, proxy
+host-suffix, hostloc.com, proxy
 host-suffix, githubapp.com, proxy
 host-suffix, githubassets.com, proxy
 host-suffix, githubusercontent.com, proxy
