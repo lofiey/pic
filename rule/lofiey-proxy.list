@@ -7,7 +7,6 @@ HOST-SUFFIX, blobstore.apple.com,AppleProxy
 HOST-SUFFIX, digicert.com,AppleProxy
 host-suffix, github.com, proxy
 host-suffix, github.io, proxy
-host-suffix, hostloc.com, proxy
 host-suffix, githubapp.com, proxy
 host-suffix, githubassets.com, proxy
 host-suffix, githubusercontent.com, proxy
@@ -30,7 +29,6 @@ host-suffix, chinadigitaltimes.net, proxy
 host-suffix, ntdtv.com, proxy
 host-suffix, ilifepost.com, proxy
 host-suffix, chinapress.com.my, proxy
-host-suffix, hostloc.com, proxy
 host-suffix, m3u.if101.tv, proxy
 host-suffix, v2board.com, proxy
 host-suffix, dafahao.com, proxy
