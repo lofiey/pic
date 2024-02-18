@@ -14,7 +14,6 @@
 0.0.0.0 douyinliving.com
 0.0.0.0 ecombdimg.com.w.kunluncan.com
 0.0.0.0 ecombdimg.com.queniusy.com
-0.0.0.0 volcsirius.com
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 v5-coldm.douyinvod.com
@@ -83,7 +82,6 @@
 0.0.0.0 webcast5-core-c-lf.amemv.com
 0.0.0.0 v11-x.douyinvod.com.cdn.dnsv1.com
 0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn
-0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn.cvod.jmcity.toufu321.com
 0.0.0.0 vdn5-1.vzuu.com
 0.0.0.0 vdn5.vzuu.com
 0.0.0.0 vdn6.vzuu.com
@@ -97,7 +95,6 @@
 0.0.0.0 picx1.zhimg.com
 0.0.0.0 qc.bsccdn.net
 0.0.0.0 gslb-pek01.zhihu.com
-0.0.0.0 open.taou.com
 0.0.0.0 mqtt-internal-public.zhihu.com.dsa.dnsv1.com
 0.0.0.0 picx.zhimg.com
 0.0.0.0 picd.zhimg.com
@@ -112,7 +109,6 @@
 0.0.0.0 tt-vod-cold1-sched.jcloudimg.com
 0.0.0.0 cold1.douyinvod.com.vod.galileo.jcloud-cdn.com
 0.0.0.0 collect-v6.51.la
-0.0.0.0 sp0.baidu.com
 0.0.0.0 v6-cold.douyinvod.com.download.ks-cdn.com
 0.0.0.0 k2-dy-cold-ml.gslb.ksyuncdn.com
 0.0.0.0 v3-cold.douyinvod.com.w.cdngslb.com
