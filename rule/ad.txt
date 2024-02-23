@@ -199,7 +199,6 @@
 0.0.0.0 *.us-west-7.amazonaws.com 
 0.0.0.0 *.us-west-8.amazonaws.com
 0.0.0.0 *.us-west-9.amazonaws.com
-0.0.0.0 *.elb.*.amazonaws.com
 0.0.0.0 *.elb.us-west-*.amazonaws.com
 0.0.0.0 *.elb.us-west-2.amazonaws.com
 0.0.0.0 *.elb.us-west.amazonaws.com
@@ -213,7 +212,6 @@
 0.0.0.0 *.elb.us-west-8.amazonaws.com
 0.0.0.0 *.elb.us-west-9.amazonaws.com
 0.0.0.0 us-west-*.elb.amazonaws.com
-0.0.0.0 *.elb.amazonaws.com
 0.0.0.0 us-west-2.elb.amazonaws.com
 0.0.0.0 us-west-3.elb.amazonaws.com
 0.0.0.0 us-west-4.elb.amazonaws.com
