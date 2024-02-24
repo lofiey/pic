@@ -180,5 +180,5 @@
 0.0.0.0 *ad.youku.com
 0.0.0.0 elb.us-west-2.amazonaws.com
 0.0.0.0 us-west-2.elb.amazonaws.com
-0.0.0.0 us-west-2.origin.prodaa.netflix.com
+
 
