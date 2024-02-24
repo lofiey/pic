@@ -178,7 +178,6 @@
 0.0.0.0 test.com
 0.0.0.0 example.com
 0.0.0.0 *ad.youku.com
-0.0.0.0 zz.bdstatic.com
 0.0.0.0 elb.us-west.amazonaws.com
 0.0.0.0 elb.us-west-1.amazonaws.com
 0.0.0.0 elb.us-west-2.amazonaws.com
@@ -220,6 +219,14 @@
 0.0.0.0 us-west-7.elb.amazonaws.com
 0.0.0.0 us-west-8.elb.amazonaws.com
 0.0.0.0 us-west-9.elb.amazonaws.com
-0.0.0.0 us-west-2.origin.prodaa.netflix.com
 0.0.0.0 *.origin.prodaa.netflix.com
-0.0.0.0 origin.prodaa.netflix.com
+0.0.0.0 us-west-*.origin.prodaa.netflix.com
+0.0.0.0 us-west-1.origin.prodaa.netflix.com 
+0.0.0.0 us-west-2.origin.prodaa.netflix.com
+0.0.0.0 us-west-3.origin.prodaa.netflix.com
+0.0.0.0 us-west-4.origin.prodaa.netflix.com
+0.0.0.0 us-west-5.origin.prodaa.netflix.com
+0.0.0.0 us-west-6.origin.prodaa.netflix.com
+0.0.0.0 us-west-7.origin.prodaa.netflix.com
+0.0.0.0 us-west-8.origin.prodaa.netflix.com
+0.0.0.0 us-west-9.origin.prodaa.netflix.com  
