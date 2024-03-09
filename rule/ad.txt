@@ -184,9 +184,6 @@
 0.0.0.0 adussinaimg.gslb.sinaedge.com
 0.0.0.0 adashbc.m.taobao.com
 0.0.0.0 adashbc.m.taobao.com.gds.alibabadns.com
-0.0.0.0 us-west-2.origin.prodaa.netflix.com
-0.0.0.0 elb.us-west-2.amazonaws.com
-0.0.0.0 us-west-2.elb.amazonaws.com
 0.0.0.0 *.elb.us-west-2.amazonaws.com
 0.0.0.0 *.us-west-2.elb.amazonaws.com
 0.0.0.0 *.us-west-2.origin.prodaa.netflix.com
