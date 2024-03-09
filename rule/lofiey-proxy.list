@@ -1,3 +1,6 @@
+host-suffix, rfa-ingest.akamaized.net, proxy
+host-suffix, voa-ingest.akamaized.net, proxy
+host-suffix, radio-browser.info, proxy
 host-suffix, scorecardresearch.com, proxy
 host-suffix, conviva.com, proxy
 host-suffix, braze.com, proxy
