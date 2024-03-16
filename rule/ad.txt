@@ -188,4 +188,7 @@
 0.0.0.0 *.us-west-2.elb.amazonaws.com
 0.0.0.0 *.us-west-2.origin.prodaa.netflix.com
 0.0.0.0 us-west-2.internal.dradis.netflix.com
-0.0.0.0 dradis.netflix.com
+0.0.0.0 prod.cloud.us-west-2.internal.dradis.netflix.com
+0.0.0.0 prod.cloud.dradis.netflix.com
+0.0.0.0 appboot.us-west-2.origin.prodaa.netflix.com
+0.0.0.0 appboot.dradis.netflix.com
