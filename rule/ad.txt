@@ -187,3 +187,6 @@
 0.0.0.0 *.elb.us-west-2.amazonaws.com
 0.0.0.0 *.elb.amazonaws.com
 0.0.0.0 *.origin.prodaa.netflix.com
+0.0.0.0 elb.us-west-2.amazonaws.com
+0.0.0.0 elb.amazonaws.com
+0.0.0.0 origin.prodaa.netflix.com
