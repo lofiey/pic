@@ -184,4 +184,3 @@
 0.0.0.0 adussinaimg.gslb.sinaedge.com
 0.0.0.0 adashbc.m.taobao.com
 0.0.0.0 adashbc.m.taobao.com.gds.alibabadns.com
-0.0.0.0 *.origin.prodaa.netflix.com
