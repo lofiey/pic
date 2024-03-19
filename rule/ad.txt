@@ -185,5 +185,4 @@
 0.0.0.0 adashbc.m.taobao.com
 0.0.0.0 adashbc.m.taobao.com.gds.alibabadns.com
 0.0.0.0 *.elb.us-west-2.amazonaws.com
-0.0.0.0 *.elb.amazonaws.com
 0.0.0.0 *.origin.prodaa.netflix.com
