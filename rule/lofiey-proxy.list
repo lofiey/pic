@@ -511,9 +511,3 @@ DOMAIN,api.viu.now.com
 DOMAIN,d1k2us671qcoau.cloudfront.net
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
 DOMAIN,dfp6rglgjqszk.cloudfront.net
-# > WeTV
-USER-AGENT,WeTV*
-DOMAIN-SUFFIX,wetv.vip
-DOMAIN-SUFFIX,wetvinfo.com
-IP-CIDR,150.109.28.51/32,no-resolve
-DOMAIN-SUFFIX,infomaniak.ch
