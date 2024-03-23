@@ -8,8 +8,6 @@
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 pagead2.googlesyndication.com
-0.0.0.0 asiad.byteactivity.com
-0.0.0.0 asiad.byteactivity12.com
 0.0.0.0 p11-sign.douyinpic.com
 0.0.0.0 p5-a-sign.douyinpic.com
 0.0.0.0 beacons.digital.disneyadvertising.com
@@ -82,9 +80,6 @@
 0.0.0.0 v3-dy.ixigua.com
 0.0.0.0 v3-cold-src.douyinvod.com
 0.0.0.0 v5-coldg.douyinvod.com
-0.0.0.0 webcast5-core-c-lf.amemv.com
-0.0.0.0 v11-x.douyinvod.com.cdn.dnsv1.com
-0.0.0.0 v11-x.sched.v4lego-dk.tdnsvod1.cn
 0.0.0.0 vdn5-1.vzuu.com
 0.0.0.0 vdn5.vzuu.com
 0.0.0.0 vdn6.vzuu.com
@@ -102,16 +97,12 @@
 0.0.0.0 picx.zhimg.com
 0.0.0.0 picd.zhimg.com
 0.0.0.0 ad.ofweek.com
-0.0.0.0 ttxyajs.data.kuiniuca.com
-0.0.0.0 data.kuiniuca.com
-0.0.0.0 s2.loli.net
 0.0.0.0 ad.holmesmind.com
 0.0.0.0 adv-sv-show.focus.cn
 0.0.0.0 dy-vod-cold.bytegslb.com
 0.0.0.0 v5-cold.douyinvod.com.zjgslb.com
 0.0.0.0 tt-vod-cold1-sched.jcloudimg.com
 0.0.0.0 cold1.douyinvod.com.vod.galileo.jcloud-cdn.com
-0.0.0.0 collect-v6.51.la
 0.0.0.0 v6-cold.douyinvod.com.download.ks-cdn.com
 0.0.0.0 k2-dy-cold-ml.gslb.ksyuncdn.com
 0.0.0.0 v3-cold.douyinvod.com.w.cdngslb.com
@@ -157,7 +148,6 @@
 0.0.0.0 p29-sign.douyinpic.com
 0.0.0.0 p26-sign.douyinpic.com
 0.0.0.0 p9-sign.douyinpic.com
-0.0.0.0 tt.x.bsgslb.cn
 0.0.0.0 vdn.vzuu.com
 0.0.0.0 utoken.umeng.com
 0.0.0.0 ulogs.umeng.com
@@ -165,8 +155,6 @@
 0.0.0.0 crash*.zhihu.com
 0.0.0.0 m-cloud.zhihu.com
 0.0.0.0 m-cloud1.zhihu.com
-0.0.0.0 pubgw.api.ddxq.mobi
-0.0.0.0 img2.360buyimg.com
 0.0.0.0 zhihu-web-analytics.zhihu.com
 0.0.0.0 unpkg.zhimg.com
 0.0.0.0 pkg1.zhimg.com
@@ -174,10 +162,6 @@
 0.0.0.0 appcloud2.zhihu.com
 0.0.0.0 appcloud.zhihu.com
 0.0.0.0 app.adjust.net.in
-0.0.0.0 im-x.jd.com
-0.0.0.0 v9-ipv6.douyinvod.com
 0.0.0.0 app.adjust.world
-0.0.0.0 v*-aweme-play-xigua.ixigua.com
 0.0.0.0 test.com
 0.0.0.0 example.com
-0.0.0.0 *ad.youku.com
