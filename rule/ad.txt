@@ -165,3 +165,10 @@
 0.0.0.0 app.adjust.world
 0.0.0.0 test.com
 0.0.0.0 example.com
+0.0.0.0 elb.us-west-2.amazonaws.com
+0.0.0.0 us-west-2.internal.dradis.netflix.com
+0.0.0.0 us-west-2.elb.amazonaws.com
+0.0.0.0 us-west-2.origin.prodaa.netflix.com
+0.0.0.0 ftl.netflix.com
+0.0.0.0 cloud.dradis.netflix.com
+0.0.0.0 cloud.us-west-2.internal.dradis.netflix.com
