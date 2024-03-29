@@ -172,3 +172,5 @@
 0.0.0.0 ftl.netflix.com
 0.0.0.0 cloud.dradis.netflix.com
 0.0.0.0 cloud.us-west-2.internal.dradis.netflix.com
+0.0.0.0 prod.dradis.netflix.com
+0.0.0.0 prod.us-west-2.internal.dradis.netflix.com
