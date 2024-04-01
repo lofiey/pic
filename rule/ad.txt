@@ -169,8 +169,8 @@
 127.0.0.1 prod.http1.us-west-2.internal.dradis.netflix.com
 127.0.0.1 prod.cloud.dradis.netflix.com
 127.0.0.1 prod.cloud.us-west-2.internal.dradis.netflix.com
-0.0.0.0 amazonaws.com
-0.0.0.0 oca-api.eu-west-1.origin.prodaa.netflix.com
-0.0.0.0 oca-api.eu-west-2.origin.prodaa.netflix.com
-0.0.0.0 oca-api.us-east-2.origin.prodaa.netflix.com
-0.0.0.0 oca-api.us-east-2.origin.prodaa.netflix.com
+127.0.0.1 amazonaws.com
+127.0.0.1 oca-api.eu-west-1.origin.prodaa.netflix.com
+127.0.0.1 oca-api.eu-west-2.origin.prodaa.netflix.com
+127.0.0.1 oca-api.us-east-2.origin.prodaa.netflix.com
+127.0.0.1 oca-api.us-east-2.origin.prodaa.netflix.com
