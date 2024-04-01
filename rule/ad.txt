@@ -175,9 +175,5 @@
 127.0.0.1 *.us-west-2.elb.amazonaws.com
 127.0.0.1 prod.http1.dradis.netflix.com
 127.0.0.1 prod.http1.us-west-2.internal.dradis.netflix.com
-127.0.0.1 ios.prod.dradis.netflix.com
-127.0.0.1 ios.prod.us-west-2.internal.dradis.netflix.com
-127.0.0.1 ios.prod.dradis.netflix.com
-127.0.0.1 ios.prod.us-west-2.internal.dradis.netflix.com
 127.0.0.1 prod.cloud.dradis.netflix.com
 127.0.0.1 prod.cloud.us-west-2.internal.dradis.netflix.com
