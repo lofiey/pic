@@ -165,10 +165,7 @@
 0.0.0.0 app.adjust.world
 0.0.0.0 test.com
 0.0.0.0 example.com
-127.0.0.1 ios.prod.cloud.netflix.com
-127.0.0.1 ios.ngp.prod.cloud.netflix.com
 127.0.0.1 origin.prodaa.netflix.com
-127.0.0.1 ios.prod.ftl.netflix.com
 127.0.0.1 appboot.netflix.com
 127.0.0.1 *.elb.us-west-2.amazonaws.com
 127.0.0.1 mobile-ixanycast.ftl.netflix.com
