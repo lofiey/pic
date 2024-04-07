@@ -1,4 +1,7 @@
-host-suffix, translate.google.com, proxy
+host-suffix, elb.us-west-2.amazonaws.com, proxy
+host-suffix, us-west-2.elb.amazonaws.com, proxy
+DOMAIN-SUFFIX, elb.us-west-2.amazonaws.com, proxy
+DOMAIN-SUFFIX, us-west-2.elb.amazonaws.com, proxy
 host-suffix, conviva.com, proxy
 host-suffix, dssott.com, proxy
 host-suffix, omtrdc.net, proxy
