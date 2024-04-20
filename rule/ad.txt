@@ -3,6 +3,10 @@
 ||xp.apple.com^$important
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
+0.0.0.0 amazonaws.com
+0.0.0.0 appboot.netflix.com
+0.0.0.0 ios.prod.cloud.netflix.com
+0.0.0.0 ios.ngp.prod.cloud.netflix.com
 0.0.0.0 volcsirius.com
 0.0.0.0 v5-coldw.douyinvod.com.volcgslb.com
 0.0.0.0 ad.doubleclick.net
@@ -165,4 +169,3 @@
 0.0.0.0 app.adjust.world
 0.0.0.0 test.com
 0.0.0.0 example.com
-0.0.0.0 amazonaws.com
