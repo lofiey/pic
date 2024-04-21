@@ -5,15 +5,10 @@
 ||gdmf.apple.com^$important
 0.0.0.0 amazonaws.com
 0.0.0.0 web.prod.cloud.netflix.com
-0.0.0.0 web.ngp.prod.cloud.netflix.com
 0.0.0.0 ios.prod.cloud.netflix.com
-0.0.0.0 ios.ngp.prod.cloud.netflix.com
 0.0.0.0 *.prod.cloud.netflix.com
-0.0.0.0 *.ngp.prod.cloud.netflix.com
 0.0.0.0 android.prod.cloud.netflix.com
-0.0.0.0 android.ngp.prod.cloud.netflix.com
 0.0.0.0 prod.cloud.netflix.com
-0.0.0.0 ngp.prod.cloud.netflix.com
 0.0.0.0 volcsirius.com
 0.0.0.0 v5-coldw.douyinvod.com.volcgslb.com
 0.0.0.0 ad.doubleclick.net
