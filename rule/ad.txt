@@ -3,6 +3,8 @@
 ||xp.apple.com^$important
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
+0.0.0.0 prod.cloud.netflix.com dnstype=A|CNAME
+0.0.0.0 prod.cloud.netflix.com dnstype=AAAA|CNAME
 0.0.0.0 prod.dradis.netflix.com dnstype=A|CNAME
 0.0.0.0 prod.us-west-2.internal.dradis.netflix.com dnstype=A|CNAME
 0.0.0.0 prod.us-west2.internal.dradis.netflix.com dnstype=A|CNAME
