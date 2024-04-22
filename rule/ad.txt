@@ -4,6 +4,7 @@
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
 0.0.0.0 ios.prod.cloud.netflix.com
+0.0.0.0 android.prod.cloud.netflix.com
 0.0.0.0 web.prod.cloud.netflix.com
 0.0.0.0 tv.prod.cloud.netflix.com
 0.0.0.0 volcsirius.com
