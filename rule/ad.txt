@@ -3,42 +3,14 @@
 ||xp.apple.com^$important
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
-0.0.0.0 ios.prod.http1.netflix.com dnstype=AAAA|CNAME
-0.0.0.0 ios.prod.http1.netflix.com dnstype=A|CNAME
 0.0.0.0 ios.prod.http1.netflix.com
-0.0.0.0 web.prod.http1.netflix.com dnstype=AAAA|CNAME
-0.0.0.0 web.prod.http1.netflix.com dnstype=A|CNAME
 0.0.0.0 web.prod.http1.netflix.com
 0.0.0.0 ios.prod.cloud.netflix.com
-0.0.0.0 android.prod.cloud.netflix.com dnstype=A|CNAME
-0.0.0.0 android.prod.cloud.netflix.com dnstype=AAAA|CNAME
 0.0.0.0 android.prod.cloud.netflix.com
-0.0.0.0 android.prod.http1.netflix.com dnstype=AAAA|CNAME
-0.0.0.0 android.prod.http1.netflix.com dnstype=A|CNAME
 0.0.0.0 android.prod.http1.netflix.com
 0.0.0.0 web.prod.cloud.netflix.com
 0.0.0.0 tv.prod.cloud.netflix.com
-0.0.0.0 tv.prod.cloud.netflix.com dnstype=A|CNAME
-0.0.0.0 tv.prod.cloud.netflix.com dnstype=AAAA|CNAME
-0.0.0.0 tv.prod.http1.netflix.com dnstype=AAAA|CNAME
-0.0.0.0 tv.prod.http1.netflix.com dnstype=A|CNAME
 0.0.0.0 tv.prod.http1.netflix.com
-0.0.0.0 ios.prod.cloud.netflix.com dnstype=AAAA|CNAME
-0.0.0.0 ios.prod.cloud.netflix.com dnstype=A|CNAME
-0.0.0.0 web.prod.cloud.netflix.com dnstype=AAAA|CNAME
-0.0.0.0 web.prod.cloud.netflix.com dnstype=A|CNAME
-0.0.0.0 us-west2.amazonaws.com dnstype=A|CNAME
-0.0.0.0 us-west-2.amazonaws.com dnstype=A|CNAME
-0.0.0.0 us-west-2.elb.amazonaws.com dnstype=A|CNAME
-0.0.0.0 us-west2.elb.amazonaws.com dnstype=A|CNAME
-0.0.0.0 elb.us-west2.amazonaws.com dnstype=A|CNAME
-0.0.0.0 elb.us-west-2.amazonaws.com dnstype=A|CNAME
-0.0.0.0 us-west2.amazonaws.com dnstype=AAAA|CNAME
-0.0.0.0 us-west-2.amazonaws.com dnstype=AAAA|CNAME
-0.0.0.0 us-west-2.elb.amazonaws.com dnstype=AAAA|CNAME
-0.0.0.0 us-west2.elb.amazonaws.com dnstype=AAAA|CNAME
-0.0.0.0 elb.us-west2.amazonaws.com dnstype=AAAA|CNAME
-0.0.0.0 elb.us-west-2.amazonaws.com dnstype=AAAA|CNAME
 0.0.0.0 volcsirius.com
 0.0.0.0 v5-coldw.douyinvod.com.volcgslb.com
 0.0.0.0 ad.doubleclick.net
