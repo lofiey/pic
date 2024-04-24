@@ -21,3 +21,9 @@ host-suffix, ads5-normal-lq.zijieapi.com, reject
 host-suffix, app.adjust.com, reject
 # > other
 host-suffix, p3-ad-sign.byteimg.com, reject
+host-suffix, us-west2.amazonaws.com, reject
+host-suffix, us-west-2.amazonaws.com, reject
+host-suffix, us-west-2.elb.amazonaws.com, reject
+host-suffix, us-west2.elb.amazonaws.com, reject
+host-suffix, elb.us-west2.amazonaws.com, reject
+host-suffix, elb.us-west-2.amazonaws.com, reject
