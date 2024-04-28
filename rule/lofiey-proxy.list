@@ -1,11 +1,3 @@
-PROCESS-NAME,com.netflix.mediaclient
-USER-AGENT,Argo*
-DOMAIN-KEYWORD,netflixdnstest
-DOMAIN-KEYWORD,dualstack.apiproxy-
-DOMAIN-KEYWORD,dualstack.ichnaea-web-
-DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
-DOMAIN-KEYWORD,ichnaea-web
-DOMAIN-KEYWORD,ios.prod
 host-suffix, conviva.com, proxy
 host-suffix, dssott.com, proxy
 host-suffix, omtrdc.net, proxy
