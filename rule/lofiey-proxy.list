@@ -1,4 +1,5 @@
 host-suffix, conviva.com, proxy
+HOST-SUFFIX,netflix.com.edgesuite.net,proxy
 host-suffix, dssott.com, proxy
 host-suffix, omtrdc.net, proxy
 host-suffix, rfa-ingest.akamaized.net, proxy
