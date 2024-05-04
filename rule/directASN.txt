@@ -1,0 +1,16 @@
+#begin
+ip-asn,4134,direct
+ip-asn,9808,direct
+ip-asn,4837,direct
+ip-asn,4538,direct
+ip-asn,9394,direct
+ip-asn,37963,direct
+ip-asn,45090,direct
+ip-asn,56046,direct
+ip-asn,45102,direct
+ip-asn,132203,direct
+ip-asn,38365,direct
+ip-asn,45062,direct
+ip-asn,55967,direct
+ip-asn,24429,direct
+ip-asn,63707,direct
