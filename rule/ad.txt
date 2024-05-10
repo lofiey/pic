@@ -3,6 +3,7 @@
 ||xp.apple.com^$important
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
+0.0.0.0 doubleclick.net
 0.0.0.0 volcsirius.com
 0.0.0.0 v5-coldw.douyinvod.com.volcgslb.com
 0.0.0.0 ad.doubleclick.net
