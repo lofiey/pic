@@ -1,4 +1,5 @@
 # begin
+IP-ASN, 15169, REJECT
 ip-asn,16509,reject
 ip-asn,14618,reject
 ip-asn,8987,reject
