@@ -1,19 +1,20 @@
 IP-ASN, 15169, PROXY
-host-suffix, conviva.com, proxy
+HOST-SUFFIX,audio.xmcdn.com, PROXY
+HOST-SUFFIX, conviva.com, proxy
 HOST-SUFFIX, app-analytics-services.com, PROXY
 HOST-SUFFIX,netflix.com.edgesuite.net,proxy
-host-suffix, dssott.com, proxy
-host-suffix, omtrdc.net, proxy
-host-suffix, rfa-ingest.akamaized.net, proxy
-host-suffix, voa-ingest.akamaized.net, proxy
-host-suffix, radio-browser.info, proxy
-host-suffix, scorecardresearch.com, proxy
-host-suffix, conviva.com, proxy
-host-suffix, braze.com, proxy
-host-suffix, adobedc.net, proxy
-host-suffix, cbsig.net, proxy
+HOST-SUFFIX, dssott.com, proxy
+HOST-SUFFIX, omtrdc.net, proxy
+HOST-SUFFIX, rfa-ingest.akamaized.net, proxy
+HOST-SUFFIX, voa-ingest.akamaized.net, proxy
+HOST-SUFFIX, radio-browser.info, proxy
+HOST-SUFFIX, scorecardresearch.com, proxy
+HOST-SUFFIX, conviva.com, proxy
+HOST-SUFFIX, braze.com, proxy
+HOST-SUFFIX, adobedc.net, proxy
+HOST-SUFFIX, cbsig.net, proxy
 DOMAIN-SUFFIX, megaphone.fm, proxy
-DOMAIN-SUFFIX, testflight.apple.com,AppleProxy
+DOMAIN-SUFFIX, testflight.apple.com,PROXY
 HOST-SUFFIX, apple-dns.net,AppleProxy
 HOST-SUFFIX, apps.apple.com,AppleProxy
 HOST-SUFFIX, appsto.re,AppleProxy
