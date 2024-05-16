@@ -1,7 +1,6 @@
 IP-ASN, 15169, PROXY
 HOST-SUFFIX,audio.xmcdn.com, PROXY
 HOST-SUFFIX, conviva.com, proxy
-HOST-SUFFIX, app-analytics-services.com, PROXY
 HOST-SUFFIX,netflix.com.edgesuite.net,proxy
 HOST-SUFFIX, dssott.com, proxy
 HOST-SUFFIX, omtrdc.net, proxy
