@@ -1,11 +1,13 @@
 IP-ASN, 15169, PROXY
-host-suffix, satellitepull.cnr.cn, proxy
+HOST-SUFFIX, zenomedia.com
+HOST-SUFFIX, zeno.fm
+HOST-SUFFIX, satellitepull.cnr.cn, PROXY
 HOST-SUFFIX,audio.xmcdn.com, PROXY
-HOST-SUFFIX, conviva.com, proxy
-HOST-SUFFIX,netflix.com.edgesuite.net,proxy
-HOST-SUFFIX, dssott.com, proxy
-HOST-SUFFIX, omtrdc.net, proxy
-HOST-SUFFIX, rfa-ingest.akamaized.net, proxy
+HOST-SUFFIX, conviva.com, PROXY
+HOST-SUFFIX,netflix.com.edgesuite.net,PROXY
+HOST-SUFFIX, dssott.com, PROXY
+HOST-SUFFIX, omtrdc.net, PROXY
+HOST-SUFFIX, rfa-ingest.akamaized.net, PROXY
 HOST-SUFFIX, voa-ingest.akamaized.net, proxy
 HOST-SUFFIX, radio-browser.info, proxy
 HOST-SUFFIX, scorecardresearch.com, proxy
@@ -15,20 +17,19 @@ HOST-SUFFIX, adobedc.net, proxy
 HOST-SUFFIX, cbsig.net, proxy
 DOMAIN-SUFFIX, megaphone.fm, proxy
 DOMAIN-SUFFIX, testflight.apple.com,PROXY
-HOST-SUFFIX, apple-dns.net,AppleProxy
-HOST-SUFFIX, apps.apple.com,AppleProxy
-HOST-SUFFIX, appsto.re,AppleProxy
-HOST-SUFFIX, blobstore.apple.com,AppleProxy
-HOST-SUFFIX, digicert.com,AppleProxy
-host-suffix, github.com, proxy
-host-suffix, github.io, proxy
-host-suffix, githubapp.com, proxy
-host-suffix, githubassets.com, proxy
-host-suffix, githubusercontent.com, proxy
-host-suffix, 91ai.net, proxy
-host-suffix, cloudfront.net, proxy
-host-suffix, spotify.com, proxy
-host-suffix, virmach.com, proxy
+HOST-SUFFIX, apple-dns.net,PROXY
+HOST-SUFFIX, apps.apple.com,PROXY
+HOST-SUFFIX, appsto.re,PROXY
+HOST-SUFFIX, blobstore.apple.com,PROXY
+HOST-SUFFIX, digicert.com,PROXY
+host-suffix, github.com, PROXY
+host-suffix, github.io, PROXY
+host-suffix, githubapp.com, PROXY
+host-suffix, githubassets.com, PROXY
+host-suffix, githubusercontent.com, PROXY
+host-suffix, cloudfront.net, PROXY
+host-suffix, spotify.com, PROXY
+host-suffix, virmach.com, PROXY
 host-suffix, wise.com, proxy
 host-suffix, app-measurement.com, proxy
 host-suffix, superchat.live, proxy
