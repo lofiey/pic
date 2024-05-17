@@ -1,4 +1,5 @@
 IP-ASN, 15169, PROXY
+host-suffix, satellitepull.cnr.cn, proxy
 HOST-SUFFIX,audio.xmcdn.com, PROXY
 HOST-SUFFIX, conviva.com, proxy
 HOST-SUFFIX,netflix.com.edgesuite.net,proxy
