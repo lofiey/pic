@@ -1,4 +1,9 @@
 IP-ASN, 15169, PROXY
+host-suffix,app-site-association.cdn-apple.com,proxy
+host-suffix,ocsp.pki.goog,proxy
+host-suffix,media3.giphy.com,proxy
+host-suffix,usercontent.goog,proxy
+host-suffix,broadcast.tx.xmcdn.com,proxy
 HOST-SUFFIX, zenomedia.com
 HOST-SUFFIX, zeno.fm
 HOST-SUFFIX, satellitepull.cnr.cn, PROXY
