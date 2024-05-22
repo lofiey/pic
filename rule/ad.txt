@@ -80,3 +80,12 @@
 0.0.0.0 test.com
 0.0.0.0 example.com
 #netflix
+0.0.0.0 apac-china-courier-vs.push-apple.com.akadns.net
+0.0.0.0 amazonaws.com dnstype=A|CNAME
+0.0.0.0 logs.netflix.com dnstype=A|CNAME
+0.0.0.0 prod.cloud.netflix.com dnstype=A|CNAME
+0.0.0.0 amazonaws.com
+127.0.0.1 amazonaws.com
+0.0.0.0 amazonaws.com dnstype=AAAA|CNAME
+0.0.0.0 logs.netflix.com dnstype=AAAA|CNAME
+0.0.0.0 prod.cloud.netflix.com dnstype=AAAA|CNAME
