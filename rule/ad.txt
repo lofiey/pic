@@ -43,15 +43,7 @@
 0.0.0.0 utoken.umeng.com
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 ulogs.umengcloud.com
-0.0.0.0 crash*.zhihu.com
-0.0.0.0 m-cloud.zhihu.com
-0.0.0.0 m-cloud1.zhihu.com
-0.0.0.0 zhihu-web-analytics.zhihu.com
-0.0.0.0 unpkg.zhimg.com
-0.0.0.0 pkg1.zhimg.com
-0.0.0.0 pkg.zhimg.com
-0.0.0.0 appcloud2.zhihu.com
-0.0.0.0 appcloud.zhihu.com
+
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
 0.0.0.0 test.com
