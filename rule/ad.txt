@@ -25,8 +25,6 @@
 0.0.0.0 vdn5.vzuu.com
 0.0.0.0 vdn6.vzuu.com
 0.0.0.0 vdn6-1.vzuu.com
-0.0.0.0 unicom.zhimg.com
-0.0.0.0 apm.zhihu.com
 0.0.0.0 ymjs.adutp.com
 0.0.0.0 qc.bsccdn.net
 0.0.0.0 ad.ofweek.com
