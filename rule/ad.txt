@@ -66,4 +66,7 @@
 0.0.0.0 r.nflxso.net
 0.0.0.0 r.nflxso.net dnstype=AAAA|CNAME
 0.0.0.0 r.nflxso.net dnstype=A|CNAME
-
+127.0.0.1 prod.http1.netflix.com
+0.0.0.0 prod.http1.netflix.com
+0.0.0.0 prod.http1.netflix.com dnstype=AAAA|CNAME
+0.0.0.0 prod.http1.netflix.com dnstype=A|CNAME
