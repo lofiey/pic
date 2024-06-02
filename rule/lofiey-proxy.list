@@ -1,4 +1,6 @@
 IP-ASN, 15169, PROXY
+host-suffix,nflx.me,proxy
+host-suffix,linux.do,proxy
 host-suffix,app-site-association.cdn-apple.com,proxy
 host-suffix,ocsp.pki.goog,proxy
 host-suffix,media3.giphy.com,proxy
