@@ -3,6 +3,24 @@
 ||xp.apple.com^$important
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
+# other
+0.0.0.0 gvt1-cn.com
+127.0.0.1 gvt1-cn.com
+0.0.0.0 redirector.gvt1.com 
+127.0.0.1 redirector.gvt1.com
+0.0.0.0 app-analytics-services.com
+127.0.0.1 app-analytics-services.com
+127.0.0.1 mssdk-bu.bytedance.com
+127.0.0.1 p3-be-pack-sign.pglstatp-toutiao.com
+127.0.0.1 p9-be-pack-sign.pglstatp-toutiao.com
+127.0.0.1 log-api.pangolin-sdk-toutiao-b.com
+127.0.0.1 biz.ls.eyunmy.com
+127.0.0.1 toblog.ctobsnssdk.com
+127.0.0.1 api-access.pangolin-sdk-toutiao.com
+127.0.0.1 adsmind.ugdtimg.com
+127.0.0.1 tnc3-alisc1.zijieapi.com
+127.0.0.1 adsmind.ugdtimg.com
+# along
 0.0.0.0 doubleclick.net
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
