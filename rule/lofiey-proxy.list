@@ -6,8 +6,9 @@ host-suffix,ocsp.pki.goog,proxy
 host-suffix,media3.giphy.com,proxy
 host-suffix,usercontent.goog,proxy
 host-suffix,broadcast.tx.xmcdn.com,proxy
-HOST-SUFFIX, zenomedia.com
-HOST-SUFFIX, zeno.fm
+HOST-SUFFIX, zenomedia.com,proxy
+HOST-SUFFIX, zeno.fm,proxy
+HOST-SUFFIX, firstory.me,proxy
 HOST-SUFFIX, satellitepull.cnr.cn, PROXY
 HOST-SUFFIX,audio.xmcdn.com, PROXY
 HOST-SUFFIX, conviva.com, PROXY
