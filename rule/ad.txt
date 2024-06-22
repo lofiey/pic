@@ -20,6 +20,8 @@
 127.0.0.1 adsmind.ugdtimg.com
 127.0.0.1 tnc3-alisc1.zijieapi.com
 127.0.0.1 adsmind.ugdtimg.com
+0.0.0.0 app-measurement.com
+127.0.0.1 app-measurement.com
 # along
 0.0.0.0 doubleclick.net
 0.0.0.0 ad.doubleclick.net
