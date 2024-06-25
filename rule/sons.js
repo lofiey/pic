@@ -106,7 +106,7 @@ let default_settings = {
         external_subtitles: "null"
     },
     Netflix: {
-        type: "Google", // Google, DeepL, External, Disable
+        type: "Official", // Google, DeepL, External, Disable
         lang: "ZH-Hans",
         sl: "auto",
         tl: "ja-JP [CC]",
