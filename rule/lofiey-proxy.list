@@ -1,4 +1,16 @@
 IP-ASN, 15169, PROXY
+host-suffix,openaiapi-site.azureedge.net,proxy
+host-suffix,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,proxy
+host-suffix,openaicomproductionae4b.blob.core.windows.net,proxy
+host-suffix,production-openaicom-storage.azureedge.net,proxy
+host-suffix,chatgpt.com,proxy
+host-suffix,oaistatic.com,proxy
+host-suffix,oaiusercontent.com,proxy
+host-suffix,revenuecat.com,proxy
+host-suffix,openai.com,proxy
+host-suffix,openai.com.cdn.cloudflare.net,proxy
+host-suffix,o33249.ingest.sentry.io,proxy
+host-suffix,openaicom.imgix.net,proxy
 host-suffix,nflx.me,proxy
 host-suffix,linux.do,proxy
 host-suffix,app-site-association.cdn-apple.com,proxy
