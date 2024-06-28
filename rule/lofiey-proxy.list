@@ -1,4 +1,5 @@
 IP-ASN, 15169, PROXY
+host-suffix,cloudflare.net,proxy
 host-suffix,safebrowsing-proxy.g.aaplimg.com,proxy
 host-suffix,proxy.safebrowsing.apple,proxy
 host-suffix,openaiapi-site.azureedge.net,proxy
