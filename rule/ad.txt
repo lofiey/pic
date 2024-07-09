@@ -4,10 +4,6 @@
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
 # other
-0.0.0.0 gvt1-cn.com
-127.0.0.1 gvt1-cn.com
-0.0.0.0 redirector.gvt1.com 
-127.0.0.1 redirector.gvt1.com
 0.0.0.0 app-analytics-services.com
 127.0.0.1 app-analytics-services.com
 127.0.0.1 mssdk-bu.bytedance.com
