@@ -1,21 +1,12 @@
 
-host-suffix, appcloud2.in.zhihu.com,REJECT
-host-suffix, mqtt.zhihu.com,reject
-host-suffix, sugar.zhihu.com,reject
-host-suffix, zhihu-web-analytics.zhihu.com, reject
-host-suffix, httpdns.kwd.inkuai.com, reject
 host-suffix, ulogs.umeng.com, reject
-host-suffix, volcsiriusbd.com, reject
 host-suffix, ads-api.tiktok.com, reject
 host-suffix, business-api.tiktok.com, reject
 # > 腾讯视频
-host-suffix, p3-sign.douyinpic.com, reject
+host-suffix, p3-ad-sign.byteimg.com, reject
 host-suffix, p9-ad-sign.byteimg.com, reject
 host-suffix, p6-ad-sign.byteimg.com, reject
 # > 爱奇艺
-host-suffix, cr-status.iqiyi.com, reject
-host-suffix, cupid.iqiyi.com, reject
-host-suffix, iqiyim.adtrack.enlightent.cn, reject
 host-suffix, app.adjust.com, reject
 # > other
 
