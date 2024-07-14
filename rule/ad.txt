@@ -27,11 +27,6 @@
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 ads3-normal-lq.zijieapi.com
 0.0.0.0 ads5-normal-lq.zijieapi.com
-0.0.0.0 v3-dy.ixigua.com
-0.0.0.0 vdn5-1.vzuu.com
-0.0.0.0 vdn5.vzuu.com
-0.0.0.0 vdn6.vzuu.com
-0.0.0.0 vdn6-1.vzuu.com
 0.0.0.0 ymjs.adutp.com
 0.0.0.0 ad.ofweek.com
 0.0.0.0 ad.holmesmind.com
@@ -42,7 +37,6 @@
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p9-ad-sign.byteimg.com
 0.0.0.0 app.adjust.com
-0.0.0.0 vdn.vzuu.com
 0.0.0.0 utoken.umeng.com
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 ulogs.umengcloud.com
