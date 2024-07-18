@@ -6,13 +6,6 @@
 # other
 0.0.0.0 app-analytics-services.com
 127.0.0.1 app-analytics-services.com
-127.0.0.1 mssdk-bu.bytedance.com
-127.0.0.1 p3-be-pack-sign.pglstatp-toutiao.com
-127.0.0.1 p9-be-pack-sign.pglstatp-toutiao.com
-127.0.0.1 log-api.pangolin-sdk-toutiao-b.com
-127.0.0.1 biz.ls.eyunmy.com
-127.0.0.1 toblog.ctobsnssdk.com
-127.0.0.1 api-access.pangolin-sdk-toutiao.com
 127.0.0.1 adsmind.ugdtimg.com
 127.0.0.1 adsmind.ugdtimg.com
 0.0.0.0 app-measurement.com
