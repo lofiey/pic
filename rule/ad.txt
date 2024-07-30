@@ -6,8 +6,6 @@
 # other
 0.0.0.0 app-analytics-services.com
 127.0.0.1 app-analytics-services.com
-127.0.0.1 adsmind.ugdtimg.com
-127.0.0.1 adsmind.ugdtimg.com
 0.0.0.0 app-measurement.com
 127.0.0.1 app-measurement.com
 # along
@@ -28,8 +26,6 @@
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p9-ad-sign.byteimg.com
 0.0.0.0 app.adjust.com
-0.0.0.0 ulogs.umeng.com
-0.0.0.0 ulogs.umengcloud.com
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
 0.0.0.0 test.com
