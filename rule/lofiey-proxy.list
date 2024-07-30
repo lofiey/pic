@@ -223,20 +223,20 @@ DOMAIN-SUFFIX, creaders.net, proxy
 DOMAIN-SUFFIX, gstatic.com, proxy
 DOMAIN-SUFFIX, googleapis.com, proxy
 # > YouTube
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,YouTube*
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
+USER-AGENT,com.google.ios.youtube*, proxy
+USER-AGENT,YouTube*, proxy
+DOMAIN-SUFFIX,googlevideo.com, proxy
+DOMAIN-SUFFIX,withyoutube.com, proxy
+DOMAIN-SUFFIX,youtu.be, proxy
+DOMAIN-SUFFIX,youtube.com, proxy
+DOMAIN-SUFFIX,youtubeeducation.com, proxy
+DOMAIN-SUFFIX,youtubegaming.com, proxy
+DOMAIN-SUFFIX,youtubekids.com, proxy
+DOMAIN-SUFFIX,youtube-nocookie.com, proxy
+DOMAIN-SUFFIX,yt.be, proxy
+DOMAIN-SUFFIX,ytimg.com, proxy
+DOMAIN,youtubei.googleapis.com, proxy
+DOMAIN,yt3.ggpht.com, proxy
 # (Live)
 # > Twitch
 DOMAIN-SUFFIX,ext-twitch.tv, proxy
@@ -248,28 +248,28 @@ DOMAIN-SUFFIX,twitch-ext.rootonline.de, proxy
 
 # (Music)
 # > Deezer
-USER-AGENT,Deezer*
+USER-AGENT,Deezer*, proxy
 DOMAIN-SUFFIX,deezer.com, proxy
 DOMAIN-SUFFIX,dzcdn.net, proxy
 # > JOOX
-USER-AGENT,JOOX*
-USER-AGENT,WeMusic*
-DOMAIN-SUFFIX,joox.com
-DOMAIN-KEYWORD,jooxweb-api
+USER-AGENT,JOOX*, proxy
+USER-AGENT,WeMusic*, proxy
+DOMAIN-SUFFIX,joox.com, proxy
+DOMAIN-KEYWORD,jooxweb-api, proxy
 # > KKBOX
 DOMAIN-SUFFIX,kkbox.com, proxy
 DOMAIN-SUFFIX,kkbox.com.tw, proxy
 DOMAIN-SUFFIX,kfs.io, proxy
 # > Pandora
-USER-AGENT,Pandora*
+USER-AGENT,Pandora*, proxy
 DOMAIN-SUFFIX,pandora.com, proxy
 # > SoundCloud
-USER-AGENT,SoundCloud*
+USER-AGENT,SoundCloud*, proxy
 DOMAIN-SUFFIX,p-cdn.us, proxy
 DOMAIN-SUFFIX,sndcdn.com, proxy
 DOMAIN-SUFFIX,soundcloud.com, proxy
 # > Spotify
-USER-AGENT,Spotify*
+USER-AGENT,Spotify*, proxy
 DOMAIN-SUFFIX,pscdn.co, proxy
 DOMAIN-SUFFIX,scdn.co, proxy
 DOMAIN-SUFFIX,spotify.com, proxy
@@ -277,23 +277,23 @@ DOMAIN-SUFFIX,spoti.fi, proxy
 DOMAIN-KEYWORD,spotify.com, proxy
 DOMAIN-KEYWORD,-spotify-com, proxy
 # > TIDAL
-USER-AGENT,TIDAL*
+USER-AGENT,TIDAL*, proxy
 DOMAIN-SUFFIX,tidal.com, proxy
 # > YouTubeMusic
-USER-AGENT,com.google.ios.youtubemusic*
-USER-AGENT,YouTubeMusic*
+USER-AGENT,com.google.ios.youtubemusic*, proxy
+USER-AGENT,YouTubeMusic*, proxy
 
 # (Podcast)
 # > Himalaya
-USER-AGENT,Himalaya*
+USER-AGENT,Himalaya*, proxy
 DOMAIN-SUFFIX,himalaya.com, proxy
 # > Overcast
-USER-AGENT,Overcast*
+USER-AGENT,Overcast*, proxy
 DOMAIN-SUFFIX,overcast.fm, proxy
 
 # (Video)
 # > AbemaTV
-USER-AGENT,AbemaTV*
+USER-AGENT,AbemaTV*, proxy
 DOMAIN-SUFFIX,abema.io, proxy
 DOMAIN-SUFFIX,abema.tv, proxy
 DOMAIN-SUFFIX,abema-tv.com, proxy
@@ -303,12 +303,12 @@ DOMAIN-SUFFIX,hayabusa.media, proxy
 DOMAIN,api-abematv.bucketeer.jp, proxy
 DOMAIN-KEYWORD,abematv.akamaized.net, proxy
 # > All 4
-USER-AGENT,All4*
+USER-AGENT,All4*, proxy
 DOMAIN-SUFFIX,c4assets.com, proxy
 DOMAIN-SUFFIX,channel4.com, proxy
 # > Amazon Prime Video
-USER-AGENT,InstantVideo.US*
-USER-AGENT,Prime%20Video*
+USER-AGENT,InstantVideo.US*, proxy
+USER-AGENT,Prime%20Video*, proxy
 DOMAIN-SUFFIX,aiv-cdn.net, proxy
 DOMAIN-SUFFIX,aiv-delivery.net, proxy
 DOMAIN-SUFFIX,amazonvideo.com, proxy
@@ -325,7 +325,7 @@ DOMAIN,d22qjgkvxw22r6.cloudfront.net, proxy
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net, proxy
 DOMAIN,d27xxe7juh1us6.cloudfront.net, proxy
 # DOMAIN,www.amazon.com
-DOMAIN-KEYWORD,avoddashs
+DOMAIN-KEYWORD,avoddashs, proxy
 # > Apple Music TV
 DOMAIN,tv.applemusic.com, proxy
 # > Apple TV
@@ -333,18 +333,18 @@ DOMAIN,linear.tv.apple.com, proxy
 DOMAIN,play-edge.itunes.apple.com, proxy
 DOMAIN,uts-api.itunes.apple.com, proxy
 # > Bahamut
-USER-AGENT,Anime*
+USER-AGENT,Anime*, proxy
 DOMAIN-SUFFIX,bahamut.com.tw, proxy
 DOMAIN-SUFFIX,gamer.com.tw, proxy
 DOMAIN,bahamut.akamaized.net, proxy
 DOMAIN,gamer-cds.cdn.hinet.net, proxy
 DOMAIN,gamer2-cds.cdn.hinet.net, proxy
 # > BBC iPlayer
-USER-AGENT,BBCiPlayer*
+USER-AGENT,BBCiPlayer*, proxy
 DOMAIN-SUFFIX,bbc.co.uk, proxy
 DOMAIN-SUFFIX,bbci.co.uk, proxy
-DOMAIN-KEYWORD,bbcfmt
-DOMAIN-KEYWORD,uk-live
+DOMAIN-KEYWORD,bbcfmt, proxy
+DOMAIN-KEYWORD,uk-live, proxy
 # > bilibili Intl
 DOMAIN-SUFFIX,biliintl.com, proxy
 DOMAIN,apm-misaka.biliapi.net, proxy
@@ -353,16 +353,16 @@ DOMAIN,p-bstarstatic.akamaized.net, proxy
 DOMAIN,upos-bstar-mirrorakam.akamaized.net, proxy
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net, proxy
 # > DAZN
-USER-AGENT,DAZN*
+USER-AGENT,DAZN*, proxy
 DOMAIN-SUFFIX,dazn.com, proxy
 DOMAIN-SUFFIX,dazn-api.com, proxy
 DOMAIN-SUFFIX,dazndn.com, proxy
 DOMAIN-SUFFIX,indazn.com, proxy
 DOMAIN,d151l6v8er5bdm.cloudfront.net, proxy
-DOMAIN-KEYWORD,voddazn
+DOMAIN-KEYWORD,voddazn, proxy
 # > discovery+
-USER-AGENT,DPlus*
-USER-AGENT,discovery+*
+USER-AGENT,DPlus*, proxy
+USER-AGENT,discovery+*, proxy
 DOMAIN-SUFFIX,disco-api.com, proxy
 DOMAIN-SUFFIX,discoveryplus.co.uk, proxy
 DOMAIN-SUFFIX,discoveryplus.com, proxy
@@ -372,7 +372,7 @@ DOMAIN-SUFFIX,dnitv.com, proxy
 DOMAIN,x-default-stgec.uplynk.com, proxy
 DOMAIN-KEYWORD,discovery.uplynk.com
 # > Disney+
-USER-AGENT,Disney+*
+USER-AGENT,Disney+*, proxy
 DOMAIN-SUFFIX,bamgrid.com, proxy
 DOMAIN-SUFFIX,disneyplus.com, proxy
 DOMAIN-SUFFIX,disney-plus.net, proxy
@@ -384,7 +384,7 @@ DOMAIN-SUFFIX,dmm.co.jp, proxy
 DOMAIN-SUFFIX,dmm.com, proxy
 DOMAIN-SUFFIX,dmm-extension.com, proxy
 # > encoreTVB
-USER-AGENT,encoreTVB*
+USER-AGENT,encoreTVB*, proxy
 DOMAIN-SUFFIX,encoretvb.com, proxy
 DOMAIN,edge.api.brightcove.com, proxy
 DOMAIN,bcbolt446c5271-a.akamaihd.net, proxy
@@ -394,18 +394,18 @@ DOMAIN-SUFFIX,hamivideo.hinet.net, proxy
 DOMAIN,hls-hichannel.cdn.hinet.net, proxy
 DOMAIN-KEYWORD,hamivideo.cdn.hinet.net, proxy
 # > HBO NOW & Max
-USER-AGENT,HBO%20NOW*
+USER-AGENT,HBO%20NOW*, proxy
 DOMAIN-SUFFIX,hbo.com, proxy
 DOMAIN-SUFFIX,hbogo.com, proxy
 DOMAIN-SUFFIX,hbonow.com, proxy
-USER-AGENT,HBOMAX*
+USER-AGENT,HBOMAX*, proxy
 DOMAIN-SUFFIX,hbomax.com, proxy
 DOMAIN-SUFFIX,hbomaxcdn.com, proxy
 # > HBO Asia
-USER-AGENT,HBO%20GO%20PROD*
+USER-AGENT,HBO%20GO%20PROD*, proxy
 DOMAIN-SUFFIX,hbogoasia.com, proxy
 DOMAIN-SUFFIX,hbogoasia.hk, proxy
-DOMAIN-KEYWORD,.hbogoasia.
+DOMAIN-KEYWORD,.hbogoasia., proxy
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com, proxy
 DOMAIN,bcbolthboa-a.akamaihd.net, proxy
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net, proxy
@@ -422,7 +422,7 @@ DOMAIN,hbounify-prod.evergent.com, proxy
 DOMAIN,players.brightcove.net, proxy
 DOMAIN,s3-ap-southeast-1.amazonaws.com, proxy
 # > 华文电视
-USER-AGENT,HWTVMobile*
+USER-AGENT,HWTVMobile*, proxy
 DOMAIN-SUFFIX,5itv.tv, proxy
 DOMAIN-SUFFIX,ocnttv.com, proxy
 # > Hulu
@@ -434,7 +434,7 @@ DOMAIN-SUFFIX,happyon.jp, proxy
 DOMAIN-SUFFIX,hjholdings.jp, proxy
 DOMAIN-SUFFIX,hulu.jp, proxy
 # > ITV
-USER-AGENT,ITV_Player*
+USER-AGENT,ITV_Player*, proxy
 DOMAIN-SUFFIX,itv.com, proxy
 DOMAIN-SUFFIX,itvstatic.com, proxy
 DOMAIN,itvpnpmobile-a.akamaihd.net, proxy
@@ -459,34 +459,34 @@ IP-CIDR,210.71.227.202/32,no-resolve, proxy
 IP-CIDR,210.201.32.8/32,no-resolve, proxy
 IP-CIDR,210.201.32.11/32,no-resolve, proxy
 # > KKTV
-USER-AGENT,KKTV*
-USER-AGENT,com.kktv.ios.kktv*
+USER-AGENT,KKTV*, proxy
+USER-AGENT,com.kktv.ios.kktv*, proxy
 DOMAIN-SUFFIX,kktv.com.tw, proxy
 DOMAIN-SUFFIX,kktv.me, proxy
 DOMAIN,kktv-theater.kk.stream, proxy
 DOMAIN,theater-kktv.cdn.hinet.net, proxy
 # > LINE TV
-USER-AGENT,LINE%20TV*
+USER-AGENT,LINE%20TV*, proxy
 DOMAIN-SUFFIX,linetv.tw, proxy
 DOMAIN,d3c7rimkq79yfu.cloudfront.net, proxy
 # > LiTV
 DOMAIN-SUFFIX,litv.tv, proxy
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net, proxy
 # > My5
-USER-AGENT,My5*
+USER-AGENT,My5*, proxy
 DOMAIN-SUFFIX,channel5.com, proxy
 DOMAIN-SUFFIX,my5.tv, proxy
 DOMAIN,d349g9zuie06uo.cloudfront.net, proxy
 # > myTV SUPER
-USER-AGENT,mytv*
+USER-AGENT,mytv*, proxy
 DOMAIN-SUFFIX,mytvsuper.com, proxy
 DOMAIN-SUFFIX,tvb.com, proxy
 # > Naver TV
-USER-AGENT,Naver%20TV*
+USER-AGENT,Naver%20TV*, proxy
 DOMAIN-SUFFIX,naver.com, proxy
 DOMAIN-SUFFIX,smartmediarep.com, proxy
 # > niconico
-USER-AGENT,Niconico*
+USER-AGENT,Niconico*, proxy
 DOMAIN-SUFFIX,dmc.nico, proxy
 DOMAIN-SUFFIX,nicovideo.jp, proxy
 DOMAIN-SUFFIX,nimg.jp, proxy
@@ -494,7 +494,7 @@ DOMAIN-SUFFIX,nimg.jp, proxy
 DOMAIN-SUFFIX,nowe.com, proxy
 DOMAIN-SUFFIX,nowestatic.com, proxy
 # > Paramount+
-USER-AGENT,PPlus*
+USER-AGENT,PPlus*, proxy
 DOMAIN-SUFFIX,cbsi.com, proxy
 DOMAIN-SUFFIX,cbsaavideo.com, proxy
 DOMAIN-SUFFIX,cbsivideo.com, proxy
@@ -505,10 +505,10 @@ DOMAIN,cbsplaylistserver.aws.syncbak.com, proxy
 DOMAIN,cbsservice.aws.syncbak.com, proxy
 DOMAIN,link.theplatform.com, proxy
 # > PBS
-USER-AGENT,PBS*
+USER-AGENT,PBS*, proxy
 DOMAIN-SUFFIX,pbs.org, proxy
 # > Peacock
-USER-AGENT,PeacockMobile*
+USER-AGENT,PeacockMobile*, proxy
 DOMAIN-SUFFIX,peacocktv.com, proxy
 # > Pornhub
 DOMAIN-SUFFIX,phncdn.com, proxy
