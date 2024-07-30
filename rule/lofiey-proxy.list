@@ -370,7 +370,7 @@ DOMAIN-SUFFIX,discoveryplus.in, proxy
 DOMAIN-SUFFIX,dnitv.com, proxy
 # DOMAIN,go-prod-vz.akamaized.net
 DOMAIN,x-default-stgec.uplynk.com, proxy
-DOMAIN-KEYWORD,discovery.uplynk.com
+DOMAIN-KEYWORD,discovery.uplynk.com, proxy
 # > Disney+
 USER-AGENT,Disney+*, proxy
 DOMAIN-SUFFIX,bamgrid.com, proxy
