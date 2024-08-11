@@ -1,8 +1,4 @@
 # Block iOS Update
-||updates-http.cdn-apple.com^$important
-||xp.apple.com^$important
-||mesu.apple.com^$important
-||gdmf.apple.com^$important
 # other
 # along
 0.0.0.0 doubleclick.net
