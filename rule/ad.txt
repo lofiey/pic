@@ -4,10 +4,6 @@
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
 # other
-0.0.0.0 app-analytics-services.com
-127.0.0.1 app-analytics-services.com
-0.0.0.0 app-measurement.com
-127.0.0.1 app-measurement.com
 # along
 0.0.0.0 doubleclick.net
 0.0.0.0 ad.doubleclick.net
@@ -17,8 +13,6 @@
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 ads3-normal-lq.zijieapi.com
 0.0.0.0 ads5-normal-lq.zijieapi.com
-0.0.0.0 ad.ofweek.com
-0.0.0.0 ad.holmesmind.com
 0.0.0.0 p96-ad-sign.byteimg.com
 0.0.0.0 p29-ad-sign.byteimg.com
 0.0.0.0 p26-ad-sign.byteimg.com
