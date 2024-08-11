@@ -1,14 +1,8 @@
 # Block iOS Update
 # other
 # along
-0.0.0.0 doubleclick.net
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 business-api.tiktok.com
-0.0.0.0 ads3-normal-lq.zijieapi.com
-0.0.0.0 ads5-normal-lq.zijieapi.com
 0.0.0.0 p96-ad-sign.byteimg.com
 0.0.0.0 p29-ad-sign.byteimg.com
 0.0.0.0 p26-ad-sign.byteimg.com
@@ -18,8 +12,6 @@
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
-0.0.0.0 test.com
-0.0.0.0 example.com
 #netflix
 0.0.0.0 amazonaws.com
 127.0.0.1 amazonaws.com
