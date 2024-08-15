@@ -48,7 +48,6 @@ host-suffix, github.io, PROXY
 host-suffix, githubapp.com, PROXY
 host-suffix, githubassets.com, PROXY
 host-suffix, githubusercontent.com, PROXY
-host-suffix, cloudfront.net, PROXY
 host-suffix, spotify.com, PROXY
 host-suffix, virmach.com, PROXY
 host-suffix, wise.com, proxy
