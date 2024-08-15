@@ -2,7 +2,6 @@ IP-ASN, 15169, PROXY
 host-suffix,cloudflare.net,proxy
 host-suffix,taotu.org,proxy
 host-suffix,safebrowsing-proxy.g.aaplimg.com,proxy
-host-suffix,proxy.safebrowsing.apple,proxy
 host-suffix,openaiapi-site.azureedge.net,proxy
 host-suffix,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,proxy
 host-suffix,openaicomproductionae4b.blob.core.windows.net,proxy
@@ -17,7 +16,6 @@ host-suffix,o33249.ingest.sentry.io,proxy
 host-suffix,openaicom.imgix.net,proxy
 host-suffix,nflx.me,proxy
 host-suffix,linux.do,proxy
-host-suffix,app-site-association.cdn-apple.com,proxy
 host-suffix,ocsp.pki.goog,proxy
 host-suffix,media3.giphy.com,proxy
 host-suffix,usercontent.goog,proxy
@@ -157,7 +155,6 @@ DOMAIN-SUFFIX, disney.images.edge.bamgrid.com, proxy
 DOMAIN-SUFFIX, jp.livelog.nexon.com, proxy
 DOMAIN-SUFFIX, crashlytics.com, proxy
 DOMAIN-SUFFIX, amazontrust.com, proxy
-DOMAIN-SUFFIX, cloudfront.net, proxy
 DOMAIN-SUFFIX, nexon.io, proxy
 DOMAIN-SUFFIX, nexoncdn.co.kr, proxy
 DOMAIN-SUFFIX, amazonaws.com, proxy
