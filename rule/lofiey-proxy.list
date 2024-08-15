@@ -40,8 +40,6 @@ HOST-SUFFIX, adobedc.net, proxy
 HOST-SUFFIX, cbsig.net, proxy
 DOMAIN-SUFFIX, megaphone.fm, proxy
 DOMAIN-SUFFIX, testflight.apple.com,PROXY
-HOST-SUFFIX, apple-dns.net,PROXY
-HOST-SUFFIX, apps.apple.com,PROXY
 HOST-SUFFIX, appsto.re,PROXY
 HOST-SUFFIX, blobstore.apple.com,PROXY
 HOST-SUFFIX, digicert.com,PROXY
@@ -54,9 +52,7 @@ host-suffix, cloudfront.net, PROXY
 host-suffix, spotify.com, PROXY
 host-suffix, virmach.com, PROXY
 host-suffix, wise.com, proxy
-host-suffix, app-measurement.com, proxy
 host-suffix, superchat.live, proxy
-host-suffix, adguard-dns.io, proxy
 host-suffix, wenxuecity.com, proxy
 host-suffix, secretchina.com, proxy
 host-suffix, zhengjian.org, proxy
@@ -214,9 +210,6 @@ DOMAIN-SUFFIX, paramountplus.com, proxy
 DOMAIN-SUFFIX, pplusstatic.com, proxy
 DOMAIN-suffix, h264.io, proxy
 DOMAIN-SUFFIX, litix.io, proxy
-DOMAIN-SUFFIX, sglong.wechat.com, proxy
-DOMAIN-SUFFIX, sgshort.wechat.com, proxy
-DOMAIN-SUFFIX, sgminorshort.wechat.com, proxy
 DOMAIN-SUFFIX, voachinese.com, proxy
 DOMAIN-SUFFIX, creaders.net, proxy
 DOMAIN-SUFFIX, gstatic.com, proxy
