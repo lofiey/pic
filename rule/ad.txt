@@ -3,12 +3,6 @@
 # along
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 business-api.tiktok.com
-0.0.0.0 p96-ad-sign.byteimg.com
-0.0.0.0 p29-ad-sign.byteimg.com
-0.0.0.0 p26-ad-sign.byteimg.com
-0.0.0.0 p3-ad-sign.byteimg.com
-0.0.0.0 p6-ad-sign.byteimg.com
-0.0.0.0 p9-ad-sign.byteimg.com
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
