@@ -484,12 +484,12 @@ DOMAIN-SUFFIX,phprcdn.com, proxy
 DOMAIN-SUFFIX,pornhub.com, proxy
 DOMAIN-SUFFIX,pornhubpremium.com, proxy
 # hero of king
-ap-singapore.myqcloud.com
-sgameglobal.com
-honorofkings.com
-appsflyersdk.com
-vasdgame.com
-intlgame.com
-anticheatexpert.com
-crashsight.wetest.net
-icloud-content.com
+HOST-SUFFIX,ap-singapore.myqcloud.com, proxy
+HOST-SUFFIX,sgameglobal.com, proxy
+HOST-SUFFIX,honorofkings.com, proxy
+HOST-SUFFIX,appsflyersdk.com, proxy
+HOST-SUFFIX,vasdgame.com, proxy
+HOST-SUFFIX,intlgame.com, proxy
+HOST-SUFFIX,anticheatexpert.com, proxy
+HOST-SUFFIX,crashsight.wetest.net, proxy
+HOST-SUFFIX,icloud-content.com, proxy
