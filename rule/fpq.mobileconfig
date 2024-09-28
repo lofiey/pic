@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://chcst-cola-fpq-org-justsoso-onenight-netech.dns.nextdns.io/3778bb</string>
+          <string>quic://chcst-cola-fpq-org-3778bb.dns.nextdns.io</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
