@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://fpqorggovquantumu.dns.nextdns.io/3778bb/peonyhoney</string>
+          <string>https://fpqorggovquantumu.dns.nextdns.io/3778bb/peonyhoney-ipv4-c097-tyo001-ix</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
