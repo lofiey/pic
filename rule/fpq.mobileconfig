@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://CashOnYouWhoOnYou.dns.nextdns.io/3778bb/FreeStyleRoundOne/AreYouKindingMe</string>
+          <string>https://iadsdk.dns.nextdns.io/3778bb/rorum</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
