@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://page-app_api.dns.nextdns.io/3778bb/64k.m3u8</string>
+          <string>https://stream8.dns.nextdns.io/3778bb/playlist.m3u8</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
