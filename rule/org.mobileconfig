@@ -7,7 +7,7 @@
     <key>PayloadDescription</key>
     <string>This profile enables NextDNS on all networks using the native Encrypted DNS feature.</string>
     <key>PayloadIdentifier</key>
-    <string>io.nextdns.3778bb.profile</string>
+    <string>io.nextdns.3778bb.Play_List.profile</string>
     <key>PayloadScope</key>
     <string>User</string>
     <key>PayloadType</key>
@@ -55,7 +55,7 @@
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
         <key>PayloadIdentifier</key>
-        <string>io.nextdns.3778bb.profile.dnsSettings.managed</string>
+        <string>io.nextdns.3778bb.Play_List.profile.dnsSettings.managed</string>
         <key>PayloadUUID</key>
         <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.3778bb.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
