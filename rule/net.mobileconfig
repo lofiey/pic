@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://Stream_api.dns.nextdns.io/3778bb/playlist_1907.avi</string>
+          <string>https://streamlist.dns.nextdns.io/3778bb/playlist20220.avi</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
