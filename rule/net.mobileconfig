@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://News_list.dns.nextdns.io/3778bb/1928.html</string>
+          <string>https://News_list.dns.nextdns.io/3778bb/gov.cn</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
