@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://return.dns.nextdns.io/3778bb/img_url36623.jpg</string>
+          <string>https://returnst.dns.nextdns.io/3778bb/favicon.ico</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
