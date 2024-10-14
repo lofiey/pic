@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://presss.dns.nextdns.io/3778bb/img_url35001</string>
+          <string>https://pressn.dns.nextdns.io/3778bb/favicon.ico</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
