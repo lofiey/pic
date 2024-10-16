@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://plugin_list.dns.nextdns.io/3778bb//Apple%20~ipad-pro</string>
+          <string>https://plugin_list.dns.nextdns.io/3778bb/Apple.asp</string>
           <key>ServerAddresses</key>
           <array>
             <string>45.90.28.0</string>
