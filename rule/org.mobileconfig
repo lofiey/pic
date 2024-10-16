@@ -7,7 +7,7 @@
     <key>PayloadDescription</key>
     <string>This profile enables NextDNS on all networks using the native Encrypted DNS feature.</string>
     <key>PayloadIdentifier</key>
-    <string>io.nextdns.3778bb.returnst.profile</string>
+    <string>io.nextdns.3778bb.profile</string>
     <key>PayloadScope</key>
     <string>User</string>
     <key>PayloadType</key>
@@ -24,7 +24,14 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://returnst.dns.nextdns.io/3778bb/favicon.ico</string>
+          <string>https://plugin_list.dns.nextdns.io/3778bb//Apple%20~ipad-pro</string>
+          <key>ServerAddresses</key>
+          <array>
+            <string>45.90.28.0</string>
+            <string>2a07:a8c0::</string>
+            <string>45.90.30.0</string>
+            <string>2a07:a8c1::</string>
+          </array>
         </dict>
         <key>OnDemandRules</key>
         <array>
@@ -55,7 +62,7 @@
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
         <key>PayloadIdentifier</key>
-        <string>io.nextdns.3778bb.returnst.profile.dnsSettings.managed</string>
+        <string>io.nextdns.3778bb.profile.dnsSettings.managed</string>
         <key>PayloadUUID</key>
         <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.3778bb.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
