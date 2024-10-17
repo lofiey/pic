@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://response_link.dns.nextdns.io/3778bb/Apple.asp</string>
+          <string>https://response_listen.dns.nextdns.io/3778bb/bitch.asp</string>
           <key>ServerAddresses</key>
           <array>
             <string>45.90.28.0</string>
