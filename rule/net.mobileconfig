@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://response_filter.dns.nextdns.io/3778bb/windowsxp.asp</string>
+          <string>https://aboutus.dns.nextdns.io/3778bb/about.php</string>
           <key>ServerAddresses</key>
           <array>
             <string>45.90.28.0</string>
