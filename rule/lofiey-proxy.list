@@ -1,5 +1,8 @@
 IP-ASN, 15169, PROXY
-host-suffix, intlgame.com, proxy
+host-suffix,acc.edgeonedy1.com, proxy
+host-suffix,iegcom.com, proxy
+host-suffix,intlgame.com, proxy
+host-suffix,listdl.com, proxy
 host-suffix,cloudflare.net,proxy
 host-suffix,taotu.org,proxy
 host-suffix,safebrowsing-proxy.g.aaplimg.com,proxy
