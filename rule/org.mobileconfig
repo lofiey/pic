@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://help-3778bb.dns.nextdns.io/3778bb/help.php</string>
+          <string>https://help-3778bb.dns.nextdns.io/3778bb/help.caf</string>
           <key>ServerAddresses</key>
           <array>
             <string>45.90.28.0</string>
