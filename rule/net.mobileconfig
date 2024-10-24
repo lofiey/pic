@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>PayloadDisplayName</key>
-    <string>NextDNS (3778bb)</string>
+    <string>net</string>
     <key>PayloadDescription</key>
     <string>This profile enables NextDNS on all networks using the native Encrypted DNS feature.</string>
     <key>PayloadIdentifier</key>
@@ -66,9 +66,9 @@
         <key>PayloadUUID</key>
         <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.3778bb.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
-        <string>NextDNS (3778bb)</string>
+        <string>net</string>
         <key>PayloadOrganization</key>
-        <string>NextDNS</string>
+        <string>net</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
       </dict>
