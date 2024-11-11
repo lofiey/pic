@@ -1,4 +1,7 @@
 IP-ASN, 15169, PROXY
+host-suffix,singaporepaya.com, proxy
+host-suffix,gcloudcs.com, proxy
+host-suffix,gcloudsdk.com, proxy
 host-suffix,acc.edgeonedy1.com, proxy
 host-suffix,iegcom.com, proxy
 host-suffix,intlgame.com, proxy
