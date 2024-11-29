@@ -1,4 +1,8 @@
 IP-ASN, 15169, PROXY
+host-suffix,thisav.com, proxy
+host-suffix,myavlive.com, proxy
+host-suffix,recombee.com, proxy
+host-suffix,cdn2020.com, proxy
 host-suffix,singaporepaya.com, proxy
 host-suffix,gcloudcs.com, proxy
 host-suffix,gcloudsdk.com, proxy
