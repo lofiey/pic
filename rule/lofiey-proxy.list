@@ -1,4 +1,6 @@
 IP-ASN, 15169, PROXY
+host-suffix,infomaniak.ch, proxy
+host-suffix,jesuscomingfm.com, proxy
 host-suffix,thisav.com, proxy
 host-suffix,myavlive.com, proxy
 host-suffix,recombee.com, proxy
