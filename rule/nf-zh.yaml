@@ -21,6 +21,13 @@ scriptings:
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Languages[0]="{{{Languages[0]}}}"&Languages[1]="{{{Languages[1]}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
+- http_response:
+    name: 🍿️ DualSubs.Netflix.Translate.Subtitles.response
+    match: ^https:\/\/.+nflxvideo.net\/\?o=\d+&v=\d+&e=.+
+    script_url: https://raw.githubusercontent.com/lofiey/pic/main/rule/sons.js
+    arguments:
+      _compat.$argument: Type="{{{Type}}}"&Languages[0]="{{{Languages[0]}}}"&Languages[1]="{{{Languages[1]}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
+    body_required: true    
 mitm:
   hostnames:
     includes:
