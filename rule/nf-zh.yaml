@@ -2,7 +2,7 @@ name: '🍿️ DualSubs: 🇳 Netflix'
 description: Netflix 增强及双语字幕
 compat_arguments:
   Type: '"Translate"'
-  Languages[0]: '"AUTO"'
+  Languages[0]: '"JA"'
   Languages[1]: '"ZH"'
   Position: '"Forward"'
   Vendor: '"Google"'
@@ -17,7 +17,7 @@ scriptings:
 - http_response:
     name: 🍿️ DualSubs.Netflix.Translate.Subtitles.response
     match: ^https?:\/\/(.+)\.oca\.nflxvideo\.net\/\?o=\d+&v=\d+&e=\d+&t=.+
-    script_url: https://raw.githubusercontent.com/lofiey/pic/main/rule/sons.js
+    script_url: https://github.com/DualSubs/Universal/releases/latest/download/Translate.response.bundle.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Languages[0]="{{{Languages[0]}}}"&Languages[1]="{{{Languages[1]}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
@@ -25,3 +25,4 @@ mitm:
   hostnames:
     includes:
     - '*.oca.nflxvideo.net'
+    -'*.nflxvideo.net'
