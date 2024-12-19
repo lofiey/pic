@@ -4,8 +4,11 @@ icon: https://github.com/DualSubs/Netflix/raw/main/src/assets/icon_rounded.png
 scriptings:
 - http_response:
     name: 🍿️ DualSubs.Netflix.Translate.Subtitles.response
-    match: ^https?:\/\/(.+)\.oca\.nflxvideo\.net\/\?o=\d+&v=\d+&e=\d+&t=.+
-    script_url: https://raw.githubusercontent.com/lofiey/pic/main/rule/sons.js
+    match: ^https?:\/\/(.+)\.oca\.nflxvideo\.net\/\?o=\d+&v=\d+&e=.+
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/tsb.js
+    arguments:
+      _compat.$argument: Type="{{{Type}}}"&Languages[0]="{{{Languages[0]}}}"&Languages[1]="{{{Languages[1]}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
+    body_required: true
 mitm:
   hostnames:
     includes:
