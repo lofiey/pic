@@ -21,21 +21,21 @@ scriptings:
 - http_request:
     name: 🍿️ DualSubs.YouTube.Player.request.json
     match: ^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player(\?.+)?$
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/request.bundle-ytbm.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
 - http_response:
     name: 🍿️ DualSubs.YouTube.Player.response.json
     match: ^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player(\?.+)?$
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/request.bundle-ytbm.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
 - http_request:
     name: 🍿️ DualSubs.YouTube.Player.request.proto
     match: ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player(\?.+)?$
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/request.bundle-ytbm.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
@@ -43,7 +43,7 @@ scriptings:
 - http_response:
     name: 🍿️ DualSubs.YouTube.Player.response.proto
     match: ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player(\?.+)?$
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/request.bundle-ytbm.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
@@ -51,7 +51,7 @@ scriptings:
 - http_response:
     name: 🍿️ DualSubs.YouTube.GetWatch.response.proto
     match: ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/get_watch(\?.+)?$
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/request.bundle-ytbm.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
@@ -59,7 +59,7 @@ scriptings:
 - http_request:
     name: 🍿️ DualSubs.YouTube.TimedText.request
     match: ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.+)?$
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/request.bundle-ytbm.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
 - http_response:
@@ -86,7 +86,7 @@ scriptings:
 - http_request:
     name: 🍿️ DualSubs.YouTube.Browse.request.proto
     match: ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse(\?.+)?$
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/request.bundle-ytbm.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
