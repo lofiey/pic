@@ -65,14 +65,14 @@ scriptings:
 - http_response:
     name: 🍿️ DualSubs.YouTube.Composite.TimedText.response
     match: ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=(Official|External)
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/Composite.Subtitles.response.bundle.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
 - http_response:
     name: 🍿️ DualSubs.YouTube.Translate.TimedText.response
     match: ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=Translate
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/Translate.response.bundle.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
@@ -94,14 +94,14 @@ scriptings:
 - http_response:
     name: 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.json
     match: ^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/Translate.response.bundle.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
 - http_response:
     name: 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.proto
     match: ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate
-    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/trb.js
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/Translate.response.bundle.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Types="{{{Types}}}"&AutoCC="{{{AutoCC}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
