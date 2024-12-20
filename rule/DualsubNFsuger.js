@@ -259,22 +259,22 @@ if (service == "YouTube") {
         headers: headers
     }
 
-    $httpClient.get(options, function (error, response, data) {
+    $task.fetch(options).then(response => {
 
-        if (setting.line == "sl") $done({ body: data })
+        if (setting.line == "sl") $done({ body: response.body })
         let timeline = body.match(/<p t="\d+" d="\d+">/g)
 
         if (url.match(/&kind=asr/)) {
             body = body.replace(/<\/?s[^>]*>/g, "")
-            data = data.replace(/<\/?s[^>]*>/g, "")
+            response.body = response.body.replace(/<\/?s[^>]*>/g, "")
             timeline = body.match(/<p t="\d+" d="\d+"[^>]+>/g)
         }
 
         for (var i in timeline) {
             let patt = new RegExp(`${timeline[i]}([^<]+)<\\/p>`)
-            if (body.match(patt) && data.match(patt)) {
-                if (setting.line == "s") body = body.replace(patt, `${timeline[i]}$1\n${data.match(patt)[1]}</p>`)
-                if (setting.line == "f") body = body.replace(patt, `${timeline[i]}${data.match(patt)[1]}\n$1</p>`)
+            if (body.match(patt) && response.body.match(patt)) {
+                if (setting.line == "s") body = body.replace(patt, `${timeline[i]}$1\n${response.body.match(patt)[1]}</p>`)
+                if (setting.line == "f") body = body.replace(patt, `${timeline[i]}${response.body.match(patt)[1]}\n$1</p>`)
             }
         }
 
@@ -288,7 +288,7 @@ let subtitles_urls_data = setting.t_subtitles_url
 
 if (setting.type == "Official" && url.match(/\.m3u8/)) {
     settings[service].t_subtitles_url = "null"
-    $persistentStore.write(JSON.stringify(settings))
+    $prefs.setValueForKey(JSON.stringify(settings), "settings")
 
     let patt = new RegExp(`TYPE=SUBTITLES.+NAME="${setting.tl.replace(/(\[|\]|\(|\))/g, "\\$1")}.+URI="([^"]+)`)
 
@@ -306,14 +306,15 @@ if (setting.type == "Official" && url.match(/\.m3u8/)) {
 
         let options = {
             url: subtitles_data_link,
+            method: "GET",
             headers: headers
         }
 
-        $httpClient.get(options, function (error, response, data) {
+        $task.fetch(options).then(response => {
             let subtitles_data = ""
-            if (service == "Disney") subtitles_data = data.match(/.+-MAIN.+\.vtt/g)
-            if (service == "HBOMax") subtitles_data = data.match(/http.+\.vtt/g)
-            if (service == "PrimeVideo") subtitles_data = data.match(/.+\.vtt/g)
+            if (service == "Disney") subtitles_data = response.body.match(/.+-MAIN.+\.vtt/g)
+            if (service == "HBOMax") subtitles_data = response.body.match(/http.+\.vtt/g)
+            if (service == "PrimeVideo") subtitles_data = response.body.match(/.+\.vtt/g)
 
             if (service == "Disney") host = host + "r/"
             if (service == "PrimeVideo") host = subtitles_data_link.match(/https.+\//)[0]
@@ -322,14 +323,14 @@ if (setting.type == "Official" && url.match(/\.m3u8/)) {
                 subtitles_data = subtitles_data.join("\n")
                 if (service == "Disney" || service == "PrimeVideo") subtitles_data = subtitles_data.replace(/(.+)/g, `${host}$1`)
                 settings[service].t_subtitles_url = subtitles_data
-                $persistentStore.write(JSON.stringify(settings))
+                $prefs.setValueForKey(JSON.stringify(settings), "settings")
             }
 
-            if (service == "Disney" && subtitles_data_link.match(/.+-MAIN.+/) && data.match(/,\nseg.+\.vtt/g)) {
-                subtitles_data = data.match(/,\nseg.+\.vtt/g)
+            if (service == "Disney" && subtitles_data_link.match(/.+-MAIN.+/) && response.body.match(/,\nseg.+\.vtt/g)) {
+                subtitles_data = response.body.match(/,\nseg.+\.vtt/g)
                 let url_path = subtitles_data_link.match(/\/r\/(.+)/)[1].replace(/\w+\.m3u8/, "")
-                settings[service].t_subtitles_url = subtitles_data.join("\n").replace(/,\n/g, hots + url_path)
-                $persistentStore.write(JSON.stringify(settings))
+                settings[service].t_subtitles_url = subtitles_data.join("\n").replace(/,\n/g, host + url_path)
+                $prefs.setValueForKey(JSON.stringify(settings), "settings")
             }
 
             $done({})
@@ -362,7 +363,7 @@ function external_subtitles() {
     if (!body.match(patt)) $done({})
     let external = setting.external_subtitles.replace(/(\d+:\d\d:\d\d),(\d\d\d)/g, "$1.$2")
     body = body.replace(patt, external.match(patt)[0])
-    $done({ body })
+    $done({ body: body })
 }
 
 async function machine_subtitles(type) {
@@ -390,13 +391,14 @@ async function machine_subtitles(type) {
         for (var p in s_sentences) {
             let options = {
                 url: `https://translate.google.com/translate_a/single?client=it&dt=qca&dt=t&dt=rmt&dt=bd&dt=rms&dt=sos&dt=md&dt=gt&dt=ld&dt=ss&dt=ex&otf=2&dj=1&hl=en&ie=UTF-8&oe=UTF-8&sl=${setting.sl}&tl=${setting.tl}`,
+                method: "POST",
                 headers: {
                     "User-Agent": "GoogleTranslate/6.29.59279 (iPhone; iOS 15.4; en; iPhone14,2)"
                 },
                 body: `q=${encodeURIComponent(s_sentences[p].join("\n"))}`
             }
 
-            let trans = await send_request(options, "post")
+            let trans = await send_request(options)
 
             if (trans.sentences) {
                 let sentences = trans.sentences
@@ -416,10 +418,11 @@ async function machine_subtitles(type) {
         for (var l in s_sentences) {
             let options = {
                 url: "https://api-free.deepl.com/v2/translate",
+                method: "POST",
                 body: `auth_key=${setting.dkey}${setting.sl == "auto" ? "" : `&source_lang=${setting.sl}`}&target_lang=${setting.tl}${s_sentences[l].join("")}`
             }
 
-            let trans = await send_request(options, "post")
+            let trans = await send_request(options)
 
             if (trans.translations) trans_result.push(trans.translations)
         }
@@ -455,11 +458,11 @@ async function machine_subtitles(type) {
             settings[service].subtitles_sl = setting.sl
             settings[service].subtitles_tl = setting.tl
             settings[service].subtitles_line = setting.line
-            $persistentStore.write(JSON.stringify(settings))
+            $prefs.setValueForKey(JSON.stringify(settings), "settings")
         }
     }
 
-    $done({ body })
+    $done({ body: body })
 
 }
 
@@ -477,9 +480,10 @@ async function official_subtitles(subtitles_urls_data) {
     for (var k in subtitles_urls_data) {
         let options = {
             url: subtitles_urls_data[k],
+            method: "GET",
             headers: headers
         }
-        result.push(await send_request(options, "get"))
+        result.push(await send_request(options))
     }
 
     body = body.replace(/\r/g, "")
@@ -512,27 +516,16 @@ async function official_subtitles(subtitles_urls_data) {
     settings[service].subtitles_sl = setting.sl
     settings[service].subtitles_tl = setting.tl
     settings[service].subtitles_line = setting.line
-    $persistentStore.write(JSON.stringify(settings))
+    $prefs.setValueForKey(JSON.stringify(settings), "settings")
 
-    $done({ body })
+    $done({ body: body })
 }
 
-function send_request(options, method) {
+function send_request(options) {
     return new Promise((resolve, reject) => {
-
-        if (method == "get") {
-            $httpClient.get(options, function (error, response, data) {
-                if (error) return reject('Error')
-                resolve(data)
-            })
-        }
-
-        if (method == "post") {
-            $httpClient.post(options, function (error, response, data) {
-                if (error) return reject('Error')
-                resolve(JSON.parse(data))
-            })
-        }
+        $task.fetch(options).then(response => {
+            resolve(options.method == "GET" ? response.body : JSON.parse(response.body))
+        })
     })
 }
 
