@@ -238,13 +238,13 @@ if (url.match(/action=set/)) {
     $done({ response: { body: JSON.stringify(settings[service]), headers: { "Content-Type": "application/json" } } })
 }
 
+let body = $response.body
+
+if (service == "Netflix" && !body.match(/\d+:\d\d:\d\d.\d\d\d -->.+line.+\n.+/g)) $done({})
+
 if (setting.type == "Disable") $done({})
 
 if (setting.type != "Official" && url.match(/\.m3u8/)) $done({})
-
-let body = $response.body
-
-if (!body) $done({})
 
 if (service == "YouTube") {
 
