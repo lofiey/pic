@@ -362,7 +362,7 @@ function external_subtitles() {
     if (!body.match(patt)) $done({})
     let external = setting.external_subtitles.replace(/(\d+:\d\d:\d\d),(\d\d\d)/g, "$1.$2")
     body = body.replace(patt, external.match(patt)[0])
-    $done({ body })
+    $done({ body: body })
 }
 
 async function machine_subtitles(type) {
@@ -390,13 +390,14 @@ async function machine_subtitles(type) {
         for (var p in s_sentences) {
             let options = {
                 url: `https://translate.google.com/translate_a/single?client=it&dt=qca&dt=t&dt=rmt&dt=bd&dt=rms&dt=sos&dt=md&dt=gt&dt=ld&dt=ss&dt=ex&otf=2&dj=1&hl=en&ie=UTF-8&oe=UTF-8&sl=${setting.sl}&tl=${setting.tl}`,
+                method: "POST",
                 headers: {
                     "User-Agent": "GoogleTranslate/6.29.59279 (iPhone; iOS 15.4; en; iPhone14,2)"
                 },
                 body: `q=${encodeURIComponent(s_sentences[p].join("\n"))}`
             }
 
-            let trans = await send_request(options, "post")
+            let trans = await send_request(options)
 
             if (trans.sentences) {
                 let sentences = trans.sentences
@@ -416,10 +417,11 @@ async function machine_subtitles(type) {
         for (var l in s_sentences) {
             let options = {
                 url: "https://api-free.deepl.com/v2/translate",
+                method: "POST",
                 body: `auth_key=${setting.dkey}${setting.sl == "auto" ? "" : `&source_lang=${setting.sl}`}&target_lang=${setting.tl}${s_sentences[l].join("")}`
             }
 
-            let trans = await send_request(options, "post")
+            let trans = await send_request(options)
 
             if (trans.translations) trans_result.push(trans.translations)
         }
@@ -455,11 +457,11 @@ async function machine_subtitles(type) {
             settings[service].subtitles_sl = setting.sl
             settings[service].subtitles_tl = setting.tl
             settings[service].subtitles_line = setting.line
-            $persistentStore.write(JSON.stringify(settings))
+            $prefs.setValueForKey(JSON.stringify(settings), "settings")
         }
     }
 
-    $done({ body })
+    $done({ body: body })
 
 }
 
@@ -477,9 +479,10 @@ async function official_subtitles(subtitles_urls_data) {
     for (var k in subtitles_urls_data) {
         let options = {
             url: subtitles_urls_data[k],
+            method: "GET",
             headers: headers
         }
-        result.push(await send_request(options, "get"))
+        result.push(await send_request(options))
     }
 
     body = body.replace(/\r/g, "")
@@ -512,27 +515,16 @@ async function official_subtitles(subtitles_urls_data) {
     settings[service].subtitles_sl = setting.sl
     settings[service].subtitles_tl = setting.tl
     settings[service].subtitles_line = setting.line
-    $persistentStore.write(JSON.stringify(settings))
+    $prefs.setValueForKey(JSON.stringify(settings), "settings")
 
-    $done({ body })
+    $done({ body: body })
 }
 
-function send_request(options, method) {
+function send_request(options) {
     return new Promise((resolve, reject) => {
-
-        if (method == "get") {
-            $httpClient.get(options, function (error, response, data) {
-                if (error) return reject('Error')
-                resolve(data)
-            })
-        }
-
-        if (method == "post") {
-            $httpClient.post(options, function (error, response, data) {
-                if (error) return reject('Error')
-                resolve(JSON.parse(data))
-            })
-        }
+        $task.fetch(options).then(response => {
+            resolve(options.method == "GET" ? response.body : JSON.parse(response.body))
+        })
     })
 }
 
