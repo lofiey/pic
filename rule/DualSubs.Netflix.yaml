@@ -17,7 +17,6 @@ scriptings:
 - http_response:
     name: suyeno
     match: ^https?:\/\/(.+)\.oca\.nflxvideo\.net\/\?o=\d+&v=\d+&e=.+
-    match: ^https:\/\/setting.nflxvideo.net\/\?action=(g|s)et
     script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/son.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Languages[0]="{{{Languages[0]}}}"&Languages[1]="{{{Languages[1]}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
@@ -26,4 +25,3 @@ mitm:
   hostnames:
     includes:
     - '*.oca.nflxvideo.net'
-    - '*.nflxvideo.net'
