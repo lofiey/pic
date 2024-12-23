@@ -3,7 +3,7 @@ description: Netflix 增强及双语字幕
 compat_arguments:
   Type: '"Translate"'
   Languages[0]: '"AUTO"'
-  Languages[1]: '"ZH"'
+  Languages[1]: '"ZH-Hans"'
   Position: '"Forward"'
   Vendor: '"Google"'
   ShowOnly: 'false'
@@ -16,7 +16,7 @@ icon: https://github.com/DualSubs/Netflix/raw/main/src/assets/icon_rounded.png
 scriptings:
 - http_response:
     name: suyeno
-    match: ^https?:\/\/(.+)\.oca\.nflxvideo\.net\/\?o=\d+&v=\d+&e=\d+&t=.+
+    match: ^https?:\/\/(.+)\.oca\.nflxvideo\.net\/\?o=\d+&v=\d+&e=.+
     script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/son.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Languages[0]="{{{Languages[0]}}}"&Languages[1]="{{{Languages[1]}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
