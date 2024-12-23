@@ -2,8 +2,8 @@ name: '🍿️ DualSubs: 🇳 Netflix'
 description: Netflix 增强及双语字幕
 compat_arguments:
   Type: '"Translate"'
-  Languages[0]: '"AUTO"'
-  Languages[1]: '"ZH-HANS"'
+  Languages[0]: '"ZH-HANS"'
+  Languages[1]: '"AUTO"'
   Position: '"Forward"'
   Vendor: '"Google"'
   ShowOnly: 'false'
@@ -18,6 +18,13 @@ scriptings:
     name: suyeno
     match: ^https?:\/\/(.+)\.oca\.nflxvideo\.net\/\?o=\d+&v=\d+&e=.+
     script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/son.js
+    arguments:
+      _compat.$argument: Type="{{{Type}}}"&Languages[0]="{{{Languages[0]}}}"&Languages[1]="{{{Languages[1]}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
+    body_required: true
+    - http_response:
+    name: suyenx
+    match: ^https:\/\/setting.nflxvideo.net\/\?action=(g|s)et
+    script_url: https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/Dualsub.js
     arguments:
       _compat.$argument: Type="{{{Type}}}"&Languages[0]="{{{Languages[0]}}}"&Languages[1]="{{{Languages[1]}}}"&Position="{{{Position}}}"&Vendor="{{{Vendor}}}"&ShowOnly="{{{ShowOnly}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
