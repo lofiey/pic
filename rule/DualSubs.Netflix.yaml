@@ -3,7 +3,7 @@ description: Netflix 增强及双语字幕
 compat_arguments:
   Type: '"Translate"'
   Languages[0]: '"AUTO"'
-  Languages[1]: '"ZH-Hans"'
+  Languages[1]: '"ZH-HANS"'
   Position: '"Forward"'
   Vendor: '"Google"'
   ShowOnly: 'false'
