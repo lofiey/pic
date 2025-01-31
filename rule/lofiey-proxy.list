@@ -1,4 +1,8 @@
 IP-ASN, 15169, PROXY
+host-suffix,ocsp2.apple.com, proxy
+host-suffix,stats.gc.apple.com, proxy
+host-suffix,profile.gc.apple.com, proxy
+host-suffix,amp-api-edge.apps.apple.com, proxy
 host-suffix,save-free.com, proxy
 host-suffix,mikebeas.com, proxy
 host-suffix,fbcdn.net, proxy
