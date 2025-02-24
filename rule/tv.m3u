@@ -33,10 +33,20 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
 #EXTINF:-1 group-title="卫视",香港卫视
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 group-title="卫视",GOOD2
+https://live.streamingfast.net/osmflivech2.m3u8
+#EXTINF:-1 group-title="卫视",DaAi2
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 group-title="卫视",基督
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
 #EXTINF:-1 group-title="卫视",南国都市
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
+#EXTINF:-1 group-title="卫视",LLBN
+https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream.m3u8
 #EXTINF:-1 group-title="卫视",小糖人
 http://cnhls.ntdtv.com/cn/live400/playlist.m3u8
+#EXTINF:-1 group-title="卫视",美之音
+https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 #EXTINF:-1 group-title="卫视",北京卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
 #EXTINF:-1 group-title="卫视",东方卫视
