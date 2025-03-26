@@ -1,4 +1,5 @@
 IP-ASN, 15169, PROXY
+host-suffix,serverroom.us,proxy
 host-suffix,xbookcn.net,proxy
 host-suffix,stats.gc.apple.com, proxy
 host-suffix,profile.gc.apple.com, proxy
