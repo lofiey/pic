@@ -517,3 +517,13 @@ HOST-SUFFIX,gamelet.games, proxy
 HOST-SUFFIX,singaporepaya.com, proxy
 HOST-SUFFIX,listdl.com, proxy
 HOST-SUFFIX,iegcom.com, proxy
+# pubg
+HOST-SUFFIX,igamecj.com, proxy
+HOST-SUFFIX,wetest.net, proxy
+HOST-SUFFIX,proximabeta.com, proxy
+HOST-SUFFIX,onezapp.com, proxy
+HOST-SUFFIX,totope.com, proxy
+HOST-SUFFIX,tdatamaster.com, proxy
+HOST-SUFFIX,gjacky.com, proxy
+HOST-SUFFIX,tdatamaster.com, proxy
+HOST-SUFFIX,adjust.io, proxy
