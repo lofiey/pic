@@ -63,7 +63,7 @@ host-suffix, polaris5-normal-lf.zijieapi.com, reject
 host-suffix, tnc0-bjlgy.zijieapi.com, reject
 host-suffix, log0-misc-lf.amemv.com, reject
 host-suffix, vcs.zijieapi.com, reject
-host-suffix, polaris3-normal-lf.zijieapi.com
+host-suffix, polaris3-normal-lf.zijieapi.com, reject
 host-suffix, mssdk3-normal-lf.zijieapi.com, reject
 host-suffix, slb-p2p.vcloud.ks-live.com, reject
 host-suffix, natdetection.onethingpcs.com, reject
