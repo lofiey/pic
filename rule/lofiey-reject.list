@@ -1,12 +1,10 @@
 # begin all in fpq
 # > other
-host-suffix, yp.ws.126.net, reject
 host-suffix, revive.outin.cn, reject
 host-suffix, v.gdt.qq.com, reject
 host-suffix, pgdt.gtimg.cn, reject
 host-suffix, ipv4.gdt.qq.com, reject
 host-suffix, news.ssp.qq.com, reject
-host-suffix, mi.gdt.qq.com, reject
 host-suffix, sdk.e.qq.com, reject
 host-suffix, polaris5-normal-hl.zijieapi.com, reject
 host-suffix, open.e.kuaishou.cn, reject
@@ -28,10 +26,8 @@ host-suffix, othstr.beacon.qq.com, reject
 host-suffix, sis-ipv6.jpush.cn, reject
 host-suffix, stats.jpush.cn, reject
 host-suffix, us.l.qq.com, reject
-host-suffix, rpt.gdt.qq.com, reject
 host-suffix, p.l.qq.com, reject
 host-suffix, tangram.e.qq.com, reject
-host-suffix, oth.eve.mdt.qq.com, reject
 host-suffix, mazu.m.qq.com, reject
 host-suffix, otheve.beacon.qq.com, reject
 host-suffix, unitelogreport.reader.qq.com, reject
@@ -41,10 +37,8 @@ host-suffix, ali-stats.jpush.cn, reject
 host-suffix, config.jpush.cn, reject
 host-suffix, app-measurement.com, reject
 host-suffix, vmonitor.ws.netease.com, reject
-host-suffix, ac.dun.163yun.com, reject
 host-suffix, e-p4p.163.com, reject
 host-suffix, pg-ad-b1.ws.126.net, reject
-host-suffix, ac.dun.163.com, reject
 host-suffix, sp0.baidu.com, reject
 host-suffix, zhanzhang.toutiao.com, reject
 host-suffix, em.baidu.com, reject
@@ -112,7 +106,6 @@ host-suffix, pangolin-sdk-toutiao1.com, reject
 host-suffix, ecmb.bdimg.com, reject
 host-suffix, pglstatp-toutiao.com, reject
 host-suffix, pangolin-sdk-toutiao-b.com, reject
-host-suffix, df.tanx.com, reject
 host-suffix, applog.uc.cn, reject
 host-suffix, px.ucweb.com, reject
 host-suffix, interface.bilibili.com, reject
