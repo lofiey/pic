@@ -1,4 +1,10 @@
 IP-ASN, 15169, PROXY
+host-suffix,amagi.tv,proxy
+host-suffix,pluto.tv,proxy
+host-suffix,tvpass.org,proxy
+host-suffix,bloomberg.com,proxy
+host-suffix,moveonjoy.com,proxy
+host-suffix,wurl.tv,proxy
 host-suffix,serverroom.us,proxy
 host-suffix,xbookcn.net,proxy
 host-suffix,stats.gc.apple.com, proxy
