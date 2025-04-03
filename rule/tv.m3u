@@ -31,10 +31,6 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 #EXTINF:-1 group-title="卫视",安徽卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
-#EXTINF:-1 group-title="卫视",世界地理1
-https://tvpass.org/live/NationalGeographicWildEast/hd
-#EXTINF:-1 group-title="卫视",世界地理2
-https://tvpass.org/live/NationalGeographicEast/hd
 #EXTINF:-1 group-title="卫视",世界地理3
 http://fl2.moveonjoy.com/National_Geographic/index.m3u8
 #EXTINF:-1 group-title="卫视",xplore地理
@@ -43,7 +39,7 @@ https://xlpore-samsungus.amagi.tv/playlist.m3u8
 https://dz59iptwz5rxs.cloudfront.net/live/master.m3u8
 #EXTINF:-1 group-title="卫视",bloomberg
 https://bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 group-title="卫视",anmol tv
+#EXTINF:-1 group-title="卫视",dog tv
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8
 #EXTINF:-1 group-title="卫视",ion tv
 https://scripps-ion-1-us.xumo.wurl.tv/playlist.m3u8
