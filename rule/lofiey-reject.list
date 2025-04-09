@@ -5,7 +5,6 @@ host-suffix, pgdt.gtimg.cn, reject
 host-suffix, ipv4.gdt.qq.com, reject
 host-suffix, news.ssp.qq.com, reject
 host-suffix, sdk.e.qq.com, reject
-host-suffix, polaris5-normal-hl.zijieapi.com, reject
 host-suffix, open.e.kuaishou.cn, reject
 host-suffix, toblog.ctobsnssdk.com, reject
 host-suffix, tnc3-alisc1.zijieapi.com, reject
