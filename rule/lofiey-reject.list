@@ -1,5 +1,7 @@
 # begin all in fpq
 # > other
+host-suffix, api.mixpanel.com, reject
+host-suffix, googleads.g.doubleclick.net, reject
 host-suffix, revive.outin.cn, reject
 host-suffix, pgdt.gtimg.cn, reject
 host-suffix, ipv4.gdt.qq.com, reject
