@@ -1,4 +1,27 @@
 IP-ASN, 15169, PROXY
+DOMAIN-SUFFIX,amazongames.com,proxy
+DOMAIN-SUFFIX,amazonaws.com,proxy
+DOMAIN-SUFFIX,pubgmobile.com,proxy
+DOMAIN-SUFFIX,tencent.com,proxy
+DOMAIN-SUFFIX,igame.qq.com,proxy
+DOMAIN-SUFFIX,proximabeta.com,proxy
+DOMAIN-SUFFIX,vmp.qq.com,proxy
+DOMAIN-SUFFIX,qos.game.qq.com,proxy
+DOMAIN-SUFFIX,pubgmobile.helpshift.com,proxy
+DOMAIN-SUFFIX,gamecenter.qq.com,proxy
+DOMAIN-SUFFIX,tencentgames.helpshift.com,proxy
+DOMAIN-SUFFIX,ig-us-notice.igamecj.com,proxy
+DOMAIN-SUFFIX,ig-us-sdkapi.igamecj.com,proxy
+DOMAIN-SUFFIX,pay.igamecj.com,proxy
+DOMAIN-SUFFIX,api.club.gpubgm.com,proxy
+DOMAIN-SUFFIX,pubgmpdrcdn.amsoveasea.com,proxy
+DOMAIN-SUFFIX,cdn.club.gpubgm.com,proxy
+DOMAIN-KEYWORD,pubg
+DOMAIN-KEYWORD,pubgm
+DOMAIN-KEYWORD,igamecj
+DOMAIN-KEYWORD,gpubgm
+DOMAIN-KEYWORD,pubgmobile
+DOMAIN-KEYWORD,igame
 host-suffix,amagi.tv,proxy
 host-suffix,pluto.tv,proxy
 host-suffix,tvpass.org,proxy
