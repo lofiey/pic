@@ -26,7 +26,6 @@ host-suffix, smartop-sdkapi.jiguang.cn, reject
 host-suffix, easytomessage.com, reject
 host-suffix, ali-stats.jpush.cn, reject
 host-suffix, config.jpush.cn, reject
-host-suffix, app-measurement.com, reject
 host-suffix, vmonitor.ws.netease.com, reject
 host-suffix, pg-ad-b1.ws.126.net, reject
 host-suffix, sp0.baidu.com, reject
@@ -75,7 +74,6 @@ host-suffix, p9-ad-sign.byteimg.com, reject
 host-suffix, vcl-lq-brain.ndcpp.com, reject
 host-suffix, p3-dy-gm-yp-sign.byteimg.com, reject
 host-suffix, vcl-brain-lf.ndcpp.com, reject
-host-suffix, appsflyersdk.com, reject
 host-suffix, lf-ad-ies.bytecdn.cn, reject
 host-suffix, 0kkkkkt.com, reject
 host-suffix, api-play.amemv.com, reject
@@ -101,14 +99,12 @@ host-suffix, px.ucweb.com, reject
 host-suffix, interface.bilibili.com, reject
 host-suffix, data.bilibili.com, reject
 host-suffix, activity.hdslb.com, reject
-host-suffix, business-api.tiktok.com, reject
 host-suffix, app.adjust.com, reject
 host-suffix, app.adjust.net.in, reject
 host-suffix, app.adjust.world, reject
 host-suffix, geolocation.onetrust.com, reject
 host-suffix, cdn.cookielaw.org, reject
 host-suffix, h-adashx.ut.taobao.com, reject
-host-suffix, app-analytics-services.com, reject
 host-suffix, stats.g.doubleclick.net, reject
 host-suffix, event.northghost.com, reject
 host-suffix, dig.bdurl.net, reject
@@ -124,5 +120,4 @@ host-suffix, dlswbr.baidu.com, reject
 host-suffix, als.baidu.com, reject
 host-suffix, baidu-mipdx.cn.miaozhen.com, reject
 host-suffix, cdn-f.adsmoloco.com, reject
-host-suffix, ads-api.tiktok.com, reject
 host-suffix, pubads.g.doubleclick.net, reject
