@@ -1,9 +1,6 @@
 # begin all in fpq
 # > other
-host-suffix, app-analytics-services.com, reject
 host-suffix, business-api.tiktok.com, reject
-host-suffix, appsflyersdk.com, reject
-host-suffix, api.mixpanel.com, reject
 host-suffix, googleads.g.doubleclick.net, reject
 host-suffix, revive.outin.cn, reject
 host-suffix, pgdt.gtimg.cn, reject
@@ -79,7 +76,6 @@ host-suffix, p3-dy-gm-yp-sign.byteimg.com, reject
 host-suffix, vcl-brain-lf.ndcpp.com, reject
 host-suffix, lf-ad-ies.bytecdn.cn, reject
 host-suffix, 0kkkkkt.com, reject
-host-suffix, api-play.amemv.com, reject
 host-suffix, feed-image.baidu.com, reject
 host-suffix, zz.bdstatic.com, reject
 host-suffix, adx.36kr.com, reject
