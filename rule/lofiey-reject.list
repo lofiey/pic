@@ -1,5 +1,6 @@
 # begin all in fpq
 # > other
+host-suffix, tiktok.adsmeasurement.com,reject
 host-suffix, business-api.tiktok.com, reject
 host-suffix, googleads.g.doubleclick.net, reject
 host-suffix, revive.outin.cn, reject
