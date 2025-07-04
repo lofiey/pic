@@ -156,6 +156,43 @@ if (service == "YouTube") {
 
 }
 
+let subtitles_urls_data = setting.t_subtitles_url
+
+if (setting.type == "Official" && url.match(/\.m3u8/)) {
+    settings[service].t_subtitles_url = "null"
+    $prefs.setValueForKey(JSON.stringify(settings), "settings")
+
+    let patt = new RegExp(`TYPE=SUBTITLES.+NAME="${setting.tl.replace(/(\[|\]|\(|\))/g, "\\$1")}.+URI="([^"]+)`)
+
+    if (body.match(patt)) {
+
+        let host = ""
+        if (service == "Disney") host = url.match(/https.+media.(dss|star)ott.com\/ps01\/disney\/[^\/]+\//)[0]
+        }
+
+        let options = {
+            url: subtitles_data_link,
+            method: "GET",
+            headers: headers
+        }
+
+        $task.fetch(options).then(response => {
+            let subtitles_data = ""
+
+            if (subtitles_data) {
+                subtitles_data = subtitles_data.join("\n")
+                if (service == "Disney" || service == "PrimeVideo") subtitles_data = subtitles_data.replace(/(.+)/g, `${host}$1`)
+                settings[service].t_subtitles_url = subtitles_data
+                $prefs.setValueForKey(JSON.stringify(settings), "settings")
+
+            $done({})
+        })
+
+    }
+
+    if (!body.match(patt)) $done({})
+}
+
 if (url.match(/\.(web)?vtt/) || service == "Netflix" || service == "General") {
     if (service != "Netflix" && url == setting.s_subtitles_url && setting.subtitles != "null" && setting.subtitles_type == setting.type && setting.subtitles_sl == setting.sl && setting.subtitles_tl == setting.tl && setting.subtitles_line == setting.line) $done({ body: setting.subtitles })
 
@@ -208,7 +245,7 @@ async function machine_subtitles(type) {
                 url: `https://translate.google.com/translate_a/single?client=it&dt=qca&dt=t&dt=rmt&dt=bd&dt=rms&dt=sos&dt=md&dt=gt&dt=ld&dt=ss&dt=ex&otf=2&dj=1&hl=en&ie=UTF-8&oe=UTF-8&sl=${setting.sl}&tl=${setting.tl}`,
                 method: "POST",
                 headers: {
-                    "User-Agent": "GoogleTranslate/6.29.59279 (iPhone; iOS 15.4; en; iPhone14,2)"
+                    "User-Agent": "GoogleTranslate/6.29.59279 (iPhone; iOS 18.1; en; iPhone14,2;iPad)"
                 },
                 body: `q=${encodeURIComponent(s_sentences[p].join("\n"))}`
             }
@@ -283,6 +320,14 @@ async function machine_subtitles(type) {
 
 async function official_subtitles(subtitles_urls_data) {
     let result = []
+
+    if (service == "Disney" || service == "HBOMax") {
+        let subtitles_index = parseInt(url.match(/(\d+)\.vtt/)[1])
+
+        let start = subtitles_index - 3 < 0 ? 0 : subtitles_index - 3
+
+        subtitles_urls_data = subtitles_urls_data.slice(start, subtitles_index + 4)
+    }
 
     for (var k in subtitles_urls_data) {
         let options = {
