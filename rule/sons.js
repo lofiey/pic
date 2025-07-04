@@ -84,6 +84,32 @@ if (url.match(/action=get/)) {
     $done({ status: "HTTP/1.1 200 OK", body: JSON.stringify(setting), headers: { "Content-Type": "application/json" } })
 }
 
+if (url.match(/action=set/)) {
+    let new_setting = JSON.parse($request.body)
+    if (new_setting.type != "External") settings[service].external_subtitles = "null"
+    if (new_setting.type == "Reset") new_setting = default_settings[service]
+    if (new_setting.service && service == "General") settings[service].service = new_setting.service.replace(/\r/g, "")
+    if (new_setting.type) settings[service].type = new_setting.type
+    if (new_setting.lang) settings[service].lang = new_setting.lang
+    if (new_setting.sl) settings[service].sl = new_setting.sl
+    if (new_setting.tl) settings[service].tl = new_setting.tl
+    if (new_setting.line) settings[service].line = new_setting.line
+    if (new_setting.dkey && service != "YouTube") settings[service].dkey = new_setting.dkey
+    if (new_setting.s_subtitles_url) settings[service].s_subtitles_url = new_setting.s_subtitles_url
+    if (new_setting.t_subtitles_url) settings[service].t_subtitles_url = new_setting.t_subtitles_url
+    if (new_setting.subtitles) settings[service].subtitles = new_setting.subtitles
+    if (new_setting.subtitles_type) settings[service].subtitles_type = new_setting.subtitles_type
+    if (new_setting.subtitles_sl) settings[service].subtitles_sl = new_setting.subtitles_sl
+    if (new_setting.subtitles_tl) settings[service].subtitles_tl = new_setting.subtitles_tl
+    if (new_setting.subtitles_line) settings[service].subtitles_line = new_setting.subtitles_line
+    if (new_setting.external_subtitles) settings[service].external_subtitles = new_setting.external_subtitles.replace(/\r/g, "")
+    $prefs.setValueForKey(JSON.stringify(settings), "settings")
+    delete settings[service].t_subtitles_url
+    delete settings[service].subtitles
+    delete settings[service].external_subtitles
+    $done({ status: "HTTP/1.1 200 OK", body: JSON.stringify(settings[service]), headers: { "Content-Type": "application/json" } })
+}
+
 let body = $response.body
 
 if (service == "Netflix" && !body.match(/\d+:\d\d:\d\d.\d\d\d -->.+line.+\n.+/g)) $done({})
@@ -92,6 +118,18 @@ if (setting.type == "Disable") $done({})
 
 if (setting.type != "Official" && url.match(/\.m3u8/)) $done({})
 
+if (service == "YouTube") {
+
+    let patt = new RegExp(`lang=${setting.tl}`)
+
+    if (url.replace(/&lang=zh(-Hans)*&/, "&lang=zh-CN&").replace(/&lang=zh-Hant&/, "&lang=zh-TW&").match(patt) || url.match(/&tlang=/)) $done({})
+
+    let t_url = `${url}&tlang=${setting.tl == "zh-CN" ? "zh-Hans" : setting.tl == "zh-TW" ? "zh-Hant" : setting.tl}`
+
+    let options = {
+        url: t_url,
+        headers: headers
+    }
 
     $task.fetch(options).then(response => {
 
@@ -118,6 +156,42 @@ if (setting.type != "Official" && url.match(/\.m3u8/)) $done({})
 
 }
 
+let subtitles_urls_data = setting.t_subtitles_url
+
+if (setting.type == "Official" && url.match(/\.m3u8/)) {
+    settings[service].t_subtitles_url = "null"
+    $prefs.setValueForKey(JSON.stringify(settings), "settings")
+
+    let patt = new RegExp(`TYPE=SUBTITLES.+NAME="${setting.tl.replace(/(\[|\]|\(|\))/g, "\\$1")}.+URI="([^"]+)`)
+
+    if (body.match(patt)) {
+
+        let host = ""
+        if (service == "Disney") host = url.match(/https.+media.(dss|star)ott.com\/ps01\/disney\/[^\/]+\//)[0]
+        }
+
+        let options = {
+            url: subtitles_data_link,
+            method: "GET",
+            headers: headers
+        }
+
+        $task.fetch(options).then(response => {
+            let subtitles_data = ""
+
+            if (subtitles_data) {
+                subtitles_data = subtitles_data.join("\n")
+                if (service == "Disney" || service == "PrimeVideo") subtitles_data = subtitles_data.replace(/(.+)/g, `${host}$1`)
+                settings[service].t_subtitles_url = subtitles_data
+                $prefs.setValueForKey(JSON.stringify(settings), "settings")
+
+            $done({})
+        })
+
+    }
+
+    if (!body.match(patt)) $done({})
+}
 
 if (url.match(/\.(web)?vtt/) || service == "Netflix" || service == "General") {
     if (service != "Netflix" && url == setting.s_subtitles_url && setting.subtitles != "null" && setting.subtitles_type == setting.type && setting.subtitles_sl == setting.sl && setting.subtitles_tl == setting.tl && setting.subtitles_line == setting.line) $done({ body: setting.subtitles })
