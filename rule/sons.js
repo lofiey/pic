@@ -17,34 +17,11 @@
         ^http.+(media.(dss|star)ott|manifests.v2.api.hbo|hbomaxcdn|nflxvideo|cbs(aa|i)video|cloudfront|akamaihd|avi-cdn|huluim|youtube).(com|net)\/(.+\.vtt($|\?m=\d+)|.+-all-.+\.m3u8.*|hls\.m3u8.+|\?o=\d+&v=\d+&e=.+|\w+\/2\$.+\/[a-zA-Z0-9-]+\.m3u8|api\/timedtext.+) url script-response-body Dualsub.js
         ^http.+(setting|general).(media.dssott|hbomaxcdn|nflxvideo|youtube|cbsivideo|cloudfront|huluim).(com|net)\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
 
-        // Disney+, Star+ individual
-        https:\/\/.+media.(dss|star)ott.com\/ps01\/disney\/.+(\.vtt|-all-.+\.m3u8.*) url script-response-body Dualsub.js
-        https:\/\/setting.media.dssott.com\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
- 
-        // HBO Max individual
-        https:\/\/(manifests.v2.api.hbo.com|.+hbomaxcdn.com)\/(hls.m3u8.+|video.+\.vtt) url script-response-body Dualsub.js
-        https:\/\/setting.hbomaxcdn.com\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
-        //Hulu individual
-        ^http.+huluim.com\/.+\.vtt$ url script-response-body Dualsub.js
-        https:\/\/setting.huluim.com\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
         // Netflix individual
         https:\/\/.+nflxvideo.net\/\?o=\d+&v=\d+&e=.+ url script-response-body Dualsub.js
         https:\/\/setting.nflxvideo.net\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
 
-        // Paramount+ individual
-        https:\/\/.+cbs(aa|i)video.com\/.+\.vtt(\?m=\d+)* url script-response-body Dualsub.js
-        https:\/\/setting.cbsivideo.com\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
-        //Prime Video individual
-        https:\/\/.+(cloudfront|akamaihd|avi-cdn).net\/(.+\.vtt|\w+\/2\$.+\/[a-zA-Z0-9-]+\.m3u8) url script-response-body Dualsub.js
-        https:\/\/setting.cloudfront.net\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
-        //YouTube individual
-        https:\/\/www.youtube.com\/api\/timedtext.+ url script-response-body Dualsub.js
-        https:\/\/setting.youtube.com\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
+        // 
         [mitm]
         hostname = *.media.dssott.com, *.media.starott.com, *.api.hbo.com, *.hbomaxcdn.com, *.huluim.com, *.nflxvideo.net, *.cbsaavideo.com, *.cbsivideo.com, *.cloudfront.net, *.akamaihd.net, *.avi-cdn.net, *.youtube.com
 
@@ -57,54 +34,6 @@ let url = $request.url
 let headers = $request.headers
 
 let default_settings = {
-    Disney: {
-        type: "Google", // Official, Google, DeepL, External, Disable
-        lang: "ZH-Hans",
-        sl: "auto",
-        tl: "English [CC]",
-        line: "s", // f, s
-        dkey: "null", // DeepL API key
-        s_subtitles_url: "null",
-        t_subtitles_url: "null",
-        subtitles: "null",
-        subtitles_type: "null",
-        subtitles_sl: "null",
-        subtitles_tl: "null",
-        subtitles_line: "null",
-        external_subtitles: "null"
-    },
-    HBOMax: {
-        type: "Official", // Official, Google, DeepL, External, Disable
-        lang: "English CC",
-        sl: "auto",
-        tl: "en-US SDH",
-        line: "s", // f, s
-        dkey: "null", // DeepL API key
-        s_subtitles_url: "null",
-        t_subtitles_url: "null",
-        subtitles: "null",
-        subtitles_type: "null",
-        subtitles_sl: "null",
-        subtitles_tl: "null",
-        subtitles_line: "null",
-        external_subtitles: "null"
-    },
-    Hulu: {
-        type: "Google", // Google, DeepL, External, Disable
-        lang: "ZH-Hans",
-        sl: "auto",
-        tl: "English [CC]",
-        line: "s", // f, s
-        dkey: "null", // DeepL API key
-        s_subtitles_url: "null",
-        t_subtitles_url: "null",
-        subtitles: "null",
-        subtitles_type: "null",
-        subtitles_sl: "null",
-        subtitles_tl: "null",
-        subtitles_line: "null",
-        external_subtitles: "null"
-    },
     Netflix: {
         type: "Google", // Google, DeepL, External, Disable
         lang: "ZH-Hans",
@@ -120,62 +49,6 @@ let default_settings = {
         subtitles_tl: "null",
         subtitles_line: "null",
         external_subtitles: "null"
-    },
-    Paramount: {
-        type: "Google", // Google, DeepL, External, Disable
-        lang: "English",
-        sl: "auto",
-        tl: "en",
-        line: "s", // f, s
-        dkey: "null", // DeepL API key
-        s_subtitles_url: "null",
-        t_subtitles_url: "null",
-        subtitles: "null",
-        subtitles_type: "null",
-        subtitles_sl: "null",
-        subtitles_tl: "null",
-        subtitles_line: "null",
-        external_subtitles: "null"
-    },
-    PrimeVideo: {
-        type: "Official", // Official, Google, DeepL, External, Disable
-        lang: "English [CC]",
-        sl: "auto",
-        tl: "English [CC]",
-        line: "s", // f, s
-        dkey: "null", // DeepL API key
-        s_subtitles_url: "null",
-        t_subtitles_url: "null",
-        subtitles: "null",
-        subtitles_type: "null",
-        subtitles_sl: "null",
-        subtitles_tl: "null",
-        subtitles_line: "null",
-        external_subtitles: "null"
-    },
-    General: {
-        service: "null",
-        type: "Google", // Google, DeepL, External, Disable
-        lang: "English",
-        sl: "auto",
-        tl: "en",
-        line: "s", // f, s
-        dkey: "null", // DeepL API key
-        s_subtitles_url: "null",
-        t_subtitles_url: "null",
-        subtitles: "null",
-        subtitles_type: "null",
-        subtitles_sl: "null",
-        subtitles_tl: "null",
-        subtitles_line: "null",
-        external_subtitles: "null"
-    },
-    YouTube: {
-        type: "Enable", // Enable, Disable
-        lang: "English",
-        sl: "auto",
-        tl: "en",
-        line: "sl"
     }
 }
 
@@ -186,14 +59,7 @@ if (!settings) settings = default_settings
 if (typeof (settings) == "string") settings = JSON.parse(settings)
 
 let service = ""
-if (url.match(/(dss|star)ott.com/)) service = "Disney"
-if (url.match(/hbo(maxcdn)*.com/)) service = "HBOMax"
-if (url.match(/huluim.com/)) service = "Hulu"
 if (url.match(/nflxvideo.net/)) service = "Netflix"
-if (url.match(/cbs(aa|i)video.com/)) service = "Paramount"
-if (url.match(/(cloudfront|akamaihd|avi-cdn).net/)) service = "PrimeVideo"
-if (url.match(/general.media/)) service = "General"
-if (url.match(/youtube.com/)) service = "YouTube"
 
 if (settings.General) {
     let general_service = settings.General.service.split(", ")
