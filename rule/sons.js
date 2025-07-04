@@ -156,43 +156,6 @@ if (service == "YouTube") {
 
 }
 
-let subtitles_urls_data = setting.t_subtitles_url
-
-if (setting.type == "Official" && url.match(/\.m3u8/)) {
-    settings[service].t_subtitles_url = "null"
-    $prefs.setValueForKey(JSON.stringify(settings), "settings")
-
-    let patt = new RegExp(`TYPE=SUBTITLES.+NAME="${setting.tl.replace(/(\[|\]|\(|\))/g, "\\$1")}.+URI="([^"]+)`)
-
-    if (body.match(patt)) {
-
-        let host = ""
-        if (service == "Disney") host = url.match(/https.+media.(dss|star)ott.com\/ps01\/disney\/[^\/]+\//)[0]
-        }
-
-        let options = {
-            url: subtitles_data_link,
-            method: "GET",
-            headers: headers
-        }
-
-        $task.fetch(options).then(response => {
-            let subtitles_data = ""
-
-            if (subtitles_data) {
-                subtitles_data = subtitles_data.join("\n")
-                if (service == "Disney" || service == "PrimeVideo") subtitles_data = subtitles_data.replace(/(.+)/g, `${host}$1`)
-                settings[service].t_subtitles_url = subtitles_data
-                $prefs.setValueForKey(JSON.stringify(settings), "settings")
-
-            $done({})
-        })
-
-    }
-
-    if (!body.match(patt)) $done({})
-}
-
 if (url.match(/\.(web)?vtt/) || service == "Netflix" || service == "General") {
     if (service != "Netflix" && url == setting.s_subtitles_url && setting.subtitles != "null" && setting.subtitles_type == setting.type && setting.subtitles_sl == setting.sl && setting.subtitles_tl == setting.tl && setting.subtitles_line == setting.line) $done({ body: setting.subtitles })
 
