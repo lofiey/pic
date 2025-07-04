@@ -284,14 +284,6 @@ async function machine_subtitles(type) {
 async function official_subtitles(subtitles_urls_data) {
     let result = []
 
-    if (service == "Disney" || service == "HBOMax") {
-        let subtitles_index = parseInt(url.match(/(\d+)\.vtt/)[1])
-
-        let start = subtitles_index - 3 < 0 ? 0 : subtitles_index - 3
-
-        subtitles_urls_data = subtitles_urls_data.slice(start, subtitles_index + 4)
-    }
-
     for (var k in subtitles_urls_data) {
         let options = {
             url: subtitles_urls_data[k],
