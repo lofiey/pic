@@ -93,19 +93,6 @@ if (setting.type == "Disable") $done({})
 
 if (setting.type != "Official" && url.match(/\.m3u8/)) $done({})
 
-if (service == "YouTube") {
-
-    let patt = new RegExp(`lang=${setting.tl}`)
-
-    if (url.replace(/&lang=zh(-Hans)*&/, "&lang=zh-CN&").replace(/&lang=zh-Hant&/, "&lang=zh-TW&").match(patt) || url.match(/&tlang=/)) $done({})
-
-    let t_url = `${url}&tlang=${setting.tl == "zh-CN" ? "zh-Hans" : setting.tl == "zh-TW" ? "zh-Hant" : setting.tl}`
-
-    let options = {
-        url: t_url,
-        headers: headers
-    }
-
     $task.fetch(options).then(response => {
 
         if (setting.line == "sl") $done({ body: response.body })
