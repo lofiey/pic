@@ -84,31 +84,6 @@ if (url.match(/action=get/)) {
     $done({ status: "HTTP/1.1 200 OK", body: JSON.stringify(setting), headers: { "Content-Type": "application/json" } })
 }
 
-if (url.match(/action=set/)) {
-    let new_setting = JSON.parse($request.body)
-    if (new_setting.type != "External") settings[service].external_subtitles = "null"
-    if (new_setting.type == "Reset") new_setting = default_settings[service]
-    if (new_setting.service && service == "General") settings[service].service = new_setting.service.replace(/\r/g, "")
-    if (new_setting.type) settings[service].type = new_setting.type
-    if (new_setting.lang) settings[service].lang = new_setting.lang
-    if (new_setting.sl) settings[service].sl = new_setting.sl
-    if (new_setting.tl) settings[service].tl = new_setting.tl
-    if (new_setting.line) settings[service].line = new_setting.line
-    if (new_setting.dkey && service != "YouTube") settings[service].dkey = new_setting.dkey
-    if (new_setting.s_subtitles_url) settings[service].s_subtitles_url = new_setting.s_subtitles_url
-    if (new_setting.t_subtitles_url) settings[service].t_subtitles_url = new_setting.t_subtitles_url
-    if (new_setting.subtitles) settings[service].subtitles = new_setting.subtitles
-    if (new_setting.subtitles_type) settings[service].subtitles_type = new_setting.subtitles_type
-    if (new_setting.subtitles_sl) settings[service].subtitles_sl = new_setting.subtitles_sl
-    if (new_setting.subtitles_tl) settings[service].subtitles_tl = new_setting.subtitles_tl
-    if (new_setting.subtitles_line) settings[service].subtitles_line = new_setting.subtitles_line
-    if (new_setting.external_subtitles) settings[service].external_subtitles = new_setting.external_subtitles.replace(/\r/g, "")
-    $prefs.setValueForKey(JSON.stringify(settings), "settings")
-    delete settings[service].t_subtitles_url
-    delete settings[service].subtitles
-    delete settings[service].external_subtitles
-    $done({ status: "HTTP/1.1 200 OK", body: JSON.stringify(settings[service]), headers: { "Content-Type": "application/json" } })
-}
 
 let body = $response.body
 
