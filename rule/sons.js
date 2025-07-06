@@ -23,7 +23,7 @@
 
         // 
         [mitm]
-        hostname = *.media.dssott.com, *.media.starott.com, *.api.hbo.com, *.hbomaxcdn.com, *.huluim.com, *.nflxvideo.net, *.cbsaavideo.com, *.cbsivideo.com, *.cloudfront.net, *.akamaihd.net, *.avi-cdn.net, *.youtube.com
+        hostname =, *.oca.nflxvideo.net, *.nflxvideo.net, *.youtube.com
 
     Author:
         Telegram: Neurogram
@@ -84,6 +84,7 @@ if (url.match(/action=get/)) {
     $done({ status: "HTTP/1.1 200 OK", body: JSON.stringify(setting), headers: { "Content-Type": "application/json" } })
 }
 
+
 let body = $response.body
 
 if (service == "Netflix" && !body.match(/\d+:\d\d:\d\d.\d\d\d -->.+line.+\n.+/g)) $done({})
@@ -91,6 +92,10 @@ if (service == "Netflix" && !body.match(/\d+:\d\d:\d\d.\d\d\d -->.+line.+\n.+/g)
 if (setting.type == "Disable") $done({})
 
 if (setting.type != "Official" && url.match(/\.m3u8/)) $done({})
+
+if (service == "YouTube") {
+
+    let patt = new RegExp(`lang=${setting.tl}`)
 
     if (url.replace(/&lang=zh(-Hans)*&/, "&lang=zh-CN&").replace(/&lang=zh-Hant&/, "&lang=zh-TW&").match(patt) || url.match(/&tlang=/)) $done({})
 
