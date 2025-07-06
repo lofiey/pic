@@ -84,7 +84,6 @@ if (url.match(/action=get/)) {
     $done({ status: "HTTP/1.1 200 OK", body: JSON.stringify(setting), headers: { "Content-Type": "application/json" } })
 }
 
-
 let body = $response.body
 
 if (service == "Netflix" && !body.match(/\d+:\d\d:\d\d.\d\d\d -->.+line.+\n.+/g)) $done({})
@@ -92,8 +91,6 @@ if (service == "Netflix" && !body.match(/\d+:\d\d:\d\d.\d\d\d -->.+line.+\n.+/g)
 if (setting.type == "Disable") $done({})
 
 if (setting.type != "Official" && url.match(/\.m3u8/)) $done({})
-
-    let patt = new RegExp(`lang=${setting.tl}`)
 
     if (url.replace(/&lang=zh(-Hans)*&/, "&lang=zh-CN&").replace(/&lang=zh-Hant&/, "&lang=zh-TW&").match(patt) || url.match(/&tlang=/)) $done({})
 
