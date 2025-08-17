@@ -1,5 +1,6 @@
 # begin all in fpq
 # > other
+host-suffix,app-analytics-services.com,reject
 host-suffix, tiktok.adsmeasurement.com,reject
 host-suffix, business-api.tiktok.com, reject
 host-suffix, open.e.kuaishou.cn, reject
@@ -6094,4 +6095,5 @@ HOST-SUFFIX,zz.bdstatic.com,FuckRogueSoftware
 HOST-SUFFIX,zzhc.vnet.cn,FuckRogueSoftware
 HOST-SUFFIX,zzyzx.adjust.com,FuckRogueSoftware
 HOST-SUFFIX,zzz-log-upload.mihoyo.com,FuckRogueSoftware
+
 
