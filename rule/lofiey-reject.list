@@ -127,7 +127,6 @@ HOST-SUFFIX, httpdns.qcloud.com, NoMalwares
 HOST-SUFFIX, httpdns.aliyuncs.com, NoMalwares
 HOST, msp.meituan.com, NoMalwares
 HOST-SUFFIX, dns.wechat.com, NoMalwares
-HOST, dns.alidns.com, NoMalwares
 ip-cidr, 119.29.29.80/28, NoMalwares
 HOST-SUFFIX, gslb.livehwc3.cn, NoMalwares
 HOST-SUFFIX, tec73.com, NoMalwares
@@ -6095,3 +6094,4 @@ HOST-SUFFIX,zz.bdstatic.com,FuckRogueSoftware
 HOST-SUFFIX,zzhc.vnet.cn,FuckRogueSoftware
 HOST-SUFFIX,zzyzx.adjust.com,FuckRogueSoftware
 HOST-SUFFIX,zzz-log-upload.mihoyo.com,FuckRogueSoftware
+
