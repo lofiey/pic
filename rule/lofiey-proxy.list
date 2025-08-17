@@ -3,6 +3,8 @@ HOST-SUFFIX,omnitt.com,proxy
 HOST,lf16-effectcdn.byteeffecttos-g.com,proxy
 HOST,lf16-pkgcdn.pitaya-clientai.com,proxy
 HOST,p16-tiktokcdn-com.akamaized.net,proxy
+host-suffix,hok5v5.com,proxy
+host-suffix,tiem-cdn.qq.com,proxy
 HOST-SUFFIX,bytedapm.com,proxy
 HOST-SUFFIX,bytegecko-i18n.com,proxy
 HOST-SUFFIX,byteoversea.com,proxy
@@ -592,3 +594,4 @@ HOST-SUFFIX,tdatamaster.com, proxy
 HOST-SUFFIX,gcloudcs.com, proxy
 HOST-SUFFIX,anticheatexpert.com, proxy
 HOST-SUFFIX,vasdgame.com, proxy
+
