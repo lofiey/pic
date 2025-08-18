@@ -63,22 +63,12 @@ host-suffix, dlswbr.baidu.com, reject
 host-suffix, als.baidu.com, reject
 host-suffix, baidu-mipdx.cn.miaozhen.com, reject
 host-suffix, cdn-f.adsmoloco.com, reject
-DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
-DOMAIN-SUFFIX,ppio.cloud
 DOMAIN-SUFFIX,yfp2p.net
 DOMAIN-SUFFIX,yfcdn.net
 DOMAIN-SUFFIX,onethingpcs.com
 DOMAIN-SUFFIX,tianwenca.com
-DOMAIN-SUFFIX,pkoplink.com
 DOMAIN,qn-cdnfile1pcdn.msstatic.com
 DOMAIN,livewebbs2pcdn.msstatic.com
-DOMAIN-SUFFIX,kuiniuca.com
-DOMAIN-SUFFIX,yfcloud.com
-DOMAIN-SUFFIX,saxysec.com
-DOMAIN-SUFFIX,pcdn.yximgs.com
-DOMAIN-SUFFIX,szbdyd.com
-DOMAIN-SUFFIX,xycdn.com
-DOMAIN-SUFFIX,uhabo.com
 DOMAIN-SUFFIX,p2cdn.com
 DOMAIN-SUFFIX,p2p.huya.com
 DOMAIN-SUFFIX,p2ptun.qq.com
@@ -118,8 +108,6 @@ HOST, tls-amap.dingtalk.com, NoMalwares
 HOST, tls-eleme.dingtalk.com, NoMalwares
 HOST, tls-goofish.dingtalk.com, NoMalwares
 HOST, metis-er.ele.me, NoMalwares
-HOST-SUFFIX, alibabachengdun.com, NoMalwares
-HOST-SUFFIX, alibabachengdun.net, NoMalwares
 HOST, atoken.m.taobao.com, NoMalwares
 HOST-SUFFIX, qiezibenpao.com, NoMalwares
 HOST, httpdnsmultiapi.meituan.com, NoMalwares
@@ -128,15 +116,12 @@ HOST-SUFFIX, httpdns.qcloud.com, NoMalwares
 HOST-SUFFIX, httpdns.aliyuncs.com, NoMalwares
 HOST, msp.meituan.com, NoMalwares
 HOST-SUFFIX, dns.wechat.com, NoMalwares
-ip-cidr, 119.29.29.80/28, NoMalwares
 HOST-SUFFIX, gslb.livehwc3.cn, NoMalwares
 HOST-SUFFIX, tec73.com, NoMalwares
 HOST-SUFFIX, tliveapp.com, NoMalwares
 HOST-SUFFIX, tlivemcdn.com, NoMalwares
 HOST-SUFFIX, tlivesource.com, NoMalwares
 HOST-SUFFIX, mobile-collector.newrelic.com, NoMalwares
-HOST, amdc-sibling.alipay.com.cn, NoMalwares
-HOST, amdc-thirdparty.alipay.com, NoMalwares
 HOST, open.kwaizt.com, NoMalwares
 HOST, sdktmp.hubcloud.com.cn, NoMalwares
 HOST, data.bilibili.com, NoMalwares
@@ -498,15 +483,9 @@ HOST,access-sngapm.qcloud.com,FuckRogueSoftware
 HOST-SUFFIX,access.toggle.qq.com,FuckRogueSoftware
 HOST-SUFFIX,account.marketing-google.com,FuckRogueSoftware
 HOST-SUFFIX,accounts.doubleclick.net,FuckRogueSoftware
-HOST-SUFFIX,accscdn.m.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,accuradio.adswizz.com,FuckRogueSoftware
 HOST,ace-tag.advertising.com.sigpolicy.qq.p1.ash.opendns.com,FuckRogueSoftware
 HOST-SUFFIX,acfun-log-sdk.ksapisrv.com,FuckRogueSoftware
-HOST-SUFFIX,acjs.aliyun.com,FuckRogueSoftware
-HOST-SUFFIX,acookie.taobao.com,FuckRogueSoftware
-HOST-SUFFIX,acs.m.taobao.com,FuckRogueSoftware
-HOST-SUFFIX,acs.wapa.taobao.com,FuckRogueSoftware
-HOST-SUFFIX,acs4baichuan.m.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,act.qq.com,FuckRogueSoftware
 HOST-SUFFIX,act.snssdk.com,FuckRogueSoftware
 HOST-SUFFIX,act.umeng.com,FuckRogueSoftware
@@ -6095,5 +6074,6 @@ HOST-SUFFIX,zz.bdstatic.com,FuckRogueSoftware
 HOST-SUFFIX,zzhc.vnet.cn,FuckRogueSoftware
 HOST-SUFFIX,zzyzx.adjust.com,FuckRogueSoftware
 HOST-SUFFIX,zzz-log-upload.mihoyo.com,FuckRogueSoftware
+
 
 
