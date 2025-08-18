@@ -108,7 +108,6 @@ HOST, tls-amap.dingtalk.com, NoMalwares
 HOST, tls-eleme.dingtalk.com, NoMalwares
 HOST, tls-goofish.dingtalk.com, NoMalwares
 HOST, metis-er.ele.me, NoMalwares
-HOST, atoken.m.taobao.com, NoMalwares
 HOST-SUFFIX, qiezibenpao.com, NoMalwares
 HOST, httpdnsmultiapi.meituan.com, NoMalwares
 HOST, httpdnsmultiapivip.meituan.com, NoMalwares
@@ -427,33 +426,6 @@ HOST-SUFFIX,a2put.chinaz.com,FuckRogueSoftware
 HOST-SUFFIX,a3.adsplay.xyz,FuckRogueSoftware
 HOST-SUFFIX,a4.adsplay.xyz,FuckRogueSoftware
 HOST-SUFFIX,a4.bing.com,FuckRogueSoftware
-HOST,a45090.com-apache-i-topic-control-learning-12.lb.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-apache-i-topic-wxopen-learning-12traffic.lb.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-0-268360-myseat-engine.com-cloud-enginepaymentfs-xcx2rdtest2-learning-enginepayment.0.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-0-google-265360payment-server.com-cloud-enginevpn-platform-myseat-engine.0.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-10-topiclax-learning-engine.pc.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-appleid-distribution-learning-engine.hw.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-azure-machine-learning-xcx2rd.pc.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-computing-google-learning-appleidelb.v.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-enginevpn-platform-myseat-engine.b2.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-hdverify-google-learning-mylonelypussyelb.com-cloud-enginevpn-platform-myseat-engine.0.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-hdverify-myworld-vipapi-appleidelb.gw.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-i-topic-wxopen-learning-12.lb.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-i-topic-wxopen-learning-12global.lb.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-i-topic-wxopen-ssl-12.lb.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-iengine-origin2-learning-distribution.12.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-informationselb-wxopen-activedt-12-4.hw.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-learning-machine-learning-team.pc.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-myaccount-tomcat-learning-engine.pc.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-partner-compacteur-carton-adminwx-twitchdelivered.lb.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-platform-machine-machineelblax-engine.11.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-platform-thread-16-engine.1.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-toolbar-machine-learning-xcx2rd.pc.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-xcx2rdfs-machine-learning-xcx2rd.12.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-xcx2rdfs-machine-mail-xcx2rdpage.pc.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-cloud-xcx3rdfs-machine-learning-xcx3rd.pc.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com-hwhe-i-topic-wxopen-learning-12-swagger.lb.1.oppo.cn,FuckRogueSoftware
-HOST,a45090.com.hw.1.oppo.cn,FuckRogueSoftware
 HOST-SUFFIX,aads.shuzilm.cn,FuckRogueSoftware
 HOST-SUFFIX,aaid.umeng.com,FuckRogueSoftware
 HOST-SUFFIX,aaid.uyunad.com,FuckRogueSoftware
@@ -865,15 +837,10 @@ HOST,adx.tanx.com,FuckRogueSoftware
 HOST-SUFFIX,adxlog-adnet.vivo.com.cn,FuckRogueSoftware
 HOST-SUFFIX,adxlog.vivo.com.cn,FuckRogueSoftware
 HOST-SUFFIX,adxserver.ad.cmvideo.cn,FuckRogueSoftware
-HOST-SUFFIX,ae.mmstat.com,FuckRogueSoftware
 HOST-SUFFIX,aeapp.adjust.com,FuckRogueSoftware
 HOST-SUFFIX,aecpm.alicdn.com,FuckRogueSoftware
 HOST-SUFFIX,aedns.weixin.qq.com,FuckRogueSoftware
 HOST,aegis.qq.com,FuckRogueSoftware
-HOST-SUFFIX,aeros01.tk,FuckRogueSoftware
-HOST-SUFFIX,aeros02.tk,FuckRogueSoftware
-HOST-SUFFIX,aeros11.tk,FuckRogueSoftware
-HOST-SUFFIX,aeros12.tk,FuckRogueSoftware
 HOST-SUFFIX,af-event-logger.appsflyer.com,FuckRogueSoftware
 HOST,afd.baidu.cn,FuckRogueSoftware
 HOST-SUFFIX,afd.baidu.com,FuckRogueSoftware
@@ -5861,8 +5828,6 @@ HOST-SUFFIX,weishi.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,weiw.umeng.com,FuckRogueSoftware
 HOST-SUFFIX,weixin.renrenying.com,FuckRogueSoftware
 HOST-SUFFIX,weus2watcab02.blob.core.windows.net,FuckRogueSoftware
-HOST-SUFFIX,wgo-v6.mmstat.com,FuckRogueSoftware
-HOST-SUFFIX,wgo.mmstat.com,FuckRogueSoftware
 HOST-SUFFIX,whonaiwu.com,FuckRogueSoftware
 HOST-SUFFIX,whos.amung.us,FuckRogueSoftware
 HOST-SUFFIX,wiadomosci-facebook.eu,FuckRogueSoftware
@@ -5880,7 +5845,6 @@ HOST-SUFFIX,win1710.ipv6.microsoft.com,FuckRogueSoftware
 HOST-SUFFIX,win8.ipv6.microsoft.com,FuckRogueSoftware
 HOST-SUFFIX,wins.isprog.com,FuckRogueSoftware
 HOST-SUFFIX,wisepush.video.baidu.com,FuckRogueSoftware
-HOST-SUFFIX,wit.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wkbrs1.tingyun.com,FuckRogueSoftware
 HOST-SUFFIX,wkbrs2.tingyun.com,FuckRogueSoftware
 HOST-SUFFIX,wkclick.baidu.com,FuckRogueSoftware
@@ -5896,20 +5860,17 @@ HOST-SUFFIX,wlog.kuaishou.com,FuckRogueSoftware
 HOST-SUFFIX,wm.baidu.com,FuckRogueSoftware
 HOST,wmedia-track.uc.cn,FuckRogueSoftware
 HOST-SUFFIX,wmlog.meituan.com,FuckRogueSoftware
-HOST,wns.qq.com,FuckRogueSoftware
 HOST,woodpecker.uc.cn,FuckRogueSoftware
 HOST-SUFFIX,wordc.ga,FuckRogueSoftware
 HOST-SUFFIX,worldwide.sogou.com,FuckRogueSoftware
 HOST-SUFFIX,wp-monero-miner.de,FuckRogueSoftware
 HOST-SUFFIX,wp.adjust.com,FuckRogueSoftware
-HOST,wpa.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wpcdn1.herokuapp.com,FuckRogueSoftware
 HOST-SUFFIX,wpengine.taplytics.com,FuckRogueSoftware
 HOST,wqs11.jd.com,FuckRogueSoftware
 HOST-SUFFIX,wrating.com,FuckRogueSoftware
 HOST-SUFFIX,wreport.meituan.net,FuckRogueSoftware
 HOST-SUFFIX,wreport1.meituan.net,FuckRogueSoftware
-HOST-SUFFIX,ws.mmstat.com,FuckRogueSoftware
 HOST-SUFFIX,ws.rong-edge.com,FuckRogueSoftware
 HOST-SUFFIX,ws.sj.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wspeed.qq.com,FuckRogueSoftware
@@ -5923,37 +5884,8 @@ HOST-SUFFIX,wup.browser.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wup.html5.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wup.imtt.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wuta.umeng.com,FuckRogueSoftware
-HOST-SUFFIX,wv.inner-active.mobi,FuckRogueSoftware
 HOST-SUFFIX,wvcfg.alicdn.com,FuckRogueSoftware
 HOST,www-google-analytics.l.google.com,FuckRogueSoftware
-HOST-SUFFIX,www.DOMAINcontent.live,FuckRogueSoftware
-HOST-SUFFIX,www.DOMAINingcloud.racing,FuckRogueSoftware
-HOST-SUFFIX,www.DOMAINingcloud.trade,FuckRogueSoftware
-HOST-SUFFIX,www.DOMAINingcloud.win,FuckRogueSoftware
-HOST-SUFFIX,www.authedwebmine.cz,FuckRogueSoftware
-HOST-SUFFIX,www.besocial.online,FuckRogueSoftware
-HOST-SUFFIX,www.branch.io,FuckRogueSoftware
-HOST-SUFFIX,www.cloudflane.com,FuckRogueSoftware
-HOST-SUFFIX,www.coinimp.com,FuckRogueSoftware
-HOST-SUFFIX,www.coinimp.net,FuckRogueSoftware
-HOST-SUFFIX,www.freecontent.date,FuckRogueSoftware
-HOST-SUFFIX,www.freecontent.science,FuckRogueSoftware
-HOST-SUFFIX,www.freecontent.stream,FuckRogueSoftware
-HOST-SUFFIX,www.freecontent.win,FuckRogueSoftware
-HOST,www.iqiyi.space,FuckRogueSoftware
-HOST-SUFFIX,www.jquery-cdn.download,FuckRogueSoftware
-HOST-SUFFIX,www.jqwww.download,FuckRogueSoftware
-HOST-SUFFIX,www.jsDOMAINing.party,FuckRogueSoftware
-HOST-SUFFIX,www.jsDOMAINing.win,FuckRogueSoftware
-HOST-SUFFIX,www.jscoinminer.com,FuckRogueSoftware
-HOST-SUFFIX,www.lightminer.co,FuckRogueSoftware
-HOST-SUFFIX,www.monero-miner.com,FuckRogueSoftware
-HOST-SUFFIX,www.notmining.org,FuckRogueSoftware
-HOST-SUFFIX,www.pangolin-dsp-toutiao.com,FuckRogueSoftware
-HOST-SUFFIX,www.sparechange.io,FuckRogueSoftware
-HOST-SUFFIX,www.verifier.live,FuckRogueSoftware
-HOST-SUFFIX,www.webassembly.stream,FuckRogueSoftware
-HOST-SUFFIX,www.webmine.cz,FuckRogueSoftware
 HOST,wxconf.video.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wxmini-log.hortorgames.com,FuckRogueSoftware
 HOST-SUFFIX,wxs.qq.com,FuckRogueSoftware
@@ -6074,6 +6006,7 @@ HOST-SUFFIX,zz.bdstatic.com,FuckRogueSoftware
 HOST-SUFFIX,zzhc.vnet.cn,FuckRogueSoftware
 HOST-SUFFIX,zzyzx.adjust.com,FuckRogueSoftware
 HOST-SUFFIX,zzz-log-upload.mihoyo.com,FuckRogueSoftware
+
 
 
 
