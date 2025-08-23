@@ -98,16 +98,10 @@ HOST, w3-reporting.reddit.com, NoMalwares
 HOST, w3-reporting-nel.reddit.com, NoMalwares
 HOST, tp2p.kg.qq.com, NoMalwares
 HOST, sd-gl.xinqiucc.com, NoMalwares
-HOST, xpis-xcdn.youku.com, NoMalwares
-HOST, xpis-mob-xcdn.youku.com, NoMalwares
 HOST, spcsz.cdn.bcebos.com, NoMalwares
 HOST, www.qchannel01.cn, NoMalwares
 HOST, www.qchannel04.cn, NoMalwares
 HOST-SUFFIX, qchannel03.cn, NoMalwares
-HOST, tls-amap.dingtalk.com, NoMalwares
-HOST, tls-eleme.dingtalk.com, NoMalwares
-HOST, tls-goofish.dingtalk.com, NoMalwares
-HOST, metis-er.ele.me, NoMalwares
 HOST-SUFFIX, qiezibenpao.com, NoMalwares
 HOST, httpdnsmultiapi.meituan.com, NoMalwares
 HOST, httpdnsmultiapivip.meituan.com, NoMalwares
@@ -148,9 +142,7 @@ HOST, xhslive-video.xhscnd.com, NoMalwares
 HOST, api.neixin.cn, NoMalwares
 HOST, medusa.dianping.com, NoMalwares
 HOST-SUFFIX, sankuai.com, NoMalwares
-HOST-SUFFIX, ynuf.aliapp.org, NoMalwares
 HOST-SUFFIX, redbascket.com, NoMalwares
-HOST-SUFFIX, ut.taobao.com, NoMalwares
 HOST, shark-tracer.netease.com, NoMalwares
 HOST, tracking.purchasely.io, NoMalwares
 HOST, fe-platform.xhscdn.com, NoMalwares
@@ -203,10 +195,8 @@ HOST-SUFFIX, safebrowsing.apple, NoMalwares
 HOST, notes-analytics-events.apple.com, NoMalwares
 HOST, i-resv.meituan.com, NoMalwares
 HOST, analytics.adjust.com, NoMalwares
-HOST, dypnsapi-dualstack.aliyuncs.com, NoMalwares
 HOST, line3-h5-mobile-api.biligame.com, NoMalwares
 HOST, mediacloud.xiaohongshu.com, NoMalwares
-HOST, ntp.nasa.gov, NoMalwares
 HOST, www.clarity.ms, NoMalwares
 # ===== Managed by GitHub Action: UPPERCASE IP-CIDR / IP6-CIDR / IP-ASN begin =====
 IP-ASN,1012,NoMalwares
@@ -231,7 +221,6 @@ IP-ASN,945,NoMalwares
 HOST, a.line.me, NoMalwares
 HOST-WILDCARD,*-*-live-p2p-*.chat.bilibili.com,FuckRogueSoftware
 HOST-WILDCARD,*-analytics-*.huami.com,FuckRogueSoftware
-HOST-KEYWORD,-acs.m.taobao.com,FuckRogueSoftware
 HOST-KEYWORD,-adrevenue.appsflyersdk.com,FuckRogueSoftware
 HOST-KEYWORD,-ads.hara.vn,FuckRogueSoftware
 HOST-KEYWORD,-aerserv.adsrvr.org,FuckRogueSoftware
@@ -260,7 +249,6 @@ HOST-KEYWORD,-inapps.appsflyersdk.com,FuckRogueSoftware
 HOST-KEYWORD,-int.adsrvr.org,FuckRogueSoftware
 HOST-KEYWORD,-ios.mtgglobals.com,FuckRogueSoftware
 HOST-KEYWORD,-ipv6.jpush.cn,FuckRogueSoftware
-HOST-KEYWORD,-jmacs.m.taobao.com,FuckRogueSoftware
 HOST-KEYWORD,-launches.appsflyersdk.com,FuckRogueSoftware
 HOST-KEYWORD,-log-upload-os.mihoyo.com,FuckRogueSoftware
 HOST-KEYWORD,-log-upload-v6.mihoyo.com,FuckRogueSoftware
@@ -362,7 +350,6 @@ IP-CIDR,223.87.182.52/32,FuckRogueSoftware,no-resolve
 HOST-SUFFIX,22app.adjust.com,FuckRogueSoftware
 HOST-SUFFIX,2345.cc,FuckRogueSoftware
 HOST-SUFFIX,2345.cn,FuckRogueSoftware
-HOST-SUFFIX,2345.com,FuckRogueSoftware
 IP-CIDR,240.1.1.0/4,FuckRogueSoftware,no-resolve
 HOST-SUFFIX,252fapp.adjust.com,FuckRogueSoftware
 HOST-SUFFIX,2fapp.adjust.com,FuckRogueSoftware
@@ -849,7 +836,6 @@ HOST,afp.adchina.com,FuckRogueSoftware
 HOST,afp.alicdn.com,FuckRogueSoftware
 HOST,afp.iqiyi.com,FuckRogueSoftware
 HOST,afp.qiyi.com,FuckRogueSoftware
-HOST-SUFFIX,afpmm.alicdn.com,FuckRogueSoftware
 HOST-SUFFIX,afpssp.alimama.com,FuckRogueSoftware
 HOST-SUFFIX,afvpn.appsflyer.com,FuckRogueSoftware
 HOST-SUFFIX,ag.qq.com,FuckRogueSoftware
@@ -857,13 +843,8 @@ HOST-SUFFIX,agd.p.360.cn,FuckRogueSoftware
 HOST-SUFFIX,agd2.p.360.cn,FuckRogueSoftware
 HOST-SUFFIX,agent-proxy.baidu.com,FuckRogueSoftware
 HOST,agent.sj.qq.com,FuckRogueSoftware
-HOST-SUFFIX,agoo-report.m.taobao.com,FuckRogueSoftware
-HOST,agoodm.m.taobao.com,FuckRogueSoftware
-HOST,agoodm.wapa.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,agstat.html5.qq.com,FuckRogueSoftware
 HOST-SUFFIX,ai.login.umeng.com,FuckRogueSoftware
-HOST,ai.m.taobao.com,FuckRogueSoftware
-HOST,ai.taobao.com,FuckRogueSoftware
 HOST,aic-ngfts.lge.com,FuckRogueSoftware
 HOST-SUFFIX,aic-report.volces.com,FuckRogueSoftware
 HOST-SUFFIX,aid.mobileservice.cn,FuckRogueSoftware
@@ -875,7 +856,6 @@ HOST-SUFFIX,aka-cdn-ns.adtech.de,FuckRogueSoftware
 HOST-SUFFIX,akdenizgercekcomtr.teimg.com,FuckRogueSoftware
 HOST-SUFFIX,aksia.co,FuckRogueSoftware
 HOST-SUFFIX,alaboyuyan.umeng.com,FuckRogueSoftware
-HOST-SUFFIX,ald.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,ali-stats.jpush.cn,FuckRogueSoftware
 HOST-SUFFIX,alimama.alicdn.com,FuckRogueSoftware
 HOST-SUFFIX,alink.volceapplog.com,FuckRogueSoftware
@@ -898,9 +878,6 @@ HOST-SUFFIX,amap-aos-info-nogw.amap.com,FuckRogueSoftware
 HOST-SUFFIX,amazon-adsystem.amazon.com,FuckRogueSoftware
 HOST-SUFFIX,amazon-adsystem.com,FuckRogueSoftware
 HOST-SUFFIX,amazon-adsystems.com,FuckRogueSoftware
-HOST-SUFFIX,amdc.alipay.com,FuckRogueSoftware
-HOST-SUFFIX,amdc.m.taobao.com,FuckRogueSoftware
-HOST-SUFFIX,amdcopen.m.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,amnet.adswizz.com,FuckRogueSoftware
 HOST,amos.alicdn.com,FuckRogueSoftware
 HOST-SUFFIX,amos1.taobao.com,FuckRogueSoftware
@@ -1209,8 +1186,6 @@ HOST-SUFFIX,api.uca.cloud.unity3d.com,FuckRogueSoftware
 HOST-SUFFIX,api.umeng.com,FuckRogueSoftware
 HOST,api.us.hismarttv.com,FuckRogueSoftware
 HOST,api.v1.dailypad.cn,FuckRogueSoftware
-HOST,api.wapa.taobao.com,FuckRogueSoftware
-HOST,api.waptest.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,api.wsq.umeng.com,FuckRogueSoftware
 HOST-SUFFIX,api.yky.qq.com,FuckRogueSoftware
 HOST-SUFFIX,api.youtu.qq.com,FuckRogueSoftware
@@ -1365,8 +1340,6 @@ HOST-SUFFIX,au.umeng.co,FuckRogueSoftware
 HOST-SUFFIX,au.umeng.com,FuckRogueSoftware
 HOST-SUFFIX,aud.adjust-net.jp,FuckRogueSoftware
 HOST-SUFFIX,audd.shuzilm.cn,FuckRogueSoftware
-HOST-SUFFIX,audid-api-sg.taobao.com,FuckRogueSoftware
-HOST-SUFFIX,audid-api.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,audid.umeng.com,FuckRogueSoftware
 HOST,audit.aaa.mgtv.com,FuckRogueSoftware
 HOST-SUFFIX,aurorapush.cn,FuckRogueSoftware
@@ -1448,7 +1421,6 @@ HOST,bdcore-apr-lb.bda.ndmdhs.com,FuckRogueSoftware
 HOST-WILDCARD,bdcpro*.techweb.com.cn,FuckRogueSoftware
 HOST-SUFFIX,bdplus.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,bds.snssdk.com,FuckRogueSoftware
-HOST-SUFFIX,beacon-api.aliyuncs.com,FuckRogueSoftware
 HOST-SUFFIX,beacon.cdn.qq.com,FuckRogueSoftware
 HOST,beacon.gtimg.com,FuckRogueSoftware
 HOST-SUFFIX,beacon.netflix.com,FuckRogueSoftware
@@ -5085,7 +5057,6 @@ HOST-SUFFIX,sqa.appsflyer.com,FuckRogueSoftware
 HOST-SUFFIX,sqdd.myapp.com,FuckRogueSoftware
 HOST-SUFFIX,srcip.com,FuckRogueSoftware
 HOST-SUFFIX,srcips.com,FuckRogueSoftware
-HOST,srd.simba.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,ss.chelaile.net.cn,FuckRogueSoftware
 HOST-SUFFIX,ssdkauth.hpplay.cn,FuckRogueSoftware
 HOST-SUFFIX,ssl-cdn.static.browser.mi-img.com,FuckRogueSoftware
@@ -5093,7 +5064,6 @@ HOST,ssl-google-analytics.l.google.com,FuckRogueSoftware
 HOST-SUFFIX,ssp-sdk-api.jiguang.cn,FuckRogueSoftware
 HOST-SUFFIX,ssp-sdk-status.jiguang.cn,FuckRogueSoftware
 HOST-SUFFIX,ssp.qq.com,FuckRogueSoftware
-HOST,ssp.tanx.com,FuckRogueSoftware
 HOST-SUFFIX,ssp.xiaomi.com,FuckRogueSoftware
 HOST-SUFFIX,ssp.yahoo.com,FuckRogueSoftware
 HOST-SUFFIX,ssrv.adjust.cn,FuckRogueSoftware
@@ -5104,7 +5074,6 @@ HOST-SUFFIX,ssw.live.com,FuckRogueSoftware
 HOST-SUFFIX,st-ads-jssdk.vivo.com.cn,FuckRogueSoftware
 HOST,st-sentinel.vivo.com.cn,FuckRogueSoftware
 HOST-SUFFIX,st.stripcdn.com,FuckRogueSoftware
-HOST,st3.wagbridge.advertisement.tanx.com,FuckRogueSoftware
 HOST-SUFFIX,staging.adjust.io,FuckRogueSoftware
 HOST-SUFFIX,staging.admin.e.mi.com,FuckRogueSoftware
 HOST,staging.ai.api.xiaomi.com,FuckRogueSoftware
@@ -5118,7 +5087,6 @@ HOST,stat-doctor.qq.com,FuckRogueSoftware
 HOST,stat.10jqka.com.cn,FuckRogueSoftware
 HOST-SUFFIX,stat.360safe.com,FuckRogueSoftware
 HOST,stat.3g.music.qq.com,FuckRogueSoftware
-HOST-SUFFIX,stat.alibaba.com.gds.alibabadns.com,FuckRogueSoftware
 HOST-SUFFIX,stat.gamedl.qq.com,FuckRogueSoftware
 HOST-SUFFIX,stat.m.360.cn,FuckRogueSoftware
 HOST-SUFFIX,stat.m.jd.com,FuckRogueSoftware
@@ -5126,7 +5094,6 @@ HOST-SUFFIX,stat.made-in-china.com.cdn.cloudflare.net,FuckRogueSoftware
 HOST,stat.music.qq.com,FuckRogueSoftware
 HOST,stat.pandora.xiaomi.com,FuckRogueSoftware
 HOST-SUFFIX,stat.sd.360.cn,FuckRogueSoftware
-HOST-SUFFIX,stat.simba.taobao.com,FuckRogueSoftware
 HOST,stat.tudou.com,FuckRogueSoftware
 HOST-SUFFIX,stat.v.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,stat.v2.cp33.ott.cibntv.net,FuckRogueSoftware
@@ -5225,7 +5192,6 @@ HOST-SUFFIX,subscription.adjust.cn,FuckRogueSoftware
 HOST-SUFFIX,subscription.adjust.io,FuckRogueSoftware
 HOST-SUFFIX,subscriptiondex.adjust.com,FuckRogueSoftware
 HOST-SUFFIX,sugar.zhihu.com,FuckRogueSoftware
-HOST-SUFFIX,suggest.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,sunnimiq.cf,FuckRogueSoftware
 HOST-SUFFIX,sunnimiq5.cf,FuckRogueSoftware
 HOST-SUFFIX,sunnimiq6.cf,FuckRogueSoftware
@@ -5302,12 +5268,10 @@ HOST-SUFFIX,targeting.tgam.arcpublishing.com,FuckRogueSoftware
 HOST-SUFFIX,targeting.tronc.arcpublishing.com,FuckRogueSoftware
 HOST-SUFFIX,tbm.snssdk.com,FuckRogueSoftware
 HOST-SUFFIX,tbs.imtt.qq.com,FuckRogueSoftware
-HOST-SUFFIX,tbskip.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,tbsone.imtt.qq.com,FuckRogueSoftware
 HOST-SUFFIX,tbsrecovery.imtt.qq.com,FuckRogueSoftware
 HOST-SUFFIX,tc-log.mattel163.com,FuckRogueSoftware
 HOST-SUFFIX,tcbox.baidu.com,FuckRogueSoftware
-HOST-SUFFIX,tce.alicdn.com,FuckRogueSoftware
 HOST,tcss.qq.com,FuckRogueSoftware
 HOST,td.atm.youku.com,FuckRogueSoftware
 HOST-SUFFIX,td.doubleclick.net,FuckRogueSoftware
@@ -5316,7 +5280,6 @@ HOST-SUFFIX,tddmp.com,FuckRogueSoftware
 HOST-SUFFIX,tdid.m.qq.com,FuckRogueSoftware
 HOST-SUFFIX,teads.tv.edgekey.net,FuckRogueSoftware
 HOST-SUFFIX,techain.baidu.com,FuckRogueSoftware
-HOST,tejia.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,telapi.getui.com,FuckRogueSoftware
 HOST-SUFFIX,tele.trafficmanager.net,FuckRogueSoftware
 HOST-SUFFIX,telecom.shuzilm.cn,FuckRogueSoftware
@@ -5328,7 +5291,6 @@ HOST-SUFFIX,telemetry.nvidia.com,FuckRogueSoftware
 HOST-SUFFIX,telemetry.remoteapp.windowsazure.com,FuckRogueSoftware
 HOST-SUFFIX,telemetry.urs.microsoft.com,FuckRogueSoftware
 HOST-SUFFIX,temai.snssdk.com,FuckRogueSoftware
-HOST,temai.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,tencent.appsflyer.com,FuckRogueSoftware
 HOST-SUFFIX,tendata.com,FuckRogueSoftware
 HOST-SUFFIX,tendcloud.cn,FuckRogueSoftware
@@ -5342,7 +5304,6 @@ HOST-SUFFIX,test.minr.pw,FuckRogueSoftware
 HOST-SUFFIX,test.surepush.cn,FuckRogueSoftware
 HOST-SUFFIX,testingcf.jsdelivr.net.cdn.cloudflare.net,FuckRogueSoftware
 HOST-SUFFIX,tetrack.qq.com,FuckRogueSoftware
-HOST-SUFFIX,textlink.simba.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,tf.360.cn,FuckRogueSoftware
 HOST-SUFFIX,tgw-masdk.3g.qq.com,FuckRogueSoftware
 HOST-SUFFIX,tgw-sasdk.3g.qq.com,FuckRogueSoftware
@@ -5395,7 +5356,6 @@ HOST-SUFFIX,tnc31-normal-alisg.isnssdk.com,FuckRogueSoftware
 HOST-SUFFIX,tnc31-normal-useast1a.isnssdk.com,FuckRogueSoftware
 HOST-SUFFIX,tnc31-normal-useast2a.isnssdk.com,FuckRogueSoftware
 HOST,tne.pinduoduo.com,FuckRogueSoftware
-HOST-SUFFIX,tns.simba.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,tobapplog.ctobsnssdk.com,FuckRogueSoftware
 HOST-SUFFIX,tobapplog.snssdk.com,FuckRogueSoftware
 HOST-SUFFIX,tobapplog.tobsnssdk.com,FuckRogueSoftware
@@ -5414,11 +5374,9 @@ HOST-SUFFIX,toolbar.baidu.co,FuckRogueSoftware
 HOST-SUFFIX,toolbar.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,tools.3g.qq.com,FuckRogueSoftware
 HOST-SUFFIX,top.h.qhimg.com,FuckRogueSoftware
-HOST-SUFFIX,top.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,topapi.cp12.ott.cibntv.net,FuckRogueSoftware
 HOST-SUFFIX,topprofitablecpm.com,FuckRogueSoftware
 HOST-SUFFIX,toreplyapp.adjust.com,FuckRogueSoftware
-HOST,toruk.gds.tanx.com,FuckRogueSoftware
 HOST-SUFFIX,tos-cn-beijing.volces.com,FuckRogueSoftware
 HOST-SUFFIX,tos-s3-cn-beijing.volces.com,FuckRogueSoftware
 HOST-SUFFIX,tos-s3-cn-shanghai.volces.com,FuckRogueSoftware
@@ -5468,7 +5426,6 @@ HOST-SUFFIX,tracking.mcdonalds.com.cn,FuckRogueSoftware
 HOST-SUFFIX,tracking.miui.com,FuckRogueSoftware
 HOST-SUFFIX,tracking.prd.mz.internal.unity3d.com,FuckRogueSoftware
 HOST,tracking.rus.miui.com,FuckRogueSoftware
-HOST-SUFFIX,trade-acs.m.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,traffic.tc-clicks.com,FuckRogueSoftware
 HOST-SUFFIX,trainingapp.adjust.com,FuckRogueSoftware
 HOST-SUFFIX,trapp.adjust.com,FuckRogueSoftware
@@ -5483,12 +5440,10 @@ HOST-SUFFIX,tsis-ipv6.jpush.cn,FuckRogueSoftware
 HOST-SUFFIX,tsis.jpush.cn,FuckRogueSoftware
 HOST-SUFFIX,tsn.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,ttr.adjust-net.jp,FuckRogueSoftware
-HOST,tui.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,tuiguang.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,tuijian.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,tuisong.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,tulip18.com,FuckRogueSoftware
-HOST-SUFFIX,tunion-api.m.taobao.com,FuckRogueSoftware
 HOST,tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com,FuckRogueSoftware
 HOST,tvupgrade.yunos.com,FuckRogueSoftware
 HOST-SUFFIX,tw13b093.sandai.net,FuckRogueSoftware
@@ -5496,7 +5451,6 @@ HOST-SUFFIX,twitter-backend.grab-colab.com,FuckRogueSoftware
 HOST-SUFFIX,twitter-badges.s3.amazonaws.com,FuckRogueSoftware
 HOST-SUFFIX,tx-ulog.snackvideo.com,FuckRogueSoftware
 HOST,tyaqy.m.cn.miaozhen.com,FuckRogueSoftware
-HOST-SUFFIX,tyh.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,tynt.com.cdn.cloudflare.net,FuckRogueSoftware
 HOST-SUFFIX,tysdk.95516.com,FuckRogueSoftware
 HOST-SUFFIX,u-x.jd.com,FuckRogueSoftware
@@ -5504,7 +5458,6 @@ HOST,u.ucfly.com,FuckRogueSoftware
 HOST-SUFFIX,u002fapp.adjust.com,FuckRogueSoftware
 HOST,u1.img.mobile.sina.cn,FuckRogueSoftware
 HOST-SUFFIX,uaapp.adjust.com,FuckRogueSoftware
-HOST-SUFFIX,uaction.alicdn.com,FuckRogueSoftware
 HOST-SUFFIX,ubmcmm.baidustatic.com,FuckRogueSoftware
 HOST-SUFFIX,ubmdns.com,FuckRogueSoftware
 HOST-SUFFIX,uc.qq.uuaoz.com,FuckRogueSoftware
@@ -5547,7 +5500,6 @@ HOST-SUFFIX,umv5.com,FuckRogueSoftware
 HOST-SUFFIX,umwatsonc.telemetry.microsoft.us,FuckRogueSoftware
 HOST-SUFFIX,unbotify.adjust.cn,FuckRogueSoftware
 HOST-SUFFIX,unicom.shuzilm.cn,FuckRogueSoftware
-HOST-SUFFIX,unidesk.alicdn.com,FuckRogueSoftware
 HOST,unified-exc.hismarttv.com,FuckRogueSoftware
 HOST,unified-new-exc.hismarttv.com,FuckRogueSoftware
 HOST,unified-ter-na.hismarttv.com,FuckRogueSoftware
@@ -5565,7 +5517,6 @@ HOST-SUFFIX,union.mi.com,FuckRogueSoftware
 HOST-SUFFIX,unionadjs.com,FuckRogueSoftware
 HOST-SUFFIX,unionimage.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,unionsug.baidu.com,FuckRogueSoftware
-HOST-SUFFIX,unitacs.m.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,unitelogreport.reader.qq.com,FuckRogueSoftware
 HOST-SUFFIX,unityads.unity3d.com,FuckRogueSoftware
 HOST-SUFFIX,unityads.unity3d.com.edgekey.net,FuckRogueSoftware
@@ -5663,10 +5614,8 @@ HOST,v2.we-stats.com,FuckRogueSoftware
 HOST-SUFFIX,v21-feed-ad.ap4r.com.cdn.cloudflare.net,FuckRogueSoftware
 HOST,v2html.atm.youku.com,FuckRogueSoftware
 HOST,v3-default.365yg.com,FuckRogueSoftware
-HOST,v4.wagbridge.ad.alibabacorp.com.gds.alibabadns.com,FuckRogueSoftware
 HOST-SUFFIX,v4v6.kwd.inkuai.com,FuckRogueSoftware
 HOST-SUFFIX,v6-adashx.ut.amap.com,FuckRogueSoftware
-HOST-SUFFIX,v6-adashx.ut.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,v6-api-share.mob.com,FuckRogueSoftware
 HOST,v6.htdata.qq.com,FuckRogueSoftware
 HOST-SUFFIX,v6.inkuai.com,FuckRogueSoftware
@@ -5772,7 +5721,6 @@ HOST,vweixinthumb.tc.qq.com,FuckRogueSoftware
 HOST,w.gdown.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,w.inews.qq.com,FuckRogueSoftware
 HOST-SUFFIX,w.isx.unity3d.com,FuckRogueSoftware
-HOST-SUFFIX,w.m.taobao.com,FuckRogueSoftware
 HOST,w.x.baidu.com,FuckRogueSoftware
 HOST-SUFFIX,wa.appsflyer.com,FuckRogueSoftware
 HOST-SUFFIX,wac-web.prod-east.frontend.public.atl-paas.net,FuckRogueSoftware
@@ -5789,9 +5737,7 @@ HOST-SUFFIX,watson.live.com,FuckRogueSoftware
 HOST-SUFFIX,watson.microsoft.com,FuckRogueSoftware
 HOST-SUFFIX,waws-prod-bn1-027.vip.azurewebsites.windows.net,FuckRogueSoftware
 HOST-SUFFIX,wayfinderanalytics.servicebus.windows.net,FuckRogueSoftware
-HOST-SUFFIX,wb.110.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,wbapp.mobile.sina.cn,FuckRogueSoftware
-HOST-SUFFIX,wcp.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,wdaa.shuzilm.cn,FuckRogueSoftware
 HOST-SUFFIX,wear.umeng.com,FuckRogueSoftware
 HOST-SUFFIX,web-analytics-cn.huami.com,FuckRogueSoftware
@@ -5884,7 +5830,6 @@ HOST-SUFFIX,wup.browser.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wup.html5.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wup.imtt.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wuta.umeng.com,FuckRogueSoftware
-HOST-SUFFIX,wvcfg.alicdn.com,FuckRogueSoftware
 HOST,www-google-analytics.l.google.com,FuckRogueSoftware
 HOST,wxconf.video.qq.com,FuckRogueSoftware
 HOST-SUFFIX,wxmini-log.hortorgames.com,FuckRogueSoftware
@@ -5909,9 +5854,6 @@ HOST-SUFFIX,xhsci-hk-cos.xiaohongshu.net,FuckRogueSoftware
 HOST-SUFFIX,xianglong360.cn,FuckRogueSoftware
 HOST-SUFFIX,xid.atlassian.com,FuckRogueSoftware
 HOST-SUFFIX,xid.statuspage.io,FuckRogueSoftware
-HOST,xifs.tanx.com,FuckRogueSoftware
-HOST-SUFFIX,xjp-jmacs.m.taobao.com,FuckRogueSoftware
-HOST-SUFFIX,xjp-msgacs.m.taobao.com,FuckRogueSoftware
 HOST-SUFFIX,xlirdr.com,FuckRogueSoftware
 HOST-SUFFIX,xlmc.sec.miui.com,FuckRogueSoftware
 HOST,xlog.jd.com,FuckRogueSoftware
@@ -5937,8 +5879,6 @@ HOST,yixiu-abtest.alicdn.com,FuckRogueSoftware
 HOST,yixiu-abtest.alicdn.com.w.cdngslb.com,FuckRogueSoftware
 HOST-SUFFIX,yk-ssp-ad.cp31.ott.cibntv.net,FuckRogueSoftware
 HOST-SUFFIX,ykugc.cp31.ott.cibntv.net,FuckRogueSoftware
-HOST,yl.zh.cmbchina.com,FuckRogueSoftware
-HOST-SUFFIX,ynuf.alipay.com,FuckRogueSoftware
 HOST-SUFFIX,yoda.kwd.inkuai.com,FuckRogueSoftware
 HOST-SUFFIX,youku-acs.m.taobao.com,FuckRogueSoftware
 HOST,youku-dtv.m.cn.miaozhen.com,FuckRogueSoftware
@@ -6006,6 +5946,7 @@ HOST-SUFFIX,zz.bdstatic.com,FuckRogueSoftware
 HOST-SUFFIX,zzhc.vnet.cn,FuckRogueSoftware
 HOST-SUFFIX,zzyzx.adjust.com,FuckRogueSoftware
 HOST-SUFFIX,zzz-log-upload.mihoyo.com,FuckRogueSoftware
+
 
 
 
