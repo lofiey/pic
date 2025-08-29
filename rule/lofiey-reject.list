@@ -1,6 +1,15 @@
 # begin all in fpq
 # > other
-host-suffix,app-analytics-services.com,reject
+host-suffix, adtrafficquality.google, reject
+host-suffix, adsappier.com, reject
+host-suffix, adsafeprotected.com, reject
+host-suffix, yieldmo.com, reject
+host-suffix, stickyadstv.com, reject
+host-suffix, adrta.com, reject
+host-suffix, admatrix.jp, reject
+host-suffix, ad-m.asia, reject
+host-suffix, advertising.com, reject
+host-suffix, app-analytics-services.com, reject
 host-suffix, tiktok.adsmeasurement.com,reject
 host-suffix, business-api.tiktok.com, reject
 host-suffix, open.e.kuaishou.cn, reject
@@ -1339,3 +1348,4 @@ HOST-SUFFIX,impression-east.chinaliftoff.io,FuckRogueSoftware
 HOST-SUFFIX,impression.appsflyer.com,FuckRogueSoftware
 HOST-SUFFIX,impression.appsflyersdk.com,FuckRogueSoftware
 HOST-SUFFIX,imtmp.net,FuckRogueSoftware
+
