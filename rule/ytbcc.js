@@ -2,7 +2,7 @@
 * YouTube 自动翻译修复
 * 修复 YouTube iOS 客户端自动翻译加载失败的问题
 * 版本: 2025-09-03
-* 作者: Gemini
+* 作者: Lofiey
 */
 
 let body = $response.body;
