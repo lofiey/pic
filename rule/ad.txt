@@ -1,33 +1,12 @@
-# Block iOS Update
-# other
-# along
+# Boom AD
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
-#netflix
-127.0.0.1 logs.netflix.com
-0.0.0.0 logs.netflix.com
-0.0.0.0 logs.netflix.com dnstype=A|CNAME
-0.0.0.0 logs.netflix.com dnstype=AAAA|CNAME
-0.0.0.0 prod.cloud.netflix.com
-127.0.0.1 prod.cloud.netflix.com
-0.0.0.0 prod.cloud.netflix.com dnstype=A|CNAME
-0.0.0.0 prod.cloud.netflix.com dnstype=AAAA|CNAME
 127.0.0.1 geolocation.onetrust.com
 0.0.0.0 geolocation.onetrust.com
-0.0.0.0 geolocation.onetrust.com dnstype=AAAA|CNAME
-0.0.0.0 geolocation.onetrust.com dnstype=A|CNAME
-127.0.0.1 prod.netflix.com
-0.0.0.0 prod.netflix.com
-0.0.0.0 prod.netflix.com dnstype=AAAA|CNAME
-0.0.0.0 prod.netflix.com dnstype=A|CNAME
-127.0.0.1 r.nflxso.net
-0.0.0.0 r.nflxso.net
-0.0.0.0 r.nflxso.net dnstype=AAAA|CNAME
-0.0.0.0 r.nflxso.net dnstype=A|CNAME
-127.0.0.1 prod.http1.netflix.com
-0.0.0.0 prod.http1.netflix.com
-0.0.0.0 prod.http1.netflix.com dnstype=AAAA|CNAME
-0.0.0.0 prod.http1.netflix.com dnstype=A|CNAME
+0.0.0.0 cdn.cookielaw.org
+127.0.0.1 cdn.cookielaw.org
+
+
