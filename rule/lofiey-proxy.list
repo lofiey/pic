@@ -1,4 +1,11 @@
 IP-ASN, 15169, PROXY
+HOST-SUFFIX,bunnyinfra.net,proxy
+HOST-SUFFIX,b-cdn.net,proxy
+HOST-SUFFIX,metrics-bunny.net,proxy
+HOST-SUFFIX,mediadelivery.net,proxy
+HOST-SUFFIX,qfiobhon.com,proxy
+HOST-SUFFIX,yoshiclub.xyz,proxy
+HOST-SUFFIX,odzzperikpir.com,proxy
 HOST-SUFFIX,javrate.com,proxy
 HOST-SUFFIX,avking.xyz,proxy
 HOST-SUFFIX,yoshiclub.xyz,proxy
@@ -598,6 +605,7 @@ HOST-SUFFIX,tdatamaster.com, proxy
 HOST-SUFFIX,gcloudcs.com, proxy
 HOST-SUFFIX,anticheatexpert.com, proxy
 HOST-SUFFIX,vasdgame.com, proxy
+
 
 
 
