@@ -1,4 +1,7 @@
 IP-ASN, 15169, PROXY
+HOST-SUFFIX,javrate.com,proxy
+HOST-SUFFIX,avking.xyz,proxy
+HOST-SUFFIX,yoshiclub.xyz,proxy
 HOST-SUFFIX,omnitt.com,proxy
 host-suffix, sg.tux.qq.com, proxy
 HOST,lf16-effectcdn.byteeffecttos-g.com,proxy
@@ -595,5 +598,6 @@ HOST-SUFFIX,tdatamaster.com, proxy
 HOST-SUFFIX,gcloudcs.com, proxy
 HOST-SUFFIX,anticheatexpert.com, proxy
 HOST-SUFFIX,vasdgame.com, proxy
+
 
 
