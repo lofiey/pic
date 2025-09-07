@@ -1,4 +1,6 @@
 IP-ASN, 15169, PROXY
+HOST-SUFFIX,missav.ws,proxy
+HOST-SUFFIX,plyr.io,proxy
 HOST-SUFFIX,bunnyinfra.net,proxy
 HOST-SUFFIX,b-cdn.net,proxy
 HOST-SUFFIX,metrics-bunny.net,proxy
@@ -605,6 +607,7 @@ HOST-SUFFIX,tdatamaster.com, proxy
 HOST-SUFFIX,gcloudcs.com, proxy
 HOST-SUFFIX,anticheatexpert.com, proxy
 HOST-SUFFIX,vasdgame.com, proxy
+
 
 
 
