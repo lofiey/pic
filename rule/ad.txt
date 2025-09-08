@@ -8,5 +8,8 @@
 0.0.0.0 geolocation.onetrust.com
 0.0.0.0 cdn.cookielaw.org
 127.0.0.1 cdn.cookielaw.org
+# Green light
+@@||amdc.alipay.com^$important
+
 
 
