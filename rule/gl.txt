@@ -5,3 +5,16 @@
 @@||yun-hl.3g.qq.com^$important
 @@||wxsnsdythumb.wxs.qq.com^$important
 @@||wxa.wxs.qq.com^$important
+@@||snowflake.qq.com^$important
+@@||astrategy.beacon.qq.com^$important
+@@||sdkconfig.video.qq.com^$important
+@@||c.gdt.qq.com^$important
+@@||aegis.qq.com^$important
+@@||xs.gdt.qq.com^$important
+@@||tangram-config.gdt.qq.com^$important
+@@||d3g.qq.com^$important
+@@||tianshu.gtimg.cn^$important
+@@||wup.imtt.qq.com^$important
+@@||appcfg.v.qq.com^$important
+@@||sdkreport.e.qq.com^$important
+@@||rmonitor.qq.com^$important
