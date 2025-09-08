@@ -18,3 +18,9 @@
 @@||appcfg.v.qq.com^$important
 @@||sdkreport.e.qq.com^$important
 @@||rmonitor.qq.com^$important
+@@||v.gdt.qq.com^$important
+@@||rpt.gdt.qq.com^$important
+@@||adsmind.gdtimg.com^$important
+@@||pgdt.gtimg.cn^$important
+@@||mmgame.qpic.cn^$important
+@@||apd-pcdnvodstat.teg.tencent-cloud.net^$important
