@@ -30,3 +30,11 @@
 @@||jihe.datasink.sensorsdata.cn^$important
 @@||log.wechatpay.cn^$important
 @@||fa.xy.com^$important
+@@||vcs.zijieapi.com^$important
+@@||mcs.zijieapi.com^$important
+@@||mon.zijieapi.com^$important
+@@||mssdk.bytedance.com^$important
+@@||hm.baidu.com^$important
+@@||img.jiguang.cn^$important
+@@||p3-tt.byteimg.com^$important
+@@||netfiscal.acemlnb.com^$important
