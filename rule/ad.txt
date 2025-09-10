@@ -40,7 +40,6 @@
 0.0.0.0 picd.zhimg.com
 0.0.0.0 ad.ofweek.com
 0.0.0.0 ttxyajs.data.kuiniuca.com
-0.0.0.0 data.kuiniuca.com
 0.0.0.0 s2.loli.net
 0.0.0.0 ad.holmesmind.com
 0.0.0.0 adv-sv-show.focus.cn
@@ -73,7 +72,6 @@
 0.0.0.0 slb-p2p.vcloud.ks-live.com
 0.0.0.0 ttxyajs.data.kuiniuca.com
 0.0.0.0 conf-darwin.xycdn.com
-0.0.0.0 log0-misc-lf.amemv.com
 0.0.0.0 sd-gl.xycdn.com
 0.0.0.0 seeds-open.xycdn.com
 0.0.0.0 tnc0-alisc1.zijieapi.com
@@ -173,5 +171,6 @@
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 popo8.com
 0.0.0.0 adtrafficquality.google
+
 
 
