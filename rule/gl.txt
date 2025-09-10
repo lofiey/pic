@@ -1,6 +1,4 @@
 # Green light
-@@||ogads-pa.clients6.google.com^$important
-@@||app-analytics-services.com^$important
 @@||amdc.alipay.com^$important
 @@||h.trace.qq.com^$important
 @@||up-hl.3g.qq.com^$important
