@@ -14,21 +14,14 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
-0.0.0.0 douyinliving.com
-0.0.0.0 volcsirius.com
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 dig.bdurl.net
-0.0.0.0 conf-darwin.xycdn.com
-0.0.0.0 tosv.byted.org
 0.0.0.0 vdn5-1.vzuu.com
 0.0.0.0 vdn5.vzuu.com
 0.0.0.0 vdn6.vzuu.com
 0.0.0.0 vdn6-1.vzuu.com
-0.0.0.0 unicom.zhimg.com
 0.0.0.0 apm.zhihu.com
-0.0.0.0 duga.zhihu.com
-0.0.0.0 datahub.zhihu.com
 0.0.0.0 pica.zhimg.com
 0.0.0.0 ymjs.adutp.com
 0.0.0.0 picx1.zhimg.com
@@ -59,7 +52,6 @@
 0.0.0.0 crash*.zhihu.com
 0.0.0.0 m-cloud.zhihu.com
 0.0.0.0 m-cloud1.zhihu.com
-0.0.0.0 pubgw.api.ddxq.mobi
 0.0.0.0 img2.360buyimg.com
 0.0.0.0 zhihu-web-analytics.zhihu.com
 0.0.0.0 unpkg.zhimg.com
@@ -71,12 +63,7 @@
 0.0.0.0 app.adjust.world
 0.0.0.0 slb-p2p.vcloud.ks-live.com
 0.0.0.0 ttxyajs.data.kuiniuca.com
-0.0.0.0 conf-darwin.xycdn.com
 0.0.0.0 sd-gl.xycdn.com
-0.0.0.0 seeds-open.xycdn.com
-0.0.0.0 tnc0-alisc1.zijieapi.com
-0.0.0.0 tnc3-alisc1.zijieapi.com
-0.0.0.0 collector.github.com
 0.0.0.0 *launches.appsflyersdk.com
 0.0.0.0 crashlytics.com
 0.0.0.0 *cdn-settings.appsflyersdk.com
@@ -171,6 +158,7 @@
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 popo8.com
 0.0.0.0 adtrafficquality.google
+
 
 
 
