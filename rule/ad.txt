@@ -177,6 +177,18 @@
 0.0.0.0 vidazoo.com
 0.0.0.0 outbrain.com
 0.0.0.0 admanmedia.com
-0.0.0.0 openx.net
 0.0.0.0 33across.com
 0.0.0.0 sitescout.com
+0.0.0.0 a-mo.net
+0.0.0.0 openx.net
+0.0.0.0 criteo.com
+0.0.0.0 ampproject.org
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 safeframe.googlesyndication.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 sharethrough.com
+0.0.0.0 a-mo.net
+0.0.0.0 fundingchoicesmessages.google.com
+0.0.0.0 popo8.com
+0.0.0.0 adtrafficquality.google
+
