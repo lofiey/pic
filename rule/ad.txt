@@ -109,7 +109,6 @@
 0.0.0.0 mlog.bigda.com
 0.0.0.0 mobads.baidu.com
 0.0.0.0 mi.gdt.qq.com
-0.0.0.0 pgdt.gtimg.cn
 0.0.0.0 afd.baidu.com
 0.0.0.0 mssdk.volces.com
 0.0.0.0 ossapi.baidu.com
@@ -155,6 +154,7 @@
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 popo8.com
 0.0.0.0 adtrafficquality.google
+
 
 
 
