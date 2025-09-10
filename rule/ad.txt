@@ -25,7 +25,6 @@
 0.0.0.0 pica.zhimg.com
 0.0.0.0 ymjs.adutp.com
 0.0.0.0 picx1.zhimg.com
-0.0.0.0 qc.bsccdn.net
 0.0.0.0 gslb-pek01.zhihu.com
 0.0.0.0 open.taou.com
 0.0.0.0 mqtt-internal-public.zhihu.com.dsa.dnsv1.com
@@ -72,7 +71,6 @@
 0.0.0.0 as1.m.hao123.com
 0.0.0.0 cpro.baidustatic.com
 0.0.0.0 sofire.bdstatic.com
-0.0.0.0 googletagmanager.com
 0.0.0.0 ad-sdk.huxiu.com
 0.0.0.0 cl5.webterren.com
 0.0.0.0 vs.biz.weibo.com
@@ -97,7 +95,6 @@
 0.0.0.0 imp.optaim.com
 0.0.0.0 push.zhanzhang.baidu.com
 0.0.0.0 googletagmanager.com
-0.0.0.0 otheve.beacon.qq.com
 0.0.0.0 dp3.qq.com
 0.0.0.0 mlog.bigda.com
 0.0.0.0 ca.iadsdk.apple.com
@@ -158,6 +155,7 @@
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 popo8.com
 0.0.0.0 adtrafficquality.google
+
 
 
 
