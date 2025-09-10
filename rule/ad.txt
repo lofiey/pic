@@ -154,9 +154,17 @@
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 popo8.com
 0.0.0.0 adtrafficquality.google
-
-
-
-
-
-
+0.0.0.0 app-analytics-services.com
+0.0.0.0 adsmind.ugdtimg.com
+0.0.0.0 nadvideo2.baidu.com
+0.0.0.0 pgdt.ugdtimg.com
+0.0.0.0 vc-brain.ndcpp.com
+0.0.0.0 natdetection.onethingpcs.com
+0.0.0.0 sofire.bdstatic.com	
+0.0.0.0 mssdk.volces.com
+0.0.0.0 log.snssdk.com	
+0.0.0.0 lf-ad-ies.bytecdn.cn
+0.0.0.0 als.baidu.com
+0.0.0.0 mobads-logs.baidu.com	
+0.0.0.0 is.snssdk.com	
+0.0.0.0 hm.baidu.com
