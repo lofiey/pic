@@ -118,7 +118,6 @@
 0.0.0.0 images.pinduoduo.com
 0.0.0.0 pangolin-sdk-toutiao.com
 0.0.0.0 bgg.baidu.com
-0.0.0.0 httpdns.gslb.yy.com
 0.0.0.0 ad-score.com
 0.0.0.0 adform.net
 0.0.0.0 amazon-adsystem.com
@@ -166,7 +165,6 @@
 0.0.0.0 lf-ad-ies.bytecdn.cn
 0.0.0.0 als.baidu.com
 0.0.0.0 mobads-logs.baidu.com	
-0.0.0.0 is.snssdk.com	
 0.0.0.0 hm.baidu.com
 0.0.0.0 adtrafficquality.google
 0.0.0.0 adsappier.com
@@ -278,3 +276,4 @@
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
+
