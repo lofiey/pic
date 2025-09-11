@@ -101,7 +101,6 @@
 0.0.0.0 pglstatp-toutiao.com
 0.0.0.0 als.baidu.com
 0.0.0.0 feed-image.baidu.com
-0.0.0.0 open.e.kuaishou.com
 0.0.0.0 miaowu.baidu.com
 0.0.0.0 dlswbr.baidu.com
 0.0.0.0 sofire.bdstatic.com
@@ -274,6 +273,7 @@
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
+
 
 
 
