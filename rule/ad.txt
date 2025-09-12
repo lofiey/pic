@@ -96,7 +96,6 @@
 0.0.0.0 push.zhanzhang.baidu.com
 0.0.0.0 googletagmanager.com
 0.0.0.0 dp3.qq.com
-0.0.0.0 ca.iadsdk.apple.com
 0.0.0.0 gdfp.gifshow.com
 0.0.0.0 pglstatp-toutiao.com
 0.0.0.0 feed-image.baidu.com
@@ -270,6 +269,7 @@
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
+
 
 
 
