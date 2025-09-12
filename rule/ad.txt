@@ -94,7 +94,6 @@
 0.0.0.0 imp.optaim.com
 0.0.0.0 push.zhanzhang.baidu.com
 0.0.0.0 googletagmanager.com
-0.0.0.0 dp3.qq.com
 0.0.0.0 gdfp.gifshow.com
 0.0.0.0 pglstatp-toutiao.com
 0.0.0.0 feed-image.baidu.com
@@ -103,13 +102,9 @@
 0.0.0.0 sofire.bdstatic.com
 0.0.0.0 mlog.bigda.com
 0.0.0.0 mobads.baidu.com
-0.0.0.0 mi.gdt.qq.com
-0.0.0.0 mssdk.volces.com
 0.0.0.0 ossapi.baidu.com
 0.0.0.0 tcbox.baidu.com
 0.0.0.0 pangolin-sdk-toutiao1.com
-0.0.0.0 sdk.e.qq.com
-0.0.0.0 images.pinduoduo.com
 0.0.0.0 pangolin-sdk-toutiao.com
 0.0.0.0 ad-score.com
 0.0.0.0 adform.net
@@ -151,9 +146,6 @@
 0.0.0.0 nadvideo2.baidu.com
 0.0.0.0 pgdt.ugdtimg.com
 0.0.0.0 natdetection.onethingpcs.com
-0.0.0.0 sofire.bdstatic.com	
-0.0.0.0 mssdk.volces.com
-0.0.0.0 log.snssdk.com	
 0.0.0.0 lf-ad-ies.bytecdn.cn
 0.0.0.0 als.baidu.com
 0.0.0.0 mobads-logs.baidu.com	
@@ -268,6 +260,7 @@
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
+
 
 
 
