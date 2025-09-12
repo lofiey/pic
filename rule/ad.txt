@@ -88,7 +88,6 @@
 0.0.0.0 vmonitor.ws.netease.com
 0.0.0.0 track.sohu.com
 0.0.0.0 reke.at.sohu.com
-0.0.0.0 ca.iadsdk.apple.com
 0.0.0.0 cm.ipinyou.com
 0.0.0.0 adv-sv-show.focus.cn
 0.0.0.0 pv.sohu.com
@@ -269,6 +268,7 @@
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
+
 
 
 
