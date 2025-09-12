@@ -45,9 +45,6 @@
 0.0.0.0 p9-ad-sign.byteimg.com
 0.0.0.0 app.adjust.com
 0.0.0.0 vdn.vzuu.com
-0.0.0.0 utoken.umeng.com
-0.0.0.0 ulogs.umeng.com
-0.0.0.0 ulogs.umengcloud.com
 0.0.0.0 crash*.zhihu.com
 0.0.0.0 m-cloud.zhihu.com
 0.0.0.0 m-cloud1.zhihu.com
@@ -94,16 +91,11 @@
 0.0.0.0 imp.optaim.com
 0.0.0.0 push.zhanzhang.baidu.com
 0.0.0.0 googletagmanager.com
-0.0.0.0 gdfp.gifshow.com
 0.0.0.0 pglstatp-toutiao.com
 0.0.0.0 feed-image.baidu.com
-0.0.0.0 miaowu.baidu.com
-0.0.0.0 dlswbr.baidu.com
 0.0.0.0 sofire.bdstatic.com
-0.0.0.0 mlog.bigda.com
 0.0.0.0 mobads.baidu.com
 0.0.0.0 ossapi.baidu.com
-0.0.0.0 tcbox.baidu.com
 0.0.0.0 pangolin-sdk-toutiao1.com
 0.0.0.0 pangolin-sdk-toutiao.com
 0.0.0.0 ad-score.com
@@ -147,9 +139,7 @@
 0.0.0.0 pgdt.ugdtimg.com
 0.0.0.0 natdetection.onethingpcs.com
 0.0.0.0 lf-ad-ies.bytecdn.cn
-0.0.0.0 als.baidu.com
 0.0.0.0 mobads-logs.baidu.com	
-0.0.0.0 hm.baidu.com
 0.0.0.0 adtrafficquality.google
 0.0.0.0 adsappier.com
 0.0.0.0 adsafeprotected.com
@@ -260,6 +250,7 @@
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
+
 
 
 
