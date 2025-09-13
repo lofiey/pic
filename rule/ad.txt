@@ -8,7 +8,7 @@
 0.0.0.0 geolocation.onetrust.com
 0.0.0.0 cdn.cookielaw.org
 127.0.0.1 cdn.cookielaw.org
-0.0.0.0 pdb.5hte21mz.com
+0.0.0.0 app-measurement.com
 # Block iOS Update
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
@@ -26,7 +26,6 @@
 0.0.0.0 ymjs.adutp.com
 0.0.0.0 picx1.zhimg.com
 0.0.0.0 gslb-pek01.zhihu.com
-0.0.0.0 open.taou.com
 0.0.0.0 mqtt-internal-public.zhihu.com.dsa.dnsv1.com
 0.0.0.0 picx.zhimg.com
 0.0.0.0 picd.zhimg.com
@@ -131,12 +130,10 @@
 0.0.0.0 sharethrough.com
 0.0.0.0 a-mo.net
 0.0.0.0 fundingchoicesmessages.google.com
-0.0.0.0 popo8.com
 0.0.0.0 adtrafficquality.google
 0.0.0.0 app-analytics-services.com
 0.0.0.0 adsmind.ugdtimg.com
 0.0.0.0 nadvideo2.baidu.com
-0.0.0.0 pgdt.ugdtimg.com
 0.0.0.0 natdetection.onethingpcs.com
 0.0.0.0 lf-ad-ies.bytecdn.cn
 0.0.0.0 mobads-logs.baidu.com	
@@ -158,8 +155,6 @@
 0.0.0.0 p2cdn.com
 0.0.0.0 p2p.huya.com
 0.0.0.0 p2ptun.qq.com
-0.0.0.0 p2pupgrade.gamedl.qq.com
-0.0.0.0 p2pupdate.gamedl.qq.com
 0.0.0.0 p2p.qq.com
 0.0.0.0 cdnnodedns.cn
 0.0.0.0 mcdn.bilivideo.cn
@@ -231,13 +226,10 @@
 0.0.0.0 httpdns-euex-push.heytapmobile.com
 0.0.0.0 httpdns-ocloud.heytapmobile.com
 0.0.0.0 httpdns-push.heytapmobile.com
-0.0.0.0 httpdns-sdk.n.netease.com
 0.0.0.0 httpdns.baidu.com
 0.0.0.0 httpdns.baidubce.com
 0.0.0.0 httpdns.bcelive.com
-0.0.0.0 httpdns.bilivideo.com
 0.0.0.0 httpdns.browser.miui.com
-0.0.0.0 httpdns.c.cdnhwc2.com
 0.0.0.0 httpdns.calorietech.com
 0.0.0.0 httpdns.gslb.yy.com
 0.0.0.0 httpdns.kwd.inkuai.com
@@ -246,10 +238,10 @@
 0.0.0.0 httpdns.n.netease.com
 0.0.0.0 httpdns.ocloud.oppomobile.com
 0.0.0.0 httpdns.push.oppomobile.com
-0.0.0.0 httpdns.volcengineapi.com
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
+
 
 
 
