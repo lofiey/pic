@@ -1,74 +1,165 @@
-/**
- * Quantumult X - 拦截 youtubei player 响应，尝试为 captionTracks 的 baseUrl 加上 tlang=zh-Hant
- * 说明：若 response 为 JSON，此脚本可工作；若为 protobuf 或不可解析格式，则无法处理。
- */
+// youtube_translate.js
+// Quantumult X script-response-body
+// 功能：拦截 YouTube 字幕（timedtext XML / WebVTT），批量调用 Google 翻译接口，替换为简体中文
+// 注意：免费接口有请求限制与不稳定性，见脚本末尾备注
 
-let body = $response.body;
-let url = $request.url || "";
+(async () => {
+  const body = $response.body;
+  if (!body) {
+    $done({});
+    return;
+  }
 
-try {
-  // 只处理 player 接口响应
-  if (!/youtubei\.googleapis\.com\/youtubei\/v1\/player/.test(url)) {
+  // 判定格式：XML timedtext (YouTube) 或 VTT
+  const isXML = /<transcript|<text\b/i.test(body);
+  const isVTT = /^WEBVTT/m.test(body) || /\.vtt/i.test($request.url);
+
+  if (!isXML && !isVTT) {
+    // 不是字幕响应，放行
     $done({ body });
+    return;
   }
 
-  // 尝试解析 JSON
-  let obj = JSON.parse(body);
-
-  // 有些响应把 captions 放在 obj.captions.playerCaptionsTracklistRenderer.captionTracks
-  let tracks = null;
-  if (obj && obj.captions && obj.captions.playerCaptionsTracklistRenderer && Array.isArray(obj.captions.playerCaptionsTracklistRenderer.captionTracks)) {
-    tracks = obj.captions.playerCaptionsTracklistRenderer.captionTracks;
-  } else if (obj && obj.captions && Array.isArray(obj.captions.captionTracks)) {
-    // 兼容性备选
-    tracks = obj.captions.captionTracks;
-  } else if (obj && obj.captions && obj.captions.playerCaptionsTracklistRenderer && obj.captions.playerCaptionsTracklistRenderer.caption_tracks) {
-    tracks = obj.captions.playerCaptionsTracklistRenderer.caption_tracks;
+  // HTML 实体解码（基本）
+  function htmlDecode(s) {
+    if (!s) return '';
+    return s.replace(/&amp;/g, '&')
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/&quot;/g, '"')
+            .replace(/&#39;/g, "'");
+  }
+  function htmlEncode(s) {
+    if (!s) return '';
+    return s.replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
   }
 
-  if (Array.isArray(tracks)) {
-    for (let i = 0; i < tracks.length; i++) {
-      let t = tracks[i];
-      if (!t || !t.baseUrl) continue;
-
-      // 如果已经有 tlang，就替换为 zh-Hant
-      if (/(\?|&)(tlang)=[^&]*/.test(t.baseUrl)) {
-        t.baseUrl = t.baseUrl.replace(/([?&])tlang=[^&]*/, "$1tlang=zh-Hant");
+  // 提取字幕文本数组（并保持原位置信息）
+  let items = []; // {orig: "...", startIndex, endIndex}
+  if (isXML) {
+    // 匹配 <text ...>...</text>
+    const re = /<text\b[^>]*>([\s\S]*?)<\/text>/gi;
+    let m;
+    while ((m = re.exec(body)) !== null) {
+      const txt = htmlDecode(m[1].replace(/\n+/g, ' ').trim());
+      items.push({ orig: txt, startIndex: m.index, endIndex: re.lastIndex });
+    }
+  } else if (isVTT) {
+    // 简单匹配 VTT 的纯文本行（时间戳行后面的字幕行）
+    // 这里用行分割，选择可能为字幕的行（排除时间戳、数字行）
+    const lines = body.split(/\r?\n/);
+    let buffer = [];
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      if (/^\d{2}:\d{2}:\d{2}\.\d{3}|-->/i.test(line) || line.trim() === '' || /^\d+$/.test(line.trim())) {
+        // 跳过
+        continue;
       } else {
-        // 若 baseUrl 含有 ? 则用 & 否则用 ?
-        t.baseUrl = t.baseUrl + (t.baseUrl.includes("?") ? "&tlang=zh-Hant" : "?tlang=zh-Hant");
-      }
-
-      // 试着也把 hl 加上（有时后端也看 hl）
-      if (/(\?|&)(hl)=[^&]*/.test(t.baseUrl)) {
-        t.baseUrl = t.baseUrl.replace(/([?&])hl=[^&]*/, "$1hl=zh-Hant");
-      } else {
-        t.baseUrl = t.baseUrl + "&hl=zh-Hant";
-      }
-
-      // 辅助：把 languageCode 标注为 zh-Hant，某些客户端会读取
-      try {
-        if (t.languageCode && t.languageCode !== "zh-Hant") {
-          t.languageCode = "zh-Hant";
-        }
-      } catch (e) {}
-
-      // 辅助：若含有 name 字段，标注一下
-      if (t.name && t.name.simpleText) {
-        t.name.simpleText = t.name.simpleText + " (繁體自動翻譯)";
+        // 有可能是字幕文本（也可能是样式等），收集
+        buffer.push(line);
       }
     }
-
-    // 写回 body
-    let newBody = JSON.stringify(obj);
-    $done({ body: newBody });
-  } else {
-    // 没有找到 captions 路径，直接返回原 body
-    $done({ body });
+    // 合并为 items（简单处理：以行做单元）
+    // 注意：替换回去我们会在全体文本中逐个替换匹配字符串（可能有重复），但通常字幕行不同足够安全
+    buffer.forEach(txt => {
+      const t = htmlDecode(txt.trim());
+      if (t) items.push({ orig: t });
+    });
   }
 
-} catch (err) {
-  // 解析失败（可能是 protobuf 或非 JSON），返回原 body，打印到日志（若 QX 支持）
-  console.log("yt-player-captions-fix error: " + err);
-  $done({ body });
-}
+  if (!items.length) {
+    $done({ body });
+    return;
+  }
+
+  // 去重并按顺序准备翻译文本
+  const uniqueTexts = Array.from(new Set(items.map(i => i.orig))).filter(t => t.trim() !== '');
+  // 为避免超长请求，将文本用特殊分隔符合并成若干批次
+  const SEP = '\n☃☃☃\n'; // 分隔符，翻译后用它分割
+  const MAX_Q_LEN = 2000; // 每次请求 q 长度上限（经验值），可调
+  const batches = [];
+  let cur = [];
+  let curLen = 0;
+  for (const t of uniqueTexts) {
+    const l = t.length + SEP.length;
+    if (curLen + l > MAX_Q_LEN && cur.length > 0) {
+      batches.push(cur.slice());
+      cur = [t];
+      curLen = l;
+    } else {
+      cur.push(t);
+      curLen += l;
+    }
+  }
+  if (cur.length) batches.push(cur);
+
+  // 翻译函数（使用 google 的公共接口）
+  async function translateBatch(arr) {
+    const q = arr.join(SEP);
+    const url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=' + encodeURIComponent(q);
+    try {
+      const resp = await $task.fetch({ url, method: 'GET', headers: { 'User-Agent': 'Mozilla/5.0' } });
+      if (resp.status !== 200) return null;
+      const data = JSON.parse(resp.body);
+      // data[0] 为分段翻译内容，合并成字符串
+      let translated = '';
+      for (const seg of data[0]) {
+        translated += (seg[0] || '');
+      }
+      return translated.split(SEP);
+    } catch (e) {
+      // 请求失败
+      return null;
+    }
+  }
+
+  // 批量翻译并构建映射
+  const map = Object.create(null); // original -> translated
+  for (const batch of batches) {
+    const result = await translateBatch(batch);
+    if (!result) {
+      // 翻译失败 —— 退回原文（不中断全部过程），同时记录失败
+      batch.forEach((t, idx) => { map[t] = t; });
+    } else {
+      for (let i = 0; i < batch.length; i++) {
+        const o = batch[i];
+        const tr = result[i] ? result[i].trim() : o;
+        // 把全角/半角空格和换行做简单处理：保持行内换行为 <br> 或 \n 视情况
+        map[o] = tr;
+      }
+    }
+  }
+
+  // 替换原文为中文（注意编码回 XML 实体）
+  let newBody = body;
+  if (isXML) {
+    // 替换每个 <text> 的内容（精确替换原始解码后的文本）
+    newBody = newBody.replace(/(<text\b[^>]*>)([\s\S]*?)(<\/text>)/gi, function(_, openTag, inner, closeTag) {
+      const dec = htmlDecode(inner.replace(/\n+/g, ' ').trim());
+      if (map[dec]) {
+        return openTag + htmlEncode(map[dec]) + closeTag;
+      } else {
+        return openTag + inner + closeTag;
+      }
+    });
+  } else if (isVTT) {
+    // 对 VTT，在全局文本中逐个替换（谨慎替换：只替换确切匹配的行）
+    // 构造行替换：逐行替换以避免误伤时间戳等
+    const lines = newBody.split(/\r?\n/);
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      if (line.trim() === '' || /^\d+$/.test(line.trim()) || /^\d{2}:\d{2}:\d{2}\.\d{3}|-->/i.test(line)) continue;
+      const dec = htmlDecode(line.trim());
+      if (map[dec]) {
+        lines[i] = htmlEncode(map[dec]);
+      }
+    }
+    newBody = lines.join('\n');
+  }
+
+  $done({ body: newBody });
+})();
