@@ -100,22 +100,20 @@
   // 翻译函数（使用 google 的公共接口）
   async function translateBatch(arr) {
     const q = arr.join(SEP);
-    const url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=' + encodeURIComponent(q);
-    try {
-      const resp = await $task.fetch({ url, method: 'GET', headers: { 'User-Agent': 'Mozilla/5.0' } });
-      if (resp.status !== 200) return null;
-      const data = JSON.parse(resp.body);
-      // data[0] 为分段翻译内容，合并成字符串
-      let translated = '';
-      for (const seg of data[0]) {
-        translated += (seg[0] || '');
-      }
-      return translated.split(SEP);
-    } catch (e) {
-      // 请求失败
-      return null;
-    }
-  }
+const url = 'https://libretranslate.de/translate';
+const resp = await $task.fetch({
+  url,
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    q: arr.join(SEP),
+    source: 'auto',
+    target: 'zh',
+    format: 'text'
+  })
+});
+const data = JSON.parse(resp.body);
+return data.translatedText.split(SEP);
 
   // 批量翻译并构建映射
   const map = Object.create(null); // original -> translated
