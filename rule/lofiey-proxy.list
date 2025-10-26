@@ -1,5 +1,4 @@
 IP-ASN, 15169, PROXY
-HOST-SUFFIX,weread.qq.com, proxy
 HOST-SUFFIX,missav.ws,proxy
 HOST-SUFFIX,plyr.io,proxy
 HOST-SUFFIX,bunnyinfra.net,proxy
@@ -13,7 +12,6 @@ HOST-SUFFIX,javrate.com,proxy
 HOST-SUFFIX,avking.xyz,proxy
 HOST-SUFFIX,yoshiclub.xyz,proxy
 HOST-SUFFIX,omnitt.com,proxy
-host-suffix, sg.tux.qq.com, proxy
 HOST,lf16-effectcdn.byteeffecttos-g.com,proxy
 HOST,lf16-pkgcdn.pitaya-clientai.com,proxy
 HOST,p16-tiktokcdn-com.akamaized.net,proxy
@@ -47,13 +45,8 @@ USER-AGENT,TikTok*,proxy
 DOMAIN-SUFFIX,amazongames.com,proxy
 DOMAIN-SUFFIX,amazonaws.com,proxy
 DOMAIN-SUFFIX,pubgmobile.com,proxy
-DOMAIN-SUFFIX,tencent.com,proxy
-DOMAIN-SUFFIX,igame.qq.com,proxy
 DOMAIN-SUFFIX,proximabeta.com,proxy
-DOMAIN-SUFFIX,vmp.qq.com,proxy
-DOMAIN-SUFFIX,qos.game.qq.com,proxy
 DOMAIN-SUFFIX,pubgmobile.helpshift.com,proxy
-DOMAIN-SUFFIX,gamecenter.qq.com,proxy
 DOMAIN-SUFFIX,tencentgames.helpshift.com,proxy
 DOMAIN-SUFFIX,ig-us-notice.igamecj.com,proxy
 DOMAIN-SUFFIX,ig-us-sdkapi.igamecj.com,proxy
@@ -820,6 +813,7 @@ HOST-SUFFIX,wechatpay.com,WeChat
 USER-AGENT,MicroMessenger*,WeChat
 USER-AGENT,WeChat*,WeChat
 IP-ASN,132203,WeChat
+
 
 
 
