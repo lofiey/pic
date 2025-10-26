@@ -16,7 +16,6 @@ HOST,lf16-effectcdn.byteeffecttos-g.com,proxy
 HOST,lf16-pkgcdn.pitaya-clientai.com,proxy
 HOST,p16-tiktokcdn-com.akamaized.net,proxy
 host-suffix,hok5v5.com,proxy
-host-suffix,tiem-cdn.qq.com,proxy
 HOST-SUFFIX,bytedapm.com,proxy
 HOST-SUFFIX,bytegecko-i18n.com,proxy
 HOST-SUFFIX,byteoversea.com,proxy
@@ -813,6 +812,7 @@ HOST-SUFFIX,wechatpay.com,WeChat
 USER-AGENT,MicroMessenger*,WeChat
 USER-AGENT,WeChat*,WeChat
 IP-ASN,132203,WeChat
+
 
 
 
