@@ -805,6 +805,21 @@ USER-AGENT,com.google.ios.youtubemusic*,YouTube
 IP-CIDR,172.110.32.0/21,YouTube
 IP-CIDR,216.73.80.0/20,YouTube
 IP6-CIDR,2620:120:e000::/40,YouTube
+HOST,dl.wechat.com,WeChat
+HOST,sgfindershort.wechat.com,WeChat
+HOST,sgilinkshort.wechat.com,WeChat
+HOST,sglong.wechat.com,WeChat
+HOST,sgminorshort.wechat.com,WeChat
+HOST,sgquic.wechat.com,WeChat
+HOST,sgshort.wechat.com,WeChat
+HOST-SUFFIX,servicewechat.com,WeChat
+HOST-SUFFIX,wechat.com,WeChat
+HOST-SUFFIX,wechatlegal.net,WeChat
+HOST-SUFFIX,wechatos.net,WeChat
+HOST-SUFFIX,wechatpay.com,WeChat
+USER-AGENT,MicroMessenger*,WeChat
+USER-AGENT,WeChat*,WeChat
+IP-ASN,132203,WeChat
 
 
 
