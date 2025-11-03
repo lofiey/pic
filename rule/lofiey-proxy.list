@@ -809,8 +809,9 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
-USER-AGENT,MicroMessenger*,WeChat
-USER-AGENT,WeChat*,WeChat
+
+
+
 
 
 
