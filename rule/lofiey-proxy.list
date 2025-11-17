@@ -1,4 +1,8 @@
 IP-ASN, 15169, PROXY
+host-suffix,labadena.com,proxy
+host-suffix,exosrv.com,proxy
+host-suffix,magsrv.com,proxy
+host-suffix,gjacky.com,proxy
 HOST-SUFFIX,segment.io,proxy
 HOST-SUFFIX,split.io,proxy
 HOST-SUFFIX,tdatamaster.com,proxy
@@ -623,6 +627,19 @@ HOST-SUFFIX,tdatamaster.com, proxy
 HOST-SUFFIX,gcloudcs.com, proxy
 HOST-SUFFIX,anticheatexpert.com, proxy
 HOST-SUFFIX,vasdgame.com, proxy
+DOMAIN-KEYWORD,pubg
+DOMAIN-KEYWORD,pubgm
+DOMAIN-KEYWORD,igamecj
+DOMAIN-KEYWORD,gpubgm
+DOMAIN-KEYWORD,pubgmobile
+DOMAIN-KEYWORD,igame
+DOMAIN-SUFFIX,gamecenter.qq.com
+DOMAIN-SUFFIX,vmp.qq.com
+DOMAIN-SUFFIX,qos.game.qq.com
+DOMAIN-SUFFIX,amazongames.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,pubgmobile.com
+DOMAIN-SUFFIX,igame.qq.com
 # ytb
 HOST,music.youtube.com,YouTube
 HOST,youtubei.googleapis.com,YouTube
@@ -832,6 +849,7 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
 
 
