@@ -1,4 +1,13 @@
 IP-ASN, 15169, PROXY
+HOST-SUFFIX,segment.io,proxy
+HOST-SUFFIX,split.io,proxy
+HOST-SUFFIX,tdatamaster.com,proxy
+HOST-SUFFIX,gcloudcs.com,proxy
+HOST-SUFFIX,igamecj.com,proxy
+HOST-SUFFIX,onezapp.com,proxy
+HOST-SUFFIX,proximabeta.com,proxy
+HOST-SUFFIX,browser-intake-datadoghq.com,proxy
+HOST-SUFFIX,tdatamaster.com,proxy
 HOST-SUFFIX,tsyndicate.com,proxy
 HOST-SUFFIX,afcdn.net,proxy
 HOST-SUFFIX,tapioni.com,proxy
@@ -823,6 +832,7 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
 
 
