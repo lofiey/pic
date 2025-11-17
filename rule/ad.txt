@@ -1,4 +1,5 @@
 # Boom AD
+0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 app.adjust.com
@@ -225,6 +226,7 @@
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
+
 
 
 
