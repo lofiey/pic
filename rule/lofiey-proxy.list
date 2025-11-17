@@ -1,4 +1,18 @@
 IP-ASN, 15169, PROXY
+HOST-SUFFIX,tsyndicate.com,proxy
+HOST-SUFFIX,afcdn.net,proxy
+HOST-SUFFIX,tapioni.com,proxy
+HOST-SUFFIX,javxx.com,proxy
+HOST-SUFFIX,sgameglobal.com,proxy
+HOST-SUFFIX,honorofkings.com,proxy
+HOST-SUFFIX,singaporepaya.com,proxy
+HOST-SUFFIX,anticheatexpert.com,proxy
+HOST-SUFFIX,vasdgame.com,proxy
+HOST-SUFFIX,gcloudcs.com,proxy
+HOST-SUFFIX,intlgame.com,proxy
+HOST-SUFFIX,cdn.wetest.net,proxy
+HOST-SUFFIX,cgi.connect.qq.com,proxy
+HOST-SUFFIX,iegcom.com,proxy
 HOST-SUFFIX,missav.ws,proxy
 HOST-SUFFIX,plyr.io,proxy
 HOST-SUFFIX,bunnyinfra.net,proxy
@@ -809,6 +823,7 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
 
 
