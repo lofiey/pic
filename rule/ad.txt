@@ -17,8 +17,6 @@
 ||xp.apple.com^$important
 0.0.0.0 ads5-normal-hl.zijieapi.com
 0.0.0.0 vc-brain.ndcpp.com
-0.0.0.0 ads-api.tiktok.com
-0.0.0.0 business-api.tiktok.com
 0.0.0.0 dig.bdurl.net
 0.0.0.0 vdn5-1.vzuu.com
 0.0.0.0 vdn5.vzuu.com
@@ -151,8 +149,6 @@
 0.0.0.0 tianwenca.com
 0.0.0.0 p2cdn.com
 0.0.0.0 p2p.huya.com
-0.0.0.0 p2ptun.qq.com
-0.0.0.0 p2p.qq.com
 0.0.0.0 p2perrorlog.douyucdn.cn
 0.0.0.0 p2plog.douyucdn.cn
 0.0.0.0 p2pchunk-*.douyucdn.cn
@@ -226,8 +222,14 @@
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
-
-
+0.0.0.0 t12.baidu.com
+0.0.0.0 em.baidu.com
+0.0.0.0 lupic.cdn.bcebos.com
+0.0.0.0 vcl-brain.ndcppx.com
+0.0.0.0 lf-leads-fe-scm.bytecdn.com
+0.0.0.0 *.ahdohpiechei.com
+0.0.0.0 *.v.smtcdns.com
+0.0.0.0 api-play.amemv.com
 
 
 
