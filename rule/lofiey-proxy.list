@@ -2,17 +2,18 @@ IP-ASN, 15169, PROXY
 HOST-SUFFIX,analytics.adjust.com,proxy
 HOST-SUFFIX,app-measurement.com,proxy
 HOST-SUFFIX,mixpanel.com,proxy
-HOST-SUFFIX,gjacky.com,proxy
-HOST-SUFFIX,vasdgame.com,proxy
-HOST-SUFFIX,labadena.com,proxy
-HOST-SUFFIX,exosrv.com,proxy
-HOST-SUFFIX,magsrv.com,proxy
-HOST-SUFFIX,gjacky.com,proxy
-HOST-SUFFIX,segment.io,proxy
-HOST-SUFFIX,tdatamaster.com,proxy
-HOST-SUFFIX,gcloudcs.com,proxy
-HOST-SUFFIX,onezapp.com,proxy
-HOST-SUFFIX,proximabeta.com,proxy
+HOST-SUFFIX,igame.gcloudcs.com,proxy
+HOST-SUFFIX,gcloud.download.igamecj.com,proxy
+HOST-SUFFIX,cloud.vmp.onezapp.com,proxy
+HOST-SUFFIX,cloud.gsdk.proximabeta.com,proxy
+HOST-SUFFIX,cloudctrl.igamecj.com,proxy
+HOST-SUFFIX,app-measurement.com,proxy
+HOST-SUFFIX,mgl.lobby.igamecj.com,proxy
+HOST-SUFFIX,sg.tdatamaster.com,proxy
+HOST-SUFFIX,streaming.split.io,proxy
+HOST-SUFFIX,auth.split.io,proxy
+HOST-SUFFIX,sdk.split.io,proxy
+HOST-SUFFIX,ios.perfsight.wetest.net,proxy
 HOST-SUFFIX,browser-intake-datadoghq.com,proxy
 HOST-SUFFIX,tdatamaster.com,proxy
 HOST-SUFFIX,tsyndicate.com,proxy
@@ -852,4 +853,5 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
