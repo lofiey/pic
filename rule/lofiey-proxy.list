@@ -1,4 +1,5 @@
 IP-ASN, 15169, PROXY
+HOST-SUFFIX,tweetsoku.com,proxy
 HOST-SUFFIX,analytics.adjust.com,proxy
 HOST-SUFFIX,app-measurement.com,proxy
 HOST-SUFFIX,mixpanel.com,proxy
@@ -853,5 +854,6 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
 
