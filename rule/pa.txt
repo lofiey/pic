@@ -114,3 +114,7 @@
 @@||gcloudcs.com^
 @@||anticheatexpert.com^
 @@||vasdgame.com^
+@@||gamecenter.qq.com^
+@@||vmp.qq.com^
+@@||qos.game.qq.com^
+@@||amazongames.com^
