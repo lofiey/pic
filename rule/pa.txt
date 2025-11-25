@@ -1,4 +1,7 @@
 # Green light
+@@||id6.me^$important
+@@||amdc.m.taobao.com^$important
+@@||log.weixin.qq.com^$important
 @@||fclog.baidu.com^$important
 @@||amdc.alipay.com^$important
 @@||h.trace.qq.com^$important
