@@ -1,94 +1,54 @@
-// yt-timedtext-translate-cgw.js
-// Quantumult X script-response-body
-// 功能：拦截 YouTube 的 timedtext 字幕 XML，并机翻为 简体中文 (zh-CN)
-// 注：脚本名/标签包含 "c g w"（应用户要求）
-// 作者：提供样例，请根据需要调整 translate endpoint 或托管位置
+// yt-subtitle-cgw.js
+// [c g w] YouTube App 自动字幕翻译 — Simplified Chinese
+// QuantumultX script-response-body
 
-var body = $response && $response.body ? $response.body : '';
-if (!body || body.indexOf('<text') === -1) {
-  $done({body: body});
-} else {
-  // 提取所有 <text ...>...</text> 内容（保留属性不变）
-  var re = /<text[^>]*>([\s\S]*?)<\/text>/g;
-  var matches = [];
-  var results;
-  while ((results = re.exec(body)) !== null) {
-    matches.push(results[1]);
-  }
+let body = $response.body;
+if (!body) $done({});
+let json; try { json = JSON.parse(body); } catch { $done({ body }); }
 
-  // HTML 解码（基础）
-  function htmlDecode(str) {
-    if (!str) return '';
-    return str.replace(/&amp;/g, '&')
-              .replace(/&lt;/g, '<')
-              .replace(/&gt;/g, '>')
-              .replace(/&quot;/g, '"')
-              .replace(/&#39;/g, "'");
+// 提取字幕文本（APP API 返回 JSON）
+function collect(o, arr) {
+  if (!o) return;
+  if (typeof o === "object") {
+    if (o.simpleText) arr.push(o.simpleText);
+    if (o.runs) o.runs.forEach(r => r.text && arr.push(r.text));
+    Object.values(o).forEach(v => collect(v, arr));
   }
-  // XML/HTML 编码（返回到字幕安全的形式）
-  function xmlEncode(str) {
-    if (!str) return '';
-    return str.replace(/&/g, '&amp;')
-              .replace(/</g, '&lt;')
-              .replace(/>/g, '&gt;');
-  }
+}
+let texts = [];
+collect(json, texts);
+texts = [...new Set(texts)].filter(t => t.trim());
 
-  // 翻译单条文本（使用 translate.googleapis.com 非官方接口）
-  function translateSingle(text, cb) {
-    var t = htmlDecode(text);
-    if (!t.trim()) return cb(null, text); // 空白直接返回原文
-    var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=' + encodeURIComponent(t);
-    $httpClient.get(url, function(error, response, data) {
-      if (error || !data) {
-        cb(error || new Error('no data'), text);
-      } else {
-        try {
-          var arr = JSON.parse(data);
-          // arr[0] 是分段翻译，拼接每个部分的翻译结果
-          var translated = '';
-          if (Array.isArray(arr) && Array.isArray(arr[0])) {
-            for (var i=0;i<arr[0].length;i++){
-              if (arr[0][i] && arr[0][i][0]) translated += arr[0][i][0];
-            }
-          } else {
-            translated = t; // fallback
-          }
-          cb(null, xmlEncode(translated));
-        } catch (e){
-          cb(e, text);
-        }
-      }
-    });
-  }
+// 若无文本直接返回
+if (texts.length === 0) $done({ body });
 
-  // 顺序翻译所有匹配（避免并发请求太多）
-  var idx = 0;
-  var translatedParts = [];
-  function next() {
-    if (idx >= matches.length) {
-      // 替换原 body 中的每个 <text>...</text> 内容（按序替换）
-      var i = 0;
-      var newBody = body.replace(/(<text[^>]*>)([\s\S]*?)(<\/text>)/g, function(_, a, b, c) {
-        var rep = translatedParts[i] !== undefined ? translatedParts[i] : b;
-        i++;
-        return a + rep + c;
-      });
-      $done({body: newBody});
-      return;
+// 翻译函数（Google 无需 Key）
+function translate(t, cb) {
+  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=${encodeURIComponent(t)}`;
+  $httpClient.get(url, (err, resp, data) => {
+    if (!err && data) {
+      try {
+        const arr = JSON.parse(data);
+        let output = arr[0].map(i => i[0]).join("");
+        cb(output);
+      } catch { cb(t); }
+    } else cb(t);
+  });
+}
+
+let pending = texts.length, dict = {};
+texts.forEach(t => translate(t, r => {
+  dict[t] = r; if (--pending === 0) replace();
+}));
+
+// 替换所有字幕文本
+function replace() {
+  (function walk(o) {
+    if (typeof o === "object") {
+      if (o.simpleText && dict[o.simpleText]) o.simpleText = dict[o.simpleText];
+      if (o.runs) o.runs.forEach(r => r.text && (r.text = dict[r.text] || r.text));
+      Object.values(o).forEach(v => walk(v));
     }
-    (function(j){
-      translateSingle(matches[j], function(err, translated){
-        if (err) {
-          // 出错则保留原文（并继续）
-          translatedParts[j] = xmlEncode(matches[j]);
-        } else {
-          translatedParts[j] = translated;
-        }
-        idx++;
-        // 小延迟可降低并发（Quantumult X 环境内 setTimeout 可用）
-        setTimeout(next, 50);
-      });
-    })(idx);
-  }
-  next();
+  })(json);
+  $done({ body: JSON.stringify(json) });
 }
