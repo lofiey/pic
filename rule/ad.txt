@@ -227,9 +227,7 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
-0.0.0.0 *.ahdohpiechei.com
-0.0.0.0 *.v.smtcdns.com
-0.0.0.0 api-play.amemv.com
+
 
 
 
