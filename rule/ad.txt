@@ -171,9 +171,6 @@
 0.0.0.0 ad3.sina.com.cn
 0.0.0.0 ad4.sina.com.cn
 0.0.0.0 advertising.twitter.com
-0.0.0.0 httpdns-euex-push.heytapmobile.com
-0.0.0.0 httpdns-ocloud.heytapmobile.com
-0.0.0.0 httpdns-push.heytapmobile.com
 0.0.0.0 httpdns.baidu.com
 0.0.0.0 httpdns.baidubce.com
 0.0.0.0 httpdns.calorietech.com
@@ -189,6 +186,7 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
+
 
 
 
