@@ -2,21 +2,16 @@
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 business-api.tiktok.com
-0.0.0.0 app.adjust.com
-0.0.0.0 app.adjust.net.in
-0.0.0.0 app.adjust.world
 127.0.0.1 geolocation.onetrust.com
 0.0.0.0 geolocation.onetrust.com
 0.0.0.0 cdn.cookielaw.org
 127.0.0.1 cdn.cookielaw.org
-0.0.0.0 app-measurement.com
 # Block iOS Update
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
 0.0.0.0 ads5-normal-hl.zijieapi.com
-0.0.0.0 vc-brain.ndcpp.com
 0.0.0.0 dig.bdurl.net
 0.0.0.0 vdn5-1.vzuu.com
 0.0.0.0 vdn5.vzuu.com
@@ -42,7 +37,6 @@
 0.0.0.0 p3-ad-sign.byteimg.com
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p9-ad-sign.byteimg.com
-0.0.0.0 app.adjust.com
 0.0.0.0 vdn.vzuu.com
 0.0.0.0 crash*.zhihu.com
 0.0.0.0 m-cloud.zhihu.com
@@ -54,15 +48,8 @@
 0.0.0.0 pkg.zhimg.com
 0.0.0.0 appcloud2.zhihu.com
 0.0.0.0 appcloud.zhihu.com
-0.0.0.0 app.adjust.net.in
-0.0.0.0 app.adjust.world
 0.0.0.0 slb-p2p.vcloud.ks-live.com
 0.0.0.0 ttxyajs.data.kuiniuca.com
-0.0.0.0 sd-gl.xycdn.com
-0.0.0.0 *launches.appsflyersdk.com
-0.0.0.0 crashlytics.com
-0.0.0.0 *cdn-settings.appsflyersdk.com
-0.0.0.0 event.northghost.com
 0.0.0.0 s.360.cn
 0.0.0.0 as1.m.hao123.com
 0.0.0.0 cpro.baidustatic.com
@@ -227,6 +214,7 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
+
 
 
 
