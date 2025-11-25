@@ -91,30 +91,11 @@
 0.0.0.0 adnxs.com
 0.0.0.0 adnpbs.com
 0.0.0.0 adncdn.net
-0.0.0.0 parkvv.com
-0.0.0.0 stickyadstv.com
-0.0.0.0 smaato.net
 0.0.0.0 adform.net
 0.0.0.0 admatic.de
-0.0.0.0 smartadserver.com
-0.0.0.0 criteo.com
-0.0.0.0 a-mx.com
-0.0.0.0 id5-sync.com
-0.0.0.0 udmserve.net
-0.0.0.0 vidazoo.com
-0.0.0.0 outbrain.com
-0.0.0.0 admanmedia.com
-0.0.0.0 33across.com
-0.0.0.0 sitescout.com
-0.0.0.0 a-mo.net
-0.0.0.0 openx.net
-0.0.0.0 criteo.com
-0.0.0.0 ampproject.org
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 safeframe.googlesyndication.com
 0.0.0.0 securepubads.g.doubleclick.net
-0.0.0.0 sharethrough.com
-0.0.0.0 a-mo.net
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 adtrafficquality.google
 0.0.0.0 nadvideo2.baidu.com
@@ -123,12 +104,6 @@
 0.0.0.0 mobads-logs.baidu.com	
 0.0.0.0 adtrafficquality.google
 0.0.0.0 adsappier.com
-0.0.0.0 adsafeprotected.com
-0.0.0.0 yieldmo.com
-0.0.0.0 stickyadstv.com
-0.0.0.0 adrta.com
-0.0.0.0 admatrix.jp
-0.0.0.0 ad-m.asia
 0.0.0.0 advertising.com
 0.0.0.0 yfp2p.net
 0.0.0.0 yfcdn.net
@@ -214,6 +189,7 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
+
 
 
 
