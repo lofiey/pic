@@ -1,9 +1,14 @@
 # Green light
+@@||aliyun.com^$important
+@@||aliapp.org^$important
+@@||alipay.com^$important
+@@||mmstat.com^$important
+@@||sensors.cloud.tencent.com^$important
+@@||rumt-zh.com^$important
 @@||id6.me^$important
 @@||amdc.m.taobao.com^$important
 @@||log.weixin.qq.com^$important
 @@||fclog.baidu.com^$important
-@@||amdc.alipay.com^$important
 @@||h.trace.qq.com^$important
 @@||up-hl.3g.qq.com^$important
 @@||yun-hl.3g.qq.com^$important
@@ -60,8 +65,6 @@
 @@||vcs.zijieapi.com^$important
 @@||mcs.zijieapi.com^$important
 @@||erebor.douban.com^$important
-@@||log.mmstat.com^$important
-@@||gm.mmstat.com^$important
 @@||alibabachengdun.com^$important
 @@||goblin.hupu.com^$important
 @@||pr.nss.netease.com^$important
@@ -71,7 +74,6 @@
 @@||onezapp.com^$important
 @@||ios.perfsight.wetest.net^$important
 @@||sg.tdatamaster.com^$important
-@@||app-measurement.com^$important
 @@||static.cloudflareinsights.com^$important
 @@||amazongames.com^$important
 @@||amazonaws.com^$important
