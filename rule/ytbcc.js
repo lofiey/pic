@@ -1,6 +1,6 @@
 let reqUrl = $request.url;
-reqUrl = reqUrl.replace(/([?&])lang=[^&]+/i, "$1lang=zh-Hans");
+reqUrl = reqUrl.replace(/([?&])lang=[^&]+/, "$1lang=zh-Hans");
 if (!/tlang=/.test(reqUrl)) {
     reqUrl += "&tlang=zh-Hans";
 }
-$done({ url: reqUrl });
+$done({url: reqUrl, headers: $response.headers});
