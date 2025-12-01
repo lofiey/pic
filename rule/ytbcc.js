@@ -1,10 +1,15 @@
-/* YouTube 自動繁體中文字幕 (Request Modifier) */
+/* YouTube 自動繁體中文字幕 (Request Modifier - 移除簽名版本) */
 
 const url = $request.url;
+let newUrl = url;
 
-// 找到 &lang= 後的參數，將其替換為 &lang=zh 並追加 &tlang=zh-Hant
-// 這是專為修改請求 URL 設計的安全代碼。
-const newUrl = url.replace(/&lang=([^&]+)/, "&lang=zh&tlang=zh-Hant");
+// 1. 移除 signature 參數及其值 (這是導致失敗的主要原因)
+newUrl = newUrl.replace(/&signature=([^&]+)/, "");
 
-// 返回新的 URL
+// 2. 移除 sparams 參數 (這是列出需要簽名參數的列表，必須移除)
+newUrl = newUrl.replace(/&sparams=([^&]+)/, "");
+
+// 3. 替換語言參數為 zh 並追加 tlang=zh-Hant
+newUrl = newUrl.replace(/&lang=([^&]+)/, "&lang=zh&tlang=zh-Hant");
+
 $done({url: newUrl});
