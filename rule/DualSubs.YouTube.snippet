@@ -29,18 +29,5 @@
 #8 🍿️ DualSubs.YouTube.Translate.TimedText.response
 ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Translate.response.bundle.js
 
-# YouTube Music
-#9 🍿️ DualSubs.YouTubeMusic.Browse.request.json
-^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle.js
-
-#10 🍿️ DualSubs.YouTube.Browse.request.proto
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle.js
-
-#11 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.json
-^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Composite.Subtitles.response.bundle.js
-
-#12 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.proto
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Composite.Subtitles.response.bundle.js
-
 #[MITM]
 hostname = www.youtube.com, m.youtube.com, tv.youtube.com, music.youtube.com, youtubei.googleapis.com, -redirector*.googlevideo.com, *.googlevideo.com
