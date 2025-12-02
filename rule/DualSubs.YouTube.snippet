@@ -10,6 +10,7 @@
 
 #[rewrite_local]
 ^https?:\/\/([\w-]+)\.googlevideo\.com\/initplayback(\?.*oad=.+)$ url reject-dict
+^https?:\/\/www\.youtube\.com\/youtubei\/v1\/player$ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/ytbcc.js
 
 #[Script]
 # 1 🍿️ DualSubs.YouTube.Player.request.json
