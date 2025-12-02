@@ -1,41 +1,41 @@
 // DualSubs 腳本的實際代碼片段 (需要替換 YOUR_DUALSUBS_CODE_HERE)
 const DUALSUBS_CODE = `
-# 🍿️ DualSubs.YouTube.Player.request.json
-^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle-ytbm.js
+# 1 🍿️ DualSubs.YouTube.Player.request.json
+^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle.js
 
-# 🍿️ DualSubs.YouTube.Player.response.json
-^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player(\?.+)?$ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle-ytbm.js
+# 2🍿️ DualSubs.YouTube.Player.response.json
+^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player(\?.+)?$ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/response.bundle.js
 
-# 🍿️ DualSubs.YouTube.Player.request.proto
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle-ytbm.js
+#3 🍿️ DualSubs.YouTube.Player.request.proto
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle.js
 
-# 🍿️ DualSubs.YouTube.Player.response.proto
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player(\?.+)?$ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle-ytbm.js
+#4 🍿️ DualSubs.YouTube.Player.response.proto
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player(\?.+)?$ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/response.bundle.js
 
-# 🍿️ DualSubs.YouTube.GetWatch.response.proto
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/get_watch(\?.+)?$ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle-ytbm.js
+#5 🍿️ DualSubs.YouTube.GetWatch.response.proto
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/get_watch(\?.+)?$ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/response.bundle.js
 
-# 🍿️ DualSubs.YouTube.TimedText.request
-^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext url script-request-header https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle-ytbm.js
+#6 🍿️ DualSubs.YouTube.TimedText.request
+^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext url script-request-header https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle.js
 
-# 🍿️ DualSubs.YouTube.Composite.TimedText.response
+#7 🍿️ DualSubs.YouTube.Composite.TimedText.response
 ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=(Official|External) url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Composite.Subtitles.response.bundle.js
 
-# 🍿️ DualSubs.YouTube.Translate.TimedText.response
+#8 🍿️ DualSubs.YouTube.Translate.TimedText.response
 ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Translate.response.bundle.js
 
 # YouTube Music
-# 🍿️ DualSubs.YouTubeMusic.Browse.request.json
-^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/trb.js
+#9 🍿️ DualSubs.YouTubeMusic.Browse.request.json
+^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle.js
 
-# 🍿️ DualSubs.YouTube.Browse.request.proto
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle-ytbm.js
+#10 🍿️ DualSubs.YouTube.Browse.request.proto
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle.js
 
-# 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.json
-^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Translate.response.bundle.js
+#11 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.json
+^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Composite.Subtitles.response.bundle.js
 
-# 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.proto
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Translate.response.bundle.js
+#12 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.proto
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Composite.Subtitles.response.bundle.js
 `; 
 
 let body = $response.body;
