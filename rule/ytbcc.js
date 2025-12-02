@@ -1,13 +1,54 @@
-let reqUrl = $request.url;
-reqUrl = reqUrl.replace(/([?&])lang=[^&]+/, "$1lang=zh-Hans");
-if (!/tlang=/.test(reqUrl)) {
-  reqUrl += "&tlang=zh-Hans";
+// DualSubs 腳本的實際代碼片段 (需要替換 YOUR_DUALSUBS_CODE_HERE)
+const DUALSUBS_CODE = `
+# YouTube
+# 🍿️ DualSubs.YouTube.Player.request.json
+^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player(\?.+)?$ url script-request-body https://github.com/DualSubs/YouTube/releases/download/v1.5.11/request.bundle.js
+# 🍿️ DualSubs.YouTube.Player.response.json
+^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player(\?.+)?$ url script-response-body https://github.com/DualSubs/YouTube/releases/download/v1.5.11/response.bundle.js
+# 🍿️ DualSubs.YouTube.Player.request.proto
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player(\?.+)?$ url script-request-body https://github.com/DualSubs/YouTube/releases/download/v1.5.11/request.bundle.js
+# 🍿️ DualSubs.YouTube.Player.response.proto
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player(\?.+)?$ url script-response-body https://github.com/DualSubs/YouTube/releases/download/v1.5.11/response.bundle.js
+# 🍿️ DualSubs.YouTube.GetWatch.response.proto
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/get_watch(\?.+)?$ url script-response-body https://github.com/DualSubs/YouTube/releases/download/v1.5.11/response.bundle.js
+# 🍿️ DualSubs.YouTube.TimedText.request
+^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext url script-request-header https://github.com/DualSubs/YouTube/releases/download/v1.5.11/request.bundle.js
+# 🍿️ DualSubs.YouTube.Composite.TimedText.response
+^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=(Official|External) url script-response-body https://github.com/DualSubs/Universal/releases/latest/download/Composite.Subtitles.response.bundle.js
+# 🍿️ DualSubs.YouTube.Translate.TimedText.response
+^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=Translate url script-response-body https://github.com/DualSubs/Universal/releases/latest/download/Translate.response.bundle.js
+# YouTube Music
+# 🍿️ DualSubs.YouTubeMusic.Browse.request.json
+^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse(\?.+)?$ url script-request-body https://github.com/DualSubs/YouTube/releases/download/v1.5.11/request.bundle.js
+# 🍿️ DualSubs.YouTube.Browse.request.proto
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse(\?.+)?$ url script-request-body https://github.com/DualSubs/YouTube/releases/download/v1.5.11/request.bundle.js
+# 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.json
+^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://github.com/DualSubs/Universal/releases/latest/download/Translate.response.bundle.js
+# 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.proto
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://github.com/DualSubs/Universal/releases/latest/download/Translate.response.bundle.js
+`; 
+
+let body = $response.body;
+
+// 檢查 $response.body 是否存在
+if (body) {
+    try {
+        let json = JSON.parse(body);
+
+        // 查找 playerResponse JSON 中的播放器配置部分
+        if (json.playerResponse && json.playerResponse.webPlayerActionsExtension) {
+            
+            // 找到可以注入腳本的地方（這部分高度依賴 YouTube API 結構，可能需要微調）
+            // 此處為示意，實際注入位置請參考 DualSubs 的具體指引。
+            
+            // 最終將 DUALSUBS_CODE 注入到 JSON 結構中的適當位置
+            // ... (注入邏輯) ...
+
+            // 重新打包 JSON
+            $done({body: JSON.stringify(json)});
+        }
+    } catch (e) {
+        console.log("JSON parsing error:", e);
+        $done({});
+    }
 }
-reqUrl = reqUrl.replace(/([?&])format=[^&]+/, "$1format=json3");
-if (!/format=/.test(reqUrl)) {
-  reqUrl += "&format=json3";
-}
-if (!/fmt=/.test(reqUrl)) {
-  reqUrl += "&fmt=json3";
-}
-$done({ url: reqUrl, headers: $response.headers });
