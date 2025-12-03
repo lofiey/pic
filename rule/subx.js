@@ -1,56 +1,5 @@
 /*
-    Dualsub for Quantumult X by Neurogram
- 
-        - Disney+, Star+, HBO Max, Prime Video, YouTube official bilingual subtitles
-        - Disney+, Star+, HBO Max, Hulu, Netflix, Paramount+, Prime Video, etc. external subtitles
-        - Disney+, Star+, HBO Max, Hulu, Netflix, Paramount+, Prime Video, etc. machine translation bilingual subtitles (Google, DeepL)
-        - Customized language support
- 
-    Manual:
-        Setting tool for Shortcuts: https://www.icloud.com/shortcuts/8ec4a2a3af514282bf27a11050f39fc2
-
-        Quantumult X:
-
-        [rewrite_local]
-
-        // All in one
-        ^http.+(media.(dss|star)ott|manifests.v2.api.hbo|hbomaxcdn|nflxvideo|cbs(aa|i)video|cloudfront|akamaihd|avi-cdn|huluim|youtube).(com|net)\/(.+\.vtt($|\?m=\d+)|.+-all-.+\.m3u8.*|hls\.m3u8.+|\?o=\d+&v=\d+&e=.+|\w+\/2\$.+\/[a-zA-Z0-9-]+\.m3u8|api\/timedtext.+) url script-response-body Dualsub.js
-        ^http.+(setting|general).(media.dssott|hbomaxcdn|nflxvideo|youtube|cbsivideo|cloudfront|huluim).(com|net)\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
-        // Disney+, Star+ individual
-        https:\/\/.+media.(dss|star)ott.com\/ps01\/disney\/.+(\.vtt|-all-.+\.m3u8.*) url script-response-body Dualsub.js
-        https:\/\/setting.media.dssott.com\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
- 
-        // HBO Max individual
-        https:\/\/(manifests.v2.api.hbo.com|.+hbomaxcdn.com)\/(hls.m3u8.+|video.+\.vtt) url script-response-body Dualsub.js
-        https:\/\/setting.hbomaxcdn.com\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
-        //Hulu individual
-        ^http.+huluim.com\/.+\.vtt$ url script-response-body Dualsub.js
-        https:\/\/setting.huluim.com\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
-        // Netflix individual
-        https:\/\/.+nflxvideo.net\/\?o=\d+&v=\d+&e=.+ url script-response-body Dualsub.js
-        https:\/\/setting.nflxvideo.net\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
-        // Paramount+ individual
-        https:\/\/.+cbs(aa|i)video.com\/.+\.vtt(\?m=\d+)* url script-response-body Dualsub.js
-        https:\/\/setting.cbsivideo.com\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
-        //Prime Video individual
-        https:\/\/.+(cloudfront|akamaihd|avi-cdn).net\/(.+\.vtt|\w+\/2\$.+\/[a-zA-Z0-9-]+\.m3u8) url script-response-body Dualsub.js
-        https:\/\/setting.cloudfront.net\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
-        //YouTube individual
-        https:\/\/www.youtube.com\/api\/timedtext.+ url script-response-body Dualsub.js
-        https:\/\/setting.youtube.com\/\?action=(g|s)et url script-analyze-echo-response Dualsub.js
-
-        [mitm]
-        hostname = *.media.dssott.com, *.media.starott.com, *.api.hbo.com, *.hbomaxcdn.com, *.huluim.com, *.nflxvideo.net, *.cbsaavideo.com, *.cbsivideo.com, *.cloudfront.net, *.akamaihd.net, *.avi-cdn.net, *.youtube.com
-
-    Author:
-        Telegram: Neurogram
-        GitHub: Neurogram-R
+    lofiey test for Quantumult X by youtube cc
 */
 
 let url = $request.url
