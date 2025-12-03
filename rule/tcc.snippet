@@ -1,0 +1,30 @@
+// 0 test for youtube cc
+const DUALSUBS_CODE = `
+https:\/\/www.youtube.com\/api\/timedtext.+ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Dualsub.js
+https:\/\/setting.youtube.com\/\?action=(g|s)et url script-analyze-echo-response https://raw.githubusercontent.com/lofiey/pic/main/rule/Dualsub.js
+`; 
+
+let body = $response.body;
+
+// 檢查 $response.body 是否存在
+if (body) {
+    try {
+        let json = JSON.parse(body);
+
+        // 查找 playerResponse JSON 中的播放器配置部分
+        if (json.playerResponse && json.playerResponse.webPlayerActionsExtension) {
+            
+            // 找到可以注入腳本的地方（這部分高度依賴 YouTube API 結構，可能需要微調）
+            // 此處為示意，實際注入位置請參考 DualSubs 的具體指引。
+            
+            // 最終將 DUALSUBS_CODE 注入到 JSON 結構中的適當位置
+            // ... (注入邏輯) ...
+
+            // 重新打包 JSON
+            $done({body: JSON.stringify(json)});
+        }
+    } catch (e) {
+        console.log("JSON parsing error:", e);
+        $done({});
+    }
+}
