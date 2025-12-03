@@ -171,11 +171,11 @@ let default_settings = {
         external_subtitles: "null"
     },
     YouTube: {
-        type: "Enable", // Enable, Disable
-        lang: "English",
+        type: "Google", // Enable, Disable
+        lang: "ZH-Hans",
         sl: "auto",
-        tl: "en",
-        line: "sl"
+        tl: "English [CC]",
+        line: "s"
     }
 }
 
