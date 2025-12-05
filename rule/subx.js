@@ -124,7 +124,7 @@ let default_settings = {
         lang: "ZH-Hans",
         sl: "auto",
         tl: "English [CC]",
-        line: "s"
+        line: "sl"
     }
 }
 
