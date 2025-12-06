@@ -1,8 +1,7 @@
 // lofiey test for Quantumult X by youtube cc
 const DUALSUBS_CODE = `
-https://raw.githubusercontent.com/lofiey/pic/refs/heads/main/rule/sps.js
-https:\/\/www.youtube.com\/api\/timedtext.+ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/subx.js
-https:\/\/setting.youtube.com\/\?action=(g|s)et url script-analyze-echo-response https://raw.githubusercontent.com/lofiey/pic/main/rule/subx.js
+^https:\/\/www.youtube.com\/api\/timedtext.+ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/tbn.js
+^https:\/\/setting.youtube.com\/\?action=(g|s)et url script-analyze-echo-response https://raw.githubusercontent.com/lofiey/pic/main/rule/tbn.js
 `; 
 
 let body = $response.body;
