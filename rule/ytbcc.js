@@ -1,3 +1,23 @@
+/* YouTube 簡體中文字幕 (URLSearchParams 最小修改版) */
+
+const url = $request.url;
+const obj = new URL(url);
+const params = obj.searchParams;
+
+// 1. 移除簽名相關參數 (這是必須的，否則會載入失敗)
+params.delete('signature');
+params.delete('sparams');
+params.delete('sig');
+
+// 2. **關鍵步驟：** 不再修改原始的 'lang' 參數 (例如 'en' 或 'th')
+// 3. 強制設定翻譯的目標語言為簡體中文
+//    如果原始 URL 中已經有 tlang，會被覆蓋。
+params.set('tlang', 'zh-Hans'); 
+
+// 重建 URL
+obj.search = params.toString();
+
+$done({url: obj.toString()});
 // DualSubs 腳本的實際代碼片段 (需要替換 YOUR_DUALSUBS_CODE_HERE)
 const DUALSUBS_CODE = `
 # 1 🍿️ DualSubs.YouTube.Player.request.json
@@ -23,19 +43,6 @@ const DUALSUBS_CODE = `
 
 #8 🍿️ DualSubs.YouTube.Translate.TimedText.response
 ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Translate.response.bundle.js
-
-# YouTube Music
-#9 🍿️ DualSubs.YouTubeMusic.Browse.request.json
-^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle.js
-
-#10 🍿️ DualSubs.YouTube.Browse.request.proto
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse(\?.+)?$ url script-request-body https://raw.githubusercontent.com/lofiey/pic/main/rule/request.bundle.js
-
-#11 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.json
-^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Composite.Subtitles.response.bundle.js
-
-#12 🍿️ DualSubs.YouTubeMusic.Translate.Lyrics.response.proto
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/Composite.Subtitles.response.bundle.js
 `; 
 
 let body = $response.body;
