@@ -100,8 +100,6 @@ host-suffix,moveonjoy.com,proxy
 host-suffix,wurl.tv,proxy
 host-suffix,serverroom.us,proxy
 host-suffix,xbookcn.net,proxy
-host-suffix,stats.gc.apple.com, proxy
-host-suffix,profile.gc.apple.com, proxy
 host-suffix,save-free.com, proxy
 host-suffix,mikebeas.com, proxy
 host-suffix,fbcdn.net, proxy
@@ -156,7 +154,6 @@ HOST-SUFFIX, braze.com, proxy
 HOST-SUFFIX, adobedc.net, proxy
 HOST-SUFFIX, cbsig.net, proxy
 DOMAIN-SUFFIX, megaphone.fm, proxy
-DOMAIN-SUFFIX, testflight.apple.com,PROXY
 HOST-SUFFIX, appsto.re,PROXY
 HOST-SUFFIX, blobstore.apple.com,PROXY
 HOST-SUFFIX, digicert.com,PROXY
@@ -239,10 +236,6 @@ host-suffix, youlucky.com, proxy
 host-suffix, anchor.fm, proxy
 host-suffix, play.googleapis.com, proxy
 DOMAIN-SUFFIX, v2ex.com, proxy
-DOMAIN-SUFFIX, downloaddispatch.itunes.apple.com, proxy
-DOMAIN-SUFFIX, play.itunes.apple.com, proxy
-DOMAIN-SUFFIX, bag.itunes.apple.com, proxy
-DOMAIN-SUFFIX, su.itunes.apple.com, proxy
 DOMAIN-SUFFIX, wikipedia.org, proxy
 DOMAIN-SUFFIX, wikimedia.org, proxy
 DOMAIN-SUFFIX, pornhub.com, proxy
@@ -296,9 +289,6 @@ DOMAIN-SUFFIX, jw.org, proxy
 DOMAIN-SUFFIX, snapkit.com, proxy
 DOMAIN-SUFFIX, bgtechint.com, proxy
 DOMAIN-SUFFIX, reddit.com, proxy
-DOMAIN-SUFFIX, weather-data.apple.com, proxy
-DOMAIN-SUFFIX, weather-map2.apple.com, proxy
-DOMAIN-SUFFIX, weather-analytics-events.apple.com, proxy
 DOMAIN-SUFFIX, ganjingworld.com, proxy
 DOMAIN-SUFFIX, feedx.net, proxy
 DOMAIN-SUFFIX, hbomaxcdn.com, proxy
@@ -855,6 +845,7 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
 
 
