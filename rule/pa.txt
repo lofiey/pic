@@ -125,3 +125,13 @@
 @@||qos.game.qq.com^$important
 @@||amazongames.com^$important
 @@||games.game^$important
+@@||fourier.taobao.com^$important
+@@||cm.mediav.com^$important
+@@||cloud-log.yy.com^$important
+@@||mlog.bigda.com^$important
+@@||fourier.alibaba.com^$important
+@@||ifs.tanx.com^$important
+@@||ilce.alicdn.com^$important
+@@||asearch.alicdn.com^$important
+@@||audid-api.taobao.com^$important
+@@||click.gamersky.com^$important
