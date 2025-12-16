@@ -1,9 +1,9 @@
 #! Compiled by Lofiey, proofread by fpq.org 2025-12-16-21:55
 #! Fixed bug, and to further improve upon the original version.
 
-#[rewrite_local]
+[rewrite_local]
 ^https?:\/\/([\w-]+)\.googlevideo\.com\/initplayback(\?.*oad=.+)$ url reject-dict
 ^https?:\/\/www\.youtube\.com\/youtubei\/v1\/player$ url script-response-body https://raw.githubusercontent.com/lofiey/pic/main/rule/ytbcc.js
 
-#[MITM]
+[MITM]
 hostname = www.youtube.com, m.youtube.com, tv.youtube.com, music.youtube.com, youtubei.googleapis.com, -redirector*.googlevideo.com, *.googlevideo.com
