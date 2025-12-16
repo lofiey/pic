@@ -1,4 +1,4 @@
-#! Compiled by Lofiey, proofread by fpq.org 2025-12-16-21:52
+#! Compiled by Lofiey, proofread by fpq.org 2025-12-16-21:53
 #! Fixed bug, and to further improve upon the original version.
 const DUALSUBS_CODE = `
 # 1 fpq.org YouTube.Player.request.json
@@ -28,7 +28,6 @@ const DUALSUBS_CODE = `
 
 let body = $response.body;
 
-// Check if $response.body exists.
 if (body) {
     try {
         let json = JSON.parse(body);
