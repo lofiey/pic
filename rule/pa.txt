@@ -1,4 +1,10 @@
 # Green light
+@@||fourier.taobao.com^$important
+@@||cm.mediav.com^$important
+@@||cloud-log.yy.com^$important
+@@||mlog.bigda.com^$important
+@@||stat.y.qq.com^$important
+@@||soup.v.qq.com^$important
 @@||aliyun.com^$important
 @@||aliapp.org^$important
 @@||alipay.com^$important
