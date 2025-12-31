@@ -1,4 +1,5 @@
 # Green light
+@@||ai.m.taobao.com^$important
 @@||fourier.taobao.com^$important
 @@||cm.mediav.com^$important
 @@||cloud-log.yy.com^$important
