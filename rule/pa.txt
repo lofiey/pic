@@ -33,7 +33,7 @@
 @@||rmonitor.qq.com^$important
 @@||mmgame.qpic.cn^$important
 @@||apd-pcdnvodstat.teg.tencent-cloud.net^$important
-@@||videocloud.cn-hangzhou.log.aliyuncs.com^$important
+@@||aliyuncs.com^$important
 @@||jihe.datasink.sensorsdata.cn^$important
 @@||log.wechatpay.cn^$important
 @@||fa.xy.com^$important
