@@ -1,6 +1,10 @@
 # Boom AD
-0.0.0.0 pagead2.googlesyndication.com
-0.0.0.0 ads-api.tiktok.com
+||fundingchoicesmessages.google.com^$important
+||googletagmanager.com^$important
+||doubleclick.net^$important
+||googlesyndication.com^$important
+||adtrafficquality.google^$important
+0.0.0.0 ads-api.tiktok.com 
 0.0.0.0 business-api.tiktok.com
 127.0.0.1 geolocation.onetrust.com
 0.0.0.0 geolocation.onetrust.com
@@ -187,6 +191,7 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
+
 
 
 
