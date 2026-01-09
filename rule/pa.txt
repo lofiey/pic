@@ -16,7 +16,6 @@
 @@||amdc.m.taobao.com^$important
 @@||log.weixin.qq.com^$important
 @@||fclog.baidu.com^$important
-@@||h.trace.qq.com^$important
 @@||up-hl.3g.qq.com^$important
 @@||yun-hl.3g.qq.com^$important
 @@||wxsnsdythumb.wxs.qq.com^$important
@@ -24,7 +23,6 @@
 @@||astrategy.beacon.qq.com^$important
 @@||sdkconfig.video.qq.com^$important
 @@||aegis.qq.com^$important
-@@||xs.gdt.qq.com^$important
 @@||tangram-config.gdt.qq.com^$important
 @@||d3g.qq.com^$important
 @@||tianshu.gtimg.cn^$important
@@ -56,7 +54,6 @@
 @@||log0-applog-hl.fqnovel.com^$important
 @@||polaris5-normal-hl.zijieapi.com^$important
 @@||ssp.qq.com^$important
-@@||otheve.beacon.qq.com^$important
 @@||snowflake.qq.com^$important
 @@||g.163.com^$important
 @@||apiwmda.58.com.cn^$important
