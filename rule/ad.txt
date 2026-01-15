@@ -15,6 +15,10 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 cf-gl.qiezibenpao.com
+0.0.0.0 vc-brain.ndcpp.com
+0.0.0.0 vc-brain-lf.ndcpp.com
+0.0.0.0 html-load.cc
 0.0.0.0 adtidy.org
 0.0.0.0 ads5-normal-hl.zijieapi.com
 0.0.0.0 dig.bdurl.net
@@ -191,6 +195,7 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
+
 
 
 
