@@ -1,4 +1,10 @@
 # Green light
+@@||p.data.cctv.com^$important
+@@||cl2.webterren.com^$important
+@@||pingjs.qq.com^$important
+@@||k-static.appmobile.cn^$important
+@@||beacon.cdn.qq.com^$important
+@@||ai.m.taobao.com^$important
 @@||ai.m.taobao.com^$important
 @@||fourier.taobao.com^$important
 @@||cm.mediav.com^$important
