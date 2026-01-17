@@ -1,4 +1,5 @@
 # Green light
+@@||40017.cn^$important
 @@||p.data.cctv.com^$important
 @@||cl2.webterren.com^$important
 @@||pingjs.qq.com^$important
