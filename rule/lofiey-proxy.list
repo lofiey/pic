@@ -1,4 +1,6 @@
 IP-ASN, 15169, PROXY
+HOST-SUFFIX,threads.com, PROXY
+HOST-SUFFIX,threads.net, PROXY
 HOST-SUFFIX,ctext.org,proxy
 HOST-SUFFIX,tweetsoku.com,proxy
 HOST-SUFFIX,analytics.adjust.com,proxy
@@ -845,6 +847,7 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
 
 
