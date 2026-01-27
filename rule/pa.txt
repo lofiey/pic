@@ -1,4 +1,8 @@
 # Green light
+@@||ja.gamersky.com^$important
+@@||ja2.gamersky.com^$important
+@@||ja1.gamersky.com^$important
+@@||fc.3dmgame.com^$important
 @@||wxaintpcos.wxqcloud.qq.com.cn^$important
 @@||40017.cn^$important
 @@||p.data.cctv.com^$important
