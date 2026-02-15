@@ -17,6 +17,47 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 ppio.cloud
+0.0.0.0 bsccdn.net
+0.0.0.0 yfp2p.net
+0.0.0.0 yfcdn.net
+0.0.0.0 ietheivaicai.com
+0.0.0.0 onethingpcs.com
+0.0.0.0 nexusedgeio.com
+0.0.0.0 tianwenca.com
+0.0.0.0 upos-sz-302ppio.bilivideo.com
+0.0.0.0 upos-sz-302kodo.bilivideo.com
+0.0.0.0 pkoplink.com
+0.0.0.0 qn-cdnfile1pcdn.msstatic.com
+0.0.0.0 livewebbs2pcdn.msstatic.com
+0.0.0.0 kuiniuca.com
+0.0.0.0 yfcloud.com
+0.0.0.0 saxysec.com
+0.0.0.0 pcdn.yximgs.com
+0.0.0.0 szbdyd.com
+0.0.0.0 xycdn.com
+0.0.0.0 uhabo.com
+0.0.0.0 p2cdn.com
+0.0.0.0 p2p.huya.com
+0.0.0.0 p2ptun.qq.com
+0.0.0.0 p2pupgrade.gamedl.qq.com
+0.0.0.0 p2pupdate.gamedl.qq.com
+0.0.0.0 p2p.qq.com
+0.0.0.0 cdnnodedns.cn
+0.0.0.0 mcdn.bilivideo.cn
+0.0.0.0 p2perrorlog.douyucdn.cn
+0.0.0.0 p2plog.douyucdn.cn
+0.0.0.0 stun1.douyucdn.cn
+0.0.0.0 stun.douyucdn.cn
+0.0.0.0 gjfzpt.cn
+0.0.0.0 -p2p.pull.yximgs.com
+0.0.0.0 -p2p-v2.pull.yximgs.com
+0.0.0.0 p2p*.qq.com
+0.0.0.0 p2p-*.douyucdn.cn
+0.0.0.0 p2pchunk-*.douyucdn.cn
+0.0.0.0 dyp2p-*.douyucdn.cn
+0.0.0.0 p2plive-*.douyucdn.cn
+0.0.0.0 stun*.douyucdn.cn
 0.0.0.0 vcl-hj-brain.ndcppx.com
 0.0.0.0 cf-gl.qiezibenpao.com
 0.0.0.0 vc-brain.ndcpp.com
@@ -198,6 +239,7 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
+
 
 
 
