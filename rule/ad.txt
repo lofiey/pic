@@ -4,6 +4,10 @@
 ||doubleclick.net^$important
 ||googlesyndication.com^$important
 ||adtrafficquality.google^$important
+||web.50bangzh.com^$important
+||tianqi-stream.2345cdn.net^$important
+||tianqi.2345.com^$important
+||imgfb.gamersky.com^$important
 0.0.0.0 apd-pcdnwxstat.teg.tencent-cloud.net
 0.0.0.0 apd-pcdnwxlogin.teg.tencent-cloud.net
 0.0.0.0 ads-api.tiktok.com 
@@ -239,6 +243,7 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
+
 
 
 
