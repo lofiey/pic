@@ -1,6 +1,5 @@
 # Green light
 @@||game.china.com^$important
-@@||logs.netflix.com^$important
 @@||cdn.tapioni.com^$important
 @@||syndication.exosrv.com^$important
 @@||a.labadena.com^$important
