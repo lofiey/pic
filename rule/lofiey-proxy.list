@@ -1,4 +1,6 @@
 IP-ASN, 15169, PROXY
+HOST-SUFFIX,cdninstagram.com, PROXY
+HOST-SUFFIX,giphy.com, PROXY
 HOST-SUFFIX,app-analytics-services.com, PROXY
 HOST-SUFFIX,epoch.cloud, PROXY
 HOST-SUFFIX,epochbase.com, PROXY
@@ -850,6 +852,7 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
 
 
