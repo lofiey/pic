@@ -1,6 +1,7 @@
 IP-ASN, 15169, PROXY
-host-suffix, sunnycloudstone.com, proxy
-host-suffix, snaptrckr.fun, proxy
+HOST-SUFFIX,missav.ws, PROXY
+HOST-SUFFIX,sunnycloudstone.com, PROXY
+HOST-SUFFIX, snaptrckr.fun, PROXY
 HOST-SUFFIX,fourhoi.com, PROXY
 HOST-SUFFIX,tsyndicate.com, PROXY
 HOST-SUFFIX,myavlive.com, PROXY
@@ -861,6 +862,7 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
 
 
