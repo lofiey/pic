@@ -21,7 +21,6 @@ HOST-SUFFIX,tweetsoku.com,proxy
 HOST-SUFFIX,analytics.adjust.com,proxy
 HOST-SUFFIX,app-measurement.com,proxy
 HOST-SUFFIX,mixpanel.com,proxy
-HOST-SUFFIX,igame.gcloudcs.com,proxy
 HOST-SUFFIX,gcloud.download.igamecj.com,proxy
 HOST-SUFFIX,cloud.vmp.onezapp.com,proxy
 HOST-SUFFIX,cloud.gsdk.proximabeta.com,proxy
@@ -44,15 +43,11 @@ HOST-SUFFIX,honorofkings.com,proxy
 HOST-SUFFIX,singaporepaya.com,proxy
 HOST-SUFFIX,anticheatexpert.com,proxy
 HOST-SUFFIX,vasdgame.com,proxy
-HOST-SUFFIX,gcloudcs.com,proxy
 HOST-SUFFIX,intlgame.com,proxy
 HOST-SUFFIX,cdn.wetest.net,proxy
-HOST-SUFFIX,cgi.connect.qq.com,proxy
-HOST-SUFFIX,iegcom.com,proxy
 HOST-SUFFIX,missav.ws,proxy
 HOST-SUFFIX,plyr.io,proxy
 HOST-SUFFIX,bunnyinfra.net,proxy
-HOST-SUFFIX,b-cdn.net,proxy
 HOST-SUFFIX,metrics-bunny.net,proxy
 HOST-SUFFIX,mediadelivery.net,proxy
 HOST-SUFFIX,qfiobhon.com,proxy
@@ -862,6 +857,7 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
 
 
