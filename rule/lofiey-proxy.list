@@ -1,4 +1,10 @@
 IP-ASN, 15169, PROXY
+HOST-SUFFIX,fourhoi.com, PROXY
+HOST-SUFFIX,tsyndicate.com, PROXY
+HOST-SUFFIX,myavlive.com, PROXY
+HOST-SUFFIX,plyr.io, PROXY
+HOST-SUFFIX,surrit.com, PROXY
+HOST-SUFFIX,recombee.com, PROXY
 HOST-SUFFIX,fbcdn.net, PROXY
 HOST-SUFFIX,cdninstagram.com, PROXY
 HOST-SUFFIX,giphy.com, PROXY
@@ -853,6 +859,7 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
+
 
 
 
