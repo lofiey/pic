@@ -1,4 +1,6 @@
 # Green light
+@@||xz.fbcdn.net^$important
+@@||xy.fbcdn.net^$important
 @@||game.china.com^$important
 @@||cdn.tapioni.com^$important
 @@||syndication.exosrv.com^$important
