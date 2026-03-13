@@ -1,4 +1,5 @@
 # Green light
+@@||crashlyticsreports-pa.googleapis.com^$important
 @@||analytics.google.com^$important
 @@||pagead2.googlesyndication.com^$important
 @@||collector.github.com^$important
