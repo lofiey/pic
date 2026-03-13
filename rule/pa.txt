@@ -1,4 +1,5 @@
 # Green light
+@@||analytics.google.com^$important
 @@||pagead2.googlesyndication.com^$important
 @@||collector.github.com^$important
 @@||app-analytics-services.com^$important
