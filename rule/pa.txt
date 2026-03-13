@@ -1,4 +1,5 @@
 # Green light
+@@||www.google-analytics.com^$important
 @@||xz.fbcdn.net^$important
 @@||xy.fbcdn.net^$important
 @@||game.china.com^$important
