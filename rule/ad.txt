@@ -1,5 +1,4 @@
 # Boom AD
-||doubleclick.net^$important
 ||adtrafficquality.google^$important
 ||web.50bangzh.com^$important
 ||tianqi-stream.2345cdn.net^$important
@@ -241,6 +240,7 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
+
 
 
 
