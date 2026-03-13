@@ -1,4 +1,5 @@
 # Green light
+@@||app-analytics-services.com^$important
 @@||www.google-analytics.com^$important
 @@||xz.fbcdn.net^$important
 @@||xy.fbcdn.net^$important
