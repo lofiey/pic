@@ -1,4 +1,10 @@
 # Green light
+@@||cdn-fc.com^$important
+@@||magsrv.com^$important
+@@||mnaspm.com^$important
+@@||orbsrv.com^$important
+@@||mushroomtrack.com^$important
+@@||chnsrv.com^$important
 @@||crashlyticsreports-pa.googleapis.com^$important
 @@||analytics.google.com^$important
 @@||pagead2.googlesyndication.com^$important
