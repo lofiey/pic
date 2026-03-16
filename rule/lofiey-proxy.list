@@ -1,4 +1,10 @@
 IP-ASN, 15169, PROXY
+HOST-SUFFIX,cdn-fc.com, PROXY
+HOST-SUFFIX,exosrv.com, PROXY
+HOST-SUFFIX,magsrv.com, PROXY
+HOST-SUFFIX,labadena.com, PROXY
+HOST-SUFFIX,mnaspm.com, PROXY
+HOST-SUFFIX,mushroomtrack.com, PROXY
 HOST-SUFFIX,missav.ws, PROXY
 HOST-SUFFIX,sunnycloudstone.com, PROXY
 HOST-SUFFIX, snaptrckr.fun, PROXY
