@@ -1,4 +1,6 @@
 # Boom AD
+0.0.0.0 buychennai.com
+0.0.0.0 pages-gist.com
 ||adtrafficquality.google^$important
 ||web.50bangzh.com^$important
 ||tianqi-stream.2345cdn.net^$important
