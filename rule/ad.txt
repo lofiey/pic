@@ -11,10 +11,6 @@
 0.0.0.0 apd-pcdnwxlogin.teg.tencent-cloud.net
 0.0.0.0 ads-api.tiktok.com 
 0.0.0.0 business-api.tiktok.com
-127.0.0.1 geolocation.onetrust.com
-0.0.0.0 geolocation.onetrust.com
-0.0.0.0 cdn.cookielaw.org
-127.0.0.1 cdn.cookielaw.org
 # Block iOS Update
 ||mesu.apple.com^$important
 ||gdmf.apple.com^$important
@@ -242,8 +238,6 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
-
-
 
 
 
