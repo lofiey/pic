@@ -17,6 +17,7 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+0.0.0.0 html-load.com
 0.0.0.0 ppio.cloud
 0.0.0.0 bsccdn.net
 0.0.0.0 yfp2p.net
