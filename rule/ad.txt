@@ -265,10 +265,6 @@
 0.0.0.0 prod.http1.netflix.com
 0.0.0.0 prod.http1.netflix.com dnstype=AAAA|CNAME
 0.0.0.0 prod.http1.netflix.com dnstype=A|CNAME
-127.0.0.1 cdn.cookielaw.org
-0.0.0.0 cdn.cookielaw.org
-0.0.0.0 cdn.cookielaw.org dnstype=AAAA|CNAME
-0.0.0.0 cdn.cookielaw.org dnstype=A|CNAME
 #netflix end
 
 
