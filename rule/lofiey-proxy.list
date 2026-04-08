@@ -900,8 +900,6 @@ USER-AGENT,com.google.ios.youtubemusic*,YouTube
 IP-CIDR,172.110.32.0/21,YouTube
 IP-CIDR,216.73.80.0/20,YouTube
 IP6-CIDR,2620:120:e000::/40,YouTube
-HOST,apd-pcdnwxlogin.teg.tencent-cloud.net,WeChat
-HOST,btrace.qq.com,WeChat
 HOST,dl.wechat.com,WeChat
 HOST,dldir1.qq.com,WeChat
 HOST,sgfindershort.wechat.com,WeChat
@@ -921,8 +919,6 @@ HOST,wxapp.tc.qq.com,WeChat
 HOST-SUFFIX,iot-tencent.com,WeChat
 HOST-SUFFIX,lbs.gtimg.com,WeChat
 HOST-SUFFIX,map.qq.com,WeChat
-HOST-SUFFIX,qlogo.cn,WeChat
-HOST-SUFFIX,qpic.cn,WeChat
 HOST-SUFFIX,servicewechat.com,WeChat
 HOST-SUFFIX,tenpay.com,WeChat
 HOST-SUFFIX,up-hl.3g.qq.com,WeChat
@@ -931,16 +927,13 @@ HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.com,WeChat
-HOST-SUFFIX,weixin.com,WeChat
-HOST-SUFFIX,weixin.qq.com,WeChat
 HOST-SUFFIX,weixinbridge.com,WeChat
 HOST-SUFFIX,weixinsxy.com,WeChat
-HOST-SUFFIX,wx.gtimg.com,WeChat
-HOST-SUFFIX,wx.qq.com,WeChat
-HOST-SUFFIX,wxapp.tc.qq.com,WeChat
-HOST-SUFFIX,wxs.qq.com,WeChat
-HOST-SUFFIX,yun-hl.3g.qq.com,WeChat
 USER-AGENT,MicroMessenger*,WeChat
+HOST-SUFFIX,dldir1.qq.com,WeChat
+HOST-SUFFIX,cmmsns.qpic.cn,WeChat
+HOST-SUFFIX,dns.wechat.com,WeChat
+HOST-SUFFIX,dldir1v6.qq.com,WeChat
 USER-AGENT,WeChat*,WeChat
 IP-ASN,132203,WeChat
 
