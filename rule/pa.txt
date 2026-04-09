@@ -1,4 +1,7 @@
 # Green light
+@@||oalstv-inapps.appsflyersdk.com^$important
+@@||oalstv-launches.appsflyersdk.com^$important
+@@||oalstv-cdn-settings.appsflyersdk.com^$important
 @@||cdn-fc.com^$important
 @@||magsrv.com^$important
 @@||mnaspm.com^$important
