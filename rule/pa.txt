@@ -2,7 +2,7 @@
 @@||api*-sinfnormal.fqnovel.com^$important,app=com.dragon.read
 @@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/$important,app=com.dragon.read
 @@||api*-normal-sinfonline*.fqnovel.com/reading/bookapi/$important,app=com.dragon.read
-! @@||tnc*-*.zijieapi.com^$important,app=com.dragon.read
+@@||tnc*-*.zijieapi.com^$important,app=com.dragon.read
 @@||security.snssdk.com^$important,app=com.dragon.read
 @@||lf-sourcecdn-tos.bytegecko.com^$important,app=com.dragon.read
 @@||p3-novel1-sign.byteimg.com^$app=com.dragon.read,important
