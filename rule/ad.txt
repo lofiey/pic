@@ -273,11 +273,6 @@
 ||pangolin-sdk-toutiao-b.com'
 ||ads5-normal-lf.zijieapi.com^$app=com.dragon.read
 ||pglstatp-toutiao.com^
-@@||112.28.245.186:443^$app=cn.kuwo.player
-@@||120.221.180.167:443^$app=cn.kuwo.player
-@@||120.221.179.155:443^$app=cn.kuwo.player
-@@||112.28.245.184:443^$app=cn.kuwo.player
-@@||120.221.180.94:443^$app=cn.kuwo.player
 ||api3-normal-lf.fqnovel.com^$app=com.dragon.read
 ||dig.bdurl.net^$app=com.dragon.read
 ||frontier-toutiao.snssdk.com^$app=com.dragon.read
