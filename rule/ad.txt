@@ -291,7 +291,7 @@
 ||mon11-misc-lf.fqnovel.com^$app=com.dragon.read
 ||mon11-misc-lf.fqnovel.com^$app=com.dragon.read
 ||mon11-misc-lf.fqnovel.com^$app=com.dragon.read
-111.13.213.245:5222$network,app=com.dragon.read
+||111.13.213.245:5222$network,app=com.dragon.read
 ||ads3-normal-lf.zijieapi.com^$app=com.dragon.read
 ||p9-ad-sign.byteimg.com^$app=com.dragon.read
 ||ads3-normal-lf.zijieapi.com^$app=com.dragon.read
@@ -299,17 +299,44 @@
 ||ads5-normal-lf.zijieapi.com^$app=com.dragon.read
 ||111.13.141.211:443^$app=com.dragon.read
 ||p6-ad-sign.byteimg.com^$app=com.dragon.read
-#fqnovel end
-
-
-
-
-
-
-
-
-
-
+||*static*^$app=com.dragon.read,important
+||*sealaly*^$app=com.dragon.read,important
+||*toutiao*^$app=com.dragon.read,important
+||*bsgslb*^$app=com.dragon.read,important
+||*misc*^$app=com.dragon.read,important
+||*douyin*^$app=com.dragon.read,important
+||*ecombd*^$app=com.dragon.read,important
+||*byte*^$app=com.dragon.read,important
+||*0kkkkkt*^$app=com.dragon.read,important
+||*cjjd14*^$app=com.dragon.read,important
+||*ietheivaicai*^$app=com.dragon.read,important
+||*stream*^$app=com.dragon.read,important
+||*siomxity*^$app=com.dragon.read,important
+/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
+||mssdk.zijieapi.com^$app=com.dragon.read,important
+||lf3-reading.fqnovelpic.com^$app=com.dragon.read,important
+||*applog*.*.*^$app=com.dragon.read,important
+||feedback-c.zijieapi.com^$app=com.dragon.read,important
+||ads*-normal-*.zijieapi.com^$app=com.dragon.read,important
+||*pstatp*^$app=com.dragon.read,important
+||dig.bdurl.net^$app=com.dragon.read,important
+||*qtaeixd*^$app=com.dragon.read,important
+||*erer*^$app=com.dragon.read,important
+||*ttweb*^$app=com.dragon.read,important
+||*sinfonlinec*^$important,app=com.dragon.read
+||mssdk.volces.com^$app=com.dragon.read,important
+||mon.snssdk.com^$app=com.dragon.read,important
+||toblog.ctobsnssdk.com^$app=com.dragon.read,important
+||mon.zijieapi.com^$app=com.dragon.read,important
+||dig.zjurl.cn^$app=com.dragon.read,important
+||gecko*.zijieapi.com^$app=com.dragon.read,important
+||polaris.zijieapi.com^$app=com.dragon.read,important
+||snssdk.com^$app=com.dragon.read,important
+||lf*-webcast-cdn-tos-ncdn.bytegecko.com^$app=com.dragon.read,important
+||bsync3-normal-hl.zijieapi.com^$app=com.dragon.read,important
+||p*.douyinpic.com^$app=com.dragon.read,important
+||ecombdimg.com^$app=com.dragon.read,important
+||mon*-misc-*.fqnovel.com^$app=com.dragon.read,important
 
 
 
