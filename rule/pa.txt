@@ -1,4 +1,17 @@
 # Green light
+@@||api*-sinfnormal.fqnovel.com^$important,app=com.dragon.read
+@@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/$important,app=com.dragon.read
+@@||api*-normal-sinfonline*.fqnovel.com/reading/bookapi/$important,app=com.dragon.read
+! @@||tnc*-*.zijieapi.com^$important,app=com.dragon.read
+@@||security.snssdk.com^$important,app=com.dragon.read
+@@||lf-sourcecdn-tos.bytegecko.com^$important,app=com.dragon.read
+@@||p3-novel1-sign.byteimg.com^$app=com.dragon.read,important
+@@||p6-novel1-sign.byteimg.com^$app=com.dragon.read,important
+@@||p9-novel1-sign.byteimg.com^$app=com.dragon.read,important
+@@||p*-novel-sign.byteimg.com/novel-pic/$important,app=com.dragon.read
+@@||reading.snssdk.com^$important,app=com.dragon.read
+@@||lf-fe.fqnovelstatic.com^$important,app=com.dragon.read
+@@||lf-normal-gr-sourcecdn.bytegecko.com^$important,app=com.dragon.read
 @@||oalstv-inapps.appsflyersdk.com^$important
 @@||oalstv-launches.appsflyersdk.com^$important
 @@||oalstv-cdn-settings.appsflyersdk.com^$important
