@@ -1,4 +1,42 @@
 # Green light
+@@||pinduoduo.com^
+!=========================================
+! [Module 07] 🚑 智能白名单 (生命维持系统)
+! 说明: 防止误杀关键服务，确保 Google 验证、IoT 设备存活
+!=========================================
+! --- [核心修复] Google 账户验证与推送 (解决手机验证不弹窗) ---
+@@||accounts.google.com^
+@@||googleapis.com^
+@@||fcm.googleapis.com^
+@@||mtalk.google.com^
+@@||clientservices.googleapis.com^
+@@||gstatic.com^
+@@||play.google.com^
+! --- [核心] 确保 Facebook/抖音 视频能播放 ---
+@@||video.xx.fbcdn.net^
+@@||scontent.xx.fbcdn.net^
+@@||pull-hls-t6.douyincdn.com^
+@@||pull-flv-l26.douyincdn.com^
+@@||aweme.snssdk.com^
+! --- [核心] 确保 Twitter 短链接可点击 ---
+@@||t.co^
+@@||api.twitter.com^
+@@||api.x.com^
+@@||pbs.twimg.com^
+@@||video.twimg.com^
+! --- [核心] 小米 IoT 智能家居防掉线 ---
+@@||io.mi.com^
+@@||api.io.mi.com^
+@@||home.mi.com^
+@@||api.mijia.tech^
+@@||broker.mqtt.pandora.xiaomi.com^
+@@||ota.cdn.pandora.xiaomi.com^
+! --- 系统基础/微信 ---
+@@||wx.qlogo.cn^
+@@||apd-pcdnwxnat.teg.tencent-cloud.net^
+@@||pool.ntp.org^
+@@||time.apple.com^
+@@||clients4.google.com^
 @@||api*-sinfnormal.fqnovel.com^$important,app=com.dragon.read
 @@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/$important,app=com.dragon.read
 @@||api*-normal-sinfonline*.fqnovel.com/reading/bookapi/$important,app=com.dragon.read
