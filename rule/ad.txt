@@ -307,7 +307,6 @@
 ||*ietheivaicai*^$app=com.dragon.read,important
 ||*stream*^$app=com.dragon.read,important
 ||*siomxity*^$app=com.dragon.read,important
-/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
 ||mssdk.zijieapi.com^$app=com.dragon.read,important
 ||lf3-reading.fqnovelpic.com^$app=com.dragon.read,important
 ||*applog*.*.*^$app=com.dragon.read,important
