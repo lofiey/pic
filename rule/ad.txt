@@ -322,6 +322,7 @@
 ||mon.snssdk.com^$app=com.dragon.read,important
 ||toblog.ctobsnssdk.com^$app=com.dragon.read,important
 ||mon.zijieapi.com^$app=com.dragon.read,important
+/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
 ||dig.zjurl.cn^$app=com.dragon.read,important
 ||gecko*.zijieapi.com^$app=com.dragon.read,important
 ||polaris.zijieapi.com^$app=com.dragon.read,important
@@ -331,6 +332,200 @@
 ||p*.douyinpic.com^$app=com.dragon.read,important
 ||ecombdimg.com^$app=com.dragon.read,important
 ||mon*-misc-*.fqnovel.com^$app=com.dragon.read,important
+!=========================================
+! 🛡️ CyberZen Protocol (赛博禅·净化协议) V3.2
+! 📅 更新日期: 2026-01-08
+! 🚀 适用引擎: AdGuard Home / OpenWrt
+! 📝 维护者: E路领航 (E-Way Pilot)
+!=========================================
+!=========================================
+! [Module 01] ⚡️ 动态猎杀核心 (Regex 正则)
+! 说明: 针对随机生成的 DGA 域名进行特征码打击
+!=========================================
+! --- 穿山甲/字节系 动态特征 ---
+/pangolin.*\.com/
+/pangolin.*\.net/
+/webcast.*\.douyin\.com/
+/live.*\.douyin\.com/
+/webcast.*\.bytegecko\.com/
+/webcast.*\.amemv\.com/
+/p[0-9]+-be-pack-sign\.byteimg\.com/
+/sf[0-9]+-ttcdn-tos\.pstatp\.com/
+/mon[0-9]+.*\.fqnovel\.com/
+/.*novelapp\.fqnovelvod\.com/
+! --- 广告签名与 DGA 域名 ---
+/.*ad-sign.*\.byteimg\.com/
+/.*ad-sign.*\.tiktokcdn\.com/
+/.*ad-sign.*\.douyincdn\.com/
+/.*\.yingt\.fun/
+/.*\.hnzkclouds\.com/
+! --- Facebook 广域 CDN (防误杀模式) ---
+/scontent-[a-z]{3}[0-9]+.*\.fbcdn\.net/
+/external.*\.fbcdn\.net/
+!=========================================
+! [Module 02] 🌪️ 字节系深度净化 (根域名毁灭)
+! 说明: 针对番茄小说、抖音极速版的广告容器与日志回传
+!=========================================
+! --- 火山引擎与广告加速 ---
+||vegslb.com^
+||volcengine.com^
+||volcengineapi.com^
+||ecombdimg.com^
+||ecombdapi.com^
+||obj.ecombdstatic.com^
+||sf3-ttcdn-tos.pstatp.com^
+! --- 乱码域名与广告容器 ---
+||siomxity.net^
+||qtaeixd.com^
+||0kkkkkt.com^
+||ahdohpiechei.com^
+||ldhy.click^
+||fqnovelvod.com^
+||dig.bdurl.net^
+! --- 字节系核心控制与更新 ---
+||bytescm.com^
+||bytegecko.com^
+||mcs.snssdk.com^
+||toblog.ctobsnssdk.com^
+||log0-applog-lq.fqnovel.com^
+||mon.snssdk.com^
+||is.snssdk.com^
+||ttwebview.com^
+||ncdn.ttwebview.com^
+! --- 番茄特定广告 CDN ---
+||lf-ad-nhs-pos.byteimg.com^
+||monsetting.toutiao.com^
+||is-hl.snssdk.com^
+||lf-sourcecdn-tos.bytegecko.com^
+||p3-novel.byteimg.com^
+||lf3-reading.fqnovelpic.com^
+||pangle.io^
+||pangolin-sdk-toutiao.com^
+||volcengine.com^
+||ad.toutiao.com^
+!=========================================
+! [Module 03] 🚧 Meta (Facebook) 逃逸封锁
+! 说明: 封死 Fallback 备用通道与 OHTTP 隧道
+!=========================================
+! --- [核心] 广告配置与受众追踪 ---
+||an.facebook.com^
+||ad.facebook.com^
+||ads.facebook.com^
+||audience_network.facebook.com^
+||pixel.facebook.com^
+||mobile.facebook.com/ad_placements^
+||lm.facebook.com^
+||ice.facebook.com^
+! --- [核心] 封死所有 Fallback (备用逃逸通道) ---
+||graph-fallback.facebook.com^
+||mobile-fallback.facebook.com^
+||web-fallback.facebook.com^
+||gateway-fallback.facebook.com^
+||edge-mqtt-fallback.facebook.com^
+||payments-graph-fallback.facebook.com^
+||lookaside-fallback.facebook.com^
+||b-graph-fallback.facebook.com^
+||chat-e2ee-mini-fallback.facebook.com^
+! --- [核心] 阻断 OHTTP 隧道 (防DNS绕过) ---
+||ohttp-relay1.fastly-edge.com^
+||ohttp-relay2.fastly-edge.com^
+||hub5pn.v6.sandai.net^
+||xbase.cloud^
+||cfd-features.argotunnel.com^
+! --- [修正] API 滥用防护 ---
+||connect.facebook.net^
+||mqtt-mini.facebook.com^
+!=========================================
+! [Module 04] 🐦 X (Twitter) 行为分析阻断
+!=========================================
+! --- 广告与行为分析 ---
+||ads.twitter.com^
+||ads-api.twitter.com^
+||ad-service.twitter.com^
+||mobile.twitter.com/i/ads^
+||analytics.twitter.com^
+||p.twitter.com^
+||pixel.twitter.com^
+||scribe.twitter.com^
+||syndication.twitter.com^
+||legal.twitter.com^
+! --- 新域名防护 ---
+||ads.x.com^
+||analytics.x.com^
+||p.x.com^
+||pixel.x.com^
+||scribe.x.com^
+!=========================================
+! [Module 05] 📺 智能电视/盒子净化 (小米特攻)
+! 说明: 拦截开机广告、系统级推销与数据挖掘
+!=========================================
+! --- 电视/盒子开机与系统广告 ---
+||mitv.tracking.miui.com^
+||ad.mi.com^
+||api.ad.xiaomi.com^
+||ad1.xiaomi.com^
+||stat.pandora.xiaomi.com^
+||bss.pandora.xiaomi.com^
+||gallery.pandora.xiaomi.com^
+||mishop.pandora.xiaomi.com^
+||upgrade.mishop.pandora.xiaomi.com^
+||misc.pandora.xiaomi.com^
+||dvb.pandora.xiaomi.com^
+||jellyfish.pandora.xiaomi.com^
+||de.pandora.xiaomi.com^
+||b.netcheck.gallery.pandora.xiaomi.com^
+||staging.ai.api.xiaomi.com^
+||o2o.api.xiaomi.com^
+! --- GITV/视频关联广告 ---
+||msga.ptqy.gitv.tv^
+||bss.ptmi.gitv.tv^
+||static.dns.ptqy.gitv.tv^
+||auth.api.gitv.tv^
+||apigw-vrs.ptqy.gitv.tv^
+||bi.ptqy.gitv.tv^
+||gstat.ptmi.gitv.tv^
+||ad.hpplay.cn^
+||rp.hpplay.cn^
+! --- 手机端毒瘤 SDK/云相册 ---
+||galleryapi.micloud.xiaomi.net^
+||weatherapi.market.xiaomi.com^
+||pfga0.market.xiaomi.com^
+||global.ad.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
+||tracking.miui.com^
+||data.mistat.xiaomi.com^
+||t[0-9]+\.a\.market\.xiaomi\.com^
+!=========================================
+! [Module 06] 🎬 国产视频与隐私跨应用追踪
+!=========================================
+! --- 腾讯/爱奇艺/优酷 (120秒广告特攻) ---
+||voipfinderrdsliveplay1.wxqcloud.qq.com^
+||voipfinderrdsliveplay2.wxqcloud.qq.com^
+||voipfinderrdsliveplay3.wxqcloud.qq.com^
+||hscdn.flv.wxqcloud.qq.com^
+||rcpc-sdk-access.m.qq.com^
+||adsmind.gdtimg.com^
+||info.ad.video.qq.com^
+||info.ad.v.qq.com^
+||cupid.ptqy.gitv.tv^
+||t7z.cupid.ptqy.gitv.tv^
+||ads.aplus.qiyi.com^
+||atm.youku.com^
+||iyes.youku.com^
+||livep.l.qq.com^
+! --- 搜狗/微信 跨应用隐私追踪 ---
+||ws-keyboard.shouji.sogou.com^
+||input.shouji.sogou.com^
+||v2.get.sogou.com^
+||short.weixin.qq.com^
+! --- 拼多多/Google/YouTube ---
+||adim.pinduoduo.com^
+||titan.pinduoduo.com^
+||images.pinduoduo.com^
+||adservice.google.com^
+||googleads.g.doubleclick.net^
+||pagead2.googlesyndication.com^
+||ads.youtube.com^
 
 
 
