@@ -443,7 +443,6 @@
 ||ads-api.twitter.com^
 ||ad-service.twitter.com^
 ||mobile.twitter.com/i/ads^
-||analytics.twitter.com^
 ||p.twitter.com^
 ||pixel.twitter.com^
 ||scribe.twitter.com^
@@ -451,7 +450,6 @@
 ||legal.twitter.com^
 ! --- 新域名防护 ---
 ||ads.x.com^
-||analytics.x.com^
 ||p.x.com^
 ||pixel.x.com^
 ||scribe.x.com^
