@@ -517,15 +517,6 @@
 ||ws-keyboard.shouji.sogou.com^
 ||input.shouji.sogou.com^
 ||v2.get.sogou.com^
-||short.weixin.qq.com^
-! --- 拼多多/Google/YouTube ---
-||adim.pinduoduo.com^
-||titan.pinduoduo.com^
-||images.pinduoduo.com^
-||adservice.google.com^
-||googleads.g.doubleclick.net^
-||pagead2.googlesyndication.com^
-||ads.youtube.com^
 
 
 
