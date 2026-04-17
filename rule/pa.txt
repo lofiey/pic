@@ -1,5 +1,6 @@
 # Green light
 @@||pinduoduo.com^
+@@||ssl.google-analytics.com^$important
 !=========================================
 ! [Module 07] 🚑 智能白名单 (生命维持系统)
 ! 说明: 防止误杀关键服务，确保 Google 验证、IoT 设备存活
