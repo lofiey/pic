@@ -235,6 +235,48 @@
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
+yuyin-httpdns.gslb.yy.com
+httpdns.volcengineapi.com
+httpdns.pro
+httpdns.push.oppomobile.com
+httpdns.alicdn.com
+# Aliyun
+httpdns-api.aliyuncs.com
+httpdns-sc.aliyuncs.com
+resolvers-cn.httpdns.aliyuncs.com
+# Baidu
+httpsdns.baidu.com
+httpdns.baidu.com
+# BaiduBCE
+httpdns.baidubce.com
+httpdns.bcelive.com
+# Bilibili
+httpdns.bilivideo.com
+# Huawei
+httpdns.c.cdnhwc2.com
+# iQIYI
+doh.iqiyi.com
+# JD
+dns.jd.com
+# Kuwo
+httpdns.kg.qq.com
+# Keep
+httpdns.calorietech.com
+# Meituan
+httpdns.meituan.com
+httpdnsmultiapi.meituan.com
+httpdnsmultiapivip.meituan.com
+dnspod.meituan.httpdns.qcloud.com
+dnspod.meituan.httpdns.start.qcloud.com
+# Momo
+httpdns.immomo.com
+# NetEase
+httpdns.yunxindns.com
+httpdns.n.netease.com
+httpdns-sdk.n.netease.com
+httpdns.music.163.com
+music.httpdns.c.163.com
+lofter.httpdns.c.163.com
 0.0.0.0 t12.baidu.com
 0.0.0.0 em.baidu.com
 0.0.0.0 lupic.cdn.bcebos.com
