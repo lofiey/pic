@@ -515,7 +515,38 @@
 ||ws-keyboard.shouji.sogou.com^
 ||input.shouji.sogou.com^
 ||v2.get.sogou.com^
-
+# PCDN domains
+0.0.0.0 bsccdn.net
+0.0.0.0 dyp2p-ali.douyucdn.cn
+0.0.0.0 dyp2p-hw.douyucdn.cn
+0.0.0.0 ietheivaicai.com
+0.0.0.0 kuiniuca.com
+0.0.0.0 nexusedgeio.com
+0.0.0.0 onethingpcs.com
+0.0.0.0 p2p-ali.douyucdn.cn
+0.0.0.0 p2p.huya.com
+0.0.0.0 p2p.qq.com
+0.0.0.0 p2pchunk-hw.douyucdn.cn
+0.0.0.0 p2pchunk-table.douyucdn.cn
+0.0.0.0 p2pchunk-ws.douyucdn.cn
+0.0.0.0 p2perrorlog.douyucdn.cn
+0.0.0.0 p2plive-ali.douyucdn.cn
+0.0.0.0 p2plive-ws.douyucdn.cn
+0.0.0.0 p2plog.douyucdn.cn
+0.0.0.0 p2ptun.qq.com
+0.0.0.0 p2pupdate.gamedl.qq.com
+0.0.0.0 p2pupgrade.gamedl.qq.com
+0.0.0.0 p2pvod-ws.douyucdn.cn
+0.0.0.0 pcdn.yximgs.com
+0.0.0.0 pkoplink.com
+0.0.0.0 saxysec.com
+0.0.0.0 stun.douyucdn.cn
+0.0.0.0 stun.hitv.com
+0.0.0.0 stun1.douyucdn.cn
+0.0.0.0 szbdyd.com
+0.0.0.0 uhabo.com
+0.0.0.0 xycdn.com
+# pcdn end
 
 
 
