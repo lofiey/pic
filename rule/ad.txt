@@ -30,7 +30,6 @@
 0.0.0.0 pkoplink.com
 0.0.0.0 qn-cdnfile1pcdn.msstatic.com
 0.0.0.0 livewebbs2pcdn.msstatic.com
-0.0.0.0 kuiniuca.com
 0.0.0.0 yfcloud.com
 0.0.0.0 saxysec.com
 0.0.0.0 pcdn.yximgs.com
@@ -146,16 +145,10 @@
 0.0.0.0 adncdn.net
 0.0.0.0 adform.net
 0.0.0.0 admatic.de
-0.0.0.0 tpc.googlesyndication.com
-0.0.0.0 safeframe.googlesyndication.com
-0.0.0.0 securepubads.g.doubleclick.net
-0.0.0.0 fundingchoicesmessages.google.com
-0.0.0.0 adtrafficquality.google
 0.0.0.0 nadvideo2.baidu.com
 0.0.0.0 natdetection.onethingpcs.com
 0.0.0.0 lf-ad-ies.bytecdn.cn
 0.0.0.0 mobads-logs.baidu.com	
-0.0.0.0 adtrafficquality.google
 0.0.0.0 adsappier.com
 0.0.0.0 advertising.com
 0.0.0.0 yfp2p.net
