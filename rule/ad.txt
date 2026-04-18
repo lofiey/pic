@@ -114,7 +114,6 @@
 0.0.0.0 uve.weibo.com
 0.0.0.0 log.mix.sina.com.cn
 0.0.0.0 beacon.sina.com.cn
-0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 yt-adp.ws.126.net
 0.0.0.0 zhanzhang.toutiao.com
 0.0.0.0 zz.bdstatic.com
@@ -127,7 +126,6 @@
 0.0.0.0 pv.sohu.com
 0.0.0.0 imp.optaim.com
 0.0.0.0 push.zhanzhang.baidu.com
-0.0.0.0 googletagmanager.com
 0.0.0.0 pglstatp-toutiao.com
 0.0.0.0 feed-image.baidu.com
 0.0.0.0 sofire.bdstatic.com
@@ -176,7 +174,6 @@
 0.0.0.0 ad.cyapi.cn
 0.0.0.0 ad.dev.360.cn
 0.0.0.0 ad.eu.xiaomi.com
-0.0.0.0 ad.gt.cdn.cloudflare.net
 0.0.0.0 ad.hpplay.cn
 0.0.0.0 ad.huajiao.com
 0.0.0.0 ad.india.xiaomi.com
@@ -556,44 +553,4 @@
 ||ws-keyboard.shouji.sogou.com^
 ||input.shouji.sogou.com^
 ||v2.get.sogou.com^
-# PCDN domains
-0.0.0.0 bsccdn.net
-0.0.0.0 dyp2p-ali.douyucdn.cn
-0.0.0.0 dyp2p-hw.douyucdn.cn
-0.0.0.0 ietheivaicai.com
-0.0.0.0 kuiniuca.com
-0.0.0.0 nexusedgeio.com
-0.0.0.0 onethingpcs.com
-0.0.0.0 p2p-ali.douyucdn.cn
-0.0.0.0 p2p.huya.com
-0.0.0.0 p2p.qq.com
-0.0.0.0 p2pchunk-hw.douyucdn.cn
-0.0.0.0 p2pchunk-table.douyucdn.cn
-0.0.0.0 p2pchunk-ws.douyucdn.cn
-0.0.0.0 p2perrorlog.douyucdn.cn
-0.0.0.0 p2plive-ali.douyucdn.cn
-0.0.0.0 p2plive-ws.douyucdn.cn
-0.0.0.0 p2plog.douyucdn.cn
-0.0.0.0 p2ptun.qq.com
-0.0.0.0 p2pupdate.gamedl.qq.com
-0.0.0.0 p2pupgrade.gamedl.qq.com
-0.0.0.0 p2pvod-ws.douyucdn.cn
-0.0.0.0 pcdn.yximgs.com
-0.0.0.0 pkoplink.com
-0.0.0.0 saxysec.com
-0.0.0.0 stun.douyucdn.cn
-0.0.0.0 stun.hitv.com
-0.0.0.0 stun1.douyucdn.cn
-0.0.0.0 szbdyd.com
-0.0.0.0 uhabo.com
-0.0.0.0 xycdn.com
-# pcdn end
-
-
-
-
-
-
-
-
-
+# CyberZen Protocol end
