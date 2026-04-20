@@ -1,6 +1,21 @@
 IP-ASN, 15169, proxy
 IP-CIDR,8.8.8.8/32, PROXY
 IP-CIDR,8.8.4.4/32, PROXY
+# gemini
+DOMAIN,ai.google.dev
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+# gemini end
 HOST-SUFFIX,ntdtv.com, PROXY
 HOST-SUFFIX,cookielaw.org, PROXY
 HOST-SUFFIX,onetrust.com, PROXY
