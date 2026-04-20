@@ -1,4 +1,5 @@
 # Boom AD
+||cdn.adwork.net^$important
 ||ep2.facebook.com^$important
 0.0.0.0 buychennai.com
 0.0.0.0 pages-gist.com
