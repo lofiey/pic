@@ -31,14 +31,12 @@ let body = $response.body;
 if (body) {
     try {
         let json = JSON.parse(body);
-        if (json.playerResponse) {
-            $done({ body: JSON.stringify(json) });
-        } else {
-            $done({ body: JSON.stringify(json) });
+
+        if (json.playerResponse && json.playerResponse.webPlayerActionsExtension) {            
+            $done({body: JSON.stringify(json)});
         }
     } catch (e) {
-        $done({ body });
+        console.log("JSON parsing error:", e);
+        $done({});
     }
-} else {
-    $done({});
 }
