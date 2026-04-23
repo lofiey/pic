@@ -38,7 +38,6 @@ HOST-SUFFIX,recombee.com, PROXY
 HOST-SUFFIX,fbcdn.net, PROXY
 HOST-SUFFIX,cdninstagram.com, PROXY
 HOST-SUFFIX,giphy.com, PROXY
-HOST-SUFFIX,app-analytics-services.com, PROXY
 HOST-SUFFIX,epoch.cloud, PROXY
 HOST-SUFFIX,epochbase.com, PROXY
 HOST-SUFFIX,threads.com, PROXY
@@ -46,13 +45,11 @@ HOST-SUFFIX,threads.net, PROXY
 HOST-SUFFIX,ctext.org,proxy
 HOST-SUFFIX,tweetsoku.com,proxy
 HOST-SUFFIX,analytics.adjust.com,proxy
-HOST-SUFFIX,app-measurement.com,proxy
 HOST-SUFFIX,mixpanel.com,proxy
 HOST-SUFFIX,gcloud.download.igamecj.com,proxy
 HOST-SUFFIX,cloud.vmp.onezapp.com,proxy
 HOST-SUFFIX,cloud.gsdk.proximabeta.com,proxy
 HOST-SUFFIX,cloudctrl.igamecj.com,proxy
-HOST-SUFFIX,app-measurement.com,proxy
 HOST-SUFFIX,mgl.lobby.igamecj.com,proxy
 HOST-SUFFIX,sg.tdatamaster.com,proxy
 HOST-SUFFIX,streaming.split.io,proxy
@@ -267,13 +264,12 @@ host-suffix, cdn1.akamai-content-delivery.com, proxy
 host-suffix, cdn.plyr.io, proxy
 host-suffix, cdn.barscreative1.com, proxy
 host-suffix, briefcake.com, proxy
-host-suffix, mtalk.google.com, proxy
 host-suffix, zh.m.wiktionary.org, proxy
 host-suffix, namesilo.com, proxy
 host-suffix, allinfa.com, proxy
 host-suffix, youlucky.com, proxy
 host-suffix, anchor.fm, proxy
-host-suffix, play.googleapis.com, proxy
+host-suffix, googleapis.com, proxy
 DOMAIN-SUFFIX, v2ex.com, proxy
 DOMAIN-SUFFIX, wikipedia.org, proxy
 DOMAIN-SUFFIX, wikimedia.org, proxy
