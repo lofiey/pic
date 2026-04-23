@@ -1,13 +1,11 @@
 # Boom AD
 ||cdn.adwork.net^$important
-||ep2.facebook.com^$important
 0.0.0.0 buychennai.com
 0.0.0.0 pages-gist.com
 ||web.50bangzh.com^$important
 ||tianqi-stream.2345cdn.net^$important
 ||tianqi.2345.com^$important
 ||imgfb.gamersky.com^$important
-0.0.0.0 amazon-adsystem.com
 0.0.0.0 apd-pcdnwxstat.teg.tencent-cloud.net
 0.0.0.0 apd-pcdnwxlogin.teg.tencent-cloud.net
 0.0.0.0 ads-api.tiktok.com 
@@ -84,12 +82,6 @@
 0.0.0.0 adv-sv-show.focus.cn
 0.0.0.0 collect-v6.51.la
 0.0.0.0 sp0.baidu.com
-0.0.0.0 p96-ad-sign.byteimg.com
-0.0.0.0 p29-ad-sign.byteimg.com
-0.0.0.0 p26-ad-sign.byteimg.com
-0.0.0.0 p3-ad-sign.byteimg.com
-0.0.0.0 p6-ad-sign.byteimg.com
-0.0.0.0 p9-ad-sign.byteimg.com
 0.0.0.0 vdn.vzuu.com
 0.0.0.0 crash*.zhihu.com
 0.0.0.0 m-cloud.zhihu.com
@@ -134,7 +126,6 @@
 0.0.0.0 pangolin-sdk-toutiao.com
 0.0.0.0 ad-score.com
 0.0.0.0 adform.net
-0.0.0.0 amazon-adsystem.com
 0.0.0.0 admatic.de
 0.0.0.0 adkernel.com
 0.0.0.0 adnxs.com
