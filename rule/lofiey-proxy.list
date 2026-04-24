@@ -2,6 +2,7 @@ IP-ASN, 15169, proxy
 IP-CIDR,8.8.8.8/32, PROXY
 IP-CIDR,8.8.4.4/32, PROXY
 # gemini
+DOMAIN-SUFFIX,nflxso.net
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
