@@ -1,7 +1,5 @@
 # Boom AD
 ||cdn.adwork.net^$important
-0.0.0.0 buychennai.com
-0.0.0.0 pages-gist.com
 ||web.50bangzh.com^$important
 ||tianqi-stream.2345cdn.net^$important
 ||tianqi.2345.com^$important
@@ -216,13 +214,7 @@
 0.0.0.0 httpsdns.baidu.com
 0.0.0.0 yuyin-httpdns.gslb.yy.com
 0.0.0.0 httpdns.volcengineapi.com
-0.0.0.0 httpdns.pro
 0.0.0.0 httpdns.push.oppomobile.com
-0.0.0.0 httpdns.alicdn.com
-# Aliyun
-0.0.0.0 httpdns-api.aliyuncs.com
-0.0.0.0 httpdns-sc.aliyuncs.com
-0.0.0.0 resolvers-cn.httpdns.aliyuncs.com
 # Baidu
 0.0.0.0 httpsdns.baidu.com
 0.0.0.0 httpdns.baidu.com
@@ -261,18 +253,7 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 vcl-brain.ndcppx.com
 0.0.0.0 lf-leads-fe-scm.bytecdn.com
-0.0.0.0 aedns.weixin.qq.com
-0.0.0.0 dns.weixin.qq.com
-0.0.0.0 dns.weixin.qq.com.cn
-0.0.0.0 httpdns.volcengineapi.com
-# Weibo
-0.0.0.0 dns.weibo.cn
-0.0.0.0 yuyin-httpdns.gslb.yy.com
 #netflix begin
-127.0.0.1 logs.netflix.com
-0.0.0.0 logs.netflix.com
-0.0.0.0 logs.netflix.com dnstype=A|CNAME
-0.0.0.0 logs.netflix.com dnstype=AAAA|CNAME
 0.0.0.0 prod.cloud.netflix.com
 127.0.0.1 prod.cloud.netflix.com
 0.0.0.0 prod.cloud.netflix.com dnstype=A|CNAME
@@ -454,12 +435,6 @@
 ||lookaside-fallback.facebook.com^
 ||b-graph-fallback.facebook.com^
 ||chat-e2ee-mini-fallback.facebook.com^
-! --- [核心] 阻断 OHTTP 隧道 (防DNS绕过) ---
-||ohttp-relay1.fastly-edge.com^
-||ohttp-relay2.fastly-edge.com^
-||hub5pn.v6.sandai.net^
-||xbase.cloud^
-||cfd-features.argotunnel.com^
 ! --- [修正] API 滥用防护 ---
 ||connect.facebook.net^
 ||mqtt-mini.facebook.com^
