@@ -471,16 +471,8 @@
 ||ads-api.twitter.com^
 ||ad-service.twitter.com^
 ||mobile.twitter.com/i/ads^
-||p.twitter.com^
-||pixel.twitter.com^
-||scribe.twitter.com^
-||syndication.twitter.com^
-||legal.twitter.com^
 ! --- 新域名防护 ---
 ||ads.x.com^
-||p.x.com^
-||pixel.x.com^
-||scribe.x.com^
 !=========================================
 ! [Module 05] 📺 智能电视/盒子净化 (小米特攻)
 ! 说明: 拦截开机广告、系统级推销与数据挖掘
