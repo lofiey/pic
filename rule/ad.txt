@@ -420,11 +420,7 @@
 ||an.facebook.com^
 ||ad.facebook.com^
 ||ads.facebook.com^
-||audience_network.facebook.com^
-||pixel.facebook.com^
 ||mobile.facebook.com/ad_placements^
-||lm.facebook.com^
-||ice.facebook.com^
 ! --- [核心] 封死所有 Fallback (备用逃逸通道) ---
 ||graph-fallback.facebook.com^
 ||mobile-fallback.facebook.com^
@@ -435,9 +431,6 @@
 ||lookaside-fallback.facebook.com^
 ||b-graph-fallback.facebook.com^
 ||chat-e2ee-mini-fallback.facebook.com^
-! --- [修正] API 滥用防护 ---
-||connect.facebook.net^
-||mqtt-mini.facebook.com^
 !=========================================
 ! [Module 04] 🐦 X (Twitter) 行为分析阻断
 !=========================================
