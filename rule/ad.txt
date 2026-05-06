@@ -212,7 +212,6 @@
 0.0.0.0 httpdns.y5en.com
 0.0.0.0 httpfereport.jd.com
 0.0.0.0 httpsdns.baidu.com
-0.0.0.0 yuyin-httpdns.gslb.yy.com
 0.0.0.0 httpdns.volcengineapi.com
 0.0.0.0 httpdns.push.oppomobile.com
 # Baidu
