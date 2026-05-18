@@ -390,26 +390,10 @@
 ||ldhy.click^
 ||fqnovelvod.com^
 ||dig.bdurl.net^
-! --- 字节系核心控制与更新 ---
-||bytescm.com^
-||bytegecko.com^
-||mcs.snssdk.com^
-||toblog.ctobsnssdk.com^
-||log0-applog-lq.fqnovel.com^
-||mon.snssdk.com^
-||is.snssdk.com^
-||ttwebview.com^
-||ncdn.ttwebview.com^
 ! --- 番茄特定广告 CDN ---
 ||lf-ad-nhs-pos.byteimg.com^
 ||monsetting.toutiao.com^
-||is-hl.snssdk.com^
 ||lf-sourcecdn-tos.bytegecko.com^
-||p3-novel.byteimg.com^
-||lf3-reading.fqnovelpic.com^
-||pangle.io^
-||pangolin-sdk-toutiao.com^
-||volcengine.com^
 ||ad.toutiao.com^
 !=========================================
 ! [Module 03] 🚧 Meta (Facebook) 逃逸封锁
@@ -436,7 +420,6 @@
 ! --- 广告与行为分析 ---
 ||ads.twitter.com^
 ||ads-api.twitter.com^
-||ad-service.twitter.com^
 ||mobile.twitter.com/i/ads^
 ! --- 新域名防护 ---
 ||ads.x.com^
