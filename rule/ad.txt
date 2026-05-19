@@ -1,4 +1,5 @@
 # Boom AD
+||shence.hupu.com^$important
 ||cdn.adwork.net^$important
 ||web.50bangzh.com^$important
 ||tianqi-stream.2345cdn.net^$important
