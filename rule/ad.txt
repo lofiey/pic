@@ -14,8 +14,9 @@
 ||gdmf.apple.com^$important
 ||updates-http.cdn-apple.com^$important
 ||xp.apple.com^$important
+||rtcxyz.com^$important
+||vc-brain-hl.ndcpp.com^$important
 0.0.0.0 dahhxxttxs.com
-0.0.0.0 rtcxyz.com
 0.0.0.0 html-load.com
 0.0.0.0 ppio.cloud
 0.0.0.0 bsccdn.net
