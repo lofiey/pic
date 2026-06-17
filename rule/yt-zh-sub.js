@@ -1,4 +1,3 @@
-
 const TAG = '[YT-ZH-Sub]';
 
 (function() {
