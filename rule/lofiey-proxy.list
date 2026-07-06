@@ -17,6 +17,8 @@ IP-CIDR6,2620:149:a44::/48,no-resolve
 IP-CIDR6,2403:300:a42::/48,no-resolve
 IP-CIDR6,2403:300:a51::/48,no-resolve
 IP-CIDR6,2a01:b740:a42::/48,no-resolve
+DOMAIN-SUFFIX,avjoy.me
+DOMAIN-SUFFIX,bkcdn.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
