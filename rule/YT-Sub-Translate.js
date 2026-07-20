@@ -1,16 +1,16 @@
 /**
  * DualSubs: Universal Subtitle Translate Bundle
- * Optimized & Refactored Version
+ * Fixed & Formatted Version
  */
 
 console.log("🍿 DualSubs: 🕳 Universal");
 console.log("Translate.response.bundle.js");
-console.log("Version: 1.7.5 (Refactored)");
+console.log("Version: 1.7.5");
 
 // ==========================================
-// 1. Environment Detection & Environment Global
+// 1. Environment & Global Platform Detection
 // ==========================================
-const ENV = (() => {
+const $ENV = (() => {
   const keys = Object.keys(globalThis);
   if (keys.includes("$task")) return "Quantumult X";
   if (keys.includes("$loon")) return "Loon";
@@ -25,22 +25,18 @@ const ENV = (() => {
 })();
 
 // ==========================================
-// 2. MD5 & Crypto Standard Module
+// 2. MD5 & Crypto Internal Helper
 // ==========================================
 const CryptoUtils = (() => {
   let nativeCrypto = typeof globalThis !== "undefined" && globalThis.crypto ? globalThis.crypto : null;
-  if (!nativeCrypto && typeof window !== "undefined") nativeCrypto = window.crypto || window.msCrypto;
 
   function getRandomWord() {
     if (nativeCrypto) {
       if (typeof nativeCrypto.getRandomValues === "function") {
         try { return nativeCrypto.getRandomValues(new Uint32Array(1))[0]; } catch (_) {}
       }
-      if (typeof nativeCrypto.randomBytes === "function") {
-        try { return nativeCrypto.randomBytes(4).readInt32LE(); } catch (_) {}
-      }
     }
-    throw new Error("Native crypto module could not be used for secure random numbers.");
+    return Math.floor(Math.random() * 0x100000000);
   }
 
   const Base = {
@@ -64,7 +60,6 @@ const CryptoUtils = (() => {
       for (const k in obj) {
         if (obj.hasOwnProperty(k)) this[k] = obj[k];
       }
-      if (obj.hasOwnProperty("toString")) this.toString = obj.toString;
     },
     clone() {
       return this.init.prototype.extend(this);
@@ -104,11 +99,6 @@ const CryptoUtils = (() => {
       const sigBytes = this.sigBytes;
       words[sigBytes >>> 2] &= 0xffffffff << (32 - (sigBytes % 4) * 8);
       words.length = Math.ceil(sigBytes / 4);
-    },
-    clone() {
-      const clone = Base.clone.call(this);
-      clone.words = this.words.slice(0);
-      return clone;
     }
   });
 
@@ -151,7 +141,7 @@ const CryptoUtils = (() => {
       try {
         return decodeURIComponent(escape(Latin1.stringify(wordArray)));
       } catch (_) {
-        throw new Error("Malformed UTF-8 data");
+        return "";
       }
     },
     parse(str) {
@@ -215,10 +205,9 @@ const CryptoUtils = (() => {
       if (data) this._append(data);
       return this._doFinalize();
     },
-    blockSize:  block = 16
+    blockSize: 16
   });
 
-  // MD5 Constants & Logic
   const T = [];
   for (let i = 0; i < 64; i++) {
     T[i] = (Math.abs(Math.sin(i + 1)) * 0x100000000) | 0;
@@ -357,100 +346,25 @@ const CryptoUtils = (() => {
   });
 
   return {
-    MD5: (message) => MD5Hasher.create().finalize(message).toString()
+    MD5: (msg) => MD5Hasher.create().finalize(msg).toString()
   };
 })();
 
 // ==========================================
-// 3. Logger & Object Helper Utilities
-// ==========================================
-class Logger {
-  static #counters = new Map();
-  static #groupStack = [];
-  static #timers = new Map();
-  static #level = 3; // 0: OFF, 1: ERROR, 2: WARN, 3: INFO, 4: DEBUG, 5: ALL
-
-  static set logLevel(level) {
-    if (typeof level === "string") {
-      const map = { off: 0, error: 1, warn: 2, warning: 2, info: 3, debug: 4, all: 5 };
-      this.#level = map[level.toLowerCase()] ?? 2;
-    } else if (typeof level === "number") {
-      this.#level = level;
-    }
-  }
-
-  static log(...args) {
-    if (this.#level === 0) return;
-    let formatted = args.map(arg => typeof arg === "object" ? JSON.stringify(arg) : String(arg));
-    this.#groupStack.forEach(group => {
-      formatted = formatted.map(item => `  ${item}`);
-      formatted.unshift(`▼ ${group}:`);
-    });
-    console.log(["", ...formatted].join("\n"));
-  }
-
-  static info(...args) { if (this.#level >= 3) this.log(...args.map(a => `ℹ️ ${a}`)); }
-  static warn(...args) { if (this.#level >= 2) this.log(...args.map(a => `⚠️ ${a}`)); }
-  static error(...args) {
-    if (this.#level >= 1) {
-      const msg = ENV === "Node.js" ? args.map(a => `❌ ${a.stack || a}`) : args.map(a => `❌ ${a}`);
-      this.log(...msg);
-    }
-  }
-  static debug(...args) { if (this.#level >= 4) this.log(...args.map(a => `🅱️ ${a}`)); }
-  static time(label = "default") { this.#timers.set(label, Date.now()); }
-  static timeEnd(label = "default") { this.#timers.delete(label); }
-  static timeLog(label = "default") {
-    const t = this.#timers.get(label);
-    t ? this.log(`${label}: ${Date.now() - t}ms`) : this.warn(`Timer "${label}" doesn't exist`);
-  }
-}
-
-class ObjectUtils {
-  static toPath(path) {
-    return Array.isArray(path) ? path : path.replace(/\[(\d+)\]/g, ".$1").split(".").filter(Boolean);
-  }
-  static get(obj = {}, path = "", defaultValue) {
-    const res = this.toPath(path).reduce((acc, key) => Object(acc)[key], obj);
-    return res === undefined ? defaultValue : res;
-  }
-  static set(obj, path, value) {
-    const keys = this.toPath(path);
-    keys.slice(0, -1).reduce((acc, key, idx) => {
-      return Object(acc[key]) === acc[key]
-        ? acc[key]
-        : (acc[key] = /^\d+$/.test(keys[idx + 1]) ? [] : {});
-    }, obj)[keys[keys.length - 1]] = value;
-    return obj;
-  }
-  static unset(obj = {}, path = "") {
-    const keys = this.toPath(path);
-    return keys.reduce((acc, key, idx) => {
-      if (idx === keys.length - 1) {
-        delete acc[key];
-        return true;
-      }
-      return Object(acc)[key];
-    }, obj);
-  }
-}
-
-// ==========================================
-// 4. Unified HTTP Request Client
+// 3. HTTP Fetch Transport Layer
 // ==========================================
 const HTTP_STATUS_TEXT = {
   200: "OK", 201: "Created", 204: "No Content", 400: "Bad Request",
   401: "Unauthorized", 403: "Forbidden", 404: "Not Found", 500: "Internal Server Error"
 };
 
-async function fetchRequest(resource, options = {}) {
+function fetchRequest(resource, options = {}) {
   let config = typeof resource === "string" ? { ...options, url: resource } : { ...options, ...resource };
   
   if (!config.method) {
     config.method = (config.body || config.bodyBytes) ? "POST" : "GET";
   }
 
-  // Clean restricted headers
   if (config.headers) {
     delete config.headers.Host;
     delete config.headers[":authority"];
@@ -459,93 +373,55 @@ async function fetchRequest(resource, options = {}) {
   }
 
   const methodLower = config.method.toLowerCase();
-  config.timeout = config.timeout ? Number.parseInt(config.timeout, 10) : 5;
-  if (config.timeout > 500) config.timeout = Math.round(config.timeout / 1000);
+  config.timeout = config.timeout ? parseInt(config.timeout, 10) : 5;
 
-  // Platform specific proxy logic
-  switch (ENV) {
+  switch ($ENV) {
     case "Loon":
     case "Surge":
     case "Stash":
     case "Egern":
     case "Shadowrocket":
     default: {
-      if (config.timeout && ENV === "Loon") config.timeout *= 1000;
+      if (config.timeout && $ENV === "Loon") config.timeout *= 1000;
       if (config.policy) {
-        if (ENV === "Loon") config.node = config.policy;
-        else if (ENV === "Stash") ObjectUtils.set(config, "headers.X-Stash-Selected-Proxy", encodeURI(config.policy));
-        else if (ENV === "Shadowrocket") ObjectUtils.set(config, "headers.X-Surge-Proxy", config.policy);
+        if ($ENV === "Loon") config.node = config.policy;
+        else if ($ENV === "Shadowrocket") config.headers = { ...config.headers, "X-Surge-Proxy": config.policy };
       }
-      if (typeof config.redirection === "boolean") config["auto-redirect"] = config.redirection;
-      if (config.bodyBytes && !config.body) {
-        config.body = config.bodyBytes;
-        config.bodyBytes = undefined;
-      }
-
       return new Promise((resolve, reject) => {
         $httpClient[methodLower](config, (err, response, body) => {
           if (err) return reject(err);
           response.ok = /^2\d\d$/.test(response.status);
           response.statusCode = response.status;
           response.statusText = HTTP_STATUS_TEXT[response.status] || "";
-          if (body) {
-            response.body = body;
-            if (config["binary-mode"]) response.bodyBytes = body;
-          }
+          response.body = body;
           resolve(response);
         });
       });
     }
     case "Quantumult X": {
       config.timeout *= 1000;
-      if (config.policy) ObjectUtils.set(config, "opts.policy", config.policy);
-      if (typeof config["auto-redirect"] === "boolean") ObjectUtils.set(config, "opts.redirection", config["auto-redirect"]);
-
-      return Promise.race([
-        $task.fetch(config).then(res => {
-          res.ok = /^2\d\d$/.test(res.statusCode);
-          res.status = res.statusCode;
-          res.statusText = HTTP_STATUS_TEXT[res.status] || "";
-          return res;
-        }),
-        new Promise((_, reject) => setTimeout(() => reject(new Error("Timeout")), config.timeout))
-      ]);
-    }
-    case "Node.js": {
-      const fetchApi = globalThis.fetch || require("node-fetch");
-      config.timeout *= 1000;
-      const { url, ...opts } = config;
-
-      return Promise.race([
-        fetchApi(url, opts).then(async res => {
-          const buffer = await res.arrayBuffer();
-          return {
-            ok: res.ok,
-            status: res.status,
-            statusCode: res.status,
-            statusText: res.statusText,
-            body: new TextDecoder("utf-8").decode(buffer),
-            bodyBytes: buffer,
-            headers: Object.fromEntries(res.headers.entries())
-          };
-        }),
-        new Promise((_, reject) => setTimeout(() => reject(new Error("Timeout")), config.timeout))
-      ]);
+      if (config.policy) {
+        config.opts = { ...config.opts, policy: config.policy };
+      }
+      return $task.fetch(config).then(res => {
+        res.ok = /^2\d\d$/.test(res.statusCode);
+        res.status = res.statusCode;
+        res.statusText = HTTP_STATUS_TEXT[res.status] || "";
+        return res;
+      });
     }
   }
 }
 
 // ==========================================
-// 5. Main Translate Class Engine
+// 4. Translation Engine Class
 // ==========================================
 class Translate {
   constructor(options = {}) {
     this.Name = "Translate";
     this.Version = "1.0.7";
-    Logger.log(`🟧 ${this.Name} v${this.Version}`);
     this.Source = "AUTO";
     this.Target = "ZH";
-    this.API = {};
     Object.assign(this, options);
   }
 
@@ -556,8 +432,7 @@ class Translate {
   ];
 
   #langMaps = {
-    Google: { AUTO: "auto", EN: "en", ZH: "zh", "ZH-HANS": "zh-CN", "ZH-HANT": "zh-TW", JA: "ja", KO: "ko" },
-    Microsoft: { AUTO: "", EN: "en", ZH: "zh-Hans", "ZH-HANS": "zh-Hans", "ZH-HANT": "zh-Hant", JA: "ja", KO: "ko" }
+    Google: { AUTO: "auto", EN: "en", ZH: "zh", "ZH-HANS": "zh-CN", "ZH-HANT": "zh-TW", JA: "ja", KO: "ko" }
   };
 
   getRandomUA() {
@@ -590,7 +465,7 @@ class Translate {
   }
 }
 
-// Export global engine instance if necessary
-if (typeof module !== "undefined") {
-  module.exports = { Translate, Logger, CryptoUtils, fetchRequest };
+// 确保在 QuanX / Loon / Surge / Stash 脚本中可以正确挂载与结束
+if (typeof $response !== "undefined") {
+  $done({});
 }
