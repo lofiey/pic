@@ -1,7 +1,7 @@
 /*
- * YouTube 字幕强制翻译成中文（QuantumultX 增强版）
+ * YouTube 字幕强制翻译成中文（QuantumultX 小语种增强版）
  * ------------------------------------------------
- * 解决泰语等小众语言分段错位、接口拒绝及 HTTP GET 长度超限问题
+ * 专治泰语/日语/阿拉伯语等小语种翻译失效、分段错位及 URL 超长问题
  */
 
 const TAG = "[YT-Sub-Translate]";
@@ -74,8 +74,7 @@ async function handleJson(body) {
   });
 
   console.log(`${TAG} 共 ${textsToTranslate.length} 条待翻译字幕`);
-  // 泰语等小众语言批次放小到 20，避免 URL 越界
-  const translations = await translateBatch(textsToTranslate, 20);
+  const translations = await translateBatchSmart(textsToTranslate);
 
   indexesToTranslate.forEach((idx, i) => {
     const original = originals[idx];
@@ -98,7 +97,7 @@ async function handleXml(body) {
 
   const texts = matches.map((m) => decodeEntities(m[3]));
   console.log(`${TAG} 共 ${texts.length} 条待翻译字幕`);
-  const translations = await translateBatch(texts, 20);
+  const translations = await translateBatchSmart(texts);
 
   let result = body;
   matches.forEach((m, idx) => {
@@ -126,13 +125,29 @@ function escapeEntities(str) {
   return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
-// ---------------- 翻译核心（增强分隔符容错与小众语言支持） ----------------
-async function translateBatch(texts, chunkSize = 20) {
+// ---------------- 智能动态打包翻译 ----------------
+async function translateBatchSmart(texts) {
+  // 1. 根据 URL 编码后的实际长度动态分包（防止小语种 URL 溢出拒绝）
+  const MAX_ENCODED_LEN = 1200; 
+  const SEP = "\n___SUB_SPLIT___\n";
+  
   const chunks = [];
-  for (let i = 0; i < texts.length; i += chunkSize) {
-    chunks.push(texts.slice(i, i + chunkSize));
-  }
+  let currentChunk = [];
+  let currentLen = 0;
 
+  for (const text of texts) {
+    const encodedLen = encodeURIComponent(text + SEP).length;
+    if (currentLen + encodedLen > MAX_ENCODED_LEN && currentChunk.length > 0) {
+      chunks.push(currentChunk);
+      currentChunk = [];
+      currentLen = 0;
+    }
+    currentChunk.push(text);
+    currentLen += encodedLen;
+  }
+  if (currentChunk.length > 0) chunks.push(currentChunk);
+
+  // 2. 执行分批翻译
   let results = [];
   for (const chunk of chunks) {
     const translated = await translateChunk(chunk);
@@ -141,9 +156,8 @@ async function translateBatch(texts, chunkSize = 20) {
   return results;
 }
 
-function translateChunk(chunk, retriesLeft = 2) {
-  // 使用更不易被泰文/阿拉伯文合并的特殊隔离标记
-  const SEP = "\n[[[XYZ]]]\n";
+function translateChunk(chunk, retriesLeft = 1) {
+  const SEP = "\n___SUB_SPLIT___\n";
   return new Promise((resolve) => {
     const joined = chunk.join(SEP);
     const q = encodeURIComponent(joined);
@@ -156,30 +170,29 @@ function translateChunk(chunk, retriesLeft = 2) {
           "User-Agent":
             "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
         },
-        timeout: 8000,
+        timeout: 6000,
       })
       .then((resp) => {
         try {
           const json = JSON.parse(resp.body);
-          // 拼接 Google 返回的句段
-          const translatedText = json[0].map((seg) => seg[0]).join("");
-          
-          // 弹性正则匹配分隔符，容错空格和换行符变动
+          const translatedText = json[0].map((seg) => seg[0] || "").join("");
+
+          // 弹性正则：容错小语种在分隔符前后产生的空格或换行变异
           const parts = translatedText
-            .split(/\s*\[\[\[XYZ\]\]\]\s*/)
+            .split(/\s*___SUB_SPLIT___\s*/)
             .map((s) => s.trim());
 
           if (parts.length === chunk.length) {
             resolve(parts);
           } else {
             console.log(
-              `${TAG} 分割校验失效 (${parts.length}/${chunk.length})，启动逐条降级翻译`
+              `${TAG} 小语种切片错位 (${parts.length}/${chunk.length})，触发单句保底机制`
             );
-            // 降级：如果批次拼接失败，则对当前 chunk 进行单条并发翻译，确保小众语言 100% 成功
+            // 降级机制：如果小语种合成翻译切片失败，自动并发单句翻译
             Promise.all(chunk.map((singleText) => translateSingle(singleText))).then(resolve);
           }
         } catch (e) {
-          console.log(`${TAG} 解析失败，启动单条降级: ${e}`);
+          console.log(`${TAG} 解析失败，触发单句保底: ${e}`);
           Promise.all(chunk.map((singleText) => translateSingle(singleText))).then(resolve);
         }
       })
@@ -187,15 +200,16 @@ function translateChunk(chunk, retriesLeft = 2) {
         if (retriesLeft > 0) {
           setTimeout(() => {
             translateChunk(chunk, retriesLeft - 1).then(resolve);
-          }, 400);
+          }, 300);
         } else {
-          resolve(chunk.map(() => ""));
+          // 连环重试失败，直接回退单句并发
+          Promise.all(chunk.map((singleText) => translateSingle(singleText))).then(resolve);
         }
       });
   });
 }
 
-// 逐条翻译保底函数（专门对付小众语言分割异常）
+// 逐句保底翻译函数（专门解决泰文/阿文等连字分割异常）
 function translateSingle(text) {
   if (!text || !text.trim()) return Promise.resolve("");
   const q = encodeURIComponent(text);
@@ -208,11 +222,11 @@ function translateSingle(text) {
         "User-Agent":
           "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15",
       },
-      timeout: 5000,
+      timeout: 4000,
     })
     .then((resp) => {
       const json = JSON.parse(resp.body);
-      return json[0].map((seg) => seg[0]).join("").trim();
+      return json[0].map((seg) => seg[0] || "").join("").trim();
     })
-    .catch(() => "");
+    .catch(() => text); // 若单条彻底失败则保留原文
 }
