@@ -17,6 +17,9 @@ IP-CIDR6,2620:149:a44::/48,no-resolve
 IP-CIDR6,2403:300:a42::/48,no-resolve
 IP-CIDR6,2403:300:a51::/48,no-resolve
 IP-CIDR6,2a01:b740:a42::/48,no-resolve
+HOST, translate.googleapis.com, PROXY
+HOST-SUFFIX, clients5.google.com, PROXY
+HOST, translate.google.com, proxy
 DOMAIN-SUFFIX,avjoy.me
 DOMAIN-SUFFIX,bkcdn.net
 DOMAIN-SUFFIX,nflxso.net
