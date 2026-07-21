@@ -9,7 +9,8 @@ const TAG = '[YT-ZH-Sub]';
         return;
     }
 
-    var zhUrl = url + '&tlang=zh-Hans&_ytzhsub=1';
+    // 增加时间戳 _t= 彻底绕过 CDN 和本地缓存
+    var zhUrl = url + '&tlang=zh-Hans&_ytzhsub=1&_t=' + Date.now();
 
     var headers = {};
     if ($request.headers) {
@@ -21,8 +22,15 @@ const TAG = '[YT-ZH-Sub]';
             }
         }
     }
+    // 剔除所有可能引发 304 缓存的 Header
     delete headers['Cookie'];
     delete headers['cookie'];
+    delete headers['If-None-Match'];
+    delete headers['if-none-match'];
+    delete headers['If-Modified-Since'];
+    delete headers['if-modified-since'];
+    delete headers['Cache-Control'];
+    delete headers['cache-control'];
 
     console.log(TAG + ' fetching zh: ' + zhUrl.substring(0, 120));
 
