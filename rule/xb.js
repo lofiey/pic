@@ -1,108 +1,73 @@
-/**
- * DualSubs: Universal Subtitle Translate Bundle
- * Fixed Google Translation Engine for Mobile Environments
- */
+const TAG = '[YT-ZH-Sub]';
 
-console.log("🍿 DualSubs: Subtitle Translator Engine Executing...");
+(function() {
+    var url = $request.url;
 
-// 1. 统一环境检测
-const $ENV = (() => {
-  const keys = Object.keys(globalThis);
-  if (keys.includes("$task")) return "Quantumult X";
-  if (keys.includes("$loon")) return "Loon";
-  if (keys.includes("$rocket")) return "Shadowrocket";
-  if (keys.includes("Egern")) return "Egern";
-  if (keys.includes("$environment")) {
-    if ($environment["surge-version"]) return "Surge";
-    if ($environment["stash-version"]) return "Stash";
-  }
-  return "Surge";
+    if (/[?&]tlang=zh/.test(url) || /[?&]lang=zh/.test(url)) {
+        console.log(TAG + ' already zh, skip');
+        $done({});
+        return;
+    }
+
+    var zhUrl = url + '&tlang=zh-Hans&_ytzhsub=1';
+
+    var headers = {};
+    if ($request.headers) {
+        var keys = Object.keys($request.headers);
+        for (var i = 0; i < keys.length; i++) {
+            var k = keys[i];
+            if (k.toLowerCase() !== 'host') {
+                headers[k] = $request.headers[k];
+            }
+        }
+    }
+    delete headers['Cookie'];
+    delete headers['cookie'];
+
+    console.log(TAG + ' fetching zh: ' + zhUrl.substring(0, 120));
+
+    fetchWithRetry(zhUrl, headers, 3, 800);
 })();
 
-// 2. 兼容移动端的轻量级 Fetch 封装
-function requestGoogleTranslate(textList, targetLang = "zh-CN") {
-  return new Promise((resolve, reject) => {
-    // 使用 \n 作为换行分隔符，避免某些环境下 \r 被过滤
-    const queryText = Array.isArray(textList) ? textList.join("\n") : textList;
-    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&sl=auto&tl=${targetLang}&q=${encodeURIComponent(queryText)}`;
+function fetchWithRetry(zhUrl, headers, retriesLeft, delayMs) {
+    $task.fetch({
+        url: zhUrl,
+        method: 'GET',
+        headers: headers
+    }).then(function(resp) {
+        var status = resp.statusCode || resp.status || 0;
+        console.log(TAG + ' fetch status=' + status + ' bodyLen=' + (resp.body ? resp.body.length : 0));
 
-    const reqOptions = {
-      url: url,
-      headers: {
-        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
-        "Accept": "*/*"
-      },
-      timeout: 5
-    };
-
-    if ($ENV === "Quantumult X") {
-      $task.fetch(reqOptions).then(
-        (response) => {
-          if (response.statusCode === 200) {
-            resolve(parseGoogleResponse(response.body));
-          } else {
-            reject(`Google API Error Status: ${response.statusCode}`);
-          }
-        },
-        (reason) => reject(`Quantumult X Fetch Error: ${reason.error}`)
-      );
-    } else {
-      // Surge / Loon / Stash / Shadowrocket
-      $httpClient.get(reqOptions, (err, response, body) => {
-        if (err) {
-          reject(`HttpClient Error: ${err}`);
-          return;
+        if (status === 200 && resp.body && resp.body.length > 100) {
+            console.log(TAG + ' replaced with zh subtitle');
+            $done({ body: resp.body });
+            return;
         }
-        if (response.status === 200 || response.statusCode === 200) {
-          resolve(parseGoogleResponse(body));
+
+        // 429 = 被 YouTube 限流，不是真的失败，等一下重试
+        if (status === 429 && retriesLeft > 0) {
+            var retryAfterHeader = resp.headers && (resp.headers['Retry-After'] || resp.headers['retry-after']);
+            var wait = retryAfterHeader ? parseInt(retryAfterHeader, 10) * 1000 : delayMs;
+            if (!wait || isNaN(wait)) wait = delayMs;
+
+            console.log(TAG + ' got 429, retry in ' + wait + 'ms, retriesLeft=' + (retriesLeft - 1));
+            setTimeout(function() {
+                fetchWithRetry(zhUrl, headers, retriesLeft - 1, delayMs * 2);
+            }, wait);
+            return;
+        }
+
+        console.log(TAG + ' fetch failed (status=' + status + '), keep original');
+        $done({});
+    }, function(err) {
+        console.log(TAG + ' fetch error: ' + (err.error || err));
+        if (retriesLeft > 0) {
+            console.log(TAG + ' network error, retry in ' + delayMs + 'ms, retriesLeft=' + (retriesLeft - 1));
+            setTimeout(function() {
+                fetchWithRetry(zhUrl, headers, retriesLeft - 1, delayMs * 2);
+            }, delayMs);
         } else {
-          reject(`Google API Response Code: ${response.status || response.statusCode}`);
+            $done({});
         }
-      });
-    }
-  });
+    });
 }
-
-// 3. 健壮的 Google 响应解析器
-function parseGoogleResponse(rawBody) {
-  try {
-    const data = typeof rawBody === "string" ? JSON.parse(rawBody) : rawBody;
-    let fullTranslatedStr = "";
-
-    if (Array.isArray(data) && Array.isArray(data[0])) {
-      // 循环拼接 Google 返回的所有文本片段
-      data[0].forEach((item) => {
-        if (item && item[0]) {
-          fullTranslatedStr += item[0];
-        }
-      });
-    }
-    
-    // 按换行拆分成数组返回
-    return fullTranslatedStr.split("\n");
-  } catch (e) {
-    console.log(`❌ Parse Translated Text Error: ${e.message}`);
-    return [];
-  }
-}
-
-// 4. 模组调用入口示例
-(async () => {
-  try {
-    // 假设测试字幕文本
-    const originalSubtitles = ["Hello, welcome back.", "Today we are going to fix the translation module."];
-    
-    console.log("⏳ Translating subtitles to Chinese...");
-    const translatedSubtitles = await requestGoogleTranslate(originalSubtitles, "zh-CN");
-    
-    console.log("✅ Translation succeed!");
-    console.log(JSON.stringify(translatedSubtitles));
-  } catch (error) {
-    console.log(`❌ Translation failed: ${error}`);
-  } finally {
-    // 必须调用 $done 确保客户端请求不卡死
-    if (typeof $done !== "undefined") {
-      $done({});
-    }
-  }
-})();
