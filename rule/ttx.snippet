@@ -1,0 +1,30 @@
+[rewrite_local]
+# --- 画中画与后台播放解锁 ---
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?&ctier=L(&.+?),ctier,(.+) url 302 https://$1$2$3
+
+# --- 双语字幕翻译: Player (JSON) ---
+^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player\?(.*) url script-request-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-request.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player\?(.*) url script-response-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-response.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+
+# --- 双语字幕翻译: Player (Proto) ---
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\?(.*) url script-request-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-request.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\?(.*) url script-response-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-response.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+
+# --- 双语字幕翻译: GetWatch (Proto) ---
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/get_watch\?(.*) url script-response-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-response.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+
+# --- 双语字幕翻译: Timedtext ---
+^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*) url script-request-header https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-request.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=(Official|External) url script-response-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-composite-response.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-translate-response.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+
+# --- 双语字幕翻译: YouTube Music 歌词 (JSON) ---
+^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*) url script-request-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-request.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-translate-response.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+
+# --- 双语字幕翻译: YouTube Music 歌词 (Proto) ---
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*) url script-request-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-request.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate url script-response-body https://raw.githubusercontent.com/gogrhw/surge/refs/heads/main/Scripts/youtube-subtitles-translate-response.js?Type=Translate&AutoCC=false&ShowOnly=false&Position=Forward
+
+[mitm]
+hostname = www.youtube.com, m.youtube.com, tv.youtube.com, music.youtube.com, youtubei.googleapis.com, *.googlevideo.com
