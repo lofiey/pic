@@ -1,4 +1,9 @@
 # Green light
+@@||log.umsns.com^$important
+@@||utoken.umeng.com^$important
+@@||ulogs.umengcloud.com^$important
+@@||ulogs.umeng.com^$important
+@@||errnewlog.umeng.com^$important
 @@||pinduoduo.com^
 @@||ssl.google-analytics.com^$important
 !=========================================
