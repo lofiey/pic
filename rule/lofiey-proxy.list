@@ -1,6 +1,9 @@
 IP-ASN, 15169, proxy
 IP-CIDR,8.8.8.8/32, no-resolve
 IP-CIDR,8.8.4.4/32, no-resolve
+HOST-SUFFIX, xns.one, PROXY
+DOMAIN-KEYWORD,cdn.wechat.com,PROXY
+DOMAIN-KEYWORD,videoplayback,PROXY
 # gemini
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,17.57.144.0/22,no-resolve
