@@ -1,4 +1,5 @@
 # Green light
+@@||weather-analytics-events.apple.com^$important
 @@||csp-reporting.cloudflare.com^$important
 @@||log.umsns.com^$important
 @@||utoken.umeng.com^$important
