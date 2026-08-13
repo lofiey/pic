@@ -1,4 +1,16 @@
 # Green light
+@@||sq.bls.mdt.qq.com^$important
+@@||tpstelemetry.tencent.com^$important
+@@||otheve.beacon.qq.com^$important
+@@||oth.str.beacon.qq.com^$important
+@@||vv.video.qq.com^$important
+@@||fp-upload.dun.163.com^$important
+@@||sdk1xyajs.data.kuiniuca.com^$important
+@@||clientlogdep.music.163.com^$important
+@@||ac.dun.163yun.com^$important
+@@||clientlog.music.163.com^$important
+@@||ac.dun.163.com^$important
+@@||sentry.music.163.com^$important
 @@||ntv.io^$important
 @@||rfa.org^$important
 @@||googleads.g.doubleclick.net^$important
