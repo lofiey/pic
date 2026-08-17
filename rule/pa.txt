@@ -1,4 +1,5 @@
 # Green light
+@@||guid.tpns.sh.tencent.com^$important
 @@||sq.bls.mdt.qq.com^$important
 @@||tpstelemetry.tencent.com^$important
 @@||otheve.beacon.qq.com^$important
