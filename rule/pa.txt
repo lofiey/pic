@@ -1,4 +1,6 @@
 # Green light
+@@||ad-survey.com^$important
+@@||cnzz.com^$important
 @@||ido.gepush.com^$important
 @@||c-ido.gepush.com^$important
 @@||guid.tpns.sh.tencent.com^$important
