@@ -1,4 +1,5 @@
 # Boom AD
+||userlocations.googleapis.com^$important
 ||line3-h5-mobile-api.biligame.com^$important
 ||impression.biligame.com^$important
 ||cgi.connect.qq.com^$important
