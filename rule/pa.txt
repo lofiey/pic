@@ -1,4 +1,5 @@
 # Green light
+@@||v6.mobilelog.upqzfile.com^$important
 @@||ad-survey.com^$important
 @@||cnzz.com^$important
 @@||ido.gepush.com^$important
