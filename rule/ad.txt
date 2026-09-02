@@ -353,15 +353,6 @@
 ||ecombdimg.com^$app=com.dragon.read,important
 ||mon*-misc-*.fqnovel.com^$app=com.dragon.read,important
 !=========================================
-! 🛡️ CyberZen Protocol (赛博禅·净化协议) V3.2
-! 📅 更新日期: 2026-01-08
-! 🚀 适用引擎: AdGuard Home / OpenWrt
-! 📝 维护者: E路领航 (E-Way Pilot)
-!=========================================
-!=========================================
-! [Module 01] ⚡️ 动态猎杀核心 (Regex 正则)
-! 说明: 针对随机生成的 DGA 域名进行特征码打击
-!=========================================
 ! --- 穿山甲/字节系 动态特征 ---
 /pangolin.*\.com/
 /pangolin.*\.net/
