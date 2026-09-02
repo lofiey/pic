@@ -433,8 +433,6 @@
 ||ads.twitter.com^
 ||ads-api.twitter.com^
 ||mobile.twitter.com/i/ads^
-! --- 新域名防护 ---
-||ads.x.com^
 !=========================================
 ! [Module 05] 📺 智能电视/盒子净化 (小米特攻)
 ! 说明: 拦截开机广告、系统级推销与数据挖掘
