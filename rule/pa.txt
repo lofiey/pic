@@ -1,4 +1,7 @@
 # Green light
+@@||mum.alibabachengdun.net^$important
+@@||utrack.hexun.com^$important
+@@||itv.hexun.com^$important
 @@||v6.mobilelog.upqzfile.com^$important
 @@||ad-survey.com^$important
 @@||cnzz.com^$important
