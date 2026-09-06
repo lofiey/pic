@@ -1,4 +1,5 @@
 # Boom AD
+||v5-mc-cold.douyinvod.com^$important
 ||userlocations.googleapis.com^$important
 ||impression.biligame.com^$important
 ||cgi.connect.qq.com^$important
