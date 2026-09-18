@@ -7,6 +7,11 @@ HOST-SUFFIX, xns.one, PROXY
 DOMAIN-KEYWORD,cdn.wechat.com,PROXY
 DOMAIN-KEYWORD,videoplayback,PROXY
 # gemini
+DOMAIN-SUFFIX,aov.com,PROXY
+DOMAIN-SUFFIX,garena.com,PROXY
+DOMAIN-SUFFIX,proximabeta.com,PROXY
+DOMAIN-SUFFIX,tencentgames.com,PROXY
+DOMAIN-SUFFIX,levelinfinite.com,PROXY
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,17.57.144.0/22,no-resolve
 DOMAIN,identity.apple.com
