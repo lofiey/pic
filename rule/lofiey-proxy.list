@@ -7,6 +7,7 @@ HOST-SUFFIX, xns.one, PROXY
 DOMAIN-KEYWORD,cdn.wechat.com,PROXY
 DOMAIN-KEYWORD,videoplayback,PROXY
 # gemini
+DOMAIN-SUFFIX,discordapp.com,PROXY
 DOMAIN-SUFFIX,playerinfinite.com,PROXY
 DOMAIN-SUFFIX,ssl.msdk.qq.com,PROXY
 DOMAIN-SUFFIX,tdos.vip,PROXY
@@ -68,7 +69,7 @@ HOST-SUFFIX,mnaspm.com, PROXY
 HOST-SUFFIX,mushroomtrack.com, PROXY
 HOST-SUFFIX,missav.ws, PROXY
 HOST-SUFFIX,sunnycloudstone.com, PROXY
-HOST-SUFFIX, snaptrckr.fun, PROXY
+HOST-SUFFIX,snaptrckr.fun, PROXY
 HOST-SUFFIX,fourhoi.com, PROXY
 HOST-SUFFIX,tsyndicate.com, PROXY
 HOST-SUFFIX,myavlive.com, PROXY
