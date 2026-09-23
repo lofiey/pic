@@ -1,4 +1,6 @@
 # Green light
+@@||sjarvis.taobao.com^$important
+@@||irs01.com^$important
 @@||mum.alibabachengdun.net^$important
 @@||utrack.hexun.com^$important
 @@||itv.hexun.com^$important
