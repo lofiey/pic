@@ -7,6 +7,8 @@ HOST-SUFFIX, xns.one, PROXY
 DOMAIN-KEYWORD,cdn.wechat.com,PROXY
 DOMAIN-KEYWORD,videoplayback,PROXY
 # gemini
+DOMAIN-SUFFIX,playerinfinite.com,PROXY
+DOMAIN-SUFFIX,ssl.msdk.qq.com,PROXY
 DOMAIN-SUFFIX,tdos.vip,PROXY
 DOMAIN-SUFFIX,gamelet.games,PROXY
 DOMAIN-SUFFIX,sg.tux.qq.com,PROXY
