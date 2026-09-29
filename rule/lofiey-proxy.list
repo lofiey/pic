@@ -7,6 +7,8 @@ HOST-SUFFIX, xns.one, PROXY
 DOMAIN-KEYWORD,cdn.wechat.com,PROXY
 DOMAIN-KEYWORD,videoplayback,PROXY
 # gemini
+HOST-SUFFIX, cdninstagram.com, proxy
+HOST-SUFFIX, ldstatic.com, proxy
 DOMAIN-SUFFIX,h.trace.qq.com,PROXY
 DOMAIN-SUFFIX,intlgame.com,PROXY
 DOMAIN-SUFFIX,platform-lookaside.fbsbx.com,PROXY
