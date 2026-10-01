@@ -6,6 +6,12 @@ HOST-SUFFIX, allinfa.com, PROXY
 HOST-SUFFIX, xns.one, PROXY
 DOMAIN-KEYWORD,cdn.wechat.com,PROXY
 DOMAIN-KEYWORD,videoplayback,PROXY
+host-suffix, intlgame.com, proxy
+host-suffix, sgameglobal.com, proxy
+host-suffix, appsflyersdk.com, proxy
+host-keyword, sgameglobal, proxy
+IP-CIDR, 183.192.65.101/16, proxy
+IP-CIDR, 43.132.55.55/16, proxy
 # gemini
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
