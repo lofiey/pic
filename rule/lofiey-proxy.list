@@ -10,15 +10,11 @@ DOMAIN-KEYWORD,videoplayback,PROXY
 HOST-SUFFIX,h-download-test.ecology.smoba.qq.com, proxy
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
-IP-CIDR,17.249.0.0/16,no-resolve
-IP-CIDR,17.252.0.0/16,no-resolve
-IP-CIDR,17.57.144.0/22,no-resolve
-IP-CIDR,17.188.128.0/18,no-resolve
-IP-CIDR,17.188.20.0/23,no-resolve
-IP-CIDR6,2620:149:a44::/48,no-resolve
-IP-CIDR6,2403:300:a42::/48,no-resolve
-IP-CIDR6,2403:300:a51::/48,no-resolve
-IP-CIDR6,2a01:b740:a42::/48,no-resolve
+IP-CIDR,17.249.0.0/16,proxy
+IP-CIDR,17.252.0.0/16,proxy
+IP-CIDR,17.57.144.0/22,proxy
+IP-CIDR,17.188.128.0/18,proxy
+IP-CIDR,17.188.20.0/23,proxy
 HOST, translate.googleapis.com, PROXY
 HOST-SUFFIX, clients5.google.com, PROXY
 HOST, translate.google.com, proxy
@@ -87,9 +83,9 @@ HOST-SUFFIX,javrate.com,proxy
 HOST-SUFFIX,avking.xyz,proxy
 HOST-SUFFIX,yoshiclub.xyz,proxy
 HOST-SUFFIX,omnitt.com,proxy
-HOST,lf16-effectcdn.byteeffecttos-g.com,proxy
-HOST,lf16-pkgcdn.pitaya-clientai.com,proxy
-HOST,p16-tiktokcdn-com.akamaized.net,proxy
+HOST-SUFFIX,lf16-effectcdn.byteeffecttos-g.com,proxy
+HOST-SUFFIX,lf16-pkgcdn.pitaya-clientai.com,proxy
+HOST-SUFFIX,p16-tiktokcdn-com.akamaized.net,proxy
 HOST-SUFFIX,bytedapm.com,proxy
 HOST-SUFFIX,bytegecko-i18n.com,proxy
 HOST-SUFFIX,byteoversea.com,proxy
