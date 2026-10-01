@@ -69,28 +69,12 @@ HOST-SUFFIX,ctext.org,proxy
 HOST-SUFFIX,tweetsoku.com,proxy
 HOST-SUFFIX,analytics.adjust.com,proxy
 HOST-SUFFIX,mixpanel.com,proxy
-HOST-SUFFIX,gcloud.download.igamecj.com,proxy
-HOST-SUFFIX,cloud.vmp.onezapp.com,proxy
-HOST-SUFFIX,cloud.gsdk.proximabeta.com,proxy
-HOST-SUFFIX,cloudctrl.igamecj.com,proxy
-HOST-SUFFIX,mgl.lobby.igamecj.com,proxy
-HOST-SUFFIX,sg.tdatamaster.com,proxy
-HOST-SUFFIX,streaming.split.io,proxy
-HOST-SUFFIX,auth.split.io,proxy
-HOST-SUFFIX,sdk.split.io,proxy
-HOST-SUFFIX,ios.perfsight.wetest.net,proxy
 HOST-SUFFIX,browser-intake-datadoghq.com,proxy
 HOST-SUFFIX,tdatamaster.com,proxy
 HOST-SUFFIX,tsyndicate.com,proxy
 HOST-SUFFIX,afcdn.net,proxy
 HOST-SUFFIX,tapioni.com,proxy
 HOST-SUFFIX,javxx.com,proxy
-HOST-SUFFIX,honorofkings.com,proxy
-HOST-SUFFIX,singaporepaya.com,proxy
-HOST-SUFFIX,anticheatexpert.com,proxy
-HOST-SUFFIX,vasdgame.com,proxy
-HOST-SUFFIX,intlgame.com,proxy
-HOST-SUFFIX,cdn.wetest.net,proxy
 HOST-SUFFIX,missav.ws,proxy
 HOST-SUFFIX,plyr.io,proxy
 HOST-SUFFIX,bunnyinfra.net,proxy
@@ -106,7 +90,6 @@ HOST-SUFFIX,omnitt.com,proxy
 HOST,lf16-effectcdn.byteeffecttos-g.com,proxy
 HOST,lf16-pkgcdn.pitaya-clientai.com,proxy
 HOST,p16-tiktokcdn-com.akamaized.net,proxy
-host-suffix,hok5v5.com,proxy
 HOST-SUFFIX,bytedapm.com,proxy
 HOST-SUFFIX,bytegecko-i18n.com,proxy
 HOST-SUFFIX,byteoversea.com,proxy
@@ -146,10 +129,8 @@ DOMAIN-SUFFIX,pubgmpdrcdn.amsoveasea.com,proxy
 DOMAIN-SUFFIX,cdn.club.gpubgm.com,proxy
 DOMAIN-KEYWORD,pubg
 DOMAIN-KEYWORD,pubgm
-DOMAIN-KEYWORD,igamecj
 DOMAIN-KEYWORD,gpubgm
 DOMAIN-KEYWORD,pubgmobile
-DOMAIN-KEYWORD,igame
 host-suffix,amagi.tv,proxy
 host-suffix,pluto.tv,proxy
 host-suffix,tvpass.org,proxy
@@ -171,8 +152,6 @@ host-suffix,singaporepaya.com, proxy
 host-suffix,gcloudcs.com, proxy
 host-suffix,gcloudsdk.com, proxy
 host-suffix,acc.edgeonedy1.com, proxy
-host-suffix,intlgame.com, proxy
-host-suffix,listdl.com, proxy
 host-suffix,cloudflare.net,proxy
 host-suffix,taotu.org,proxy
 host-suffix,safebrowsing-proxy.g.aaplimg.com,proxy
