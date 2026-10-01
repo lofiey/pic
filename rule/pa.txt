@@ -222,7 +222,6 @@
 @@||streaming.split.io^$important
 @@||auth.split.io^$important
 @@||split.io^$important
-@@||wetest.net^$important
 @@||browser-intake-datadoghq.com^$important
 @@||tdatamaster.com^$important
 @@||igamecj.com^$important
