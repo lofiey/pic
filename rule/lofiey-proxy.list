@@ -7,29 +7,31 @@ HOST-SUFFIX, xns.one, PROXY
 DOMAIN-KEYWORD,cdn.wechat.com,PROXY
 DOMAIN-KEYWORD,videoplayback,PROXY
 # gemini
-HOST-SUFFIX, cdninstagram.com, proxy
-HOST-SUFFIX, ldstatic.com, proxy
+HOST-SUFFIX,h-download-test.ecology.smoba.qq.com, proxy
+HOST-SUFFIX,globalconnetct.com, proxy
+HOST-SUFFIX,cdninstagram.com, proxy
+HOST-SUFFIX,ldstatic.com, proxy
 DOMAIN-SUFFIX,h.trace.qq.com,PROXY
-DOMAIN-SUFFIX,intlgame.com,PROXY
-DOMAIN-SUFFIX,sgameglobal.com,PROXY
-DOMAIN-SUFFIX,iegcom.com,PROXY
-DOMAIN-SUFFIX,dlied5.qq.com,PROXY
-DOMAIN-SUFFIX,cgi.connect.qq.com,PROXY
-DOMAIN-SUFFIX,platform-lookaside.fbsbx.com,PROXY
-DOMAIN-SUFFIX,sg.galileotelemetry.tencent.com,PROXY
-DOMAIN-SUFFIX,discordapp.com,PROXY
+HOST-SUFFIX,intlgame.com,PROXY
+HOST-SUFFIX,sgameglobal.com,PROXY
+HOST-SUFFIX,iegcom.com,PROXY
+HOST-SUFFIX,dlied5.qq.com,PROXY
+HOST-SUFFIX,cgi.connect.qq.com,PROXY
+HOST-SUFFIX,platform-lookaside.fbsbx.com,PROXY
+HOST-SUFFIX,sg.galileotelemetry.tencent.com,PROXY
+HOST-SUFFIX,discordapp.com,PROXY
 DOMAIN-SUFFIX,playerinfinite.com,PROXY
-DOMAIN-SUFFIX,tdos.vip,PROXY
-DOMAIN-SUFFIX,gamelet.games,PROXY
-DOMAIN-SUFFIX,sg.tux.qq.com,PROXY
-DOMAIN-SUFFIX,hok5v5.com,PROXY
-DOMAIN-SUFFIX,vasdgame.com,PROXY
-DOMAIN-SUFFIX,galileotelemetry.tencent.com,PROXY
-DOMAIN-SUFFIX,aov.com,PROXY
-DOMAIN-SUFFIX,garena.com,PROXY
-DOMAIN-SUFFIX,proximabeta.com,PROXY
-DOMAIN-SUFFIX,tencentgames.com,PROXY
-DOMAIN-SUFFIX,levelinfinite.com,PROXY
+HOST-SUFFIX,tdos.vip,PROXY
+HOST-SUFFIX,gamelet.games,PROXY
+HOST-SUFFIX,sg.tux.qq.com,PROXY
+HOST-SUFFIX,hok5v5.com,PROXY
+HOST-SUFFIX,vasdgame.com,PROXY
+HOST-SUFFIX,galileotelemetry.tencent.com,PROXY
+HOST-SUFFIX,aov.com,PROXY
+HOST-SUFFIX,garena.com,PROXY
+HOST-SUFFIX,proximabeta.com,PROXY
+HOST-SUFFIX,tencentgames.com,PROXY
+HOST-SUFFIX,levelinfinite.com,PROXY
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,17.57.144.0/22,no-resolve
 DOMAIN,identity.apple.com
