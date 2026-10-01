@@ -11,6 +11,10 @@ HOST-SUFFIX, cdninstagram.com, proxy
 HOST-SUFFIX, ldstatic.com, proxy
 DOMAIN-SUFFIX,h.trace.qq.com,PROXY
 DOMAIN-SUFFIX,intlgame.com,PROXY
+DOMAIN-SUFFIX,sgameglobal.com,PROXY
+DOMAIN-SUFFIX,iegcom.com,PROXY
+DOMAIN-SUFFIX,dlied5.qq.com,PROXY
+DOMAIN-SUFFIX,cgi.connect.qq.com,PROXY
 DOMAIN-SUFFIX,platform-lookaside.fbsbx.com,PROXY
 DOMAIN-SUFFIX,sg.galileotelemetry.tencent.com,PROXY
 DOMAIN-SUFFIX,discordapp.com,PROXY
