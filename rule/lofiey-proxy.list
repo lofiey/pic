@@ -8,34 +8,6 @@ DOMAIN-KEYWORD,cdn.wechat.com,PROXY
 DOMAIN-KEYWORD,videoplayback,PROXY
 # gemini
 HOST-SUFFIX,h-download-test.ecology.smoba.qq.com, proxy
-HOST-SUFFIX,globalconnetct.com, proxy
-HOST-SUFFIX,cdninstagram.com, proxy
-HOST-SUFFIX,ldstatic.com, proxy
-DOMAIN-SUFFIX,h.trace.qq.com,PROXY
-HOST-SUFFIX,intlgame.com,PROXY
-HOST-SUFFIX,sgameglobal.com,PROXY
-HOST-SUFFIX,iegcom.com,PROXY
-HOST-SUFFIX,dlied5.qq.com,PROXY
-HOST-SUFFIX,cgi.connect.qq.com,PROXY
-HOST-SUFFIX,platform-lookaside.fbsbx.com,PROXY
-HOST-SUFFIX,sg.galileotelemetry.tencent.com,PROXY
-HOST-SUFFIX,discordapp.com,PROXY
-DOMAIN-SUFFIX,playerinfinite.com,PROXY
-HOST-SUFFIX,tdos.vip,PROXY
-HOST-SUFFIX,gamelet.games,PROXY
-HOST-SUFFIX,sg.tux.qq.com,PROXY
-HOST-SUFFIX,hok5v5.com,PROXY
-HOST-SUFFIX,vasdgame.com,PROXY
-HOST-SUFFIX,galileotelemetry.tencent.com,PROXY
-HOST-SUFFIX,aov.com,PROXY
-HOST-SUFFIX,garena.com,PROXY
-HOST-SUFFIX,proximabeta.com,PROXY
-HOST-SUFFIX,tencentgames.com,PROXY
-HOST-SUFFIX,levelinfinite.com,PROXY
-IP-CIDR,17.0.0.0/8,no-resolve
-IP-CIDR,17.57.144.0/22,no-resolve
-DOMAIN,identity.apple.com
-DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
 IP-CIDR,17.249.0.0/16,no-resolve
