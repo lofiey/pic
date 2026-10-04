@@ -1,4 +1,6 @@
-#EXTINF:-1 tvg-id="CCTV1.cn@SD",CCTV-1
+#EXTINF:-1 ,CCTV-1
 https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
-#EXTINF:-1 tvg-id="CCTV10.cn@SD",CCTV-10 (576i)
+#EXTINF:-1 ,CCTV-10 
 https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8
+#EXTINF:-1 ,黑龙江影
+https://idclive.hljtv.com:4430/live/hljys_hd.m3u8?zheild
