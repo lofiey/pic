@@ -1,22 +1,22 @@
-#EXTINF:-1 ,CCTV-1
+#EXTINF:-1,CCTV-1
 https://rthktv33-vos-live.akamaized.net/Content/HLS/Live/channel(rthk_ch33)/index.m3u8
-#EXTINF:-1 ,CCTV-10 
+#EXTINF:-1,CCTV-10 
 https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8
-#EXTINF:-1 ,黑龙江影
+#EXTINF:-1,黑龙江影
 https://idclive.hljtv.com:4430/live/hljys_hd.m3u8?zheild
-#EXTINF:-1 ,三立新闻
+#EXTINF:-1,三立新闻
 https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8 
-#EXTINF:-1 ,中天新闻
+#EXTINF:-1,中天新闻
 https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8 
-#EXTINF:-1 ,东森新闻
+#EXTINF:-1,东森新闻
 https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8 
-#EXTINF:-1 ,中视新闻
+#EXTINF:-1,中视新闻
 https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8 
-#EXTINF:-1 ,华视新闻
+#EXTINF:-1,华视新闻
 https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8 
-#EXTINF:-1 ,民视新闻
+#EXTINF:-1,民视新闻
 https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8 
-#EXTINF:-1 ,TVBS新闻
+#EXTINF:-1,TVBS新闻
 https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8 
-#EXTINF:-1 ,LIVE三立
+#EXTINF:-1,LIVE三立
 https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8 
