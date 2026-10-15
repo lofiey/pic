@@ -2,6 +2,7 @@ IP-ASN, 15169, proxy
 IP-CIDR,8.8.8.8/32, proxy
 IP-CIDR,8.8.4.4/32, proxy
 HOST-SUFFIX, sentry.io, PROXY
+HOST-SUFFIX, segment.io, PROXY
 HOST-SUFFIX, intercom.io, PROXY
 HOST-SUFFIX, siftscience.com, PROXY
 HOST-SUFFIX, intercomcdn.com, PROXY
