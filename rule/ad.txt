@@ -1,4 +1,5 @@
 # Boom AD
+||browser-intake-us5-datadoghq.com^$important
 ||v5-mc-cold.douyinvod.com^$important
 ||userlocations.googleapis.com^$important
 ||impression.biligame.com^$important
