@@ -6,7 +6,6 @@ HOST-SUFFIX, intercom.io, PROXY
 HOST-SUFFIX, siftscience.com, PROXY
 HOST-SUFFIX, intercomcdn.com, PROXY
 HOST-SUFFIX, intercomassets.com, PROXY
-HOST-SUFFIX, browser-intake-us5-datadoghq.com, PROXY
 HOST-SUFFIX, githubassets.com, PROXY
 HOST-SUFFIX, allinfa.com, PROXY
 HOST-SUFFIX, xns.one, PROXY
