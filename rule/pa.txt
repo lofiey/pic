@@ -1,4 +1,5 @@
 # Green light
+@@||byteoversea.com^$important
 @@||go.sohu.com^$important
 @@||track.sohu.com^$important
 @@||stat6.y.qq.com^$important
