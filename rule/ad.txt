@@ -1,4 +1,10 @@
 # Boom AD
+||sentry.io^$important
+||segment.io^$important
+||intercom.io^$important
+||siftscience.com^$important
+||intercomcdn.com^$important
+||intercomassets.com^$important
 ||browser-intake-us5-datadoghq.com^$important
 ||v5-mc-cold.douyinvod.com^$important
 ||userlocations.googleapis.com^$important
