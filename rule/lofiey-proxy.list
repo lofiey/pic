@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,stripe.network, PROXY
 DOMAIN-SUFFIX,stripecdn.com, PROXY
 DOMAIN-SUFFIX,challenges.cloudflare.com, PROXY
 HOST-SUFFIX, claudeusercontent.com, PROXY
+HOST-SUFFIX, claudemcpcontent.com,PROXY
 HOST-SUFFIX, sentry.io, PROXY
 HOST-SUFFIX, segment.io, PROXY
 HOST-SUFFIX, intercom.io, PROXY
