@@ -1,6 +1,9 @@
 IP-ASN, 15169, proxy
+IP-ASN, 13335, proxy
 IP-CIDR,8.8.8.8/32, proxy
 IP-CIDR,8.8.4.4/32, proxy
+IP-CIDR,1.1.1.1/32, proxy
+IP-CIDR,1.0.0.1/32, proxy
 HOST-SUFFIX, clau.de, proxy
 HOST-SUFFIX, modelcontextprotocol.io, proxy
 IP-CIDR,160.79.104.0/21, proxy
