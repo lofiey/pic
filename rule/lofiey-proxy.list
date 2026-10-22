@@ -1,6 +1,19 @@
 IP-ASN, 15169, proxy
 IP-CIDR,8.8.8.8/32, proxy
 IP-CIDR,8.8.4.4/32, proxy
+HOST-SUFFIX, clau.de, proxy
+HOST-SUFFIX, modelcontextprotocol.io, proxy
+IP-CIDR,160.79.104.0/21, proxy
+IP-ASN,399358, proxy
+DOMAIN-KEYWORD,browser-intake, PROXY
+DOMAIN-SUFFIX,datadoghq.com, PROXY
+DOMAIN-SUFFIX,growthbook.io, PROXY
+DOMAIN-SUFFIX,usefathom.com, PROXY
+DOMAIN-SUFFIX,hcaptcha.com, PROXY
+DOMAIN-SUFFIX,stripe.com, PROXY
+DOMAIN-SUFFIX,stripe.network, PROXY
+DOMAIN-SUFFIX,stripecdn.com, PROXY
+DOMAIN-SUFFIX,challenges.cloudflare.com, PROXY
 HOST-SUFFIX, claudeusercontent.com, PROXY
 HOST-SUFFIX, sentry.io, PROXY
 HOST-SUFFIX, segment.io, PROXY
