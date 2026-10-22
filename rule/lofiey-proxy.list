@@ -5,7 +5,10 @@ HOST-SUFFIX, clau.de, proxy
 HOST-SUFFIX, modelcontextprotocol.io, proxy
 IP-CIDR,160.79.104.0/21, proxy
 IP-ASN,399358, proxy
+DOMAIN-KEYWORD,claude, proxy
+DOMAIN-KEYWORD,anthropic, proxy
 DOMAIN-KEYWORD,browser-intake, PROXY
+DOMAIN-KEYWORD,modelcontextprotocol, proxy
 DOMAIN-SUFFIX,datadoghq.com, PROXY
 DOMAIN-SUFFIX,growthbook.io, PROXY
 DOMAIN-SUFFIX,usefathom.com, PROXY
