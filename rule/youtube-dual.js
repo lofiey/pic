@@ -19,7 +19,11 @@ const CFG = {
   gapMs: 1500,             // 两个词之间停顿超过这个毫秒数就断句
   maxCueMs: 6500,          // 单条字幕最长持续时间
   maxSplit: 4,             // 一句译文最多拆给几条原文
+  debug: true,             // 调试：失败时把原因显示在字幕上，正常后改成 false
 };
+
+let FMT = null;
+const DBG = [];
 
 (async () => {
   try {
@@ -29,6 +33,8 @@ const CFG = {
 
     const body = $response.body || "";
     const fmt = sniff(body);
+    FMT = fmt;
+    DBG.push("fmt=" + fmt, "bodyLen=" + body.length);
     if (!fmt) return $done({});
 
     const lang = (getParam(url, "lang") || "").toLowerCase().split("-")[0];
@@ -40,21 +46,29 @@ const CFG = {
     const headers = Object.assign({}, $request.headers);
     Object.keys(headers).forEach((k) => { if (k[0] === ":") delete headers[k]; });
 
-    const base = setParam(delParam(url, "tlang"), "fmt", "json3");
-    const origUrl = setParam(base, "dsx", "1");
-    const transUrl = setParam(setParam(base, "tlang", target), "dsx", "1");
+    const noT = delParam(url, "tlang");
+    const origUrl = setParam(noT, "dsx", "1");
+    const transUrl = setParam(setParam(noT, "tlang", target), "dsx", "1");
 
-    const get = (u) => $task.fetch({ url: u, method: "GET", headers }).then((r) => r.body || "");
-    let origTxt = null, transTxt = null;
-    if (fmt === "json3") { if (userT) transTxt = body; else origTxt = body; }
+    const get = async (u, tag) => {
+      const r = await $task.fetch({ url: u, method: "GET", headers });
+      const t = r.body || "";
+      DBG.push(tag + "=" + r.statusCode + "/" + t.length);
+      console.log("youtube-dual " + tag + " " + r.statusCode + " len=" + t.length);
+      return t;
+    };
+    let origTxt = userT ? null : body, transTxt = userT ? body : null;
     [origTxt, transTxt] = await Promise.all([
-      origTxt !== null ? origTxt : get(origUrl),
-      transTxt !== null ? transTxt : get(transUrl),
+      origTxt !== null ? origTxt : get(origUrl, "orig"),
+      transTxt !== null ? transTxt : get(transUrl, "trans"),
     ]);
 
-    const origEv = parseJson3(origTxt);
-    if (!origEv.length) return $done({});
-    const transEv = parseJson3(transTxt);
+    const origEv = parseEvents(origTxt);
+    if (!origEv.length) {
+      DBG.push("原文为空");
+      return $done(CFG.debug ? { body: render([{ st: 0, end: 8000, text: "[DS] " + DBG.join(" ") }], fmt) } : {});
+    }
+    const transEv = parseEvents(transTxt);
 
     const asr = /[?&]kind=asr/.test(url) ||
       origEv.some((e) => e.segs.some((s) => s.tOffsetMs !== undefined));
@@ -63,10 +77,18 @@ const CFG = {
 
     attachTranslation(cues, toTransItems(transEv));
 
-    const out = render(cues, fmt);
-    $done({ body: out });
+    const n = cues.filter((c) => c.tr).length;
+    DBG.push("origEv=" + origEv.length, "transEv=" + transEv.length, "cues=" + cues.length, "withTr=" + n);
+    console.log("youtube-dual " + DBG.join(" "));
+    if (CFG.debug && n === 0) cues[0].tr = "[DS] 没有译文: " + DBG.join(" ");
+
+    $done({ body: render(cues, fmt) });
   } catch (e) {
+    DBG.push("err=" + e);
     console.log("youtube-dual error: " + e);
+    if (CFG.debug && FMT) {
+      return $done({ body: render([{ st: 0, end: 8000, text: "[DS] " + DBG.join(" ") }], FMT) });
+    }
     $done({});
   }
 })();
@@ -112,10 +134,56 @@ function joinText(a, b) {
   return a + " " + b;
 }
 
-function parseJson3(txt) {
+function decodeXml(s) {
+  return s
+    .replace(/&#(\d+);/g, (m, n) => String.fromCodePoint(+n))
+    .replace(/&#x([0-9a-f]+);/gi, (m, n) => String.fromCodePoint(parseInt(n, 16)))
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, "&");
+}
+function attr(a, k) {
+  const m = a.match(new RegExp("(?:^|\\s)" + k + '="([^"]*)"'));
+  return m ? m[1] : null;
+}
+
+// 统一解析成 json3 风格的 events: {tStartMs, dDurationMs, segs:[{utf8, tOffsetMs}]}
+function parseEvents(txt) {
   try {
-    const j = JSON.parse(txt);
-    return (j.events || []).filter((e) => e.segs && e.segs.length);
+    const t = (txt || "").trim();
+    if (!t) return [];
+    if (t[0] === "{") {
+      return (JSON.parse(t).events || []).filter((e) => e.segs && e.segs.length);
+    }
+    const evs = [];
+    let m;
+    const reP = /<p\b([^>]*?)(?:\/>|>([\s\S]*?)<\/p>)/g;
+    while ((m = reP.exec(t))) {
+      const st = attr(m[1], "t"), d = attr(m[1], "d");
+      if (st === null) continue;
+      const inner = m[2] || "", segs = [];
+      const reS = /<s\b([^>]*)>([\s\S]*?)<\/s>/g;
+      let n;
+      while ((n = reS.exec(inner))) {
+        const o = attr(n[1], "t");
+        const seg = { utf8: decodeXml(n[2].replace(/<[^>]+>/g, "")) };
+        if (o !== null) seg.tOffsetMs = +o;
+        segs.push(seg);
+      }
+      if (!segs.length) segs.push({ utf8: decodeXml(inner.replace(/<[^>]+>/g, "")) });
+      evs.push({ tStartMs: +st, dDurationMs: d ? +d : 0, segs });
+    }
+    if (evs.length) return evs;
+    const reT = /<text\b([^>]*)>([\s\S]*?)<\/text>/g;
+    while ((m = reT.exec(t))) {
+      const st = attr(m[1], "start"), d = attr(m[1], "dur");
+      if (st === null) continue;
+      evs.push({
+        tStartMs: Math.round(parseFloat(st) * 1000),
+        dDurationMs: d ? Math.round(parseFloat(d) * 1000) : 0,
+        segs: [{ utf8: decodeXml(m[2].replace(/<[^>]+>/g, "")) }],
+      });
+    }
+    return evs;
   } catch (e) {
     return [];
   }
