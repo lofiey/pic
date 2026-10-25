@@ -19,7 +19,9 @@ const CFG = {
   gapMs: 1500,             // 两个词之间停顿超过这个毫秒数就断句
   maxCueMs: 6500,          // 单条字幕最长持续时间
   maxSplit: 4,             // 一句译文最多拆给几条原文
-  googleTimeoutMs: 6000,   // 谷歌翻译最多等待多久，超时就用已翻译好的部分
+  googleTimeoutMs: 8000,   // 谷歌翻译最多等待多久，超时就用已翻译好的部分
+  googleRetry: 1,          // 谷歌翻译遇到 429/5xx 时，每个地址重试几次（间隔 0.5s、1s 递增）
+  cacheVideos: 8,          // 缓存最近多少个视频的译文（重开字幕不再重复请求）
   useTlang: false,         // 是否先请求 YouTube 自带译文（容易被 429 限流，默认关）
   fallbackGoogle: true,    // YouTube 自带译文拿不到时，改用谷歌翻译
   debug: true,             // 调试：失败时把原因显示在字幕上，正常后改成 false
@@ -83,7 +85,7 @@ const DBG = [];
     let n = cues.filter((c) => c.tr).length;
     if (n === 0 && CFG.fallbackGoogle) {
       DBG.push("改用谷歌翻译");
-      const trs = await googleTranslate(cues.map((c) => c.text), target);
+      const trs = await googleTranslate(cues.map((c) => c.text), target, getParam(url, "v"));
       cues.forEach((c, i) => { if (trs[i]) c.tr = trs[i]; });
       n = cues.filter((c) => c.tr).length;
     }
@@ -336,65 +338,166 @@ function attachTranslation(cues, items) {
 
 /* ---------- 谷歌翻译保底 ---------- */
 
-async function googleTranslate(texts, target) {
-  const tl = target.replace("zh-Hans", "zh-CN").replace("zh-Hant", "zh-TW");
-  const out = new Array(texts.length).fill("");
+const GT_HOSTS = ["translate.googleapis.com", "translate.google.com", "translate.google.cn"];
+const GT_UAS = [
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36",
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:95.0) Gecko/20100101 Firefox/95.0",
+  "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1",
+];
+const sleep = (ms) => (typeof setTimeout === "function" ? new Promise((r) => setTimeout(r, ms)) : Promise.resolve());
+const gtHeaders = () => ({
+  "Content-Type": "application/x-www-form-urlencoded",
+  "User-Agent": GT_UAS[Math.floor(Math.random() * GT_UAS.length)],
+  Referer: "https://translate.google.com/",
+  Accept: "*/*",
+});
 
+function loadCache(key, sig) {
+  try {
+    if (typeof $prefs === "undefined") return null;
+    const raw = $prefs.valueForKey(key);
+    if (!raw) return null;
+    const o = JSON.parse(raw);
+    return o.sig === sig && Array.isArray(o.tr) ? o.tr : null;
+  } catch (e) { return null; }
+}
+function saveCache(key, sig, tr) {
+  try {
+    if (typeof $prefs === "undefined") return;
+    $prefs.setValueForKey(JSON.stringify({ sig, tr }), key);
+    let idx = [];
+    try { idx = JSON.parse($prefs.valueForKey("ds_cache_index") || "[]"); } catch (e) {}
+    idx = idx.filter((k) => k !== key);
+    idx.push(key);
+    while (idx.length > CFG.cacheVideos) $prefs.removeValueForKey(idx.shift());
+    $prefs.setValueForKey(JSON.stringify(idx), "ds_cache_index");
+  } catch (e) {}
+}
+
+async function googleTranslate(texts, target, vid) {
+  const tl = target.replace("zh-Hans", "zh-CN").replace("zh-Hant", "zh-TW");
+  const sig = texts.length + ":" + texts.reduce((a, t) => a + t.length, 0);
+  const key = "ds_" + (vid || "x") + "_" + tl;
+  const out = loadCache(key, sig) || new Array(texts.length).fill("");
+
+  const todo = [];
+  texts.forEach((t, i) => { if (!out[i]) todo.push(i); });
+  DBG.push("cached=" + (texts.length - todo.length));
+  if (!todo.length) return out;
+
+  // 分批：尽量大批量，减少请求次数
   const batches = [];
   let cur = [], len = 0;
-  texts.forEach((t, i) => {
-    if (cur.length && (len + t.length > 3000 || cur.length >= 50)) {
+  todo.forEach((i) => {
+    const t = texts[i];
+    if (cur.length && (len + t.length > 4500 || cur.length >= 100)) {
       batches.push(cur); cur = []; len = 0;
     }
     cur.push(i); len += t.length + 1;
   });
   if (cur.length) batches.push(cur);
 
+  const blocked = {};
   let ok = 0, lastStatus = "";
-  const runBatch = async (idx) => {
-    try {
-      const q = idx.map((i) => texts[i]).join("\n");
-      const r = await $task.fetch({
-        url: "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&dt=t&tl=" + tl,
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: "q=" + encodeURIComponent(q),
-      });
-      lastStatus = r.statusCode;
-      const segs = JSON.parse(r.body)[0] || [];
-
-      // 每条原文在 q 里的位置
-      const spans = [];
-      let off = 0;
-      idx.forEach((i) => { spans.push([off, off + texts[i].length]); off += texts[i].length + 1; });
-
-      let pos = 0;
-      const got = idx.map(() => []);
-      for (const sg of segs) {
-        const trans = (sg[0] || "").replace(/\n/g, " ").trim();
-        const orig = sg[1] || "";
-        const a = pos, b = pos + orig.length;
-        pos = b;
-        if (!trans) continue;
-        const hit = [], wts = [];
-        spans.forEach((sp, k) => {
-          const ov = Math.min(b, sp[1]) - Math.max(a, sp[0]);
-          if (ov > 0) { hit.push(k); wts.push(ov); }
-        });
-        if (!hit.length) continue;
-        if (hit.length === 1) got[hit[0]].push(trans);
-        else splitText(trans, wts).forEach((part, j) => got[hit[j]].push(part));
+  // 带重试：429/5xx 退避后再试，其它状态码直接放弃该地址
+  const tryFetch = async (mk) => {
+    for (let k = 0; k <= CFG.googleRetry; k++) {
+      try {
+        const r = await $task.fetch(mk());
+        lastStatus = r.statusCode;
+        if (r.statusCode === 200) return r;
+        if (r.statusCode === 429 || r.statusCode >= 500) { await sleep(500 * Math.pow(2, k)); continue; }
+        return null;
+      } catch (e) {
+        console.log("youtube-dual google error: " + e);
+        await sleep(500);
       }
-      idx.forEach((i, k) => { out[i] = got[k].join(" ").trim(); });
-      ok++;
-    } catch (e) {
-      console.log("youtube-dual google error: " + e);
     }
+    return null;
+  };
+
+  const callGoogle = async (q) => {
+    for (const h of GT_HOSTS) {
+      if (blocked[h]) continue;
+      const r = await tryFetch(() => ({
+        url: "https://" + h + "/translate_a/single?client=gtx&sl=auto&dt=t&tl=" + tl,
+        method: "POST",
+        headers: gtHeaders(),
+        body: "q=" + encodeURIComponent(q),
+      }));
+      if (!r) { blocked[h] = true; continue; }
+      try { return { segs: JSON.parse(r.body)[0] || [] }; } catch (e) { blocked[h] = true; }
+    }
+    // 备用入口：Chrome 词典扩展接口，限流单独计算
+    if (!blocked.clients5) {
+      const r = await tryFetch(() => ({
+        url: "https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=" + tl,
+        method: "POST",
+        headers: gtHeaders(),
+        body: "q=" + encodeURIComponent(q.replace(/\n/g, "\r")),
+      }));
+      if (!r) blocked.clients5 = true;
+      else {
+        try {
+          const a = JSON.parse(r.body);
+          let arr;
+          if (Array.isArray(a)) {
+            arr = a.length === 1 && Array.isArray(a[0])
+              ? (a[0].length > 1 ? a[0].slice(0, -1) : a[0])
+              : a.map((x) => (Array.isArray(x) ? x[0] : x));
+          } else if (a && a.sentences) arr = a.sentences.map((x) => x.trans);
+          if (arr && arr.length) return { lines: arr.join("").split(/\r\n|\r|\n/) };
+        } catch (e) {}
+        blocked.clients5 = true;
+      }
+    }
+    return null;
+  };
+
+  const runBatch = async (idx) => {
+    const q = idx.map((i) => texts[i]).join("\n");
+    const res = await callGoogle(q);
+    if (!res) return;
+    if (res.lines) {   // 备用接口：按行返回
+      const ls = res.lines.map((x) => x.trim());
+      const parts = ls.length === idx.length
+        ? ls
+        : splitText(ls.join(" "), idx.map((i) => width(texts[i])));
+      idx.forEach((i, k) => { out[i] = parts[k] || ""; });
+      ok++;
+      return;
+    }
+    const segs = res.segs;
+
+    const spans = [];
+    let off = 0;
+    idx.forEach((i) => { spans.push([off, off + texts[i].length]); off += texts[i].length + 1; });
+
+    let pos = 0;
+    const got = idx.map(() => []);
+    for (const sg of segs) {
+      const trans = (sg[0] || "").replace(/\n/g, " ").trim();
+      const orig = sg[1] || "";
+      const a = pos, b = pos + orig.length;
+      pos = b;
+      if (!trans) continue;
+      const hit = [], wts = [];
+      spans.forEach((sp, k) => {
+        const ov = Math.min(b, sp[1]) - Math.max(a, sp[0]);
+        if (ov > 0) { hit.push(k); wts.push(ov); }
+      });
+      if (!hit.length) continue;
+      if (hit.length === 1) got[hit[0]].push(trans);
+      else splitText(trans, wts).forEach((part, j) => got[hit[j]].push(part));
+    }
+    idx.forEach((i, k) => { out[i] = got[k].join(" ").trim(); });
+    ok++;
   };
 
   const all = (async () => {
-    for (let i = 0; i < batches.length; i += 4) {
-      await Promise.all(batches.slice(i, i + 4).map(runBatch));
+    for (let i = 0; i < batches.length; i += 2) {
+      await Promise.all(batches.slice(i, i + 2).map(runBatch));
     }
   })();
   if (typeof setTimeout === "function") {
@@ -402,7 +505,10 @@ async function googleTranslate(texts, target) {
   } else {
     await all;
   }
-  DBG.push("google=" + ok + "/" + batches.length, "gs=" + lastStatus);
+
+  saveCache(key, sig, out);   // 已翻译的部分也存下来，下次只补缺的
+  const blk = Object.keys(blocked).length;
+  DBG.push("google=" + ok + "/" + batches.length, "gs=" + lastStatus, "blocked=" + blk);
   return out;
 }
 
