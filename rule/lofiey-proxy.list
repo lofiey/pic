@@ -40,8 +40,9 @@ host-keyword, sgameglobal, proxy
 IP-CIDR, 183.192.65.101/16, proxy
 IP-CIDR, 43.132.55.55/16, proxy
 # gemini
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-KEYWORD,apple.com.edgekey.net
+DOMAIN-SUFFIX,push.apple.com,proxy
+DOMAIN-SUFFIX,akadns.net,proxy
+DOMAIN-KEYWORD,apple.com.edgekey.net,proxy
 IP-CIDR,17.249.0.0/16,proxy
 IP-CIDR,17.252.0.0/16,proxy
 IP-CIDR,17.57.144.0/22,proxy
@@ -50,23 +51,23 @@ IP-CIDR,17.188.20.0/23,proxy
 HOST, translate.googleapis.com, PROXY
 HOST-SUFFIX, clients5.google.com, PROXY
 HOST, translate.google.com, proxy
-DOMAIN-SUFFIX,avjoy.me
-DOMAIN-SUFFIX,bkcdn.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
+DOMAIN-SUFFIX,avjoy.me,proxy
+DOMAIN-SUFFIX,bkcdn.net,proxy
+DOMAIN-SUFFIX,nflxso.net,proxy
+DOMAIN,ai.google.dev,proxy
+DOMAIN,alkalimakersuite-pa.clients6.google.com,proxy
+DOMAIN,makersuite.google.com,proxy
+DOMAIN-SUFFIX,bard.google.com,proxy
+DOMAIN-SUFFIX,deepmind.com,proxy
+DOMAIN-SUFFIX,deepmind.google,proxy
+DOMAIN-SUFFIX,gemini.google.com,proxy
+DOMAIN-SUFFIX,generativeai.google,proxy
+DOMAIN-SUFFIX,googleusercontent.com,proxy
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,proxy
+DOMAIN-SUFFIX,apis.google.com,proxy
+DOMAIN-KEYWORD,colab,proxy
+DOMAIN-KEYWORD,developerprofiles,proxy
+DOMAIN-KEYWORD,generativelanguage,proxy
 # gemini end
 HOST-SUFFIX,ntdtv.com, PROXY
 HOST-SUFFIX,cookielaw.org, PROXY
@@ -155,10 +156,10 @@ DOMAIN-SUFFIX,pay.igamecj.com,proxy
 DOMAIN-SUFFIX,api.club.gpubgm.com,proxy
 DOMAIN-SUFFIX,pubgmpdrcdn.amsoveasea.com,proxy
 DOMAIN-SUFFIX,cdn.club.gpubgm.com,proxy
-DOMAIN-KEYWORD,pubg
-DOMAIN-KEYWORD,pubgm
-DOMAIN-KEYWORD,gpubgm
-DOMAIN-KEYWORD,pubgmobile
+DOMAIN-KEYWORD,pubg,proxy
+DOMAIN-KEYWORD,pubgm,proxy
+DOMAIN-KEYWORD,gpubgm,proxy
+DOMAIN-KEYWORD,pubgmobile,proxy
 host-suffix,amagi.tv,proxy
 host-suffix,pluto.tv,proxy
 host-suffix,tvpass.org,proxy
