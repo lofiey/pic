@@ -19,6 +19,8 @@ const CFG = {
   gapMs: 1500,             // 两个词之间停顿超过这个毫秒数就断句
   maxCueMs: 6500,          // 单条字幕最长持续时间
   maxSplit: 4,             // 一句译文最多拆给几条原文
+  useTlang: false,         // 是否先请求 YouTube 自带译文（容易被 429 限流，默认关）
+  fallbackGoogle: true,    // YouTube 自带译文拿不到时，改用谷歌翻译
   debug: true,             // 调试：失败时把原因显示在字幕上，正常后改成 false
 };
 
@@ -60,7 +62,7 @@ const DBG = [];
     let origTxt = userT ? null : body, transTxt = userT ? body : null;
     [origTxt, transTxt] = await Promise.all([
       origTxt !== null ? origTxt : get(origUrl, "orig"),
-      transTxt !== null ? transTxt : get(transUrl, "trans"),
+      transTxt !== null ? transTxt : (CFG.useTlang ? get(transUrl, "trans") : ""),
     ]);
 
     const origEv = parseEvents(origTxt);
@@ -77,7 +79,13 @@ const DBG = [];
 
     attachTranslation(cues, toTransItems(transEv));
 
-    const n = cues.filter((c) => c.tr).length;
+    let n = cues.filter((c) => c.tr).length;
+    if (n === 0 && CFG.fallbackGoogle) {
+      DBG.push("改用谷歌翻译");
+      const trs = await googleTranslate(cues.map((c) => c.text), target);
+      cues.forEach((c, i) => { if (trs[i]) c.tr = trs[i]; });
+      n = cues.filter((c) => c.tr).length;
+    }
     DBG.push("origEv=" + origEv.length, "transEv=" + transEv.length, "cues=" + cues.length, "withTr=" + n);
     console.log("youtube-dual " + DBG.join(" "));
     if (CFG.debug && n === 0) cues[0].tr = "[DS] 没有译文: " + DBG.join(" ");
@@ -320,6 +328,72 @@ function attachTranslation(cues, items) {
       cues[i0].tr = joinText(cues[i0].tr, t.text);
     }
   }
+}
+
+
+/* ---------- 谷歌翻译保底 ---------- */
+
+async function googleTranslate(texts, target) {
+  const tl = target.replace("zh-Hans", "zh-CN").replace("zh-Hant", "zh-TW");
+  const out = new Array(texts.length).fill("");
+
+  const batches = [];
+  let cur = [], len = 0;
+  texts.forEach((t, i) => {
+    if (cur.length && (len + t.length > 3000 || cur.length >= 50)) {
+      batches.push(cur); cur = []; len = 0;
+    }
+    cur.push(i); len += t.length + 1;
+  });
+  if (cur.length) batches.push(cur);
+
+  let ok = 0, lastStatus = "";
+  const runBatch = async (idx) => {
+    try {
+      const q = idx.map((i) => texts[i]).join("\n");
+      const r = await $task.fetch({
+        url: "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&dt=t&tl=" + tl,
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: "q=" + encodeURIComponent(q),
+      });
+      lastStatus = r.statusCode;
+      const segs = JSON.parse(r.body)[0] || [];
+
+      // 每条原文在 q 里的位置
+      const spans = [];
+      let off = 0;
+      idx.forEach((i) => { spans.push([off, off + texts[i].length]); off += texts[i].length + 1; });
+
+      let pos = 0;
+      const got = idx.map(() => []);
+      for (const sg of segs) {
+        const trans = (sg[0] || "").replace(/\n/g, " ").trim();
+        const orig = sg[1] || "";
+        const a = pos, b = pos + orig.length;
+        pos = b;
+        if (!trans) continue;
+        const hit = [], wts = [];
+        spans.forEach((sp, k) => {
+          const ov = Math.min(b, sp[1]) - Math.max(a, sp[0]);
+          if (ov > 0) { hit.push(k); wts.push(ov); }
+        });
+        if (!hit.length) continue;
+        if (hit.length === 1) got[hit[0]].push(trans);
+        else splitText(trans, wts).forEach((part, j) => got[hit[j]].push(part));
+      }
+      idx.forEach((i, k) => { out[i] = got[k].join(" ").trim(); });
+      ok++;
+    } catch (e) {
+      console.log("youtube-dual google error: " + e);
+    }
+  };
+
+  for (let i = 0; i < batches.length; i += 4) {
+    await Promise.all(batches.slice(i, i + 4).map(runBatch));
+  }
+  DBG.push("google=" + ok + "/" + batches.length, "gs=" + lastStatus);
+  return out;
 }
 
 /* ---------- 输出 ---------- */
