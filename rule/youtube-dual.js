@@ -19,6 +19,7 @@ const CFG = {
   gapMs: 1500,             // 两个词之间停顿超过这个毫秒数就断句
   maxCueMs: 6500,          // 单条字幕最长持续时间
   maxSplit: 4,             // 一句译文最多拆给几条原文
+  googleTimeoutMs: 6000,   // 谷歌翻译最多等待多久，超时就用已翻译好的部分
   useTlang: false,         // 是否先请求 YouTube 自带译文（容易被 429 限流，默认关）
   fallbackGoogle: true,    // YouTube 自带译文拿不到时，改用谷歌翻译
   debug: true,             // 调试：失败时把原因显示在字幕上，正常后改成 false
@@ -90,7 +91,9 @@ const DBG = [];
     console.log("youtube-dual " + DBG.join(" "));
     if (CFG.debug && n === 0) cues[0].tr = "[DS] 没有译文: " + DBG.join(" ");
 
-    $done({ body: render(cues, fmt) });
+    const outBody = render(cues, fmt);
+    console.log("youtube-dual done bytes=" + outBody.length);
+    $done({ body: outBody });
   } catch (e) {
     DBG.push("err=" + e);
     console.log("youtube-dual error: " + e);
@@ -389,8 +392,15 @@ async function googleTranslate(texts, target) {
     }
   };
 
-  for (let i = 0; i < batches.length; i += 4) {
-    await Promise.all(batches.slice(i, i + 4).map(runBatch));
+  const all = (async () => {
+    for (let i = 0; i < batches.length; i += 4) {
+      await Promise.all(batches.slice(i, i + 4).map(runBatch));
+    }
+  })();
+  if (typeof setTimeout === "function") {
+    await Promise.race([all, new Promise((r) => setTimeout(r, CFG.googleTimeoutMs))]);
+  } else {
+    await all;
   }
   DBG.push("google=" + ok + "/" + batches.length, "gs=" + lastStatus);
   return out;
@@ -410,7 +420,7 @@ function vttTime(ms) {
     pad(Math.floor(ms / 1000) % 60, 2) + "." + pad(ms % 1000, 3);
 }
 function esc(s) {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return s.replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f\ufffe\uffff]/g, "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
 function render(cues, fmt) {
