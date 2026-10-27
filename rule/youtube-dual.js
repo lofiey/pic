@@ -19,8 +19,8 @@ const CFG = {
   gapMs: 1500,             // 两个词之间停顿超过这个毫秒数就断句
   maxCueMs: 6500,          // 单条字幕最长持续时间
   maxSplit: 4,             // 一句译文最多拆给几条原文
-  googleTimeoutMs: 8000,   // 谷歌翻译最多等待多久，超时就用已翻译好的部分
-  engines: ["microsoft", "google"],  // 翻译引擎顺序，前一个没翻完的由后一个补
+  googleTimeoutMs: 10000,   // 谷歌翻译最多等待多久，超时就用已翻译好的部分
+  engines: ["google"],     // 翻译引擎顺序（微软 Edge 接口已失效，需要时可写 ["google","microsoft"]）
   googleCooldownMin: 15,   // 谷歌被限流后，多少分钟内不再尝试
   googleRetry: 1,          // 谷歌翻译遇到 429/5xx 时，每个地址重试几次（间隔 0.5s、1s 递增）
   cacheVideos: 8,          // 缓存最近多少个视频的译文（重开字幕不再重复请求）
@@ -87,7 +87,7 @@ const DBG = [];
     let n = cues.filter((c) => c.tr).length;
     if (n === 0 && CFG.fallbackGoogle) {
       DBG.push("改用谷歌翻译");
-      const trs = await googleTranslate(cues.map((c) => c.text), target, getParam(url, "v"));
+      const trs = await googleTranslate(cues.map((c) => c.text), target, getParam(url, "v"), srcLang(url));
       cues.forEach((c, i) => { if (trs[i]) c.tr = trs[i]; });
       n = cues.filter((c) => c.tr).length;
     }
@@ -139,14 +139,29 @@ function width(s) {
   for (const c of s) w += CJK.test(c) ? 2 : 1;
   return w;
 }
+// 书写时词与词之间不加空格的文字：日文假名、汉字、全角、泰文、老挝文、缅甸文、高棉文
+const NOSPACE = /[\u3040-\u30ff\u3400-\u9fff\uff00-\uffef\u0e00-\u0eff\u1000-\u109f\u1780-\u17ff]/;
 function joinText(a, b) {
   b = (b || "").replace(/\s+/g, " ").trim();
   a = (a || "").replace(/\s+$/, "");
   if (!a) return b;
   if (!b) return a;
   const x = a.slice(-1), y = b[0];
-  if (CJK.test(x) || CJK.test(y) || /[,.!?;:)，。！？、；：）]/.test(y)) return a + b;
+  if (NOSPACE.test(x) || NOSPACE.test(y) || /[,.!?;:)，。！？、；：）،؛؟।۔…]/.test(y)) return a + b;
   return a + " " + b;
+}
+
+// YouTube 的 lang 参数 → 谷歌翻译的源语言代码；认不出来就交给自动检测
+function srcLang(url) {
+  const raw = (getParam(url, "lang") || "").trim().toLowerCase();
+  if (!raw || /^(und|zxx|qaa|mis|mul)$/.test(raw)) return "auto";
+  const MAP = {
+    "zh-hans": "zh-CN", "zh-cn": "zh-CN", zh: "zh-CN", "zh-sg": "zh-CN",
+    "zh-hant": "zh-TW", "zh-tw": "zh-TW", "zh-hk": "zh-TW", yue: "zh-TW",
+    he: "iw", fil: "tl", nb: "no", nn: "no",
+  };
+  if (MAP[raw]) return MAP[raw];
+  return raw.split(/[-_]/)[0] || "auto";
 }
 
 function decodeXml(s) {
@@ -232,7 +247,7 @@ function buildAsrCues(events) {
         w.st - cur.lastSt > CFG.gapMs ||
         w0 >= CFG.maxWidth ||
         w.st - cur.st > CFG.maxCueMs ||
-        (w0 >= CFG.minWidth && /[.?!。？！…]$/.test(cur.text));
+        (w0 >= CFG.minWidth && /[.?!。？！…؟۔।։]$/.test(cur.text));
       if (brk) { cues.push(cur); cur = null; }
     }
     if (!cur) cur = { st: w.st, lastSt: w.st, evEnd: w.end, text: w.t };
@@ -355,6 +370,8 @@ const gtHeaders = () => ({
   Accept: "*/*",
 });
 
+let SAVE = null;   // 每翻完一批就把进度写进缓存，超时也不丢
+
 function getPref(k) {
   try { return typeof $prefs === "undefined" ? null : $prefs.valueForKey(k); } catch (e) { return null; }
 }
@@ -450,12 +467,12 @@ async function runMicrosoft(left, texts, out, target) {
 }
 
 /* ---- 谷歌：失败后进入冷却，避免反复撞限流 ---- */
-async function runGoogle(left, texts, out, target) {
+async function runGoogle(left, texts, out, target, sl) {
   const until = +(getPref("ds_gblock") || 0);
   if (Date.now() < until) { DBG.push("google冷却中"); return; }
 
   const tl = target.replace("zh-Hans", "zh-CN").replace("zh-Hant", "zh-TW");
-  const batches = makeBatches(left, texts, 4500, 100);
+  const batches = makeBatches(left, texts, 4000, 80);
   const blocked = {}, hs = {};
   let ok = 0;
 
@@ -475,10 +492,50 @@ async function runGoogle(left, texts, out, target) {
     return null;
   };
 
-  const callGoogle = async (q) => {
+  const SLS = sl && sl !== "auto" ? [sl, "auto"] : ["auto"];
+  const fetchSl = async (h, mk) => {
+    for (const code of SLS) {
+      const r = await tryFetch(h, () => mk(code));
+      if (r) return r;
+      if (hs[h] !== 400) break;   // 只有“语言代码不被接受”才换 auto 再试
+    }
+    return null;
+  };
+
+  const callGoogle = async (lines) => {
+    const q = lines.join("\n");
+    // 首选：谷歌翻译 iPhone App 的接口，用 ~序号~ 标记对回每一行
+    if (!blocked.it) {
+      const qm = lines.map((t, k) => "~" + k + "~" + t).join("\n");
+      const r = await fetchSl("it", (sl) => ({
+        url: "https://translate.google.com/translate_a/single?client=it&dt=qca&dt=t&dt=rmt&dt=bd&dt=rms&dt=sos&dt=md&dt=gt&dt=ld&dt=ss&dt=ex&otf=2&dj=1&hl=en&ie=UTF-8&oe=UTF-8&sl=" + sl + "&tl=" + tl,
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "User-Agent": "GoogleTranslate/6.29.59279 (iPhone; iOS 15.4; en; iPhone14,2)",
+        },
+        body: "q=" + encodeURIComponent(qm),
+      }));
+      if (r) {
+        try {
+          const sents = JSON.parse(r.body).sentences || [];
+          const joined = sents
+            .filter((x) => x.trans)
+            .map((x) => x.trans.replace(/\n$/g, "").replace(/\n/g, " ").replace(/〜|～/g, "~"))
+            .join(" ");
+          const items = [];
+          (joined.match(/~\d+~[^~]+/g) || []).forEach((m) => {
+            const mm = m.match(/^~(\d+)~\s*([\s\S]*)$/);
+            if (mm && mm[2].trim()) items.push([+mm[1], mm[2].trim()]);
+          });
+          if (items.length) return { items };
+        } catch (e) {}
+      }
+      blocked.it = true;
+    }
     if (!blocked.gtx) {
-      const r = await tryFetch("gtx", () => ({
-        url: "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&dt=t&tl=" + tl,
+      const r = await fetchSl("gtx", (sl) => ({
+        url: "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" + sl + "&dt=t&tl=" + tl,
         method: "POST",
         headers: gtHeaders(),
         body: "q=" + encodeURIComponent(q),
@@ -487,8 +544,8 @@ async function runGoogle(left, texts, out, target) {
       blocked.gtx = true;
     }
     if (!blocked.c5) {
-      const r = await tryFetch("c5", () => ({
-        url: "https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=" + tl,
+      const r = await fetchSl("c5", (sl) => ({
+        url: "https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=" + sl + "&tl=" + tl,
         method: "POST",
         headers: gtHeaders(),
         body: "q=" + encodeURIComponent(q.replace(/\n/g, "\r")),
@@ -511,9 +568,13 @@ async function runGoogle(left, texts, out, target) {
   };
 
   const runBatch = async (idx) => {
-    const q = idx.map((i) => texts[i]).join("\n");
-    const res = await callGoogle(q);
+    const res = await callGoogle(idx.map((i) => texts[i]));
     if (!res) return;
+    if (res.items) {
+      res.items.forEach(([k, t]) => { if (idx[k] !== undefined) out[idx[k]] = t; });
+      ok++;
+      return;
+    }
     if (res.lines) {
       const ls = res.lines.map((x) => x.trim());
       const parts = ls.length === idx.length
@@ -548,17 +609,21 @@ async function runGoogle(left, texts, out, target) {
     ok++;
   };
 
-  for (let i = 0; i < batches.length; i += 2) {
-    await Promise.all(batches.slice(i, i + 2).map(runBatch));
-    if (blocked.gtx && blocked.c5) break;   // 两个入口都不行，别再浪费时间
+  const runBatchSaved = async (idx) => {
+    await runBatch(idx);
+    if (SAVE) SAVE();
+  };
+  for (let i = 0; i < batches.length; i += 3) {
+    await Promise.all(batches.slice(i, i + 3).map(runBatchSaved));
+    if (blocked.it && blocked.gtx && blocked.c5) break;   // 两个入口都不行，别再浪费时间
   }
   if (ok === 0) setPref("ds_gblock", Date.now() + CFG.googleCooldownMin * 60000);
-  DBG.push("google=" + ok + "/" + batches.length,
+  DBG.push("sl=" + (sl || "auto"), "google=" + ok + "/" + batches.length,
     "gs=" + Object.keys(hs).map((h) => h + ":" + hs[h]).join(","));
 }
 
 /* ---- 总入口：先查缓存，再按引擎顺序补齐，结果写回缓存 ---- */
-async function googleTranslate(texts, target, vid) {
+async function googleTranslate(texts, target, vid, sl) {
   const tl = target.replace("zh-Hans", "zh-CN").replace("zh-Hant", "zh-TW");
   const sig = texts.length + ":" + texts.reduce((a, t) => a + t.length, 0);
   const key = "ds_" + (vid || "x") + "_" + tl;
@@ -568,12 +633,13 @@ async function googleTranslate(texts, target, vid) {
   DBG.push("cached=" + (texts.length - missing().length));
   if (!missing().length) return out;
 
+  SAVE = () => saveCache(key, sig, out);
   const all = (async () => {
     for (const eng of CFG.engines) {
       const left = missing();
       if (!left.length) break;
       if (eng === "microsoft") await runMicrosoft(left, texts, out, target);
-      else if (eng === "google") await runGoogle(left, texts, out, target);
+      else if (eng === "google") await runGoogle(left, texts, out, target, sl);
     }
   })();
   if (typeof setTimeout === "function") {
@@ -581,7 +647,9 @@ async function googleTranslate(texts, target, vid) {
   } else {
     await all;
   }
-  saveCache(key, sig, out);
+  SAVE();
+  const miss = missing().length;
+  if (miss) DBG.push("未译完" + miss + "条(重开字幕可补全)");
   return out;
 }
 
