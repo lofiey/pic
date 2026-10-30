@@ -377,9 +377,6 @@
 /.*ad-sign.*\.douyincdn\.com/
 /.*\.yingt\.fun/
 /.*\.hnzkclouds\.com/
-! --- Facebook 广域 CDN (防误杀模式) ---
-/scontent-[a-z]{3}[0-9]+.*\.fbcdn\.net/
-/external.*\.fbcdn\.net/
 !=========================================
 ! [Module 02] 🌪️ 字节系深度净化 (根域名毁灭)
 ! 说明: 针对番茄小说、抖音极速版的广告容器与日志回传
