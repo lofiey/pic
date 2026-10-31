@@ -8,6 +8,25 @@ HOST-SUFFIX, clau.de, proxy
 HOST-SUFFIX, modelcontextprotocol.io, proxy
 IP-CIDR,160.79.104.0/21, proxy
 IP-ASN,399358, proxy
+DOMAIN-SUFFIX,anthropic.auth0.com, proxy
+DOMAIN-SUFFIX,accounts.google.com, proxy
+DOMAIN-SUFFIX,anthropic-com.ghost.io, proxy
+DOMAIN-SUFFIX,challenges.cloudflare.com, proxy
+DOMAIN-SUFFIX,arkoselabs.com, proxy
+DOMAIN-SUFFIX,featuregates.org, proxy
+DOMAIN-SUFFIX,statsigapi.net, proxy
+DOMAIN-SUFFIX,cdn.usefathom.com, proxy
+DOMAIN-SUFFIX,hexagon-analytics.com, proxy
+DOMAIN-SUFFIX,claudemcpclient.com, proxy
+DOMAIN-SUFFIX,claude.app, proxy
+DOMAIN-SUFFIX,claude.new, proxy
+DOMAIN-SUFFIX,claude.site, proxy
+DOMAIN-SUFFIX,claudepages.dev, proxy
+DOMAIN-SUFFIX,ant.dev, proxy
+DOMAIN-SUFFIX,antspace.dev, proxy
+DOMAIN-SUFFIX,anthropic.team, proxy
+DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net, proxy
+DOMAIN-SUFFIX,anthropic.com.cdn.cloudflare.net, proxy
 DOMAIN-KEYWORD,claude, proxy
 DOMAIN-KEYWORD,anthropic, proxy
 DOMAIN-KEYWORD,browser-intake, PROXY
