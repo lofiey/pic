@@ -58,7 +58,67 @@ host-suffix, appsflyersdk.com, proxy
 host-keyword, sgameglobal, proxy
 IP-CIDR, 183.192.65.101/16, proxy
 IP-CIDR, 43.132.55.55/16, proxy
-# gemini
+# Claude
+DOMAIN-SUFFIX,anthropic.com,AI
+DOMAIN-SUFFIX,claude.ai,AI
+DOMAIN-SUFFIX,claude.com,AI
+DOMAIN-SUFFIX,clau.de,AI
+DOMAIN-SUFFIX,claudeusercontent.com,AI
+DOMAIN-SUFFIX,claudemcpcontent.com,AI
+DOMAIN-SUFFIX,claudemcpclient.com,AI
+DOMAIN-SUFFIX,claude.app,AI
+DOMAIN-SUFFIX,claude.new,AI
+DOMAIN-SUFFIX,claude.site,AI
+DOMAIN-SUFFIX,claudepages.dev,AI
+DOMAIN-SUFFIX,ant.dev,AI
+DOMAIN-SUFFIX,antspace.dev,AI
+DOMAIN-SUFFIX,anthropic.team,AI
+# Claude CDN
+DOMAIN,servd-anthropic-website.b-cdn.net,AI
+DOMAIN,anthropic.com.cdn.cloudflare.net,AI
+# Claude 登录与第三方服务
+DOMAIN-SUFFIX,hcaptcha.com,AI
+DOMAIN-SUFFIX,intercom.io,AI
+DOMAIN-SUFFIX,intercomcdn.com,AI
+DOMAIN-SUFFIX,intercomassets.com,AI
+DOMAIN,anthropic.auth0.com,AI
+DOMAIN,accounts.google.com,AI
+DOMAIN,anthropic-com.ghost.io,AI
+DOMAIN,challenges.cloudflare.com,AI
+DOMAIN-SUFFIX,arkoselabs.com,AI
+DOMAIN-SUFFIX,featuregates.org,AI
+# Claude 监控与统计
+DOMAIN-SUFFIX,sentry.io,AI
+DOMAIN-SUFFIX,statsigapi.net,AI
+DOMAIN,http-intake.logs.us5.datadoghq.com,AI
+DOMAIN,browser-intake-us5-datadoghq.com,AI
+DOMAIN,cdn.usefathom.com,AI
+DOMAIN-SUFFIX,hexagon-analytics.com,AI
+DOMAIN-KEYWORD,datadog,AI
+DOMAIN-KEYWORD,sift,AI
+# ChatGPT
+DOMAIN-SUFFIX,openai.com,AI
+DOMAIN-SUFFIX,chatgpt.com,AI
+DOMAIN-SUFFIX,oaistatic.com,AI
+DOMAIN-SUFFIX,oaiusercontent.com,AI
+DOMAIN-SUFFIX,sora.com,AI
+DOMAIN-SUFFIX,openai.org,AI
+DOMAIN-SUFFIX,chatgpt.site,AI
+DOMAIN-SUFFIX,oaistatsig.com,AI
+DOMAIN-SUFFIX,chatgpt.livekit.cloud,AI
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net,AI
+DOMAIN,openaiapi-site.azureedge.net,AI
+DOMAIN,openaiassets.blob.core.windows.net,AI
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI
+DOMAIN,openaicom.imgix.net,AI
+DOMAIN,openaicomproductionae4b.blob.core.windows.net,AI
+DOMAIN,production-openaicom-storage.azureedge.net,AI
+# Aiip.si DNS 泄露检测：探测域名跟 AI 域名同一出口与 DNS
+DOMAIN-SUFFIX,d.aiip.si,AI
+# Anthropic IP 段兜底（官方公布）
+IP-CIDR,160.79.104.0/21,AI,no-resolve
+IP-CIDR6,2607:6bc0::/32,AI,no-resolve
+IP-ASN,399358,AI,no-resolve
 DOMAIN-SUFFIX,push.apple.com,proxy
 DOMAIN-SUFFIX,akadns.net,proxy
 DOMAIN-KEYWORD,apple.com.edgekey.net,proxy
