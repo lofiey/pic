@@ -1,4 +1,9 @@
 # Boom AD
+||fog.22112211.xyz^$important
+||stun.voip.blackberry.com^$important
+||stun.chat.bilibili.com^$important
+||stun.miwifi.com^$important
+||stun.qq.com^$important
 ||sentry.io^$important
 ||segment.io^$important
 ||intercom.io^$important
