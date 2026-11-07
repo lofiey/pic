@@ -368,10 +368,6 @@
 ! --- 穿山甲/字节系 动态特征 ---
 /pangolin.*\.com/
 /pangolin.*\.net/
-/webcast.*\.douyin\.com/
-/live.*\.douyin\.com/
-/webcast.*\.bytegecko\.com/
-/webcast.*\.amemv\.com/
 /p[0-9]+-be-pack-sign\.byteimg\.com/
 /sf[0-9]+-ttcdn-tos\.pstatp\.com/
 /mon[0-9]+.*\.fqnovel\.com/
