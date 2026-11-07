@@ -59,6 +59,9 @@ DOMAIN-KEYWORD,videoplayback,PROXY
 host-suffix, intlgame.com, proxy
 host-suffix, sgameglobal.com, proxy
 host-suffix, appsflyersdk.com, proxy
+host-suffix, honorofkings.com, proxy
+host-suffix, gcloudsdk.com, proxy
+host-suffix, us-west-2.amazonaws.com, proxy
 host-keyword, sgameglobal, proxy
 IP-CIDR, 183.192.65.101/16, proxy
 IP-CIDR, 43.132.55.55/16, proxy
