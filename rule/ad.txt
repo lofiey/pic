@@ -7,6 +7,10 @@
 ||stun.chat.bilibili.com^$important
 ||stun.miwifi.com^$important
 ||stun.qq.com^$important
+0.0.0.0 cdn.adwork.net^
+0.0.0.0 eaglex-ads.ai-cool.com^
+0.0.0.0 eaglex-ads-api.iredwhale.com^
+0.0.0.0 pic.arkread.com^
 0.0.0.0 sentry.io^
 0.0.0.0 segment.io^
 0.0.0.0 intercom.io^
