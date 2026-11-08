@@ -1,30 +1,37 @@
 # Boom AD
+0.0.0.0 statsigapi.net
+0.0.0.0 cdn.usefathom.com
+0.0.0.0 hexagon-analytics.com
 ||fog.22112211.xyz^$important
 ||stun.voip.blackberry.com^$important
 ||stun.chat.bilibili.com^$important
 ||stun.miwifi.com^$important
 ||stun.qq.com^$important
-||sentry.io^$important
-||segment.io^$important
-||intercom.io^$important
-||siftscience.com^$important
-||intercomcdn.com^$important
-||intercomassets.com^$important
-||browser-intake-us5-datadoghq.com^$important
-||v5-mc-cold.douyinvod.com^$important
-||userlocations.googleapis.com^$important
-||impression.biligame.com^$important
-||cgi.connect.qq.com^$important
-||v5-se-ex-mc-cold.douyinvod.com^$important
-||qrstuvwxyzab.com^$important
-||shence.hupu.com^$important
-||cdn.adwork.net^$important
-||web.50bangzh.com^$important
-||tianqi-stream.2345cdn.net^$important
-||tianqi.2345.com^$important
-||imgfb.gamersky.com^$important
-||html-load.com^$important
-||dotomi.com^$important
+0.0.0.0 sentry.io^
+0.0.0.0 segment.io^
+0.0.0.0 intercom.io^
+0.0.0.0 siftscience.com^
+0.0.0.0 intercomcdn.com^
+0.0.0.0 intercomassets.com^
+0.0.0.0 statsigapi.net^
+0.0.0.0 cdn.usefathom.com^
+0.0.0.0 hexagon-analytics.com^
+0.0.0.0 datadoghq.com^
+0.0.0.0 browser-intake-us5-datadoghq.com^
+0.0.0.0 v5-mc-cold.douyinvod.com^
+0.0.0.0 userlocations.googleapis.com^
+0.0.0.0 impression.biligame.com^
+0.0.0.0 cgi.connect.qq.com^
+0.0.0.0 v5-se-ex-mc-cold.douyinvod.com^
+0.0.0.0 qrstuvwxyzab.com^
+0.0.0.0 shence.hupu.com^
+0.0.0.0 cdn.adwork.net^
+0.0.0.0 web.50bangzh.com^
+0.0.0.0 tianqi-stream.2345cdn.net^
+0.0.0.0 tianqi.2345.com^
+0.0.0.0 imgfb.gamersky.com^
+0.0.0.0 html-load.com^
+0.0.0.0 dotomi.com^
 0.0.0.0 apd-pcdnwxstat.teg.tencent-cloud.net
 0.0.0.0 apd-pcdnwxlogin.teg.tencent-cloud.net
 0.0.0.0 ads-api.tiktok.com 
