@@ -17,7 +17,6 @@
 ||cgi.connect.qq.com^$important
 ||v5-se-ex-mc-cold.douyinvod.com^$important
 ||qrstuvwxyzab.com^$important
-||dns.weixin.qq.com^$important
 ||shence.hupu.com^$important
 ||cdn.adwork.net^$important
 ||web.50bangzh.com^$important
