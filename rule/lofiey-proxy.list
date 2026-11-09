@@ -1047,6 +1047,13 @@ USER-AGENT,MicroMessenger*,WeChat
 USER-AGENT,WeChat*,WeChat
 IP-ASN,132203,WeChat
 # others
+host-suffix,ssl.msdk.qq.com, proxy
+host-suffix,wetest.net, proxy
+host-suffix,vasdgame.com, proxy
+host-suffix,iegcom.com, proxy
+host-suffix,dlied5.qq.com, proxy
+host-suffix,cgi.connect.qq.com, proxy
+host-suffix,amazonaws.com, proxy,
 host-suffix,vidcore.net, proxy
 host-suffix,vidcore.io, proxy
 host-suffix,tmdb.org, proxy
