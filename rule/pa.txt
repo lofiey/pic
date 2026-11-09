@@ -1,4 +1,7 @@
 # Green light
+@@||upos-sz-mirrorali.bilivideo.com^$important
+@@||upos-sz-mirrorcos.bilivideo.com^$important
+@@||upos-sz-mirrorhw.bilivideo.com^$important
 @@||alipay-eco.com^$important
 @@||byteoversea.com^$important
 @@||go.sohu.com^$important
