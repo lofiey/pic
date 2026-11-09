@@ -7,6 +7,14 @@
 ||stun.chat.bilibili.com^$important
 ||stun.miwifi.com^$important
 ||stun.qq.com^$important
+||mcdn.bilivideo.cn^$important
+||*.mcdn.bilivideo.cn^$important
+||szbdyd.com^$important
+||*.szbdyd.com^$important
+||bilivideo.com/v1/resource^$important
+||[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]{1,5}/v1/resource^$important
+||jdcloudcdn.com^$important
+||*.jdcloudcdn.com^$important
 0.0.0.0 cdn.adwork.net^
 0.0.0.0 eaglex-ads.ai-cool.com^
 0.0.0.0 eaglex-ads-api.iredwhale.com^
