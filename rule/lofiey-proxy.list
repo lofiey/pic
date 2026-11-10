@@ -1070,3 +1070,10 @@ DOMAIN-SUFFIX,discordapp.com, proxy
 DOMAIN-SUFFIX,anticheatexpert.com, proxy
 DOMAIN-SUFFIX,singaporepaya.com, proxy
 DOMAIN-SUFFIX,edgeonedy1.com, proxy
+ip-cidr, 43.152.113.56/24, proxy
+ip-cidr, 43.159.113.62/24, proxy
+ip-cidr, 43.134.243.98/24, proxy
+ip-cidr, 43.174.220.9/24, proxy
+ip-cidr, 43.132.138.111/24, proxy
+ip-cidr, 43.132.55.55/24, proxy
+ip-cidr, 43.175.75.2/24, proxy
