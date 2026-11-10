@@ -56,12 +56,12 @@ HOST-SUFFIX, allinfa.com, PROXY
 HOST-SUFFIX, xns.one, PROXY
 DOMAIN-KEYWORD,cdn.wechat.com,PROXY
 DOMAIN-KEYWORD,videoplayback,PROXY
-host-suffix, intlgame.com, proxy
-host-suffix, sgameglobal.com, proxy
-host-suffix, appsflyersdk.com, proxy
-host-suffix, honorofkings.com, proxy
-host-suffix, gcloudsdk.com, proxy
-host-suffix, us-west-2.amazonaws.com, proxy
+DOMAIN-SUFFIX, intlgame.com, proxy
+DOMAIN-SUFFIX, sgameglobal.com, proxy
+DOMAIN-SUFFIX, appsflyersdk.com, proxy
+DOMAIN-SUFFIX, honorofkings.com, proxy
+DOMAIN-SUFFIX, gcloudsdk.com, proxy
+DOMAIN-SUFFIX, us-west-2.amazonaws.com, proxy
 host-keyword, sgameglobal, proxy
 IP-CIDR, 183.192.65.101/16, proxy
 IP-CIDR, 43.132.55.55/16, proxy
@@ -1047,26 +1047,26 @@ USER-AGENT,MicroMessenger*,WeChat
 USER-AGENT,WeChat*,WeChat
 IP-ASN,132203,WeChat
 # others
-host-suffix,ssl.msdk.qq.com, proxy
-host-suffix,wetest.net, proxy
-host-suffix,vasdgame.com, proxy
-host-suffix,iegcom.com, proxy
-host-suffix,dlied5.qq.com, proxy
-host-suffix,cgi.connect.qq.com, proxy
-host-suffix,amazonaws.com, proxy,
-host-suffix,vidcore.net, proxy
-host-suffix,vidcore.io, proxy
-host-suffix,tmdb.org, proxy
-host-suffix,apnic.net, proxy
-host-suffix,in-addr.arpa, proxy
-host-suffix,ip6.arpa, proxy
-host-suffix,sg.tux.qq.com, proxy
-host-suffix,listdl.com, proxy
-host-suffix,galileotelemetry.tencent.com, proxy
-host-suffix,rdelivery.tdos.vip, proxy
-host-suffix,hok5v5.com, proxy
-host-suffix,intlgame.com, proxy
-host-suffix,discordapp.com, proxy
-host-suffix,anticheatexpert.com, proxy
-host-suffix,singaporepaya.com, proxy
-host-suffix,edgeonedy1.com, proxy
+DOMAIN-SUFFIX,ssl.msdk.qq.com, proxy
+DOMAIN-SUFFIX,wetest.net, proxy
+DOMAIN-SUFFIX,vasdgame.com, proxy
+DOMAIN-SUFFIX,iegcom.com, proxy
+DOMAIN-SUFFIX,dlied5.qq.com, proxy
+DOMAIN-SUFFIX,cgi.connect.qq.com, proxy
+DOMAIN-SUFFIX,amazonaws.com, proxy,
+DOMAIN-SUFFIX,vidcore.net, proxy
+DOMAIN-SUFFIX,vidcore.io, proxy
+DOMAIN-SUFFIX,tmdb.org, proxy
+DOMAIN-SUFFIX,apnic.net, proxy
+DOMAIN-SUFFIX,in-addr.arpa, proxy
+DOMAIN-SUFFIX,ip6.arpa, proxy
+DOMAIN-SUFFIX,sg.tux.qq.com, proxy
+DOMAIN-SUFFIX,listdl.com, proxy
+DOMAIN-SUFFIX,galileotelemetry.tencent.com, proxy
+DOMAIN-SUFFIX,rdelivery.tdos.vip, proxy
+DOMAIN-SUFFIX,hok5v5.com, proxy
+DOMAIN-SUFFIX,intlgame.com, proxy
+DOMAIN-SUFFIX,discordapp.com, proxy
+DOMAIN-SUFFIX,anticheatexpert.com, proxy
+DOMAIN-SUFFIX,singaporepaya.com, proxy
+DOMAIN-SUFFIX,edgeonedy1.com, proxy
