@@ -1,8 +1,4 @@
 # Boom AD
-0.0.0.0 ntp.org^
-0.0.0.0 statsigapi.net^
-0.0.0.0 cdn.usefathom.com^
-0.0.0.0 hexagon-analytics.com^
 ||fog.22112211.xyz^$important
 ||stun.voip.blackberry.com^$important
 ||stun.chat.bilibili.com^$important
@@ -20,17 +16,54 @@
 0.0.0.0 eaglex-ads.ai-cool.com^
 0.0.0.0 eaglex-ads-api.iredwhale.com^
 0.0.0.0 pic.arkread.com^
-0.0.0.0 sentry.io^
-0.0.0.0 segment.io^
-0.0.0.0 intercom.io^
-0.0.0.0 siftscience.com^
-0.0.0.0 intercomcdn.com^
-0.0.0.0 intercomassets.com^
-0.0.0.0 statsigapi.net^
-0.0.0.0 cdn.usefathom.com^
-0.0.0.0 hexagon-analytics.com^
-0.0.0.0 datadoghq.com^
-0.0.0.0 browser-intake-us5-datadoghq.com^
+0.0.0.0 ntp.org
+127.0.0.1 ntp.org
+0.0.0.0 ntp.org dnstype=A|CNAME
+0.0.0.0 ntp.org dnstype=AAAA|CNAME
+0.0.0.0 sentry.io
+127.0.0.1 sentry.io
+0.0.0.0 sentry.io dnstype=A|CNAME
+0.0.0.0 sentry.io dnstype=AAAA|CNAME
+0.0.0.0 segment.io
+127.0.0.1 segment.io
+0.0.0.0 segment.io dnstype=A|CNAME
+0.0.0.0 segment.io dnstype=AAAA|CNAME
+0.0.0.0 intercom.io
+127.0.0.1 intercom.io
+0.0.0.0 intercom.io dnstype=A|CNAME
+0.0.0.0 intercom.io dnstype=AAAA|CNAME
+0.0.0.0 siftscience.com 
+127.0.0.1 siftscience.com 
+0.0.0.0 siftscience.com dnstype=A|CNAME
+0.0.0.0 siftscience.com dnstype=AAAA|CNAME
+0.0.0.0 intercomcdn.com 
+127.0.0.1 intercomcdn.com
+0.0.0.0 intercomcdn.com dnstype=A|CNAME
+0.0.0.0 intercomcdn.com dnstype=AAAA|CNAME
+0.0.0.0 intercomassets.com
+127.0.0.1 intercomassets.com
+0.0.0.0 intercomassets.com dnstype=A|CNAME
+0.0.0.0 intercomassets.com dnstype=AAAA|CNAME
+0.0.0.0 statsigapi.net
+127.0.0.1 statsigapi.net
+0.0.0.0 statsigapi.net dnstype=A|CNAME
+0.0.0.0 statsigapi.net dnstype=AAAA|CNAME
+0.0.0.0 usefathom.com
+127.0.0.1 usefathom.com
+0.0.0.0 usefathom.com dnstype=A|CNAME
+0.0.0.0 usefathom.com dnstype=AAAA|CNAME
+0.0.0.0 hexagon-analytics.com
+127.0.0.1 hexagon-analytics.com
+0.0.0.0 hexagon-analytics.com dnstype=A|CNAME
+0.0.0.0 hexagon-analytics.com dnstype=AAAA|CNAME
+0.0.0.0 datadoghq.com
+127.0.0.1 datadoghq.com
+0.0.0.0 datadoghq.com dnstype=A|CNAME
+0.0.0.0 datadoghq.com dnstype=AAAA|CNAME
+0.0.0.0 browser-intake-us5-datadoghq.com
+127.0.0.1 browser-intake-us5-datadoghq.com
+0.0.0.0 browser-intake-us5-datadoghq.com dnstype=A|CNAME
+0.0.0.0 browser-intake-us5-datadoghq.com dnstype=AAAA|CNAME
 0.0.0.0 v5-mc-cold.douyinvod.com^
 0.0.0.0 userlocations.googleapis.com^
 0.0.0.0 impression.biligame.com^
