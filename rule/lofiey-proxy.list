@@ -17,6 +17,7 @@ IP-ASN, 60808, proxy
 IP-ASN, 401551, proxy
 IP-ASN, 400243, proxy
 IP-ASN, 4167, proxy
+host,in-addr.arpa,proxy
 HOST-SUFFIX, clau.de, proxy
 HOST-SUFFIX, modelcontextprotocol.io, proxy
 IP-CIDR,160.79.104.0/21, proxy
