@@ -1,7 +1,8 @@
 # Boom AD
-0.0.0.0 statsigapi.net
-0.0.0.0 cdn.usefathom.com
-0.0.0.0 hexagon-analytics.com
+0.0.0.0 ntp.org^
+0.0.0.0 statsigapi.net^
+0.0.0.0 cdn.usefathom.com^
+0.0.0.0 hexagon-analytics.com^
 ||fog.22112211.xyz^$important
 ||stun.voip.blackberry.com^$important
 ||stun.chat.bilibili.com^$important
