@@ -1070,9 +1070,6 @@ USER-AGENT,MicroMessenger*,WeChat
 USER-AGENT,WeChat*,WeChat
 IP-ASN,132203,WeChat
 # others
-DOMAIN-SUFFIX,wetest.net, proxy
-DOMAIN-SUFFIX,vasdgame.com, proxy
-DOMAIN-SUFFIX,iegcom.com, proxy
 DOMAIN-SUFFIX,vidcore.net, proxy
 DOMAIN-SUFFIX,vidcore.io, proxy
 DOMAIN-SUFFIX,tmdb.org, proxy
@@ -1080,8 +1077,6 @@ DOMAIN-SUFFIX,apnic.net, proxy
 DOMAIN-SUFFIX,in-addr.arpa, proxy
 DOMAIN-SUFFIX,ip6.arpa, proxy
 DOMAIN-SUFFIX,listdl.com, proxy
-DOMAIN-SUFFIX,hok5v5.com, proxy
-DOMAIN-SUFFIX,intlgame.com, proxy
 DOMAIN-SUFFIX,discordapp.com, proxy
 DOMAIN-SUFFIX,anticheatexpert.com, proxy
 DOMAIN-SUFFIX,singaporepaya.com, proxy
