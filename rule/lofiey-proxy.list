@@ -1070,33 +1070,19 @@ USER-AGENT,MicroMessenger*,WeChat
 USER-AGENT,WeChat*,WeChat
 IP-ASN,132203,WeChat
 # others
-DOMAIN-SUFFIX,ssl.msdk.qq.com, proxy
 DOMAIN-SUFFIX,wetest.net, proxy
 DOMAIN-SUFFIX,vasdgame.com, proxy
 DOMAIN-SUFFIX,iegcom.com, proxy
-DOMAIN-SUFFIX,dlied5.qq.com, proxy
-DOMAIN-SUFFIX,cgi.connect.qq.com, proxy
-DOMAIN-SUFFIX,amazonaws.com, proxy,
 DOMAIN-SUFFIX,vidcore.net, proxy
 DOMAIN-SUFFIX,vidcore.io, proxy
 DOMAIN-SUFFIX,tmdb.org, proxy
 DOMAIN-SUFFIX,apnic.net, proxy
 DOMAIN-SUFFIX,in-addr.arpa, proxy
 DOMAIN-SUFFIX,ip6.arpa, proxy
-DOMAIN-SUFFIX,sg.tux.qq.com, proxy
 DOMAIN-SUFFIX,listdl.com, proxy
-DOMAIN-SUFFIX,galileotelemetry.tencent.com, proxy
-DOMAIN-SUFFIX,rdelivery.tdos.vip, proxy
 DOMAIN-SUFFIX,hok5v5.com, proxy
 DOMAIN-SUFFIX,intlgame.com, proxy
 DOMAIN-SUFFIX,discordapp.com, proxy
 DOMAIN-SUFFIX,anticheatexpert.com, proxy
 DOMAIN-SUFFIX,singaporepaya.com, proxy
-DOMAIN-SUFFIX,edgeonedy1.com, proxy
-ip-cidr, 43.152.113.56/24, proxy
-ip-cidr, 43.159.113.62/24, proxy
-ip-cidr, 43.134.243.98/24, proxy
-ip-cidr, 43.174.220.9/24, proxy
-ip-cidr, 43.132.138.111/24, proxy
-ip-cidr, 43.132.55.55/24, proxy
-ip-cidr, 43.175.75.2/24, proxy
+
