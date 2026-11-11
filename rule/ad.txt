@@ -18,50 +18,62 @@
 0.0.0.0 pic.arkread.com^
 0.0.0.0 ntp.org
 127.0.0.1 ntp.org
+||ntp.org^$important
 0.0.0.0 ntp.org dnstype=A|CNAME
 0.0.0.0 ntp.org dnstype=AAAA|CNAME
 0.0.0.0 sentry.io
 127.0.0.1 sentry.io
+||sentry.io^$important
 0.0.0.0 sentry.io dnstype=A|CNAME
 0.0.0.0 sentry.io dnstype=AAAA|CNAME
 0.0.0.0 segment.io
 127.0.0.1 segment.io
+||segment.io^$important
 0.0.0.0 segment.io dnstype=A|CNAME
 0.0.0.0 segment.io dnstype=AAAA|CNAME
 0.0.0.0 intercom.io
 127.0.0.1 intercom.io
+||intercom.io^$important
 0.0.0.0 intercom.io dnstype=A|CNAME
 0.0.0.0 intercom.io dnstype=AAAA|CNAME
 0.0.0.0 siftscience.com 
 127.0.0.1 siftscience.com 
+||siftscience.com^$important
 0.0.0.0 siftscience.com dnstype=A|CNAME
 0.0.0.0 siftscience.com dnstype=AAAA|CNAME
 0.0.0.0 intercomcdn.com 
 127.0.0.1 intercomcdn.com
+||intercomcdn.com^$important
 0.0.0.0 intercomcdn.com dnstype=A|CNAME
 0.0.0.0 intercomcdn.com dnstype=AAAA|CNAME
 0.0.0.0 intercomassets.com
 127.0.0.1 intercomassets.com
+||intercomassets.com^$important
 0.0.0.0 intercomassets.com dnstype=A|CNAME
 0.0.0.0 intercomassets.com dnstype=AAAA|CNAME
 0.0.0.0 statsigapi.net
 127.0.0.1 statsigapi.net
+||statsigapi.net^$important
 0.0.0.0 statsigapi.net dnstype=A|CNAME
 0.0.0.0 statsigapi.net dnstype=AAAA|CNAME
 0.0.0.0 usefathom.com
 127.0.0.1 usefathom.com
+||usefathom.com^$important
 0.0.0.0 usefathom.com dnstype=A|CNAME
 0.0.0.0 usefathom.com dnstype=AAAA|CNAME
 0.0.0.0 hexagon-analytics.com
 127.0.0.1 hexagon-analytics.com
+||hexagon-analytics.com^$important
 0.0.0.0 hexagon-analytics.com dnstype=A|CNAME
 0.0.0.0 hexagon-analytics.com dnstype=AAAA|CNAME
 0.0.0.0 datadoghq.com
 127.0.0.1 datadoghq.com
+||datadoghq.com^$important
 0.0.0.0 datadoghq.com dnstype=A|CNAME
 0.0.0.0 datadoghq.com dnstype=AAAA|CNAME
 0.0.0.0 browser-intake-us5-datadoghq.com
 127.0.0.1 browser-intake-us5-datadoghq.com
+||browser-intake-us5-datadoghq.com^$important
 0.0.0.0 browser-intake-us5-datadoghq.com dnstype=A|CNAME
 0.0.0.0 browser-intake-us5-datadoghq.com dnstype=AAAA|CNAME
 0.0.0.0 v5-mc-cold.douyinvod.com^
