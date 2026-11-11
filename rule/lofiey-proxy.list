@@ -8,6 +8,15 @@ IP-CIDR,160.79.104.0/23, proxy
 IP-CIDR,153.61.224.0/22, proxy
 IP-CIDR,160.79.104.0/21, proxy
 IP-CIDR,153.61.208.0/20, proxy
+OpenAI ASNs
+IP-ASN, 401518, proxy
+IP-ASN, 401864, proxy
+# Anthropic ASNs
+IP-ASN, 399358, proxy
+IP-ASN, 60808, proxy
+IP-ASN, 401551, proxy
+IP-ASN, 400243, proxy
+IP-ASN, 4167, proxy
 HOST-SUFFIX, clau.de, proxy
 HOST-SUFFIX, modelcontextprotocol.io, proxy
 IP-CIDR,160.79.104.0/21, proxy
