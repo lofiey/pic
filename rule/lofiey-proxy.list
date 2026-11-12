@@ -1075,7 +1075,6 @@ DOMAIN-SUFFIX,tmdb.org, proxy
 DOMAIN-SUFFIX,apnic.net, proxy
 DOMAIN-SUFFIX,in-addr.arpa, proxy
 DOMAIN-SUFFIX,ip6.arpa, proxy
-DOMAIN-SUFFIX,listdl.com, proxy
 DOMAIN-SUFFIX,discordapp.com, proxy
 DOMAIN-SUFFIX,anticheatexpert.com, proxy
 DOMAIN-SUFFIX,singaporepaya.com, proxy
