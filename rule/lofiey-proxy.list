@@ -17,6 +17,9 @@ IP-ASN, 60808, proxy
 IP-ASN, 401551, proxy
 IP-ASN, 400243, proxy
 IP-ASN, 4167, proxy
+domain-suffix,maps.googleapis.com,proxy
+domain-suffix,withpersona.com,proxy
+domain-suffix,frompersona.com,proxy
 domain-suffix,ntp.org,proxy
 host,in-addr.arpa,proxy
 HOST-SUFFIX, clau.de, proxy
