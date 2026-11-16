@@ -1,4 +1,7 @@
 # Green light
+@@||dreport.meituan.net^$important
+@@||catfront.dianping.com^$important
+@@||wetelemetry.weixin.qq.com^$important
 @@||upos-sz-mirrorali.bilivideo.com^$important
 @@||upos-sz-mirrorcos.bilivideo.com^$important
 @@||upos-sz-mirrorhw.bilivideo.com^$important
