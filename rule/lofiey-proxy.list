@@ -27,6 +27,7 @@ HOST-SUFFIX, clau.de, proxy
 HOST-SUFFIX, modelcontextprotocol.io, proxy
 IP-CIDR,160.79.104.0/21, proxy
 IP-CIDR,43.159.112.62/21, proxy
+IP-CIDR,43.174.220.9, proxy
 IP-ASN,399358, proxy
 host, www2.deepl.com,proxy
 host, cdn.oaiusercontent.com,proxy
