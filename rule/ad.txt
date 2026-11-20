@@ -1,4 +1,5 @@
 # Boom AD
+||play.googleapis.com/log^$important
 ||fog.22112211.xyz^$important
 ||stun.voip.blackberry.com^$important
 ||stun.chat.bilibili.com^$important
