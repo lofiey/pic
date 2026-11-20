@@ -51,7 +51,6 @@
 !=========================================
 ! --- [核心修复] Google 账户验证与推送 (解决手机验证不弹窗) ---
 @@||accounts.google.com^
-@@||googleapis.com^
 @@||fcm.googleapis.com^
 @@||mtalk.google.com^
 @@||clientservices.googleapis.com^
