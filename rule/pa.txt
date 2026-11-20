@@ -106,7 +106,6 @@
 @@||crashlyticsreports-pa.googleapis.com^$important
 @@||analytics.google.com^$important
 @@||collector.github.com^$important
-@@||app-analytics-services.com^$important
 @@||www.google-analytics.com^$important
 @@||game.china.com^$important
 @@||cdn.tapioni.com^$important
@@ -217,14 +216,12 @@
 @@||amsoveasea.com^$important
 @@||gpubgm.com^$important
 @@||analytics.adjust.com^$important
-@@||app-measurement.com^$important
 @@||mixpanel.com^$important
 @@||gcloudcs.com^$important
 @@||gcloud.download.igamecj.com^$important
 @@||onezapp.com^$important
 @@||proximabeta.com^$important
 @@||cloudctrl.igamecj.com^$important
-@@||app-measurement.com^$important
 @@||igamecj.com^$important
 @@||tdatamaster.com^$important
 @@||streaming.split.io^$important
