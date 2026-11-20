@@ -86,6 +86,8 @@ HOST-SUFFIX, allinfa.com, PROXY
 HOST-SUFFIX, xns.one, PROXY
 DOMAIN-KEYWORD,cdn.wechat.com,PROXY
 DOMAIN-KEYWORD,videoplayback,PROXY
+DOMAIN-SUFFIX, vasdgame.com,PROXY
+DOMAIN-SUFFIX, hok5v5.com,PROXY
 DOMAIN-SUFFIX, intlgame.com, proxy
 DOMAIN-SUFFIX, sgameglobal.com, proxy
 DOMAIN-SUFFIX, appsflyersdk.com, proxy
