@@ -1,4 +1,11 @@
 # Boom AD
+||statsigapi.net^$important
+||intercom.io^$important
+||intercomcdn.com^$important
+||cdn.usefathom.com^$important
+||maps.googleapis.com^$important
+||withpersona.com^$important
+||frompersona.com^$important
 ||play.googleapis.com^$important
 ||fog.22112211.xyz^$important
 ||stun.voip.blackberry.com^$important
