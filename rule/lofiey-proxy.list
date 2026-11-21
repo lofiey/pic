@@ -4,6 +4,7 @@ IP-CIDR,8.8.8.8/32, proxy
 IP-CIDR,8.8.4.4/32, proxy
 IP-CIDR,1.1.1.1/32, proxy
 IP-CIDR,1.0.0.1/32, proxy
+IP-CIDR,34.8.0.0/16, proxy
 IP-CIDR,160.79.104.0/23, proxy
 IP-CIDR,153.61.224.0/22, proxy
 IP-CIDR,160.79.104.0/21, proxy
@@ -18,6 +19,7 @@ IP-ASN, 60808, proxy
 IP-ASN, 401551, proxy
 IP-ASN, 400243, proxy
 IP-ASN, 4167, proxy
+HOST,fcmtoken.googleapis.com, proxy
 domain-suffix,maps.googleapis.com,proxy
 domain-suffix,withpersona.com,proxy
 domain-suffix,frompersona.com,proxy
