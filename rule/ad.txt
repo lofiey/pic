@@ -1,4 +1,7 @@
 # Boom AD
+||cdn.sift.com^$important
+||cdn.siftscience.com^$important
+||s-cdn.anthropic.com^$important
 ||statsigapi.net^$important
 ||intercom.io^$important
 ||intercomcdn.com^$important
