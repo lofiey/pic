@@ -1,5 +1,8 @@
 # Boom AD
-||hexagon-cdn.com^$important
+0.0.0.0 dns.weixin.qq.com^$important
+0.0.0.0 paydns.wechat.com^$important
+0.0.0.0 dns.weixin.qq.com.cn^$important
+0.0.0.0 hexagon-cdn.com^$important
 0.0.0.0 b-0.hexagon-cdn.com^$important
 0.0.0.0 cdn.sift.com^$important
 0.0.0.0 cdn.siftscience.com^$important
@@ -557,3 +560,4 @@
 ||input.shouji.sogou.com^
 ||v2.get.sogou.com^
 # CyberZen Protocol end
+
