@@ -35,7 +35,6 @@
 @@||sentry.music.163.com^$important
 @@||ntv.io^$important
 @@||rfa.org^$important
-@@||googleads.g.doubleclick.net^$important
 @@||weather-analytics-events.apple.com^$important
 @@||csp-reporting.cloudflare.com^$important
 @@||log.umsns.com^$important
@@ -104,9 +103,7 @@
 @@||mushroomtrack.com^$important
 @@||chnsrv.com^$important
 @@||crashlyticsreports-pa.googleapis.com^$important
-@@||analytics.google.com^$important
 @@||collector.github.com^$important
-@@||www.google-analytics.com^$important
 @@||game.china.com^$important
 @@||cdn.tapioni.com^$important
 @@||syndication.exosrv.com^$important
