@@ -575,23 +575,6 @@ USER-AGENT,AppleTV*,AppleProxy
 USER-AGENT,com.apple.news*,AppleProxy
 USER-AGENT,com.apple.trustd*,AppleProxy
 USER-AGENT,com.apple.tv*,AppleProxy
-# > JOOX
-USER-AGENT,JOOX*, proxy
-USER-AGENT,WeMusic*, proxy
-DOMAIN-SUFFIX,joox.com, proxy
-DOMAIN-KEYWORD,jooxweb-api, proxy
-# > KKBOX
-DOMAIN-SUFFIX,kkbox.com, proxy
-DOMAIN-SUFFIX,kkbox.com.tw, proxy
-DOMAIN-SUFFIX,kfs.io, proxy
-# > Pandora
-USER-AGENT,Pandora*, proxy
-DOMAIN-SUFFIX,pandora.com, proxy
-# > SoundCloud
-USER-AGENT,SoundCloud*, proxy
-DOMAIN-SUFFIX,p-cdn.us, proxy
-DOMAIN-SUFFIX,sndcdn.com, proxy
-DOMAIN-SUFFIX,soundcloud.com, proxy
 # > Spotify
 USER-AGENT,Spotify*, proxy
 DOMAIN-SUFFIX,pscdn.co, proxy
@@ -606,7 +589,6 @@ DOMAIN-SUFFIX,tidal.com, proxy
 # > YouTubeMusic
 USER-AGENT,com.google.ios.youtubemusic*, proxy
 USER-AGENT,YouTubeMusic*, proxy
-
 # (Podcast)
 # > Himalaya
 USER-AGENT,Himalaya*, proxy
@@ -614,22 +596,6 @@ DOMAIN-SUFFIX,himalaya.com, proxy
 # > Overcast
 USER-AGENT,Overcast*, proxy
 DOMAIN-SUFFIX,overcast.fm, proxy
-
-# (Video)
-# > AbemaTV
-USER-AGENT,AbemaTV*, proxy
-DOMAIN-SUFFIX,abema.io, proxy
-DOMAIN-SUFFIX,abema.tv, proxy
-DOMAIN-SUFFIX,abema-tv.com, proxy
-DOMAIN-SUFFIX,ameba.jp, proxy
-DOMAIN-SUFFIX,hayabusa.io, proxy
-DOMAIN-SUFFIX,hayabusa.media, proxy
-DOMAIN,api-abematv.bucketeer.jp, proxy
-DOMAIN-KEYWORD,abematv.akamaized.net, proxy
-# > All 4
-USER-AGENT,All4*, proxy
-DOMAIN-SUFFIX,c4assets.com, proxy
-DOMAIN-SUFFIX,channel4.com, proxy
 # > Amazon Prime Video
 USER-AGENT,InstantVideo.US*, proxy
 USER-AGENT,Prime%20Video*, proxy
@@ -676,47 +642,6 @@ DOMAIN,p.bstarstatic.com, proxy
 DOMAIN,p-bstarstatic.akamaized.net, proxy
 DOMAIN,upos-bstar-mirrorakam.akamaized.net, proxy
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net, proxy
-# > DAZN
-USER-AGENT,DAZN*, proxy
-DOMAIN-SUFFIX,dazn.com, proxy
-DOMAIN-SUFFIX,dazn-api.com, proxy
-DOMAIN-SUFFIX,dazndn.com, proxy
-DOMAIN-SUFFIX,indazn.com, proxy
-DOMAIN,d151l6v8er5bdm.cloudfront.net, proxy
-DOMAIN-KEYWORD,voddazn, proxy
-# > discovery+
-USER-AGENT,DPlus*, proxy
-USER-AGENT,discovery+*, proxy
-DOMAIN-SUFFIX,disco-api.com, proxy
-DOMAIN-SUFFIX,discoveryplus.co.uk, proxy
-DOMAIN-SUFFIX,discoveryplus.com, proxy
-DOMAIN-SUFFIX,discoveryplus.in, proxy
-DOMAIN-SUFFIX,dnitv.com, proxy
-# DOMAIN,go-prod-vz.akamaized.net
-DOMAIN,x-default-stgec.uplynk.com, proxy
-DOMAIN-KEYWORD,discovery.uplynk.com, proxy
-# > Disney+
-USER-AGENT,Disney+*, proxy
-DOMAIN-SUFFIX,bamgrid.com, proxy
-DOMAIN-SUFFIX,disneyplus.com, proxy
-DOMAIN-SUFFIX,disney-plus.net, proxy
-DOMAIN-SUFFIX,disneystreaming.com, proxy
-DOMAIN-SUFFIX,dssott.com, proxy
-DOMAIN,cdn.registerdisney.go.com, proxy
-# > DMM
-DOMAIN-SUFFIX,dmm.co.jp, proxy
-DOMAIN-SUFFIX,dmm.com, proxy
-DOMAIN-SUFFIX,dmm-extension.com, proxy
-# > encoreTVB
-USER-AGENT,encoreTVB*, proxy
-DOMAIN-SUFFIX,encoretvb.com, proxy
-DOMAIN,edge.api.brightcove.com, proxy
-DOMAIN,bcbolt446c5271-a.akamaihd.net, proxy
-# > Hami Video
-DOMAIN-SUFFIX,ott.hinet.net, proxy
-DOMAIN-SUFFIX,hamivideo.hinet.net, proxy
-DOMAIN,hls-hichannel.cdn.hinet.net, proxy
-DOMAIN-KEYWORD,hamivideo.cdn.hinet.net, proxy
 # > HBO NOW & Max
 USER-AGENT,HBO%20NOW*, proxy
 DOMAIN-SUFFIX,hbo.com, proxy
@@ -745,72 +670,6 @@ DOMAIN,hbolb.onwardsmg.com, proxy
 DOMAIN,hbounify-prod.evergent.com, proxy
 DOMAIN,players.brightcove.net, proxy
 DOMAIN,s3-ap-southeast-1.amazonaws.com, proxy
-# > 华文电视
-USER-AGENT,HWTVMobile*, proxy
-DOMAIN-SUFFIX,5itv.tv, proxy
-DOMAIN-SUFFIX,ocnttv.com, proxy
-# > Hulu
-DOMAIN-SUFFIX,hulu.com, proxy
-DOMAIN-SUFFIX,huluim.com, proxy
-DOMAIN-SUFFIX,hulustream.com, proxy
-# > Hulu / フールー
-DOMAIN-SUFFIX,happyon.jp, proxy
-DOMAIN-SUFFIX,hjholdings.jp, proxy
-DOMAIN-SUFFIX,hulu.jp, proxy
-# > ITV
-USER-AGENT,ITV_Player*, proxy
-DOMAIN-SUFFIX,itv.com, proxy
-DOMAIN-SUFFIX,itvstatic.com, proxy
-DOMAIN,itvpnpmobile-a.akamaihd.net, proxy
-# > KKTV
-USER-AGENT,KKTV*, proxy
-USER-AGENT,com.kktv.ios.kktv*, proxy
-DOMAIN-SUFFIX,kktv.com.tw, proxy
-DOMAIN-SUFFIX,kktv.me, proxy
-DOMAIN,kktv-theater.kk.stream, proxy
-DOMAIN,theater-kktv.cdn.hinet.net, proxy
-# > LINE TV
-USER-AGENT,LINE%20TV*, proxy
-DOMAIN-SUFFIX,linetv.tw, proxy
-DOMAIN,d3c7rimkq79yfu.cloudfront.net, proxy
-# > LiTV
-DOMAIN-SUFFIX,litv.tv, proxy
-DOMAIN,litvfreemobile-hichannel.cdn.hinet.net, proxy
-# > My5
-USER-AGENT,My5*, proxy
-DOMAIN-SUFFIX,channel5.com, proxy
-DOMAIN-SUFFIX,my5.tv, proxy
-DOMAIN,d349g9zuie06uo.cloudfront.net, proxy
-# > myTV SUPER
-USER-AGENT,mytv*, proxy
-DOMAIN-SUFFIX,mytvsuper.com, proxy
-DOMAIN-SUFFIX,tvb.com, proxy
-# > Naver TV
-USER-AGENT,Naver%20TV*, proxy
-DOMAIN-SUFFIX,naver.com, proxy
-DOMAIN-SUFFIX,smartmediarep.com, proxy
-# > niconico
-USER-AGENT,Niconico*, proxy
-DOMAIN-SUFFIX,dmc.nico, proxy
-DOMAIN-SUFFIX,nicovideo.jp, proxy
-DOMAIN-SUFFIX,nimg.jp, proxy
-# > Now E
-DOMAIN-SUFFIX,nowe.com, proxy
-DOMAIN-SUFFIX,nowestatic.com, proxy
-# > Paramount+
-USER-AGENT,PPlus*, proxy
-DOMAIN-SUFFIX,cbsi.com, proxy
-DOMAIN-SUFFIX,cbsaavideo.com, proxy
-DOMAIN-SUFFIX,cbsivideo.com, proxy
-DOMAIN-SUFFIX,paramountplus.com, proxy
-DOMAIN-SUFFIX,pplusstatic.com, proxy
-DOMAIN,cbsi.live.ott.irdeto.com, proxy
-DOMAIN,cbsplaylistserver.aws.syncbak.com, proxy
-DOMAIN,cbsservice.aws.syncbak.com, proxy
-DOMAIN,link.theplatform.com, proxy
-# > PBS
-USER-AGENT,PBS*, proxy
-DOMAIN-SUFFIX,pbs.org, proxy
 # > Peacock
 USER-AGENT,PeacockMobile*, proxy
 DOMAIN-SUFFIX,peacocktv.com, proxy
@@ -1064,6 +923,47 @@ HOST,tencentmap.wechat.com,WeChat
 HOST-SUFFIX,servicewechat.com,WeChat
 HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatos.net,WeChat
+# telegram
+HOST,api.imem.app,Telegram
+HOST,api.swiftgram.app,Telegram
+HOST-SUFFIX,cdn-telegram.org,Telegram
+HOST-SUFFIX,comments.app,Telegram
+HOST-SUFFIX,contest.com,Telegram
+HOST-SUFFIX,graph.org,Telegram
+HOST-SUFFIX,legra.ph,Telegram
+HOST-SUFFIX,mbrx.app,Telegram
+HOST-SUFFIX,quiz.directory,Telegram
+HOST-SUFFIX,stel.com,Telegram
+HOST-SUFFIX,t.me,Telegram
+HOST-SUFFIX,tdesktop.com,Telegram
+HOST-SUFFIX,telega.one,Telegram
+HOST-SUFFIX,telegra.ph,Telegram
+HOST-SUFFIX,telegram-cdn.org,Telegram
+HOST-SUFFIX,telegram.dog,Telegram
+HOST-SUFFIX,telegram.me,Telegram
+HOST-SUFFIX,telegram.org,Telegram
+HOST-SUFFIX,telegram.space,Telegram
+HOST-SUFFIX,telegramdownload.com,Telegram
+HOST-SUFFIX,telesco.pe,Telegram
+HOST-SUFFIX,tg.dev,Telegram
+HOST-SUFFIX,tx.me,Telegram
+HOST-SUFFIX,usercontent.dev,Telegram
+HOST-KEYWORD,nicegram,Telegram
+IP-CIDR,109.239.140.0/24,Telegram
+IP-CIDR,139.59.210.98/32,Telegram
+IP-CIDR,149.154.160.0/20,Telegram
+IP-CIDR,196.55.216.167/32,Telegram
+IP-CIDR,5.28.192.0/18,Telegram
+IP-CIDR,91.108.0.0/16,Telegram
+IP6-CIDR,2001:67c:4e8::/48,Telegram
+IP6-CIDR,2001:b28:f23c::/47,Telegram
+IP6-CIDR,2001:b28:f23f::/48,Telegram
+IP6-CIDR,2a0a:f280::/29,Telegram
+IP-ASN,211157,Telegram
+IP-ASN,44907,Telegram
+IP-ASN,59930,Telegram
+IP-ASN,62014,Telegram
+IP-ASN,62041,Telegram
 # others
 DOMAIN-SUFFIX,vidcore.net, proxy
 DOMAIN-SUFFIX,vidcore.io, proxy
