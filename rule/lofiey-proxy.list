@@ -679,6 +679,7 @@ DOMAIN-SUFFIX,phprcdn.com, proxy
 DOMAIN-SUFFIX,pornhub.com, proxy
 DOMAIN-SUFFIX,pornhubpremium.com, proxy
 # hero of king
+HOST-SUFFIX,playerinfinite.com, proxy
 HOST-SUFFIX,ap-singapore.myqcloud.com, proxy
 HOST-SUFFIX,sgameglobal.com, proxy
 HOST-SUFFIX,honorofkings.com, proxy
@@ -690,6 +691,8 @@ HOST-SUFFIX,crashsight.wetest.net, proxy
 HOST-SUFFIX,icloud-content.com, proxy
 HOST-SUFFIX,gamelet.games, proxy
 HOST-SUFFIX,singaporepaya.com, proxy
+HOST-SUFFIX,tdos.vip, proxy
+HOST-SUFFIX,wetest.net, proxy
 HOST-SUFFIX,listdl.com, proxy
 HOST-SUFFIX,iegcom.com, proxy
 # pubg
