@@ -17,7 +17,6 @@
 ||play.googleapis.com^$important
 ||fog.22112211.xyz^$important
 ||stun.nextcloud.com^$important
-||stun.nextcloud.com^$important
 ||stun.voip.blackberry.com^$important
 ||stun.chat.bilibili.com^$important
 ||stun.miwifi.com^$important
