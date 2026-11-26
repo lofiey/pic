@@ -16,6 +16,7 @@
 ||frompersona.com^$important
 ||play.googleapis.com^$important
 ||fog.22112211.xyz^$important
+||stunprotocol.org^$important
 ||stun.nextcloud.com^$important
 ||stun.voip.blackberry.com^$important
 ||stun.chat.bilibili.com^$important
